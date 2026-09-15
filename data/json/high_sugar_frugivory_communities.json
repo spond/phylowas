@@ -1,32 +1,52 @@
 [
   {
     "community_id": "M2",
-    "size": 50,
-    "mean_apc_density": 0.0254,
-    "density_z_score": 8.93,
-    "p_value": "2.19e-19",
-    "fdr_q": "6.57e-19",
-    "member_genes": "ADAM29, ANXA2R, ARHGAP20, CD300LF, CEP295, CST2, CST4, CXCR1 (+42 more)",
-    "all_genes": "ADAM29, ANXA2R, ARHGAP20, CD300LF, CEP295, CST2, CST4, CXCR1, ENSG00000304062, FRY, GARIN5A, GBA1, H1-3, H1-4, H2AC11, H2AC12, H2AC13, H2BC5, KDM5D, LEFTY1, LOC102723934, LOC124907776, MPHOSPH9, NLRP2, NLRP7, OR10G9, OR4D10, OR5L1, PCDHAC1, PCDHB10, PCDHB12, PCDHB16, PCDHB3, PCDHB6, PCDHB8, PCDHGA10, PCDHGA2, PILRB, PRDM9, PTPN11, RAPGEFL1, SEMG1, SLA2, SLCO1B1, SPTAN1, TAS2R20, TAS2R46, TUBA1B, TULP3, UBASH3A"
+    "size": 14,
+    "mean_apc_density": 0.1132,
+    "density_z_score": 34.82,
+    "p_value": "6.48e-266",
+    "fdr_q": "3.24e-265",
+    "member_genes": "ADAM29, H2AC11, H2AC12, LEFTY1, PCDHAC1, PCDHB10, PCDHB12, PCDHB16 (+6 more)",
+    "all_genes": "ADAM29, H2AC11, H2AC12, LEFTY1, PCDHAC1, PCDHB10, PCDHB12, PCDHB16, PCDHB6, PCDHB8, PCDHGA10, PCDHGA2, PCDHGB4, TAS2R20"
   },
   {
-    "community_id": "M1",
-    "size": 123,
-    "mean_apc_density": 0.006,
-    "density_z_score": 5.6,
-    "p_value": "1.06e-08",
-    "fdr_q": "1.60e-08",
-    "member_genes": "ABI2, ABLIM3, ADAM15, ADGRD1, ALX4, ANKFY1, ANLN, ASB2 (+115 more)",
-    "all_genes": "ABI2, ABLIM3, ADAM15, ADGRD1, ALX4, ANKFY1, ANLN, ASB2, ATP6V1G3, BCL2L13, BCS1L, BTC, C21orf140, CACNA2D3, CAPN1, CAPZB, CCBE1, CDC25A, CDCP1, CDH3, CDH7, CEP104, CFAP77, CHMP4C, CLEC1A, CNTN6, COBL, COX7A2, CPPED1, CXADR, DAZAP2, DNAJC15, DUSP12, EFHD1, EFR3B, EGFLAM, ELMO1, ENSG00000285714, EPS8, ERMARD, EYA1, F11R, FAM135B, FARSB, FCGR2A, FLT1, FNBP1, FNDC3B, FOXL2NB, FXN, GABRB2, GCNA, GDAP1L1, GLE1, GLTP, GPKOW, GPR89A, GPSM2, HK2, IFT46, IGSF21, IL4, ITSN2, KCNJ6, KPNA1, KRTAP9-1, L3MBTL2, LCNL1, LOC107985043, LOC124902898, LRRC28, LRSAM1, MACO1, MAGED2, MEF2A, MELK, MFNG, MFRP, MORC3, MRPS14, MTHFD2, MTRR, MYH7, MYLK3, NCF2, NKAP, NME7, NQO2, NR1D2, OTOA, PDPN, PDXDC1, PIGX, PKDREJ, PMCH, PRDX6, PRKCA, PSMC1, RAB1A, RAB3GAP2, RALGPS1, RASGRF1, RBM19, RCOR3, RHOD, RPL22L1, RPL7A, RSRC2, SCARA3, SEC61A2, SEMA7A, SH2D3C, SIM2, SLC25A19, SLC26A9, SLCO5A1, SUGT1, SULF1, SUV39H2, TBC1D9B, TG, TIFA, TNIP1"
+    "community_id": "M4",
+    "size": 8,
+    "mean_apc_density": 0.1083,
+    "density_z_score": 18.49,
+    "p_value": "1.35e-76",
+    "fdr_q": "3.38e-76",
+    "member_genes": "H2AC13, H2BC5, KDM5D, KRT38, MPHOSPH9, NLRP2, SLC30A6, UBASH3A",
+    "all_genes": "H2AC13, H2BC5, KDM5D, KRT38, MPHOSPH9, NLRP2, SLC30A6, UBASH3A"
   },
   {
     "community_id": "M3",
-    "size": 27,
-    "mean_apc_density": 0.0281,
-    "density_z_score": 5.28,
-    "p_value": "6.54e-08",
-    "fdr_q": "6.54e-08",
-    "member_genes": "ASPG, CNMD, COL22A1, DNASE1L3, DUSP3, FADS6, GPC6, GPR89B (+19 more)",
-    "all_genes": "ASPG, CNMD, COL22A1, DNASE1L3, DUSP3, FADS6, GPC6, GPR89B, HTN1, HTN3, HTR1B, IFT70B, INPP5A, MAP1LC3BP1, MROH2A, MYH2, MYNN, OLFM4, POFUT1, PRDM16, RABEPK, RHOF, STAT3, STAT5B, SYTL3, TRPV3, UPF3A"
+    "size": 12,
+    "mean_apc_density": 0.0364,
+    "density_z_score": 9.59,
+    "p_value": "4.44e-22",
+    "fdr_q": "7.39e-22",
+    "member_genes": "ASPG, CD300LF, CNMD, CXCR1, DNASE1L3, MYNN, PCDHB3, PILRB (+4 more)",
+    "all_genes": "ASPG, CD300LF, CNMD, CXCR1, DNASE1L3, MYNN, PCDHB3, PILRB, RABEPK, TRPV3, TULP3, UPF3A"
+  },
+  {
+    "community_id": "M1",
+    "size": 15,
+    "mean_apc_density": 0.0189,
+    "density_z_score": 6.33,
+    "p_value": "1.20e-10",
+    "fdr_q": "1.50e-10",
+    "member_genes": "ARHGAP20, BCL2L13, CDH3, GBA1, H1-3, IFT70B, LOC124907776, MFRP (+7 more)",
+    "all_genes": "ARHGAP20, BCL2L13, CDH3, GBA1, H1-3, IFT70B, LOC124907776, MFRP, MYH2, NQO2, PTPN11, RPL7A, SLCO1B1, SPTAN1, TUBA1B"
+  },
+  {
+    "community_id": "M5",
+    "size": 7,
+    "mean_apc_density": 0.0282,
+    "density_z_score": 4.19,
+    "p_value": "1.37e-05",
+    "fdr_q": "1.37e-05",
+    "member_genes": "CEP295, GARIN5A, OR10G9, OR4D10, OR5L1, RAPGEFL1, TAS2R46",
+    "all_genes": "CEP295, GARIN5A, OR10G9, OR4D10, OR5L1, RAPGEFL1, TAS2R46"
   }
 ]

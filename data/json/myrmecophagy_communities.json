@@ -2,40 +2,30 @@
   {
     "community_id": "M2",
     "size": 24,
-    "mean_apc_density": 0.1035,
-    "density_z_score": 43.59,
+    "mean_apc_density": 0.09,
+    "density_z_score": 42.98,
     "p_value": "0.00e+00",
     "fdr_q": "0.00e+00",
-    "member_genes": "ABCG2, ADGRE2, APOBEC3F, ASTL, ATAD3B, CCL19, CDK5RAP2, CPO (+16 more)",
-    "all_genes": "ABCG2, ADGRE2, APOBEC3F, ASTL, ATAD3B, CCL19, CDK5RAP2, CPO, GOLGA2, GOLGA6A, GOLGA6C, GOLGA6D, GOLGA6L9, GOLGA8G, GOLGA8S, HBG2, NMRK2, OR1G1, PRKCZ, SCLT1, SRY, ST8SIA6, THAP5, UBASH3A"
+    "member_genes": "ABCG2, ADGRE2, ATAD3B, CDK5RAP2, CPO, GOLGA2, GOLGA6A, GOLGA6C (+16 more)",
+    "all_genes": "ABCG2, ADGRE2, ATAD3B, CDK5RAP2, CPO, GOLGA2, GOLGA6A, GOLGA6C, GOLGA6D, GOLGA6L9, GOLGA8G, GOLGA8S, HBG2, HEY1, NMRK2, NMS, OR1G1, PGC, SCLT1, SRY, ST8SIA6, THAP5, TRPM2, UBASH3A"
   },
   {
     "community_id": "M1",
     "size": 25,
-    "mean_apc_density": 0.0706,
-    "density_z_score": 31.05,
-    "p_value": "6.21e-212",
-    "fdr_q": "1.24e-211",
+    "mean_apc_density": 0.0696,
+    "density_z_score": 34.71,
+    "p_value": "2.59e-264",
+    "fdr_q": "3.89e-264",
     "member_genes": "C7, CEP295, DCAF12L1, GGTA1, GID4, H2AC1, H2AC14, H3C3 (+17 more)",
     "all_genes": "C7, CEP295, DCAF12L1, GGTA1, GID4, H2AC1, H2AC14, H3C3, H3C4, KATNIP, KRT16, OR10G2, OR10G9, OR2A25, OR4D2, OR4F3, OR4P4, OR56A5, OXT, PCDHB3, PCDHB8, PNP, SLC10A5, SYNM, TBX22"
   },
   {
-    "community_id": "M4",
-    "size": 4,
-    "mean_apc_density": 0.0991,
-    "density_z_score": 6.16,
-    "p_value": "3.66e-10",
-    "fdr_q": "4.89e-10",
-    "member_genes": "HEY1, NMS, PGC, TRPM2",
-    "all_genes": "HEY1, NMS, PGC, TRPM2"
-  },
-  {
     "community_id": "M3",
     "size": 9,
-    "mean_apc_density": 0.0386,
-    "density_z_score": 5.9,
-    "p_value": "1.77e-09",
-    "fdr_q": "1.77e-09",
+    "mean_apc_density": 0.04,
+    "density_z_score": 6.94,
+    "p_value": "2.02e-12",
+    "fdr_q": "2.02e-12",
     "member_genes": "AARD, ADGRB1, CEBPG, ERO1B, MMP26, OR10J1, OR51C1P, PPIE (+1 more)",
     "all_genes": "AARD, ADGRB1, CEBPG, ERO1B, MMP26, OR10J1, OR51C1P, PPIE, TSTD3"
   }

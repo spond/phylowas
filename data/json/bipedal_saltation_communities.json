@@ -1,42 +1,42 @@
 [
   {
     "community_id": "M3",
-    "size": 18,
-    "mean_apc_density": 0.165,
-    "density_z_score": 36.07,
-    "p_value": "3.56e-285",
-    "fdr_q": "1.42e-284",
-    "member_genes": "ARL5C, CBY2, DEFB107A, DEFB107B, DEFB108C, FAM170A, FAXDC2, FSD1L (+10 more)",
-    "all_genes": "ARL5C, CBY2, DEFB107A, DEFB107B, DEFB108C, FAM170A, FAXDC2, FSD1L, GLB1L3, KLB, NID2, OOEP, PHF11, POLM, SCIMP, SLFN11, TARDBP, TAS2R60"
-  },
-  {
-    "community_id": "M2",
-    "size": 21,
-    "mean_apc_density": 0.0747,
-    "density_z_score": 19.19,
-    "p_value": "2.13e-82",
-    "fdr_q": "4.27e-82",
-    "member_genes": "ALDH1A1, C2orf92, CD300LD, CRACDL, DEFB106A, DEFB106B, DEFB121, DLX4 (+13 more)",
-    "all_genes": "ALDH1A1, C2orf92, CD300LD, CRACDL, DEFB106A, DEFB106B, DEFB121, DLX4, DTX3L, ELOF1, GJA9, HYAL1, JSRP1, LMAN1L, MAP10, PABPC1L2A, PABPC1L2B, SMIM10L2A, SMIM10L2B, SPAG11B, TMEM31"
-  },
-  {
-    "community_id": "M1",
-    "size": 50,
-    "mean_apc_density": 0.019,
-    "density_z_score": 12.04,
-    "p_value": "1.07e-33",
-    "fdr_q": "1.43e-33",
-    "member_genes": "ACSM4, ACTL7A, ADORA3, AKAP3, ALDOC, ANKRD37, CALML3, CCDC12 (+42 more)",
-    "all_genes": "ACSM4, ACTL7A, ADORA3, AKAP3, ALDOC, ANKRD37, CALML3, CCDC12, CCDC9B, CD274, CDK5R1, CEP295NL, CNDP1, CPNE6, CYP4B1, DAPK1, DCDC2B, DEFB109B, ELF3, ESRRA, KIF1A, KRTAP16-1, KRTAP19-8, LAMB4, LCN6, LRRTM1, MADCAM1, MANBAL, MOGAT2, MRTO4, NAA16, NLRP4, NR1I2, OARD1, OR10A2, OR51T1, PRR9, PYHIN1, RIPPLY2, RNASE10, RNASE11, RNF224, RNF41, RP1L1, SARDH, SPMIP9, SSX2B, TMEM191B, TNNC1, ULBP3"
+    "size": 16,
+    "mean_apc_density": 0.1886,
+    "density_z_score": 43.97,
+    "p_value": "0.00e+00",
+    "fdr_q": "0.00e+00",
+    "member_genes": "CBY2, DEFB107A, DEFB107B, DEFB108C, FAM170A, FAXDC2, GLB1L3, KLB (+8 more)",
+    "all_genes": "CBY2, DEFB107A, DEFB107B, DEFB108C, FAM170A, FAXDC2, GLB1L3, KLB, NID2, OOEP, PHF11, POLM, SCIMP, SLFN11, TARDBP, TAS2R60"
   },
   {
     "community_id": "M4",
-    "size": 7,
-    "mean_apc_density": 0.0578,
-    "density_z_score": 4.7,
-    "p_value": "1.29e-06",
-    "fdr_q": "1.29e-06",
-    "member_genes": "IZUMO1R, NDUFA7, PCSK1N, PPM1A, S100B, SLC13A2, TNFRSF10D",
-    "all_genes": "IZUMO1R, NDUFA7, PCSK1N, PPM1A, S100B, SLC13A2, TNFRSF10D"
+    "size": 14,
+    "mean_apc_density": 0.1503,
+    "density_z_score": 30.53,
+    "p_value": "5.28e-205",
+    "fdr_q": "1.06e-204",
+    "member_genes": "C2orf92, CD300LD, CRACDL, DEFB106A, DEFB106B, DEFB121, FBXO17, LMAN1L (+6 more)",
+    "all_genes": "C2orf92, CD300LD, CRACDL, DEFB106A, DEFB106B, DEFB121, FBXO17, LMAN1L, MAP10, PABPC1L2A, PABPC1L2B, SMIM10L2A, SMIM10L2B, TMEM31"
+  },
+  {
+    "community_id": "M1",
+    "size": 45,
+    "mean_apc_density": 0.0139,
+    "density_z_score": 9.56,
+    "p_value": "6.08e-22",
+    "fdr_q": "8.11e-22",
+    "member_genes": "ACSM4, ACTL7A, ADORA3, ALDOC, ANKRD37, CALML3, CCDC12, CCDC9B (+37 more)",
+    "all_genes": "ACSM4, ACTL7A, ADORA3, ALDOC, ANKRD37, CALML3, CCDC12, CCDC9B, CD274, CDK5R1, CPNE6, CYP4B1, DAPK1, DCDC2B, EEF1AKMT3, ELF3, FAM124B, FOXM1, FSD2, GPR37L1, GPR6, KRTAP16-1, LCN6, LDB3, LRRTM1, MADCAM1, MANBAL, MPPE1, MRPL2, MRTO4, NDUFA7, NR1I2, OARD1, OR51T1, PRKCE, RAB34, RIPPLY2, RNASE10, RNASE11, RNF41, SARDH, SLC13A2, TMEM191B, TNNC1, TSPOAP1"
+  },
+  {
+    "community_id": "M2",
+    "size": 24,
+    "mean_apc_density": 0.0171,
+    "density_z_score": 6.18,
+    "p_value": "3.23e-10",
+    "fdr_q": "3.23e-10",
+    "member_genes": "AKAP3, ALDH1A1, ARL5C, CEP295NL, CNDP1, DEFB109B, DLX4, DTX3L (+16 more)",
+    "all_genes": "AKAP3, ALDH1A1, ARL5C, CEP295NL, CNDP1, DEFB109B, DLX4, DTX3L, ELOF1, ESRRA, FSD1L, GJA9, HYAL1, JSRP1, KIF1A, LAMB4, MOGAT2, NAA16, NLRP4, OR10A2, PPM1A, PYHIN1, RP1L1, SPAG11B"
   }
 ]

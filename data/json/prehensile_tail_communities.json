@@ -2,41 +2,41 @@
   {
     "community_id": "M3",
     "size": 20,
-    "mean_apc_density": 0.116,
-    "density_z_score": 27.29,
-    "p_value": "2.49e-164",
-    "fdr_q": "9.97e-164",
-    "member_genes": "ANKRD53, ARL9, CCDC197, CCDC7, GSTA5, HSFY1, HSFY2, MBOAT7 (+12 more)",
-    "all_genes": "ANKRD53, ARL9, CCDC197, CCDC7, GSTA5, HSFY1, HSFY2, MBOAT7, MLX, NEK5, NXF2B, OR2D3, OR52J3, PDE4C, PNLIPRP2, PNPLA4, PPP1R12C, TACC3, TBX22, TSLP"
-  },
-  {
-    "community_id": "M1",
-    "size": 47,
-    "mean_apc_density": 0.0198,
-    "density_z_score": 11.29,
-    "p_value": "7.50e-30",
-    "fdr_q": "1.50e-29",
-    "member_genes": "ANAPC1, ANKMY1, AP2B1, C19orf25, CACNA1H, CDIP1, CEP128, CHD9NB (+39 more)",
-    "all_genes": "ANAPC1, ANKMY1, AP2B1, C19orf25, CACNA1H, CDIP1, CEP128, CHD9NB, CLPSL2, CYP3A43, DDB2, GARIN5B, GPAT2P1, HLA-DPB1, IRF2BPL, KRT81, LBHD2, MGRN1, MRPS31, MSLNL, OCRL, OPHN1, OR1A2, OR1S2, OR5AS1, PHF2, PLEKHS1, PLXNA3, SCX, SHC2, SHISA6, SLC19A3, SNAP47, SPATC1L, STAG3, STX8, STXBP2, TAF1D, TAF7L, THOC2, TMEM259, TRAPPC11, TUBB4B, TUBB8, TUBB8B, UACA, ULBP3"
+    "mean_apc_density": 0.1126,
+    "density_z_score": 43.29,
+    "p_value": "0.00e+00",
+    "fdr_q": "0.00e+00",
+    "member_genes": "ANKRD53, ARL9, ASPH, CCDC197, CCDC7, HSFY1, HSFY2, NEK5 (+12 more)",
+    "all_genes": "ANKRD53, ARL9, ASPH, CCDC197, CCDC7, HSFY1, HSFY2, NEK5, NXF2B, OR2D3, OR52J3, PDE4C, PNPLA4, PPP1R12C, TACC3, TBX22, TSLP, TUBB4B, TUBB8, TUBB8B"
   },
   {
     "community_id": "M2",
-    "size": 20,
-    "mean_apc_density": 0.0356,
-    "density_z_score": 8.45,
-    "p_value": "1.50e-17",
-    "fdr_q": "2.00e-17",
-    "member_genes": "CCDC195, CHADL, CHIC1, CIMAP3, CTRB2, DEFB105A, DEFB105B, FBLL1 (+12 more)",
-    "all_genes": "CCDC195, CHADL, CHIC1, CIMAP3, CTRB2, DEFB105A, DEFB105B, FBLL1, GNG7, GSTA2, NOXO1, OR11G2, OR51E2, OR56B4, OR5P2, OR8G1, PRSS38, PRSS8, STARD8, UGT3A2"
+    "size": 24,
+    "mean_apc_density": 0.037,
+    "density_z_score": 17.23,
+    "p_value": "8.26e-67",
+    "fdr_q": "1.65e-66",
+    "member_genes": "CCDC195, CHADL, CHIC1, CIMAP3, CTRB2, DEFB105A, DEFB105B, FBLL1 (+16 more)",
+    "all_genes": "CCDC195, CHADL, CHIC1, CIMAP3, CTRB2, DEFB105A, DEFB105B, FBLL1, GSTA2, H4C1, HLA-DPB1, LBHD2, MSLNL, NOXO1, OR11G2, OR1S2, OR51E2, OR56B4, OR5P2, OR8G1, PRSS38, PRSS8, STARD8, UGT3A2"
+  },
+  {
+    "community_id": "M1",
+    "size": 27,
+    "mean_apc_density": 0.0156,
+    "density_z_score": 8.27,
+    "p_value": "6.53e-17",
+    "fdr_q": "8.71e-17",
+    "member_genes": "ANKMY1, AP2B1, C19orf25, CACNA1H, CDIP1, CHD9NB, COX7A2, CYP3A43 (+19 more)",
+    "all_genes": "ANKMY1, AP2B1, C19orf25, CACNA1H, CDIP1, CHD9NB, COX7A2, CYP3A43, GPAT2P1, MRPS31, OCRL, PHF2, PLEKHS1, PLXNA3, SCX, SHC2, SHISA6, SLC19A3, SNAP47, SPATC1L, STAG3, STX8, STXBP2, TAF1D, TAF7L, THOC2, TMEM259"
   },
   {
     "community_id": "M4",
-    "size": 11,
-    "mean_apc_density": 0.0242,
-    "density_z_score": 3.1,
-    "p_value": "9.79e-04",
-    "fdr_q": "9.79e-04",
-    "member_genes": "ACAD9, ASPH, C16orf86, CHTF18, CT45A9, GCDH, GPR33, H4C1 (+3 more)",
-    "all_genes": "ACAD9, ASPH, C16orf86, CHTF18, CT45A9, GCDH, GPR33, H4C1, MAGED1, RENBP, SLC38A5"
+    "size": 3,
+    "mean_apc_density": 0.0738,
+    "density_z_score": 3.57,
+    "p_value": "1.80e-04",
+    "fdr_q": "1.80e-04",
+    "member_genes": "MBOAT7, MLX, PNLIPRP2",
+    "all_genes": "MBOAT7, MLX, PNLIPRP2"
   }
 ]

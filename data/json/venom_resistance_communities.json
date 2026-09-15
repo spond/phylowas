@@ -1,32 +1,32 @@
 [
   {
     "community_id": "M2",
-    "size": 28,
-    "mean_apc_density": 0.1148,
-    "density_z_score": 48.87,
+    "size": 17,
+    "mean_apc_density": 0.173,
+    "density_z_score": 59.84,
     "p_value": "0.00e+00",
     "fdr_q": "0.00e+00",
-    "member_genes": "ARL13A, BAG1, BECN2, BUD13, C4orf51, CASP4, CD300E, ECSCR (+20 more)",
-    "all_genes": "ARL13A, BAG1, BECN2, BUD13, C4orf51, CASP4, CD300E, ECSCR, ENAM, ENSG00000236543, FAM178B, LCMT1, LCN1, NUTM2A, NUTM2E, NUTM2F, NUTM2G, OVGP1, PCDHGA3, PCDHGA4, PGLYRP3, PNPLA3, RASIP1, REP15, RITA1, SCIMP, SIRPD, TMEM207"
+    "member_genes": "BAG1, BECN2, BUD13, C4orf51, CD300E, ECSCR, ENAM, ENSG00000236543 (+9 more)",
+    "all_genes": "BAG1, BECN2, BUD13, C4orf51, CD300E, ECSCR, ENAM, ENSG00000236543, FAM178B, FAM193A, LCMT1, NUTM2G, OVGP1, PCDHGA4, PGLYRP3, REP15, SCIMP"
   },
   {
     "community_id": "M3",
-    "size": 27,
-    "mean_apc_density": 0.0213,
-    "density_z_score": 8.89,
-    "p_value": "2.94e-19",
-    "fdr_q": "4.40e-19",
-    "member_genes": "APCS, C22orf15, C3orf85, C8orf48, CEP295, DZANK1, EFCAB6, FMO1 (+19 more)",
-    "all_genes": "APCS, C22orf15, C3orf85, C8orf48, CEP295, DZANK1, EFCAB6, FMO1, FNDC10, FRAT2, GCA, GPX3, LRRIQ3, MRPL21, MYH1, NKX1-1, NUTM2D, ONECUT3, OR2T8, OR4D6, OR51B6, OR56B2P, PNMA8A, PRDM9, PRKAR1B, RADIL, RTP3"
+    "size": 14,
+    "mean_apc_density": 0.0662,
+    "density_z_score": 18.8,
+    "p_value": "3.84e-79",
+    "fdr_q": "5.76e-79",
+    "member_genes": "ARL13A, ENSG00000278961, FNDC10, GPATCH4, IL36G, LCN1, LOC100652777, LY6K (+6 more)",
+    "all_genes": "ARL13A, ENSG00000278961, FNDC10, GPATCH4, IL36G, LCN1, LOC100652777, LY6K, OBP2A, OR14K1, PTPRH, SIRPD, SMIM34, TUBA3C"
   },
   {
     "community_id": "M1",
-    "size": 29,
-    "mean_apc_density": 0.0173,
-    "density_z_score": 7.77,
-    "p_value": "3.86e-15",
-    "fdr_q": "3.86e-15",
-    "member_genes": "ACSF3, ARMC3, C2CD4D, CD84, ENSG00000278961, FAM193A, FASLG, GIPC3 (+21 more)",
-    "all_genes": "ACSF3, ARMC3, C2CD4D, CD84, ENSG00000278961, FAM193A, FASLG, GIPC3, GPATCH4, HLA-DOB, IGHA2, IL36G, KRTAP2-4, LCE2A, LOC100652777, LOC124903450, MAGI3, MIP, OBP2A, OR10S1, OR14K1, PTPRH, RBP1, RHPN1, RPP40, SAMM50, SMIM34, SPATA3, TUBA3C"
+    "size": 19,
+    "mean_apc_density": 0.0332,
+    "density_z_score": 12.99,
+    "p_value": "7.10e-39",
+    "fdr_q": "7.10e-39",
+    "member_genes": "APCS, C22orf15, C8orf48, CASP4, CEP295, HLA-DOB, IGHA2, LOC124900290 (+11 more)",
+    "all_genes": "APCS, C22orf15, C8orf48, CASP4, CEP295, HLA-DOB, IGHA2, LOC124900290, OR10S1, OR2T8, OR4D6, OR51B6, PNMA8A, PNPLA3, PRKAR1B, RBP1, RTP3, SAMM50, SPATA3"
   }
 ]
