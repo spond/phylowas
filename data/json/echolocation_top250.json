@@ -11,7 +11,8 @@
     "composite_rank": 1,
     "fdr_q": "0.1473",
     "is_benchmark": true,
-    "annotation": "Transmembrane channel-like 1. Core pore-forming pore of the auditory mechanotransduction complex gating endolymphatic cation entry in cochlear hair cells."
+    "annotation": "Transmembrane channel-like 1. Core pore-forming pore of the auditory mechanotransduction complex gating endolymphatic cation entry in cochlear hair cells.",
+    "is_dual_track": true
   },
   {
     "rank": 2,
@@ -25,7 +26,8 @@
     "composite_rank": 2,
     "fdr_q": "2.08e-13",
     "is_benchmark": false,
-    "annotation": "26S proteasome complex subunit. Chaperone maintaining proteostatic fidelity under severe aerobic flight stress in bats."
+    "annotation": "26S proteasome complex subunit. Chaperone maintaining proteostatic fidelity under severe aerobic flight stress in bats.",
+    "is_dual_track": true
   },
   {
     "rank": 3,
@@ -39,7 +41,8 @@
     "composite_rank": 3,
     "fdr_q": "0.0162",
     "is_benchmark": true,
-    "annotation": "Calcium and integrin binding protein 2. Essential auxiliary subunit of the TMC1 mechanotransduction channel."
+    "annotation": "Calcium and integrin binding protein 2. Essential auxiliary subunit of the TMC1 mechanotransduction channel.",
+    "is_dual_track": true
   },
   {
     "rank": 4,
@@ -53,7 +56,8 @@
     "composite_rank": 4,
     "fdr_q": "5.28e-10",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 5,
@@ -67,7 +71,8 @@
     "composite_rank": 5,
     "fdr_q": "0.8846",
     "is_benchmark": true,
-    "annotation": "Protocadherin-15. Lower strand of the stereocilia tip-link tether gating mechanical shear into ion flux."
+    "annotation": "Protocadherin-15. Lower strand of the stereocilia tip-link tether gating mechanical shear into ion flux.",
+    "is_dual_track": true
   },
   {
     "rank": 6,
@@ -81,7 +86,8 @@
     "composite_rank": 6,
     "fdr_q": "7.36e-08",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 7,
@@ -95,7 +101,8 @@
     "composite_rank": 7,
     "fdr_q": "5.68e-06",
     "is_benchmark": false,
-    "annotation": "Poly(ADP-ribose) polymerase family member 15. Frequent-flier locus governing post-translational ADP-ribosylation under metabolic stress."
+    "annotation": "Poly(ADP-ribose) polymerase family member 15. Frequent-flier locus governing post-translational ADP-ribosylation under metabolic stress.",
+    "is_dual_track": true
   },
   {
     "rank": 8,
@@ -109,7 +116,8 @@
     "composite_rank": 8,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 9,
@@ -123,7 +131,8 @@
     "composite_rank": 9,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": "Mucolipin TRP cation channel 3. Regulates endolymphatic calcium and organellar trafficking in sensory hair cells."
+    "annotation": "Mucolipin TRP cation channel 3. Regulates endolymphatic calcium and organellar trafficking in sensory hair cells.",
+    "is_dual_track": true
   },
   {
     "rank": 10,
@@ -137,7 +146,8 @@
     "composite_rank": 10,
     "fdr_q": "1.97e-05",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 11,
@@ -151,7 +161,8 @@
     "composite_rank": 11,
     "fdr_q": "0.8846",
     "is_benchmark": true,
-    "annotation": "Vesicular glutamate transporter 3 (VGLUT3). Drives rapid synaptic transmission at cochlear inner hair cell ribbon synapses."
+    "annotation": "Vesicular glutamate transporter 3 (VGLUT3). Drives rapid synaptic transmission at cochlear inner hair cell ribbon synapses.",
+    "is_dual_track": true
   },
   {
     "rank": 12,
@@ -165,7 +176,8 @@
     "composite_rank": 12,
     "fdr_q": "1.97e-05",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 13,
@@ -179,7 +191,8 @@
     "composite_rank": 13,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": "Myomesin-2. Structural elasticity protein in laryngeal vocal folds supporting ultrasonic vocal buzzing > 200 Hz."
+    "annotation": "Myomesin-2. Structural elasticity protein in laryngeal vocal folds supporting ultrasonic vocal buzzing > 200 Hz.",
+    "is_dual_track": true
   },
   {
     "rank": 14,
@@ -193,7 +206,8 @@
     "composite_rank": 14,
     "fdr_q": "5.45e-05",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 15,
@@ -207,7 +221,8 @@
     "composite_rank": 15,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 16,
@@ -221,7 +236,8 @@
     "composite_rank": 16,
     "fdr_q": "5.45e-05",
     "is_benchmark": false,
-    "annotation": "Proteasome 26S ATPase subunit 2. Essential regulatory particle driving ATP-dependent protein degradation under flight stress."
+    "annotation": "Proteasome 26S ATPase subunit 2. Essential regulatory particle driving ATP-dependent protein degradation under flight stress.",
+    "is_dual_track": true
   },
   {
     "rank": 17,
@@ -235,7 +251,8 @@
     "composite_rank": 17,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 18,
@@ -249,7 +266,8 @@
     "composite_rank": 18,
     "fdr_q": "0.0041",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 19,
@@ -263,7 +281,8 @@
     "composite_rank": 19,
     "fdr_q": "0.3549",
     "is_benchmark": true,
-    "annotation": "Prestin. Outer hair cell piezoelectric motor driving cochlear somatic motility and frequency amplification."
+    "annotation": "Prestin. Outer hair cell piezoelectric motor driving cochlear somatic motility and frequency amplification.",
+    "is_dual_track": true
   },
   {
     "rank": 20,
@@ -277,7 +296,8 @@
     "composite_rank": 20,
     "fdr_q": "0.0062",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 21,
@@ -291,7 +311,8 @@
     "composite_rank": 21,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 22,
@@ -305,7 +326,8 @@
     "composite_rank": 22,
     "fdr_q": "0.0081",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 23,
@@ -319,7 +341,8 @@
     "composite_rank": 23,
     "fdr_q": "0.6137",
     "is_benchmark": true,
-    "annotation": "Lipoxygenase homology domains 1. Shaft tensioner maintaining hair cell stereocilia structural bundle rigidity."
+    "annotation": "Lipoxygenase homology domains 1. Shaft tensioner maintaining hair cell stereocilia structural bundle rigidity.",
+    "is_dual_track": true
   },
   {
     "rank": 24,
@@ -333,7 +356,8 @@
     "composite_rank": 24,
     "fdr_q": "0.0081",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 25,
@@ -347,7 +371,8 @@
     "composite_rank": 25,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 26,
@@ -361,7 +386,8 @@
     "composite_rank": 26,
     "fdr_q": "0.0081",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 27,
@@ -375,7 +401,8 @@
     "composite_rank": 27,
     "fdr_q": "0.0099",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 28,
@@ -389,7 +416,8 @@
     "composite_rank": 28,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 29,
@@ -403,7 +431,8 @@
     "composite_rank": 29,
     "fdr_q": "0.0116",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 30,
@@ -417,7 +446,8 @@
     "composite_rank": 30,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 31,
@@ -431,7 +461,8 @@
     "composite_rank": 31,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 32,
@@ -445,7 +476,8 @@
     "composite_rank": 32,
     "fdr_q": "0.0172",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 33,
@@ -459,7 +491,8 @@
     "composite_rank": 33,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 34,
@@ -473,7 +506,8 @@
     "composite_rank": 34,
     "fdr_q": "0.0187",
     "is_benchmark": false,
-    "annotation": "Proteasome 26S ATPase subunit 5. Regulatory particle governing proteasomal substrate translocation during hyper-metabolic demand."
+    "annotation": "Proteasome 26S ATPase subunit 5. Regulatory particle governing proteasomal substrate translocation during hyper-metabolic demand.",
+    "is_dual_track": true
   },
   {
     "rank": 35,
@@ -487,7 +521,8 @@
     "composite_rank": 35,
     "fdr_q": "0.8879",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 36,
@@ -501,7 +536,8 @@
     "composite_rank": 36,
     "fdr_q": "0.0209",
     "is_benchmark": false,
-    "annotation": "CD1c molecule. Frequent-flier presenting lipid and glycolipid antigens during metabolic and dietary diversification."
+    "annotation": "CD1c molecule. Frequent-flier presenting lipid and glycolipid antigens during metabolic and dietary diversification.",
+    "is_dual_track": true
   },
   {
     "rank": 37,
@@ -515,7 +551,8 @@
     "composite_rank": 37,
     "fdr_q": "0.0187",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 38,
@@ -529,7 +566,8 @@
     "composite_rank": 38,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 39,
@@ -543,7 +581,8 @@
     "composite_rank": 39,
     "fdr_q": "0.2629",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 40,
@@ -557,7 +596,8 @@
     "composite_rank": 40,
     "fdr_q": "0.0209",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 41,
@@ -571,7 +611,8 @@
     "composite_rank": 41,
     "fdr_q": "0.0298",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 42,
@@ -585,7 +626,8 @@
     "composite_rank": 42,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 43,
@@ -599,7 +641,8 @@
     "composite_rank": 43,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 44,
@@ -613,7 +656,8 @@
     "composite_rank": 44,
     "fdr_q": "0.0302",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 45,
@@ -627,7 +671,8 @@
     "composite_rank": 45,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 46,
@@ -641,7 +686,8 @@
     "composite_rank": 46,
     "fdr_q": "0.0353",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 47,
@@ -655,7 +701,8 @@
     "composite_rank": 47,
     "fdr_q": "0.0443",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 48,
@@ -669,7 +716,8 @@
     "composite_rank": 48,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 49,
@@ -683,7 +731,8 @@
     "composite_rank": 49,
     "fdr_q": "0.0532",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 50,
@@ -697,7 +746,8 @@
     "composite_rank": 50,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 51,
@@ -711,7 +761,8 @@
     "composite_rank": 51,
     "fdr_q": "0.0632",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 52,
@@ -725,7 +776,8 @@
     "composite_rank": 52,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 53,
@@ -739,7 +791,8 @@
     "composite_rank": 53,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 54,
@@ -753,7 +806,8 @@
     "composite_rank": 54,
     "fdr_q": "0.0701",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 55,
@@ -767,7 +821,8 @@
     "composite_rank": 55,
     "fdr_q": "0.0701",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 56,
@@ -781,7 +836,8 @@
     "composite_rank": 56,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 57,
@@ -795,7 +851,8 @@
     "composite_rank": 57,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 58,
@@ -809,7 +866,8 @@
     "composite_rank": 58,
     "fdr_q": "0.0790",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 59,
@@ -823,7 +881,8 @@
     "composite_rank": 59,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 60,
@@ -837,7 +896,8 @@
     "composite_rank": 60,
     "fdr_q": "0.0883",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 61,
@@ -851,7 +911,8 @@
     "composite_rank": 61,
     "fdr_q": "0.0894",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 62,
@@ -865,7 +926,8 @@
     "composite_rank": 62,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 63,
@@ -879,7 +941,8 @@
     "composite_rank": 63,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 64,
@@ -893,7 +956,8 @@
     "composite_rank": 64,
     "fdr_q": "0.0894",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 65,
@@ -907,7 +971,8 @@
     "composite_rank": 65,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 66,
@@ -921,7 +986,8 @@
     "composite_rank": 66,
     "fdr_q": "0.1039",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 67,
@@ -935,7 +1001,8 @@
     "composite_rank": 67,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 68,
@@ -949,7 +1016,8 @@
     "composite_rank": 68,
     "fdr_q": "0.1054",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 69,
@@ -963,7 +1031,8 @@
     "composite_rank": 69,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 70,
@@ -977,7 +1046,8 @@
     "composite_rank": 70,
     "fdr_q": "0.1054",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 71,
@@ -991,7 +1061,8 @@
     "composite_rank": 71,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 72,
@@ -1005,7 +1076,8 @@
     "composite_rank": 72,
     "fdr_q": "0.1054",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 73,
@@ -1019,7 +1091,8 @@
     "composite_rank": 73,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 74,
@@ -1033,7 +1106,8 @@
     "composite_rank": 74,
     "fdr_q": "0.1054",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 75,
@@ -1047,7 +1121,8 @@
     "composite_rank": 75,
     "fdr_q": "0.1089",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 76,
@@ -1061,7 +1136,8 @@
     "composite_rank": 76,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 77,
@@ -1075,7 +1151,8 @@
     "composite_rank": 77,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 78,
@@ -1089,7 +1166,8 @@
     "composite_rank": 78,
     "fdr_q": "0.1089",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 79,
@@ -1103,7 +1181,8 @@
     "composite_rank": 79,
     "fdr_q": "0.1089",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 80,
@@ -1117,7 +1196,8 @@
     "composite_rank": 80,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 81,
@@ -1131,7 +1211,8 @@
     "composite_rank": 81,
     "fdr_q": "0.1112",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 82,
@@ -1145,7 +1226,8 @@
     "composite_rank": 82,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 83,
@@ -1159,7 +1241,8 @@
     "composite_rank": 83,
     "fdr_q": "0.1197",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 84,
@@ -1173,7 +1256,8 @@
     "composite_rank": 84,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 85,
@@ -1187,7 +1271,8 @@
     "composite_rank": 85,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 86,
@@ -1201,7 +1286,8 @@
     "composite_rank": 86,
     "fdr_q": "0.1209",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 87,
@@ -1215,7 +1301,8 @@
     "composite_rank": 87,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 88,
@@ -1229,7 +1316,8 @@
     "composite_rank": 88,
     "fdr_q": "0.1296",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 89,
@@ -1243,7 +1331,8 @@
     "composite_rank": 89,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 90,
@@ -1257,7 +1346,8 @@
     "composite_rank": 90,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 91,
@@ -1271,7 +1361,8 @@
     "composite_rank": 91,
     "fdr_q": "0.1511",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 92,
@@ -1285,7 +1376,8 @@
     "composite_rank": 92,
     "fdr_q": "0.1564",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 93,
@@ -1299,7 +1391,8 @@
     "composite_rank": 93,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 94,
@@ -1313,7 +1406,8 @@
     "composite_rank": 94,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 95,
@@ -1327,7 +1421,8 @@
     "composite_rank": 95,
     "fdr_q": "0.1581",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 96,
@@ -1341,7 +1436,8 @@
     "composite_rank": 96,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 97,
@@ -1355,7 +1451,8 @@
     "composite_rank": 97,
     "fdr_q": "0.1673",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 98,
@@ -1369,7 +1466,8 @@
     "composite_rank": 98,
     "fdr_q": "0.1931",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 99,
@@ -1383,7 +1481,8 @@
     "composite_rank": 99,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 100,
@@ -1397,7 +1496,8 @@
     "composite_rank": 100,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 101,
@@ -1411,7 +1511,8 @@
     "composite_rank": 101,
     "fdr_q": "0.1931",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 102,
@@ -1425,7 +1526,8 @@
     "composite_rank": 102,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 103,
@@ -1439,7 +1541,8 @@
     "composite_rank": 103,
     "fdr_q": "0.1931",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 104,
@@ -1453,7 +1556,8 @@
     "composite_rank": 104,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 105,
@@ -1467,7 +1571,8 @@
     "composite_rank": 105,
     "fdr_q": "0.1932",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 106,
@@ -1481,7 +1586,8 @@
     "composite_rank": 106,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 107,
@@ -1495,7 +1601,8 @@
     "composite_rank": 107,
     "fdr_q": "0.1943",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 108,
@@ -1509,7 +1616,8 @@
     "composite_rank": 108,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 109,
@@ -1523,7 +1631,8 @@
     "composite_rank": 109,
     "fdr_q": "0.1943",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 110,
@@ -1537,7 +1646,8 @@
     "composite_rank": 110,
     "fdr_q": "0.1943",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 111,
@@ -1551,7 +1661,8 @@
     "composite_rank": 111,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 112,
@@ -1565,7 +1676,8 @@
     "composite_rank": 112,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 113,
@@ -1579,7 +1691,8 @@
     "composite_rank": 113,
     "fdr_q": "0.1943",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 114,
@@ -1593,7 +1706,8 @@
     "composite_rank": 114,
     "fdr_q": "0.1943",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 115,
@@ -1607,7 +1721,8 @@
     "composite_rank": 115,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 116,
@@ -1621,7 +1736,8 @@
     "composite_rank": 116,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 117,
@@ -1635,7 +1751,8 @@
     "composite_rank": 117,
     "fdr_q": "0.1943",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 118,
@@ -1649,7 +1766,8 @@
     "composite_rank": 118,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 119,
@@ -1663,7 +1781,8 @@
     "composite_rank": 119,
     "fdr_q": "0.1943",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 120,
@@ -1677,7 +1796,8 @@
     "composite_rank": 120,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 121,
@@ -1691,7 +1811,8 @@
     "composite_rank": 121,
     "fdr_q": "0.2088",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 122,
@@ -1705,7 +1826,8 @@
     "composite_rank": 122,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 123,
@@ -1719,7 +1841,8 @@
     "composite_rank": 123,
     "fdr_q": "0.2148",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 124,
@@ -1733,7 +1856,8 @@
     "composite_rank": 124,
     "fdr_q": "0.2238",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 125,
@@ -1747,7 +1871,8 @@
     "composite_rank": 125,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 126,
@@ -1761,7 +1886,8 @@
     "composite_rank": 126,
     "fdr_q": "0.2238",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 127,
@@ -1775,7 +1901,8 @@
     "composite_rank": 127,
     "fdr_q": "0.2397",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 128,
@@ -1789,7 +1916,8 @@
     "composite_rank": 128,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 129,
@@ -1803,7 +1931,8 @@
     "composite_rank": 129,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 130,
@@ -1817,7 +1946,8 @@
     "composite_rank": 130,
     "fdr_q": "0.2465",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 131,
@@ -1831,7 +1961,8 @@
     "composite_rank": 131,
     "fdr_q": "0.2520",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 132,
@@ -1845,7 +1976,8 @@
     "composite_rank": 132,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 133,
@@ -1859,7 +1991,8 @@
     "composite_rank": 133,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 134,
@@ -1873,7 +2006,8 @@
     "composite_rank": 134,
     "fdr_q": "0.2564",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 135,
@@ -1887,7 +2021,8 @@
     "composite_rank": 135,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 136,
@@ -1901,7 +2036,8 @@
     "composite_rank": 136,
     "fdr_q": "0.2586",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 137,
@@ -1915,7 +2051,8 @@
     "composite_rank": 137,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 138,
@@ -1929,7 +2066,8 @@
     "composite_rank": 138,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 139,
@@ -1943,7 +2081,8 @@
     "composite_rank": 139,
     "fdr_q": "0.2629",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 140,
@@ -1957,7 +2096,8 @@
     "composite_rank": 140,
     "fdr_q": "0.2668",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 141,
@@ -1971,7 +2111,8 @@
     "composite_rank": 141,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 142,
@@ -1985,7 +2126,8 @@
     "composite_rank": 142,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 143,
@@ -1999,7 +2141,8 @@
     "composite_rank": 143,
     "fdr_q": "0.2685",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 144,
@@ -2013,7 +2156,8 @@
     "composite_rank": 144,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 145,
@@ -2027,7 +2171,8 @@
     "composite_rank": 145,
     "fdr_q": "0.2685",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 146,
@@ -2041,7 +2186,8 @@
     "composite_rank": 146,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 147,
@@ -2055,7 +2201,8 @@
     "composite_rank": 147,
     "fdr_q": "0.2749",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 148,
@@ -2069,7 +2216,8 @@
     "composite_rank": 148,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 149,
@@ -2083,7 +2231,8 @@
     "composite_rank": 149,
     "fdr_q": "0.3022",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 150,
@@ -2097,7 +2246,8 @@
     "composite_rank": 150,
     "fdr_q": "0.3022",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 151,
@@ -2111,7 +2261,8 @@
     "composite_rank": 151,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 152,
@@ -2125,7 +2276,8 @@
     "composite_rank": 152,
     "fdr_q": "0.3069",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 153,
@@ -2139,7 +2291,8 @@
     "composite_rank": 153,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 154,
@@ -2153,7 +2306,8 @@
     "composite_rank": 154,
     "fdr_q": "0.3140",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 155,
@@ -2167,7 +2321,8 @@
     "composite_rank": 155,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 156,
@@ -2181,7 +2336,8 @@
     "composite_rank": 156,
     "fdr_q": "0.3480",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 157,
@@ -2195,7 +2351,8 @@
     "composite_rank": 157,
     "fdr_q": "0.3549",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 158,
@@ -2209,7 +2366,8 @@
     "composite_rank": 158,
     "fdr_q": "0.9029",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 159,
@@ -2223,7 +2381,8 @@
     "composite_rank": 159,
     "fdr_q": "0.8972",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 160,
@@ -2237,7 +2396,8 @@
     "composite_rank": 160,
     "fdr_q": "0.6431",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 161,
@@ -2251,7 +2411,8 @@
     "composite_rank": 161,
     "fdr_q": "0.3549",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 162,
@@ -2265,7 +2426,8 @@
     "composite_rank": 162,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 163,
@@ -2279,7 +2441,8 @@
     "composite_rank": 163,
     "fdr_q": "0.3622",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 164,
@@ -2293,7 +2456,8 @@
     "composite_rank": 164,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 165,
@@ -2307,7 +2471,8 @@
     "composite_rank": 165,
     "fdr_q": "0.3671",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 166,
@@ -2321,7 +2486,8 @@
     "composite_rank": 166,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 167,
@@ -2335,7 +2501,8 @@
     "composite_rank": 167,
     "fdr_q": "0.3822",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 168,
@@ -2349,7 +2516,8 @@
     "composite_rank": 168,
     "fdr_q": "0.3976",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 169,
@@ -2363,7 +2531,8 @@
     "composite_rank": 169,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 170,
@@ -2377,7 +2546,8 @@
     "composite_rank": 170,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 171,
@@ -2391,7 +2561,8 @@
     "composite_rank": 171,
     "fdr_q": "0.4688",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 172,
@@ -2405,7 +2576,8 @@
     "composite_rank": 172,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 173,
@@ -2419,7 +2591,8 @@
     "composite_rank": 173,
     "fdr_q": "0.4688",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 174,
@@ -2433,7 +2606,8 @@
     "composite_rank": 174,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 175,
@@ -2447,7 +2621,8 @@
     "composite_rank": 175,
     "fdr_q": "0.5093",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 176,
@@ -2461,7 +2636,8 @@
     "composite_rank": 176,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 177,
@@ -2475,7 +2651,8 @@
     "composite_rank": 177,
     "fdr_q": "0.5313",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 178,
@@ -2489,7 +2666,8 @@
     "composite_rank": 178,
     "fdr_q": "0.5352",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 179,
@@ -2503,7 +2681,8 @@
     "composite_rank": 179,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 180,
@@ -2517,7 +2696,8 @@
     "composite_rank": 180,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 181,
@@ -2531,7 +2711,8 @@
     "composite_rank": 181,
     "fdr_q": "0.5379",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 182,
@@ -2545,7 +2726,8 @@
     "composite_rank": 182,
     "fdr_q": "0.7142",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 183,
@@ -2559,7 +2741,8 @@
     "composite_rank": 183,
     "fdr_q": "0.5517",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 184,
@@ -2573,7 +2756,8 @@
     "composite_rank": 184,
     "fdr_q": "0.5517",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 185,
@@ -2587,7 +2771,8 @@
     "composite_rank": 185,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 186,
@@ -2601,7 +2786,8 @@
     "composite_rank": 186,
     "fdr_q": "0.5517",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 187,
@@ -2615,7 +2801,8 @@
     "composite_rank": 187,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 188,
@@ -2629,7 +2816,8 @@
     "composite_rank": 188,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 189,
@@ -2643,7 +2831,8 @@
     "composite_rank": 189,
     "fdr_q": "0.5517",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 190,
@@ -2657,7 +2846,8 @@
     "composite_rank": 190,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 191,
@@ -2671,7 +2861,8 @@
     "composite_rank": 191,
     "fdr_q": "0.5547",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 192,
@@ -2685,7 +2876,8 @@
     "composite_rank": 192,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 193,
@@ -2699,7 +2891,8 @@
     "composite_rank": 193,
     "fdr_q": "0.5547",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 194,
@@ -2713,7 +2906,8 @@
     "composite_rank": 194,
     "fdr_q": "0.5547",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 195,
@@ -2727,7 +2921,8 @@
     "composite_rank": 195,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 196,
@@ -2741,7 +2936,8 @@
     "composite_rank": 196,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 197,
@@ -2755,7 +2951,8 @@
     "composite_rank": 197,
     "fdr_q": "0.5692",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 198,
@@ -2769,7 +2966,8 @@
     "composite_rank": 198,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 199,
@@ -2783,7 +2981,8 @@
     "composite_rank": 199,
     "fdr_q": "0.5692",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 200,
@@ -2797,7 +2996,8 @@
     "composite_rank": 200,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 201,
@@ -2811,7 +3011,8 @@
     "composite_rank": 201,
     "fdr_q": "0.5692",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 202,
@@ -2825,7 +3026,8 @@
     "composite_rank": 202,
     "fdr_q": "0.5692",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 203,
@@ -2839,7 +3041,8 @@
     "composite_rank": 203,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 204,
@@ -2853,7 +3056,8 @@
     "composite_rank": 204,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 205,
@@ -2867,7 +3071,8 @@
     "composite_rank": 205,
     "fdr_q": "0.6022",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 206,
@@ -2881,7 +3086,8 @@
     "composite_rank": 206,
     "fdr_q": "0.6022",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 207,
@@ -2895,7 +3101,8 @@
     "composite_rank": 207,
     "fdr_q": "0.8908",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 208,
@@ -2909,7 +3116,8 @@
     "composite_rank": 208,
     "fdr_q": "0.6022",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 209,
@@ -2923,7 +3131,8 @@
     "composite_rank": 209,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 210,
@@ -2937,7 +3146,8 @@
     "composite_rank": 210,
     "fdr_q": "0.6119",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 211,
@@ -2951,7 +3161,8 @@
     "composite_rank": 211,
     "fdr_q": "0.8846",
     "is_benchmark": true,
-    "annotation": "Transmembrane serine protease 3. Required for cochlear hair cell maintenance and auditory sensitivity."
+    "annotation": "Transmembrane serine protease 3. Required for cochlear hair cell maintenance and auditory sensitivity.",
+    "is_dual_track": true
   },
   {
     "rank": 212,
@@ -2965,7 +3176,8 @@
     "composite_rank": 212,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 213,
@@ -2979,7 +3191,8 @@
     "composite_rank": 213,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 214,
@@ -2993,7 +3206,8 @@
     "composite_rank": 214,
     "fdr_q": "0.6264",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 215,
@@ -3007,7 +3221,8 @@
     "composite_rank": 215,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 216,
@@ -3021,7 +3236,8 @@
     "composite_rank": 216,
     "fdr_q": "0.6351",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 217,
@@ -3035,7 +3251,8 @@
     "composite_rank": 217,
     "fdr_q": "0.6351",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 218,
@@ -3049,7 +3266,8 @@
     "composite_rank": 218,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 219,
@@ -3063,7 +3281,8 @@
     "composite_rank": 219,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 220,
@@ -3077,7 +3296,8 @@
     "composite_rank": 220,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 221,
@@ -3091,7 +3311,8 @@
     "composite_rank": 221,
     "fdr_q": "0.6455",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 222,
@@ -3105,7 +3326,8 @@
     "composite_rank": 222,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 223,
@@ -3119,7 +3341,8 @@
     "composite_rank": 223,
     "fdr_q": "0.6807",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 224,
@@ -3133,7 +3356,8 @@
     "composite_rank": 224,
     "fdr_q": "0.6807",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 225,
@@ -3147,7 +3371,8 @@
     "composite_rank": 225,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 226,
@@ -3161,7 +3386,8 @@
     "composite_rank": 226,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 227,
@@ -3175,7 +3401,8 @@
     "composite_rank": 227,
     "fdr_q": "0.7024",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 228,
@@ -3189,7 +3416,8 @@
     "composite_rank": 228,
     "fdr_q": "0.7040",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 229,
@@ -3203,7 +3431,8 @@
     "composite_rank": 229,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 230,
@@ -3217,7 +3446,8 @@
     "composite_rank": 230,
     "fdr_q": "0.7100",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 231,
@@ -3231,7 +3461,8 @@
     "composite_rank": 231,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 232,
@@ -3245,7 +3476,8 @@
     "composite_rank": 232,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 233,
@@ -3259,7 +3491,8 @@
     "composite_rank": 233,
     "fdr_q": "0.7136",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 234,
@@ -3273,7 +3506,8 @@
     "composite_rank": 234,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 235,
@@ -3287,7 +3521,8 @@
     "composite_rank": 235,
     "fdr_q": "0.7142",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 236,
@@ -3301,7 +3536,8 @@
     "composite_rank": 236,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 237,
@@ -3315,7 +3551,8 @@
     "composite_rank": 237,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 238,
@@ -3329,7 +3566,8 @@
     "composite_rank": 238,
     "fdr_q": "0.7407",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 239,
@@ -3343,7 +3581,8 @@
     "composite_rank": 239,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 240,
@@ -3357,7 +3596,8 @@
     "composite_rank": 240,
     "fdr_q": "0.7493",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 241,
@@ -3371,7 +3611,8 @@
     "composite_rank": 241,
     "fdr_q": "0.7585",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 242,
@@ -3385,7 +3626,8 @@
     "composite_rank": 242,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 243,
@@ -3399,7 +3641,8 @@
     "composite_rank": 243,
     "fdr_q": "0.7585",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 244,
@@ -3413,7 +3656,8 @@
     "composite_rank": 244,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 245,
@@ -3427,7 +3671,8 @@
     "composite_rank": 245,
     "fdr_q": "0.7603",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 246,
@@ -3441,7 +3686,8 @@
     "composite_rank": 246,
     "fdr_q": "0.9166",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 247,
@@ -3455,7 +3701,8 @@
     "composite_rank": 247,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 248,
@@ -3469,7 +3716,8 @@
     "composite_rank": 248,
     "fdr_q": "0.7723",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 249,
@@ -3483,7 +3731,8 @@
     "composite_rank": 249,
     "fdr_q": "0.8846",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   },
   {
     "rank": 250,
@@ -3497,6 +3746,7 @@
     "composite_rank": 250,
     "fdr_q": "0.8019",
     "is_benchmark": false,
-    "annotation": ""
+    "annotation": "",
+    "is_dual_track": true
   }
 ]

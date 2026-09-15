@@ -2,7 +2,7 @@
 
 This repository provides the complete, interactive web portal and data repository for **Directional Foundation Tensors Resolve the Molecular Architecture of Convergent Phenotypes Across the Mammalian Phenome**.
 
-Deployed via **GitHub Pages**: [https://spond.github.io/phylowas/](https://spond.github.io/phylowas/)
+Deployed via **GitHub Pages**: [https://spond.github.io/PhyloWAS-Portal/](https://spond.github.io/PhyloWAS-Portal/) (or local fork).
 
 ---
 
@@ -53,8 +53,8 @@ git init
 git add .
 git commit -m "Initial commit of PhyloWAS web portal and data repository"
 
-# 2. Link GitHub remote
-git remote add origin https://github.com/spond/phylowas.git
+# 2. Add your GitHub remote
+git remote add origin git@github.com:<your-username>/<your-repo-name>.git
 
 # 3. Push to main branch
 git branch -M main
@@ -64,7 +64,7 @@ git push -u origin main
 # In GitHub: Repository Settings -> Pages -> Source: 'Deploy from a branch' -> Branch: 'main' / Folder: '/ (root)' -> Save.
 ```
 
-The site will automatically deploy at `https://spond.github.io/phylowas/`.
+The site will automatically deploy at `https://<your-username>.github.io/<your-repo-name>/`.
 
 ---
 
