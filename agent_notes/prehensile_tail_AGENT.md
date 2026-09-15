@@ -26,23 +26,24 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-|   composite_rank | gene    |   codon_length |   taxa_count |   psi_score |   z_score |      fdr_q | tier                                       |
-|-----------------:|:--------|---------------:|-------------:|------------:|----------:|-----------:|:-------------------------------------------|
-|                1 | GARIN5B |           1103 |           25 |   0.173825  |   4.80232 | 0.00447769 | Tier 0: Core Bottleneck Transducer         |
-|                1 | ULBP3   |            293 |           91 |   0.15585   |   4.26141 | 0.0289027  | Tier 1: Primary Regulatory Effector        |
-|                2 | SPATC1L |            356 |          644 |   0.128823  |   3.4481  | 0.132476   | Tier 1: Primary Regulatory Effector        |
-|                3 | OR5P2   |            331 |          155 |   0.137271  |   3.70233 | 0.0871292  | Tier 1: Primary Regulatory Effector        |
-|                3 | PTPRQ   |           2359 |          650 |   0.0888652 |   2.24569 | 0.786573   | Tier 1: Primary Regulatory Effector        |
-|                4 | OR5AS1  |            327 |          457 |   0.100736  |   2.60291 | 0.533557   | Tier 1: Primary Regulatory Effector        |
-|                5 | GARIN1A |            327 |          709 |   0.127734  |   3.41534 | 0.140737   | Tier 1: Primary Regulatory Effector        |
-|                5 | PLEKHS1 |            556 |          704 |   0.0853366 |   2.13951 | 0.851104   | Tier 1: Primary Regulatory Effector        |
-|                6 | CXCL12  |             93 |          721 |   0.125983  |   3.36265 | 0.148588   | Tier 2: Physiological Homeostasis Modifier |
-|                6 | ATRX    |           2566 |          610 |   0.0901127 |   2.28323 | 0.750005   | Tier 1: Primary Regulatory Effector        |
-|                7 | MGRN1   |            597 |          688 |   0.093484  |   2.38468 | 0.663392   | Tier 1: Primary Regulatory Effector        |
-|                7 | OR52J3  |            325 |          292 |   0.124514  |   3.31844 | 0.163224   | Tier 2: Physiological Homeostasis Modifier |
-|                8 | ASPH    |            795 |          584 |   0.0859854 |   2.15903 | 0.834221   | Tier 1: Primary Regulatory Effector        |
-|                8 | HSFY1   |            411 |          142 |   0.120938  |   3.21083 | 0.220119   | Tier 2: Physiological Homeostasis Modifier |
-|                9 | HSFY2   |            413 |          142 |   0.120801  |   3.2067  | 0.221151   | Tier 1: Primary Regulatory Effector        |
+
+| Rank | Gene Symbol | Codons | Taxa | Selection Score (Ψ) | Z-Score | Composite Rank | FDR q-Value | Functional Tier |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **SPATC1L** | 356 | 644 | 0.1288 | 3.88 | #1 | 0.2921 | Tier 0: Core Bottleneck Transducer |
+| 2 | **OR5P2** | 331 | 155 | 0.1373 | 4.18 | #2 | 0.2165 | Tier 0: Core Bottleneck Transducer |
+| 3 | **PTPRQ** | 2,359 | 650 | 0.0889 | 2.45 | #3 | 0.8936 | Tier 0: Core Bottleneck Transducer |
+| 4 | **OR5AS1** | 327 | 457 | 0.1007 | 2.87 | #4 | 0.8936 | Tier 0: Core Bottleneck Transducer |
+| 5 | **GARIN1A** | 327 | 709 | 0.1277 | 3.84 | #5 | 0.2921 | Tier 0: Core Bottleneck Transducer |
+| 6 | **PLEKHS1** | 556 | 704 | 0.0853 | 2.32 | #6 | 0.8936 | Tier 0: Core Bottleneck Transducer |
+| 7 | **CXCL12** | 93 | 721 | 0.1260 | 3.78 | #7 | 0.2921 | Tier 0: Core Bottleneck Transducer |
+| 8 | **ATRX** | 2,566 | 610 | 0.0901 | 2.49 | #8 | 0.8936 | Tier 0: Core Bottleneck Transducer |
+| 9 | **OR52J3** | 325 | 292 | 0.1245 | 3.72 | #9 | 0.2921 | Tier 0: Core Bottleneck Transducer |
+| 10 | **MGRN1** | 597 | 688 | 0.0935 | 2.61 | #10 | 0.8936 | Tier 0: Core Bottleneck Transducer |
+| 11 | **HSFY1** | 411 | 142 | 0.1209 | 3.60 | #11 | 0.3503 | Tier 0: Core Bottleneck Transducer |
+| 12 | **ASPH** | 795 | 584 | 0.0860 | 2.35 | #12 | 0.8936 | Tier 0: Core Bottleneck Transducer |
+| 13 | **HSFY2** | 413 | 142 | 0.1208 | 3.59 | #13 | 0.3503 | Tier 0: Core Bottleneck Transducer |
+| 14 | **CHTF18** | 1,059 | 658 | 0.1147 | 3.37 | #14 | 0.6911 | Tier 0: Core Bottleneck Transducer |
+| 15 | **LFNG** | 394 | 649 | 0.0842 | 2.28 | #15 | 0.8936 | Tier 0: Core Bottleneck Transducer |
 
 ---
 
@@ -58,7 +59,7 @@ No external disease/pathway benchmark assigned for this trait.
 ---
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
-1. Trait DISC_PREHENSILE_TAIL (Muscular Tactile Prehensile Tail (Arboreal 5th Limb)) screened across N=17,130 mammalian orthologs in sample size N=8 species.
+1. Trait DISC_PREHENSILE_TAIL (Muscular Tactile Prehensile Tail (Arboreal 5th Limb)) screened across N=14,936 mammalian orthologs in sample size N=8 species.
 2. Genomic inflation factor lambda_GC = 0.7962, demonstrating rigorous calibration across mammalian phylogeny.
 3. Genome-wide screening identified 28 significant loci at FDR q <= 0.05 and 6 loci at FDR q <= 0.01.
 4. Top discovery locus is GARIN5B (Rank #1, Psi = 0.1738, Z = 4.80, q = 4.48e-03).

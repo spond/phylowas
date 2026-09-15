@@ -26,23 +26,24 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-|   composite_rank | gene    |   codon_length |   taxa_count |   psi_score |   z_score |       fdr_q | tier                                |
-|-----------------:|:--------|---------------:|-------------:|------------:|----------:|------------:|:------------------------------------|
-|                1 | PSD3    |           1235 |          656 |   0.102689  |   5.24229 | 0.000452797 | Tier 0: Core Bottleneck Transducer  |
-|                1 | UBE2E2  |            201 |          696 |   0.137357  |   7.06153 | 1.41051e-08 | Tier 0: Core Bottleneck Transducer  |
-|                2 | BAP1    |            761 |          712 |   0.115995  |   5.94053 | 1.62224e-05 | Tier 0: Core Bottleneck Transducer  |
-|                3 | CLSTN1  |            969 |          648 |   0.0984428 |   5.01944 | 0.000770219 | Tier 0: Core Bottleneck Transducer  |
-|                3 | ICAM1   |            634 |          646 |   0.113832  |   5.82702 | 2.41641e-05 | Tier 0: Core Bottleneck Transducer  |
-|                4 | LAT2    |            286 |          629 |   0.0959817 |   4.89029 | 0.00114986  | Tier 0: Core Bottleneck Transducer  |
-|                4 | R3HCC1  |            514 |          703 |   0.106581  |   5.44649 | 0.000176005 | Tier 0: Core Bottleneck Transducer  |
-|                6 | SLC18A1 |            531 |          686 |   0.101998  |   5.20602 | 0.000472136 | Tier 0: Core Bottleneck Transducer  |
-|                6 | TMEM174 |            311 |          720 |   0.0853224 |   4.33092 | 0.00635905  | Tier 0: Core Bottleneck Transducer  |
-|                7 | SSH1    |           1107 |          650 |   0.10116   |   5.16201 | 0.000518976 | Tier 0: Core Bottleneck Transducer  |
-|                8 | OR5D18  |            316 |          250 |   0.0882591 |   4.48503 | 0.00370648  | Tier 0: Core Bottleneck Transducer  |
-|                8 | FAM110B |            372 |          688 |   0.0987103 |   5.03348 | 0.000770219 | Tier 0: Core Bottleneck Transducer  |
-|                9 | LYPD1   |             93 |          719 |   0.0845636 |   4.2911  | 0.00702998  | Tier 0: Core Bottleneck Transducer  |
-|               10 | OR5V1   |            331 |          198 |   0.0807231 |   4.08956 | 0.0123391   | Tier 1: Primary Regulatory Effector |
-|               10 | RAVER2  |            738 |          640 |   0.098295  |   5.01168 | 0.000770219 | Tier 0: Core Bottleneck Transducer  |
+
+| Rank | Gene Symbol | Codons | Taxa | Selection Score (Ψ) | Z-Score | Composite Rank | FDR q-Value | Functional Tier |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **BAP1** | 761 | 712 | 0.1160 | 3.99 | #1 | 0.0406 | Tier 0: Core Bottleneck Transducer |
+| 2 | **PSD3** | 1,235 | 656 | 0.1027 | 3.42 | #2 | 0.1016 | Tier 0: Core Bottleneck Transducer |
+| 3 | **R3HCC1** | 514 | 703 | 0.1066 | 3.58 | #3 | 0.1016 | Tier 0: Core Bottleneck Transducer |
+| 4 | **CLSTN1** | 969 | 648 | 0.0984 | 3.23 | #4 | 0.1129 | Tier 0: Core Bottleneck Transducer |
+| 5 | **SLC18A1** | 531 | 686 | 0.1020 | 3.39 | #5 | 0.1016 | Tier 0: Core Bottleneck Transducer |
+| 6 | **LAT2** | 286 | 629 | 0.0960 | 3.12 | #6 | 0.1398 | Tier 0: Core Bottleneck Transducer |
+| 7 | **SSH1** | 1,107 | 650 | 0.1012 | 3.35 | #7 | 0.1016 | Tier 0: Core Bottleneck Transducer |
+| 8 | **TMEM174** | 311 | 720 | 0.0853 | 2.66 | #8 | 0.2878 | Tier 0: Core Bottleneck Transducer |
+| 9 | **RAVER2** | 738 | 640 | 0.0983 | 3.22 | #9 | 0.1129 | Tier 0: Core Bottleneck Transducer |
+| 10 | **OR5D18** | 316 | 250 | 0.0883 | 2.79 | #10 | 0.2216 | Tier 0: Core Bottleneck Transducer |
+| 11 | **LYPD1** | 93 | 719 | 0.0846 | 2.63 | #11 | 0.2898 | Tier 0: Core Bottleneck Transducer |
+| 12 | **FZD8** | 850 | 537 | 0.0947 | 3.07 | #12 | 0.1505 | Tier 0: Core Bottleneck Transducer |
+| 13 | **OR5V1** | 331 | 198 | 0.0807 | 2.46 | #13 | 0.3480 | Tier 0: Core Bottleneck Transducer |
+| 14 | **EPB41L4B** | 919 | 622 | 0.0927 | 2.98 | #14 | 0.1720 | Tier 0: Core Bottleneck Transducer |
+| 15 | **ABCB10** | 769 | 623 | 0.0923 | 2.97 | #15 | 0.1720 | Tier 0: Core Bottleneck Transducer |
 
 ---
 
@@ -72,7 +73,7 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
-1. Trait DISC_SCAR_FREE_REGENERATION (Epimorphic Scar-Free Skin & Tissue Regeneration) screened across N=17,130 mammalian orthologs in sample size N=7 species.
+1. Trait DISC_SCAR_FREE_REGENERATION (Epimorphic Scar-Free Skin & Tissue Regeneration) screened across N=1,253 mammalian orthologs in sample size N=7 species.
 2. Genomic inflation factor lambda_GC = 0.0616, demonstrating rigorous calibration across mammalian phylogeny.
 3. Genome-wide screening identified 141 significant loci at FDR q <= 0.05 and 50 loci at FDR q <= 0.01.
 4. Top discovery locus is PSD3 (Rank #1, Psi = 0.1027, Z = 5.24, q = 4.53e-04).

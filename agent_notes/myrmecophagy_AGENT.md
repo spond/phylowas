@@ -26,23 +26,24 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-|   composite_rank | gene    |   codon_length |   taxa_count |   psi_score |   z_score |     fdr_q | tier                                |
-|-----------------:|:--------|---------------:|-------------:|------------:|----------:|----------:|:------------------------------------|
-|                1 | TBX22   |            545 |          643 |    0.158329 |   3.85784 | 0.0275998 | Tier 1: Primary Regulatory Effector |
-|                1 | LRRC14  |            501 |          684 |    0.161899 |   3.95464 | 0.0215252 | Tier 1: Primary Regulatory Effector |
-|                2 | H3C4    |            172 |          136 |    0.122143 |   2.87658 | 0.24962   | Tier 1: Primary Regulatory Effector |
-|                3 | RPS6    |            187 |          690 |    0.10852  |   2.50719 | 0.449278  | Tier 1: Primary Regulatory Effector |
-|                3 | KISS1   |            161 |          628 |    0.155293 |   3.77552 | 0.0339291 | Tier 1: Primary Regulatory Effector |
-|                4 | H2AC1   |            152 |          288 |    0.128331 |   3.04441 | 0.181532  | Tier 1: Primary Regulatory Effector |
-|                4 | ANGPTL7 |            348 |          720 |    0.155159 |   3.77187 | 0.0339291 | Tier 1: Primary Regulatory Effector |
-|                5 | RALGAPB |           1491 |          677 |    0.101764 |   2.32398 | 0.58734   | Tier 1: Primary Regulatory Effector |
-|                5 | PIMREG  |            204 |          714 |    0.145463 |   3.50896 | 0.0649675 | Tier 1: Primary Regulatory Effector |
-|                6 | OR10J1  |            321 |          232 |    0.106235 |   2.44523 | 0.493972  | Tier 1: Primary Regulatory Effector |
-|                6 | OR1G1   |            330 |          197 |    0.144382 |   3.47963 | 0.0688077 | Tier 1: Primary Regulatory Effector |
-|                7 | NMS     |            165 |          606 |    0.139029 |   3.33449 | 0.0926502 | Tier 1: Primary Regulatory Effector |
-|                7 | PIWIL1  |            869 |          667 |    0.11404  |   2.65687 | 0.36362   | Tier 1: Primary Regulatory Effector |
-|                8 | NME6    |            195 |          681 |    0.136652 |   3.27003 | 0.107097  | Tier 1: Primary Regulatory Effector |
-|                8 | OR10G2  |            311 |          419 |    0.111473 |   2.58726 | 0.401048  | Tier 1: Primary Regulatory Effector |
+
+| Rank | Gene Symbol | Codons | Taxa | Selection Score (Ψ) | Z-Score | Composite Rank | FDR q-Value | Functional Tier |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **TBX22** | 545 | 643 | 0.1583 | 4.35 | #1 | 0.0423 | Tier 0: Core Bottleneck Transducer |
+| 2 | **LRRC14** | 501 | 684 | 0.1619 | 4.46 | #2 | 0.0423 | Tier 0: Core Bottleneck Transducer |
+| 3 | **H3C4** | 172 | 136 | 0.1221 | 3.20 | #3 | 0.4658 | Tier 0: Core Bottleneck Transducer |
+| 4 | **RPS6** | 187 | 690 | 0.1085 | 2.76 | #4 | 0.7589 | Tier 0: Core Bottleneck Transducer |
+| 5 | **KISS1** | 161 | 628 | 0.1553 | 4.25 | #5 | 0.0423 | Tier 0: Core Bottleneck Transducer |
+| 6 | **H2AC1** | 152 | 288 | 0.1283 | 3.39 | #6 | 0.3751 | Tier 0: Core Bottleneck Transducer |
+| 7 | **ANGPTL7** | 348 | 720 | 0.1552 | 4.25 | #7 | 0.0423 | Tier 0: Core Bottleneck Transducer |
+| 8 | **RALGAPB** | 1,491 | 677 | 0.1018 | 2.55 | #8 | 0.7927 | Tier 0: Core Bottleneck Transducer |
+| 9 | **PIMREG** | 204 | 714 | 0.1455 | 3.94 | #9 | 0.1229 | Tier 0: Core Bottleneck Transducer |
+| 10 | **OR1G1** | 330 | 197 | 0.1444 | 3.90 | #10 | 0.1229 | Tier 0: Core Bottleneck Transducer |
+| 11 | **OR10J1** | 321 | 232 | 0.1062 | 2.69 | #11 | 0.7927 | Tier 0: Core Bottleneck Transducer |
+| 12 | **PIWIL1** | 869 | 667 | 0.1140 | 2.94 | #12 | 0.6576 | Tier 0: Core Bottleneck Transducer |
+| 13 | **NMS** | 165 | 606 | 0.1390 | 3.73 | #13 | 0.2100 | Tier 0: Core Bottleneck Transducer |
+| 14 | **NME6** | 195 | 681 | 0.1367 | 3.66 | #14 | 0.2313 | Tier 0: Core Bottleneck Transducer |
+| 15 | **OR10G2** | 311 | 419 | 0.1115 | 2.86 | #15 | 0.7232 | Tier 0: Core Bottleneck Transducer |
 
 ---
 
@@ -72,7 +73,7 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
-1. Trait DISC_MYRMECOPHAGY (Obligate Ant & Termite Eating with Tooth Reduction) screened across N=17,130 mammalian orthologs in sample size N=8 species.
+1. Trait DISC_MYRMECOPHAGY (Obligate Ant & Termite Eating with Tooth Reduction) screened across N=15,580 mammalian orthologs in sample size N=8 species.
 2. Genomic inflation factor lambda_GC = 0.5592, demonstrating rigorous calibration across mammalian phylogeny.
 3. Genome-wide screening identified 101 significant loci at FDR q <= 0.05 and 42 loci at FDR q <= 0.01.
 4. Top discovery locus is TBX22 (Rank #1, Psi = 0.1583, Z = 3.86, q = 2.76e-02).

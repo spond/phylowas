@@ -26,23 +26,24 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-|   composite_rank | gene     |   codon_length |   taxa_count |   psi_score |   z_score |       fdr_q | tier                                |
-|-----------------:|:---------|---------------:|-------------:|------------:|----------:|------------:|:------------------------------------|
-|                1 | HAP1     |            711 |          166 |    0.199542 |   4.68133 | 0.00298323  | Tier 0: Core Bottleneck Transducer  |
-|                1 | GARIN5B  |           1103 |           25 |    0.229177 |   5.47903 | 0.000122101 | Tier 0: Core Bottleneck Transducer  |
-|                2 | MACC1    |            857 |          602 |    0.170404 |   3.89705 | 0.0424687   | Tier 1: Primary Regulatory Effector |
-|                2 | FOXL2NB  |            176 |           27 |    0.204455 |   4.81357 | 0.00211633  | Tier 0: Core Bottleneck Transducer  |
-|                3 | PRSS33   |            294 |          538 |    0.16211  |   3.67379 | 0.0660264   | Tier 1: Primary Regulatory Effector |
-|                4 | MICB     |            425 |          108 |    0.178588 |   4.11733 | 0.0205181   | Tier 1: Primary Regulatory Effector |
-|                5 | PDCD6    |            128 |          707 |    0.150224 |   3.35387 | 0.109193    | Tier 1: Primary Regulatory Effector |
-|                6 | PRAM1    |            838 |          200 |    0.169882 |   3.88298 | 0.0431101   | Tier 1: Primary Regulatory Effector |
-|                7 | FAM90A24 |            521 |          126 |    0.168168 |   3.83685 | 0.0452893   | Tier 1: Primary Regulatory Effector |
-|                7 | MS4A4A   |            240 |          248 |    0.158845 |   3.58591 | 0.0810434   | Tier 1: Primary Regulatory Effector |
-|                8 | KIF25    |            444 |          303 |    0.13857  |   3.04018 | 0.214292    | Tier 1: Primary Regulatory Effector |
-|                8 | FAM90A17 |            491 |          110 |    0.168072 |   3.83427 | 0.0452893   | Tier 1: Primary Regulatory Effector |
-|                9 | MICA     |            316 |          133 |    0.151251 |   3.38149 | 0.10617     | Tier 1: Primary Regulatory Effector |
-|                9 | FAM90A12 |            496 |          120 |    0.162302 |   3.67897 | 0.0657618   | Tier 1: Primary Regulatory Effector |
-|               10 | GSTA3    |            222 |           97 |    0.149322 |   3.32959 | 0.115493    | Tier 1: Primary Regulatory Effector |
+
+| Rank | Gene Symbol | Codons | Taxa | Selection Score (Ψ) | Z-Score | Composite Rank | FDR q-Value | Functional Tier |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **HAP1** | 711 | 166 | 0.1995 | 7.06 | #1 | 8.27e-09 | Tier 0: Core Bottleneck Transducer |
+| 2 | **MACC1** | 857 | 602 | 0.1704 | 5.72 | #2 | 1.52e-05 | Tier 0: Core Bottleneck Transducer |
+| 3 | **MICB** | 425 | 108 | 0.1786 | 6.09 | #3 | 2.69e-06 | Tier 0: Core Bottleneck Transducer |
+| 4 | **PRSS33** | 294 | 538 | 0.1621 | 5.34 | #4 | 5.81e-05 | Tier 0: Core Bottleneck Transducer |
+| 5 | **PRAM1** | 838 | 200 | 0.1699 | 5.69 | #5 | 1.52e-05 | Tier 0: Core Bottleneck Transducer |
+| 6 | **FAM90A24** | 521 | 126 | 0.1682 | 5.62 | #6 | 1.65e-05 | Tier 0: Core Bottleneck Transducer |
+| 7 | **PDCD6** | 128 | 707 | 0.1502 | 4.79 | #7 | 3.72e-04 | Tier 0: Core Bottleneck Transducer |
+| 8 | **FAM90A17** | 491 | 110 | 0.1681 | 5.61 | #8 | 1.65e-05 | Tier 0: Core Bottleneck Transducer |
+| 9 | **MS4A4A** | 240 | 248 | 0.1588 | 5.19 | #9 | 9.56e-05 | Tier 0: Core Bottleneck Transducer |
+| 10 | **FAM90A12** | 496 | 120 | 0.1623 | 5.35 | #10 | 5.81e-05 | Tier 0: Core Bottleneck Transducer |
+| 11 | **KIF25** | 444 | 303 | 0.1386 | 4.25 | #11 | 0.0033 | Tier 0: Core Bottleneck Transducer |
+| 12 | **MICA** | 316 | 133 | 0.1513 | 4.84 | #12 | 3.40e-04 | Tier 0: Core Bottleneck Transducer |
+| 13 | **FAM90A16** | 498 | 116 | 0.1598 | 5.23 | #13 | 9.27e-05 | Tier 0: Core Bottleneck Transducer |
+| 14 | **RSU1** | 278 | 678 | 0.1299 | 3.86 | #14 | 0.0139 | Tier 0: Core Bottleneck Transducer |
+| 15 | **FAM90A8** | 497 | 112 | 0.1593 | 5.21 | #15 | 9.45e-05 | Tier 0: Core Bottleneck Transducer |
 
 ---
 
@@ -70,7 +71,7 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
-1. Trait DISC_FOREGUT_FERMENTATION (Pre-Gastric Foregut Fermentation & Acid-Stable Lysozyme) screened across N=17,130 mammalian orthologs in sample size N=8 species.
+1. Trait DISC_FOREGUT_FERMENTATION (Pre-Gastric Foregut Fermentation & Acid-Stable Lysozyme) screened across N=9,803 mammalian orthologs in sample size N=8 species.
 2. Genomic inflation factor lambda_GC = 0.7508, demonstrating rigorous calibration across mammalian phylogeny.
 3. Genome-wide screening identified 53 significant loci at FDR q <= 0.05 and 27 loci at FDR q <= 0.01.
 4. Top discovery locus is HAP1 (Rank #1, Psi = 0.1995, Z = 4.68, q = 2.98e-03).

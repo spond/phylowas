@@ -26,23 +26,24 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-|   composite_rank | gene    |   codon_length |   taxa_count |   psi_score |   z_score |      fdr_q | tier                                       |
-|-----------------:|:--------|---------------:|-------------:|------------:|----------:|-----------:|:-------------------------------------------|
-|                1 | CLEC4E  |            244 |          692 |   0.158315  |   4.96997 | 0.00191181 | Tier 0: Core Bottleneck Transducer         |
-|                2 | SDCCAG8 |            747 |          681 |   0.127507  |   3.91457 | 0.04681    | Tier 1: Primary Regulatory Effector        |
-|                2 | NT5DC4  |            435 |          129 |   0.145346  |   4.52567 | 0.00644558 | Tier 0: Core Bottleneck Transducer         |
-|                3 | H3C2    |            220 |          392 |   0.0982082 |   2.9109  | 0.298239   | Tier 1: Primary Regulatory Effector        |
-|                4 | ACTL8   |            403 |          621 |   0.126992  |   3.89695 | 0.0476764  | Tier 1: Primary Regulatory Effector        |
-|                4 | NEK5    |            903 |          544 |   0.110749  |   3.34051 | 0.161846   | Tier 1: Primary Regulatory Effector        |
-|                5 | NIT1    |            306 |          577 |   0.125617  |   3.84985 | 0.0540365  | Tier 2: Physiological Homeostasis Modifier |
-|                5 | NLGN4X  |            830 |          445 |   0.0892193 |   2.60296 | 0.453382   | Tier 1: Primary Regulatory Effector        |
-|                6 | P3R3URF |            145 |          712 |   0.123944  |   3.79253 | 0.0654984  | Tier 1: Primary Regulatory Effector        |
-|                6 | OR4P4   |            359 |          243 |   0.0949258 |   2.79845 | 0.337494   | Tier 1: Primary Regulatory Effector        |
-|                7 | UGGT2   |           1553 |          623 |   0.089219  |   2.60295 | 0.453382   | Tier 1: Primary Regulatory Effector        |
-|                7 | IFNW1   |            217 |           95 |   0.115518  |   3.50389 | 0.116366   | Tier 3: Peripheral Omnibus Modifier        |
-|                8 | CYC1    |            340 |          694 |   0.101181  |   3.01272 | 0.253892   | Tier 1: Primary Regulatory Effector        |
-|                8 | PRKAB2  |            278 |          693 |   0.115461  |   3.50191 | 0.116366   | Tier 1: Primary Regulatory Effector        |
-|                9 | SULT1C2 |            302 |          524 |   0.0774477 |   2.19971 | 0.70308    | Tier 1: Primary Regulatory Effector        |
+
+| Rank | Gene Symbol | Codons | Taxa | Selection Score (Ψ) | Z-Score | Composite Rank | FDR q-Value | Functional Tier |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **CLEC4E** | 244 | 692 | 0.1583 | 5.49 | #1 | 3.08e-04 | Tier 0: Core Bottleneck Transducer |
+| 2 | **SDCCAG8** | 747 | 681 | 0.1275 | 4.28 | #2 | 0.0378 | Tier 0: Core Bottleneck Transducer |
+| 3 | **NT5DC4** | 435 | 129 | 0.1453 | 4.98 | #3 | 0.0024 | Tier 0: Core Bottleneck Transducer |
+| 4 | **H3C2** | 220 | 392 | 0.0982 | 3.14 | #4 | 0.3871 | Tier 0: Core Bottleneck Transducer |
+| 5 | **NEK5** | 903 | 544 | 0.1107 | 3.63 | #5 | 0.1938 | Tier 0: Core Bottleneck Transducer |
+| 6 | **ACTL8** | 403 | 621 | 0.1270 | 4.26 | #6 | 0.0378 | Tier 0: Core Bottleneck Transducer |
+| 7 | **NLGN4X** | 830 | 445 | 0.0892 | 2.79 | #7 | 0.5332 | Tier 0: Core Bottleneck Transducer |
+| 8 | **NIT1** | 306 | 577 | 0.1256 | 4.21 | #8 | 0.0384 | Tier 0: Core Bottleneck Transducer |
+| 9 | **P3R3URF** | 145 | 712 | 0.1239 | 4.14 | #9 | 0.0426 | Tier 0: Core Bottleneck Transducer |
+| 10 | **OR4P4** | 359 | 243 | 0.0949 | 3.01 | #10 | 0.4229 | Tier 0: Core Bottleneck Transducer |
+| 11 | **PRKAB2** | 278 | 693 | 0.1155 | 3.81 | #11 | 0.1249 | Tier 0: Core Bottleneck Transducer |
+| 12 | **UGGT2** | 1,553 | 623 | 0.0892 | 2.79 | #12 | 0.5332 | Tier 0: Core Bottleneck Transducer |
+| 13 | **CYC1** | 340 | 694 | 0.1012 | 3.26 | #13 | 0.3029 | Tier 0: Core Bottleneck Transducer |
+| 14 | **TPSD1** | 253 | 130 | 0.1152 | 3.80 | #14 | 0.1249 | Tier 0: Core Bottleneck Transducer |
+| 15 | **SULT1C2** | 302 | 524 | 0.0774 | 2.33 | #15 | 0.7705 | Tier 0: Core Bottleneck Transducer |
 
 ---
 
@@ -74,7 +75,7 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
-1. Trait DISC_SUBTERRANEAN_VISION_LOSS (Subcutaneous Eye Regression & Blind Microphthalmia) screened across N=17,130 mammalian orthologs in sample size N=8 species.
+1. Trait DISC_SUBTERRANEAN_VISION_LOSS (Subcutaneous Eye Regression & Blind Microphthalmia) screened across N=14,986 mammalian orthologs in sample size N=8 species.
 2. Genomic inflation factor lambda_GC = 0.4837, demonstrating rigorous calibration across mammalian phylogeny.
 3. Genome-wide screening identified 35 significant loci at FDR q <= 0.05 and 18 loci at FDR q <= 0.01.
 4. Top discovery locus is CLEC4E (Rank #1, Psi = 0.1583, Z = 4.97, q = 1.91e-03).

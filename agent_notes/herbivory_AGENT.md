@@ -26,23 +26,24 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-|   composite_rank | gene      |   codon_length |   taxa_count |   psi_score |   z_score |       fdr_q | tier                                       |
-|-----------------:|:----------|---------------:|-------------:|------------:|----------:|------------:|:-------------------------------------------|
-|                1 | KIR2DL3   |            341 |           46 |  0.0463144  |  23.5542  | 4.28275e-47 | Tier 0: Core Bottleneck Transducer         |
-|                1 | OR6C3     |            311 |          211 |  0.00917944 |   4.01488 | 0.0060649   | Tier 0: Core Bottleneck Transducer         |
-|                2 | SHC2      |            769 |          523 |  0.00898823 |   3.91427 | 0.00892778  | Tier 0: Core Bottleneck Transducer         |
-|                2 | CST2      |            147 |           36 |  0.0361936  |  18.2289  | 4.28275e-47 | Tier 0: Core Bottleneck Transducer         |
-|                3 | CFHR1     |            347 |           49 |  0.0330087  |  16.5532  | 4.28275e-47 | Tier 0: Core Bottleneck Transducer         |
-|                3 | SHROOM2   |           1498 |          462 |  0.0050402  |   1.83693 | 0.999979    | Tier 2: Physiological Homeostasis Modifier |
-|                4 | SMIM10L2A |             79 |          193 |  0.00987473 |   4.38072 | 0.00151225  | Tier 0: Core Bottleneck Transducer         |
-|                4 | DMBT1     |           1193 |           99 |  0.0265396  |  13.1493  | 4.20521e-36 | Tier 0: Core Bottleneck Transducer         |
-|                5 | NUTM2E    |            879 |           54 |  0.0264505  |  13.1024  | 6.83083e-36 | Tier 0: Core Bottleneck Transducer         |
-|                5 | OR4F5     |            329 |          278 |  0.0103381  |   4.62453 | 0.000590068 | Tier 0: Core Bottleneck Transducer         |
-|                6 | CST4      |            155 |           79 |  0.0223498  |  10.9447  | 1.2065e-24  | Tier 0: Core Bottleneck Transducer         |
-|                6 | EXOC3L2   |            845 |          581 |  0.00479656 |   1.70873 | 0.999979    | Tier 2: Physiological Homeostasis Modifier |
-|                7 | GSTA2     |            223 |          115 |  0.021585   |  10.5423  | 7.86903e-23 | Tier 0: Core Bottleneck Transducer         |
-|                7 | H4C2      |            104 |          399 |  0.00521566 |   1.92925 | 0.999979    | Tier 2: Physiological Homeostasis Modifier |
-|                8 | KHDC1     |            170 |          162 |  0.0214553  |  10.4741  | 1.49778e-22 | Tier 0: Core Bottleneck Transducer         |
+
+| Rank | Gene Symbol | Codons | Taxa | Selection Score (Ψ) | Z-Score | Composite Rank | FDR q-Value | Functional Tier |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **OR6C3** | 311 | 211 | 0.0092 | 4.71 | #1 | 3.92e-04 | Tier 0: Core Bottleneck Transducer |
+| 2 | **GSTA2** | 223 | 115 | 0.0216 | 12.37 | #2 | 3.09e-31 | Tier 0: Core Bottleneck Transducer |
+| 3 | **SHC2** | 769 | 523 | 0.0090 | 4.59 | #3 | 6.69e-04 | Tier 0: Core Bottleneck Transducer |
+| 4 | **KHDC1** | 170 | 162 | 0.0215 | 12.29 | #4 | 4.17e-31 | Tier 0: Core Bottleneck Transducer |
+| 5 | **SHROOM2** | 1,498 | 462 | 0.0050 | 2.16 | #5 | 0.8773 | Tier 0: Core Bottleneck Transducer |
+| 6 | **SIGLEC11** | 714 | 111 | 0.0195 | 11.06 | #6 | 5.30e-25 | Tier 0: Core Bottleneck Transducer |
+| 7 | **SMIM10L2A** | 79 | 193 | 0.0099 | 5.14 | #7 | 5.24e-05 | Tier 0: Core Bottleneck Transducer |
+| 8 | **RBP1** | 198 | 143 | 0.0192 | 10.87 | #8 | 3.34e-24 | Tier 0: Core Bottleneck Transducer |
+| 9 | **OR4F5** | 329 | 278 | 0.0103 | 5.43 | #9 | 1.51e-05 | Tier 0: Core Bottleneck Transducer |
+| 10 | **GSTA1** | 231 | 124 | 0.0189 | 10.73 | #10 | 1.23e-23 | Tier 0: Core Bottleneck Transducer |
+| 11 | **OXCT2** | 559 | 140 | 0.0163 | 9.11 | #11 | 1.15e-16 | Tier 0: Core Bottleneck Transducer |
+| 12 | **EXOC3L2** | 845 | 581 | 0.0048 | 2.01 | #12 | 0.8773 | Tier 0: Core Bottleneck Transducer |
+| 13 | **H4C2** | 104 | 399 | 0.0052 | 2.26 | #13 | 0.8047 | Tier 0: Core Bottleneck Transducer |
+| 14 | **OR8B3** | 322 | 116 | 0.0162 | 9.03 | #14 | 2.00e-16 | Tier 0: Core Bottleneck Transducer |
+| 15 | **RPGRIP1** | 1,377 | 312 | 0.0100 | 5.23 | #15 | 3.70e-05 | Tier 0: Core Bottleneck Transducer |
 
 ---
 
@@ -58,7 +59,7 @@ No external disease/pathway benchmark assigned for this trait.
 ---
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
-1. Trait DISC_HERBIVORY (Herbivorous Trophic Specialization) screened across N=17,131 mammalian orthologs in sample size N=158 species.
+1. Trait DISC_HERBIVORY (Herbivorous Trophic Specialization) screened across N=16,920 mammalian orthologs in sample size N=158 species.
 2. Genomic inflation factor lambda_GC = 0.2920, demonstrating rigorous calibration across mammalian phylogeny.
 3. Genome-wide screening identified 214 significant loci at FDR q <= 0.05 and 176 loci at FDR q <= 0.01.
 4. Top discovery locus is KIR2DL3 (Rank #1, Psi = 0.0463, Z = 23.55, q = 4.28e-47).

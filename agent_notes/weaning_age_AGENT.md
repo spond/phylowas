@@ -26,23 +26,24 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-|   composite_rank | gene         |   codon_length |   taxa_count |   psi_score |   z_score |       fdr_q | tier                               |
-|-----------------:|:-------------|---------------:|-------------:|------------:|----------:|------------:|:-----------------------------------|
-|                1 | LOC112267855 |            288 |           52 |   0.0724099 |   8.26288 | 6.08992e-13 | Tier 0: Core Bottleneck Transducer |
-|                2 | SPATA31D3    |            956 |           63 |   0.0693438 |   7.77501 | 2.15405e-11 | Tier 0: Core Bottleneck Transducer |
-|                3 | FNDC4        |            235 |           64 |   0.0673122 |   7.45172 | 1.57828e-10 | Tier 0: Core Bottleneck Transducer |
-|                4 | BTNL3        |            488 |           47 |   0.0660033 |   7.24344 | 5.35262e-10 | Tier 0: Core Bottleneck Transducer |
-|                5 | SPATA31D4    |            969 |           55 |   0.0644411 |   6.99487 | 3.03225e-09 | Tier 0: Core Bottleneck Transducer |
-|                6 | TTLL2        |            600 |          124 |   0.0636086 |   6.8624  | 6.82349e-09 | Tier 0: Core Bottleneck Transducer |
-|                7 | TSPYL6       |            435 |          144 |   0.0630827 |   6.77871 | 1.15403e-08 | Tier 0: Core Bottleneck Transducer |
-|                8 | GYPC         |            128 |           92 |   0.0570555 |   5.81966 | 2.46391e-06 | Tier 0: Core Bottleneck Transducer |
-|                9 | CTSV         |            335 |          151 |   0.0569418 |   5.80156 | 2.55799e-06 | Tier 0: Core Bottleneck Transducer |
-|               10 | CST2         |            147 |           36 |   0.0566641 |   5.75737 | 3.22686e-06 | Tier 0: Core Bottleneck Transducer |
-|               11 | NEK4         |            889 |          161 |   0.0566492 |   5.75499 | 3.22686e-06 | Tier 0: Core Bottleneck Transducer |
-|               12 | SP100        |            894 |           68 |   0.0565234 |   5.73498 | 3.40963e-06 | Tier 0: Core Bottleneck Transducer |
-|               13 | ITLN1        |            330 |          173 |   0.0563565 |   5.70842 | 3.8303e-06  | Tier 0: Core Bottleneck Transducer |
-|               14 | SSX2         |            203 |           78 |   0.0559759 |   5.64786 | 5.35199e-06 | Tier 0: Core Bottleneck Transducer |
-|               15 | OR5AN1       |            397 |          139 |   0.0550066 |   5.49363 | 1.16303e-05 | Tier 0: Core Bottleneck Transducer |
+
+| Rank | Gene Symbol | Codons | Taxa | Selection Score (Ψ) | Z-Score | Composite Rank | FDR q-Value | Functional Tier |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **TTLL2** | 600 | 124 | 0.0636 | 7.27 | #1 | 2.99e-09 | Tier 0: Core Bottleneck Transducer |
+| 2 | **TSPYL6** | 435 | 144 | 0.0631 | 7.18 | #2 | 2.99e-09 | Tier 0: Core Bottleneck Transducer |
+| 3 | **CTSV** | 335 | 151 | 0.0569 | 6.14 | #3 | 2.30e-06 | Tier 0: Core Bottleneck Transducer |
+| 4 | **NEK4** | 889 | 161 | 0.0566 | 6.09 | #4 | 2.35e-06 | Tier 0: Core Bottleneck Transducer |
+| 5 | **ITLN1** | 330 | 173 | 0.0564 | 6.04 | #5 | 2.55e-06 | Tier 0: Core Bottleneck Transducer |
+| 6 | **OR5AN1** | 397 | 139 | 0.0550 | 5.82 | #6 | 8.51e-06 | Tier 0: Core Bottleneck Transducer |
+| 7 | **CST5** | 176 | 118 | 0.0541 | 5.66 | #7 | 1.86e-05 | Tier 0: Core Bottleneck Transducer |
+| 8 | **OR13C2** | 321 | 140 | 0.0538 | 5.62 | #8 | 2.03e-05 | Tier 0: Core Bottleneck Transducer |
+| 9 | **CTSL** | 336 | 123 | 0.0530 | 5.48 | #9 | 3.98e-05 | Tier 0: Core Bottleneck Transducer |
+| 10 | **OR10H3** | 317 | 109 | 0.0522 | 5.34 | #10 | 7.77e-05 | Tier 0: Core Bottleneck Transducer |
+| 11 | **HOPX** | 89 | 150 | 0.0520 | 5.31 | #11 | 8.55e-05 | Tier 0: Core Bottleneck Transducer |
+| 12 | **CARD18** | 97 | 131 | 0.0518 | 5.28 | #12 | 8.94e-05 | Tier 0: Core Bottleneck Transducer |
+| 13 | **AHI1** | 1,233 | 181 | 0.0518 | 5.27 | #13 | 8.94e-05 | Tier 0: Core Bottleneck Transducer |
+| 14 | **OOSP1** | 193 | 335 | 0.0511 | 5.16 | #14 | 1.45e-04 | Tier 0: Core Bottleneck Transducer |
+| 15 | **OR4C11** | 348 | 233 | 0.0510 | 5.14 | #15 | 1.54e-04 | Tier 0: Core Bottleneck Transducer |
 
 ---
 
@@ -58,7 +59,7 @@ No external disease/pathway benchmark assigned for this trait.
 ---
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
-1. Trait CONT_WEANINGAGE_D_ALLOMETRIC_RESIDUAL (Weaning Age (days) (Allometric Residual)) screened across N=17,131 mammalian orthologs in sample size N=431 species.
+1. Trait CONT_WEANINGAGE_D_ALLOMETRIC_RESIDUAL (Weaning Age (days) (Allometric Residual)) screened across N=16,921 mammalian orthologs in sample size N=431 species.
 2. Genomic inflation factor lambda_GC = 0.0913, demonstrating rigorous calibration across mammalian phylogeny.
 3. Genome-wide screening identified 447 significant loci at FDR q <= 0.05 and 261 loci at FDR q <= 0.01.
 4. Top discovery locus is LOC112267855 (Rank #1, Psi = 0.0724, Z = 8.26, q = 6.09e-13).

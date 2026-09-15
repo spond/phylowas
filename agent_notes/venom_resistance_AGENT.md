@@ -26,23 +26,24 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-|   composite_rank | gene     |   codon_length |   taxa_count |   psi_score |   z_score |       fdr_q | tier                                       |
-|-----------------:|:---------|---------------:|-------------:|------------:|----------:|------------:|:-------------------------------------------|
-|                1 | FAM193A  |           1610 |          557 |   0.108151  |   3.65405 | 0.0701874   | Tier 1: Primary Regulatory Effector        |
-|                1 | PRDM9    |           1097 |           42 |   0.153452  |   5.53193 | 0.00013564  | Tier 0: Core Bottleneck Transducer         |
-|                2 | PCDHGA3  |           1035 |          584 |   0.0749955 |   2.27968 | 0.500915    | Tier 1: Primary Regulatory Effector        |
-|                2 | NUTM2E   |            879 |           54 |   0.14674   |   5.25369 | 0.000510753 | Tier 0: Core Bottleneck Transducer         |
-|                3 | C4orf51  |            233 |          611 |   0.0783482 |   2.41866 | 0.43284     | Tier 1: Primary Regulatory Effector        |
-|                3 | NUTM2A   |            571 |           52 |   0.141506  |   5.03673 | 0.00101401  | Tier 0: Core Bottleneck Transducer         |
-|                4 | SIRPD    |            200 |          299 |   0.0759751 |   2.32029 | 0.485508    | Tier 1: Primary Regulatory Effector        |
-|                4 | UCN3     |            173 |          696 |   0.131137  |   4.60691 | 0.00466726  | Tier 0: Core Bottleneck Transducer         |
-|                5 | BPIFB4   |            637 |          642 |   0.0721916 |   2.16345 | 0.570989    | Tier 1: Primary Regulatory Effector        |
-|                5 | MCTS1    |            181 |          681 |   0.111846  |   3.80722 | 0.0446608   | Tier 1: Primary Regulatory Effector        |
-|                6 | GCA      |            237 |          709 |   0.110819  |   3.76465 | 0.0519446   | Tier 2: Physiological Homeostasis Modifier |
-|                6 | MYH1     |           2003 |          502 |   0.0639466 |   1.82167 | 0.783834    | Tier 1: Primary Regulatory Effector        |
-|                7 | CD300E   |            224 |          468 |   0.0829373 |   2.60889 | 0.355962    | Tier 1: Primary Regulatory Effector        |
-|                7 | MGST3    |            167 |          713 |   0.108866  |   3.68371 | 0.0667388   | Tier 2: Physiological Homeostasis Modifier |
-|                8 | KRTAP2-4 |            165 |          466 |   0.0728199 |   2.18949 | 0.547258    | Tier 1: Primary Regulatory Effector        |
+
+| Rank | Gene Symbol | Codons | Taxa | Selection Score (Ψ) | Z-Score | Composite Rank | FDR q-Value | Functional Tier |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **FAM193A** | 1,610 | 557 | 0.1082 | 4.12 | #1 | 0.0526 | Tier 0: Core Bottleneck Transducer |
+| 2 | **UCN3** | 173 | 696 | 0.1311 | 5.27 | #2 | 9.89e-04 | Tier 0: Core Bottleneck Transducer |
+| 3 | **PCDHGA3** | 1,035 | 584 | 0.0750 | 2.48 | #3 | 0.6063 | Tier 0: Core Bottleneck Transducer |
+| 4 | **MCTS1** | 181 | 681 | 0.1118 | 4.31 | #4 | 0.0489 | Tier 0: Core Bottleneck Transducer |
+| 5 | **C4orf51** | 233 | 611 | 0.0783 | 2.65 | #5 | 0.5598 | Tier 0: Core Bottleneck Transducer |
+| 6 | **GCA** | 237 | 709 | 0.1108 | 4.26 | #6 | 0.0489 | Tier 0: Core Bottleneck Transducer |
+| 7 | **SIRPD** | 200 | 299 | 0.0760 | 2.53 | #7 | 0.5977 | Tier 0: Core Bottleneck Transducer |
+| 8 | **MGST3** | 167 | 713 | 0.1089 | 4.16 | #8 | 0.0526 | Tier 0: Core Bottleneck Transducer |
+| 9 | **BPIFB4** | 637 | 642 | 0.0722 | 2.34 | #9 | 0.7295 | Tier 0: Core Bottleneck Transducer |
+| 10 | **ACSF3** | 615 | 647 | 0.1051 | 3.97 | #10 | 0.0838 | Tier 0: Core Bottleneck Transducer |
+| 11 | **MYH1** | 2,003 | 502 | 0.0639 | 1.93 | #11 | 0.8697 | Tier 0: Core Bottleneck Transducer |
+| 12 | **CD300E** | 224 | 468 | 0.0829 | 2.87 | #12 | 0.4384 | Tier 0: Core Bottleneck Transducer |
+| 13 | **AJUBA** | 557 | 696 | 0.1033 | 3.88 | #13 | 0.1047 | Tier 0: Core Bottleneck Transducer |
+| 14 | **NUTM2G** | 515 | 215 | 0.1005 | 3.74 | #14 | 0.1613 | Tier 0: Core Bottleneck Transducer |
+| 15 | **KRTAP2-4** | 165 | 466 | 0.0728 | 2.37 | #15 | 0.6901 | Tier 0: Core Bottleneck Transducer |
 
 ---
 
@@ -71,7 +72,7 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
-1. Trait DISC_VENOM_RESISTANCE (Natural Neurotoxin & Scorpion/Snake Venom Resistance) screened across N=17,130 mammalian orthologs in sample size N=7 species.
+1. Trait DISC_VENOM_RESISTANCE (Natural Neurotoxin & Scorpion/Snake Venom Resistance) screened across N=14,145 mammalian orthologs in sample size N=7 species.
 2. Genomic inflation factor lambda_GC = 0.4549, demonstrating rigorous calibration across mammalian phylogeny.
 3. Genome-wide screening identified 54 significant loci at FDR q <= 0.05 and 18 loci at FDR q <= 0.01.
 4. Top discovery locus is FAM193A (Rank #1, Psi = 0.1082, Z = 3.65, q = 7.02e-02).

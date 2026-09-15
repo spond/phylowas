@@ -26,23 +26,24 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-|   composite_rank | gene    |   codon_length |   taxa_count |   psi_score |   z_score |     fdr_q | tier                                       |
-|-----------------:|:--------|---------------:|-------------:|------------:|----------:|----------:|:-------------------------------------------|
-|                1 | TNFSF18 |            188 |          719 |    0.21441  |   4.93749 | 0.0045185 | Tier 0: Core Bottleneck Transducer         |
-|                2 | MLLT11  |             93 |          719 |    0.134052 |   2.78394 | 0.398245  | Tier 1: Primary Regulatory Effector        |
-|                2 | PRSS8   |            372 |          656 |    0.176841 |   3.93067 | 0.0423721 | Tier 1: Primary Regulatory Effector        |
-|                3 | FAM227A |            698 |          623 |    0.130481 |   2.68825 | 0.465086  | Tier 1: Primary Regulatory Effector        |
-|                3 | ASNS    |            568 |          701 |    0.170353 |   3.7568  | 0.0701917 | Tier 2: Physiological Homeostasis Modifier |
-|                4 | GASK1B  |            543 |          701 |    0.166148 |   3.6441  | 0.0820014 | Tier 2: Physiological Homeostasis Modifier |
-|                4 | C8orf89 |            180 |          687 |    0.132213 |   2.73466 | 0.432342  | Tier 1: Primary Regulatory Effector        |
-|                5 | MPLKIP  |            192 |          702 |    0.132545 |   2.74357 | 0.428425  | Tier 1: Primary Regulatory Effector        |
-|                5 | PIERCE2 |            121 |          697 |    0.163384 |   3.57003 | 0.0927483 | Tier 2: Physiological Homeostasis Modifier |
-|                6 | APC2    |           2555 |          595 |    0.115033 |   2.27424 | 0.728777  | Tier 1: Primary Regulatory Effector        |
-|                6 | PPDPF   |            126 |          636 |    0.163107 |   3.56261 | 0.0927483 | Tier 2: Physiological Homeostasis Modifier |
-|                7 | LY6E    |            139 |          685 |    0.162938 |   3.55807 | 0.0927483 | Tier 2: Physiological Homeostasis Modifier |
-|                7 | GUCA1B  |            205 |          683 |    0.140489 |   2.95646 | 0.317308  | Tier 1: Primary Regulatory Effector        |
-|                8 | MYO1H   |           1043 |          638 |    0.108327 |   2.09454 | 0.846269  | Tier 1: Primary Regulatory Effector        |
-|                8 | HRCT1   |            162 |          697 |    0.155463 |   3.35776 | 0.146309  | Tier 2: Physiological Homeostasis Modifier |
+
+| Rank | Gene Symbol | Codons | Taxa | Selection Score (Ψ) | Z-Score | Composite Rank | FDR q-Value | Functional Tier |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **TNFSF18** | 188 | 719 | 0.2144 | 5.44 | #1 | 4.18e-04 | Tier 0: Core Bottleneck Transducer |
+| 2 | **MLLT11** | 93 | 719 | 0.1341 | 3.00 | #2 | 0.9009 | Tier 0: Core Bottleneck Transducer |
+| 3 | **PRSS8** | 372 | 656 | 0.1768 | 4.30 | #3 | 0.0672 | Tier 0: Core Bottleneck Transducer |
+| 4 | **FAM227A** | 698 | 623 | 0.1305 | 2.89 | #4 | 0.9009 | Tier 0: Core Bottleneck Transducer |
+| 5 | **ASNS** | 568 | 701 | 0.1704 | 4.10 | #5 | 0.1070 | Tier 0: Core Bottleneck Transducer |
+| 6 | **C8orf89** | 180 | 687 | 0.1322 | 2.95 | #6 | 0.9009 | Tier 0: Core Bottleneck Transducer |
+| 7 | **GASK1B** | 543 | 701 | 0.1661 | 3.98 | #7 | 0.1185 | Tier 0: Core Bottleneck Transducer |
+| 8 | **MPLKIP** | 192 | 702 | 0.1325 | 2.96 | #8 | 0.9009 | Tier 0: Core Bottleneck Transducer |
+| 9 | **PIERCE2** | 121 | 697 | 0.1634 | 3.89 | #9 | 0.1185 | Tier 0: Core Bottleneck Transducer |
+| 10 | **APC2** | 2,555 | 595 | 0.1150 | 2.43 | #10 | 0.9009 | Tier 0: Core Bottleneck Transducer |
+| 11 | **PPDPF** | 126 | 636 | 0.1631 | 3.88 | #11 | 0.1185 | Tier 0: Core Bottleneck Transducer |
+| 12 | **GUCA1B** | 205 | 683 | 0.1405 | 3.20 | #12 | 0.6447 | Tier 0: Core Bottleneck Transducer |
+| 13 | **LY6E** | 139 | 685 | 0.1629 | 3.88 | #13 | 0.1185 | Tier 0: Core Bottleneck Transducer |
+| 14 | **MYO1H** | 1,043 | 638 | 0.1083 | 2.22 | #14 | 0.9009 | Tier 0: Core Bottleneck Transducer |
+| 15 | **HRCT1** | 162 | 697 | 0.1555 | 3.65 | #15 | 0.2571 | Tier 0: Core Bottleneck Transducer |
 
 ---
 
@@ -72,7 +73,7 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
-1. Trait DISC_PHYSICAL_BODY_ARMOR (Dermal Armor, Osteoderms & Modified Spines / Quills) screened across N=17,130 mammalian orthologs in sample size N=13 species.
+1. Trait DISC_PHYSICAL_BODY_ARMOR (Dermal Armor, Osteoderms & Modified Spines / Quills) screened across N=15,825 mammalian orthologs in sample size N=13 species.
 2. Genomic inflation factor lambda_GC = 0.9016, demonstrating rigorous calibration across mammalian phylogeny.
 3. Genome-wide screening identified 37 significant loci at FDR q <= 0.05 and 7 loci at FDR q <= 0.01.
 4. Top discovery locus is TNFSF18 (Rank #1, Psi = 0.2144, Z = 4.94, q = 4.52e-03).

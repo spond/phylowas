@@ -26,23 +26,24 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-|   composite_rank | gene            |   codon_length |   taxa_count |   psi_score |   z_score |       fdr_q | tier                                       |
-|-----------------:|:----------------|---------------:|-------------:|------------:|----------:|------------:|:-------------------------------------------|
-|                1 | IFITM1          |            136 |           70 |  0.0456515  |  18.1827  | 1.7131e-47  | Tier 0: Core Bottleneck Transducer         |
-|                1 | HOPX            |             89 |          150 |  0.0126855  |   5.15576 | 4.24739e-05 | Tier 0: Core Bottleneck Transducer         |
-|                2 | TMEM271         |            387 |           39 |  0.0454226  |  18.0922  | 1.7131e-47  | Tier 0: Core Bottleneck Transducer         |
-|                2 | OR2T11          |            320 |          253 |  0.0138176  |   5.60314 | 4.14111e-06 | Tier 0: Core Bottleneck Transducer         |
-|                3 | MGAT4D          |            381 |          601 |  0.0105757  |   4.32205 | 0.0017271   | Tier 0: Core Bottleneck Transducer         |
-|                3 | RNF224          |            159 |           47 |  0.0411106  |  16.3883  | 1.7131e-47  | Tier 0: Core Bottleneck Transducer         |
-|                4 | PKD1L2          |            320 |          538 |  0.00979274 |   4.01265 | 0.00571427  | Tier 0: Core Bottleneck Transducer         |
-|                4 | FAM90A1         |            467 |          151 |  0.0407959  |  16.2639  | 1.7131e-47  | Tier 0: Core Bottleneck Transducer         |
-|                5 | ENSG00000287156 |            163 |           63 |  0.0399229  |  15.919   | 1.7131e-47  | Tier 0: Core Bottleneck Transducer         |
-|                5 | BLOC1S1         |            154 |          411 |  0.00976388 |   4.00124 | 0.00596376  | Tier 0: Core Bottleneck Transducer         |
-|                6 | SP100           |            894 |           68 |  0.0398052  |  15.8724  | 1.7131e-47  | Tier 0: Core Bottleneck Transducer         |
-|                6 | C12orf60        |            320 |          560 |  0.00955694 |   3.91947 | 0.00804386  | Tier 0: Core Bottleneck Transducer         |
-|                7 | IFI27L1         |            125 |          102 |  0.00727557 |   3.01796 | 0.152493    | Tier 2: Physiological Homeostasis Modifier |
-|                7 | FAM90A26        |            475 |          146 |  0.0350563  |  13.9958  | 2.5735e-41  | Tier 0: Core Bottleneck Transducer         |
-|                8 | LOC105375012    |            112 |           53 |  0.0338082  |  13.5026  | 2.15374e-38 | Tier 0: Core Bottleneck Transducer         |
+
+| Rank | Gene Symbol | Codons | Taxa | Selection Score (Ψ) | Z-Score | Composite Rank | FDR q-Value | Functional Tier |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **HOPX** | 89 | 150 | 0.0127 | 5.92 | #1 | 4.89e-07 | Tier 0: Core Bottleneck Transducer |
+| 2 | **FAM90A1** | 467 | 151 | 0.0408 | 19.46 | #2 | 4.32e-47 | Tier 0: Core Bottleneck Transducer |
+| 3 | **OR2T11** | 320 | 253 | 0.0138 | 6.47 | #3 | 1.79e-08 | Tier 0: Core Bottleneck Transducer |
+| 4 | **OR2G6** | 330 | 231 | 0.0294 | 13.99 | #4 | 1.99e-41 | Tier 0: Core Bottleneck Transducer |
+| 5 | **MGAT4D** | 381 | 601 | 0.0106 | 4.91 | #5 | 8.02e-05 | Tier 0: Core Bottleneck Transducer |
+| 6 | **CPHXL2** | 471 | 151 | 0.0256 | 12.17 | #6 | 3.43e-31 | Tier 0: Core Bottleneck Transducer |
+| 7 | **PKD1L2** | 320 | 538 | 0.0098 | 4.53 | #7 | 4.27e-04 | Tier 0: Core Bottleneck Transducer |
+| 8 | **NT5DC4** | 435 | 129 | 0.0228 | 10.79 | #8 | 2.18e-24 | Tier 0: Core Bottleneck Transducer |
+| 9 | **BLOC1S1** | 154 | 411 | 0.0098 | 4.52 | #9 | 4.41e-04 | Tier 0: Core Bottleneck Transducer |
+| 10 | **FAM90A24** | 521 | 126 | 0.0209 | 9.89 | #10 | 2.07e-20 | Tier 0: Core Bottleneck Transducer |
+| 11 | **C12orf60** | 320 | 560 | 0.0096 | 4.42 | #11 | 6.60e-04 | Tier 0: Core Bottleneck Transducer |
+| 12 | **HBG2** | 150 | 286 | 0.0169 | 7.96 | #12 | 6.04e-13 | Tier 0: Core Bottleneck Transducer |
+| 13 | **MBD3L3** | 209 | 152 | 0.0164 | 7.70 | #13 | 4.08e-12 | Tier 0: Core Bottleneck Transducer |
+| 14 | **IFI27L1** | 125 | 102 | 0.0073 | 3.32 | #14 | 0.0334 | Tier 0: Core Bottleneck Transducer |
+| 15 | **SERPINA1** | 479 | 338 | 0.0039 | 1.70 | #15 | 0.7596 | Tier 0: Core Bottleneck Transducer |
 
 ---
 
@@ -74,7 +75,7 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
-1. Trait DISC_SUBTERRANEAN (Subterranean / Fossorial Hypoxia Adaptation) screened across N=17,131 mammalian orthologs in sample size N=8 species.
+1. Trait DISC_SUBTERRANEAN (Subterranean / Fossorial Hypoxia Adaptation) screened across N=4,320 mammalian orthologs in sample size N=8 species.
 2. Genomic inflation factor lambda_GC = 0.0444, demonstrating rigorous calibration across mammalian phylogeny.
 3. Genome-wide screening identified 233 significant loci at FDR q <= 0.05 and 193 loci at FDR q <= 0.01.
 4. Top discovery locus is IFITM1 (Rank #1, Psi = 0.0457, Z = 18.18, q = 1.71e-47).

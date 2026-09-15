@@ -26,23 +26,24 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-|   composite_rank | gene     |   codon_length |   taxa_count |   psi_score |   z_score |       fdr_q | tier                                |
-|-----------------:|:---------|---------------:|-------------:|------------:|----------:|------------:|:------------------------------------|
-|                1 | HYAL3    |            421 |          682 |    0.170702 |   5.28136 | 0.000732188 | Tier 0: Core Bottleneck Transducer  |
-|                2 | FGL2     |            470 |          708 |    0.15767  |   4.85172 | 0.00524166  | Tier 0: Core Bottleneck Transducer  |
-|                2 | CEP295NL |            528 |          241 |    0.134655 |   4.09291 | 0.0364864   | Tier 1: Primary Regulatory Effector |
-|                3 | SERPINC1 |            481 |          715 |    0.126296 |   3.81735 | 0.0679616   | Tier 1: Primary Regulatory Effector |
-|                3 | ASTL     |            482 |          658 |    0.1392   |   4.24277 | 0.0277545   | Tier 1: Primary Regulatory Effector |
-|                4 | SQLE     |            621 |          712 |    0.120709 |   3.63315 | 0.0792474   | Tier 1: Primary Regulatory Effector |
-|                5 | IZUMO1R  |            262 |          702 |    0.133818 |   4.06532 | 0.0379266   | Tier 1: Primary Regulatory Effector |
-|                6 | DNASE2B  |            373 |          686 |    0.129625 |   3.92708 | 0.0531592   | Tier 1: Primary Regulatory Effector |
-|                6 | TM2D2    |            219 |          716 |    0.132171 |   4.01104 | 0.0450241   | Tier 1: Primary Regulatory Effector |
-|                7 | ENO2     |            450 |          705 |    0.121021 |   3.64342 | 0.0792474   | Tier 1: Primary Regulatory Effector |
-|                8 | CST7     |            148 |          707 |    0.12959  |   3.92595 | 0.0531592   | Tier 1: Primary Regulatory Effector |
-|                8 | TNNC1    |            161 |          717 |    0.12168  |   3.66515 | 0.0792474   | Tier 1: Primary Regulatory Effector |
-|                9 | CYSLTR2  |            363 |          679 |    0.129548 |   3.92455 | 0.0531592   | Tier 1: Primary Regulatory Effector |
-|                9 | RRP36    |            292 |          707 |    0.115083 |   3.44766 | 0.11219     | Tier 1: Primary Regulatory Effector |
-|               10 | MSANTD2  |            609 |          643 |    0.108188 |   3.22034 | 0.169586    | Tier 1: Primary Regulatory Effector |
+
+| Rank | Gene Symbol | Codons | Taxa | Selection Score (Ψ) | Z-Score | Composite Rank | FDR q-Value | Functional Tier |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **HYAL3** | 421 | 682 | 0.1707 | 6.51 | #1 | 4.23e-07 | Tier 0: Core Bottleneck Transducer |
+| 2 | **CEP295NL** | 528 | 241 | 0.1347 | 4.91 | #2 | 0.0012 | Tier 0: Core Bottleneck Transducer |
+| 3 | **FGL2** | 470 | 708 | 0.1577 | 5.93 | #3 | 8.38e-06 | Tier 0: Core Bottleneck Transducer |
+| 4 | **SERPINC1** | 481 | 715 | 0.1263 | 4.54 | #4 | 0.0031 | Tier 0: Core Bottleneck Transducer |
+| 5 | **ASTL** | 482 | 658 | 0.1392 | 5.11 | #5 | 5.90e-04 | Tier 0: Core Bottleneck Transducer |
+| 6 | **SQLE** | 621 | 712 | 0.1207 | 4.29 | #6 | 0.0054 | Tier 0: Core Bottleneck Transducer |
+| 7 | **IZUMO1R** | 262 | 702 | 0.1338 | 4.87 | #7 | 0.0012 | Tier 0: Core Bottleneck Transducer |
+| 8 | **DNASE2B** | 373 | 686 | 0.1296 | 4.69 | #8 | 0.0017 | Tier 0: Core Bottleneck Transducer |
+| 9 | **TM2D2** | 219 | 716 | 0.1322 | 4.80 | #9 | 0.0015 | Tier 0: Core Bottleneck Transducer |
+| 10 | **ENO2** | 450 | 705 | 0.1210 | 4.31 | #10 | 0.0054 | Tier 0: Core Bottleneck Transducer |
+| 11 | **TNNC1** | 161 | 717 | 0.1217 | 4.34 | #11 | 0.0052 | Tier 0: Core Bottleneck Transducer |
+| 12 | **CST7** | 148 | 707 | 0.1296 | 4.69 | #12 | 0.0017 | Tier 0: Core Bottleneck Transducer |
+| 13 | **CYSLTR2** | 363 | 679 | 0.1295 | 4.68 | #13 | 0.0017 | Tier 0: Core Bottleneck Transducer |
+| 14 | **RRP36** | 292 | 707 | 0.1151 | 4.04 | #14 | 0.0113 | Tier 0: Core Bottleneck Transducer |
+| 15 | **MSANTD2** | 609 | 643 | 0.1082 | 3.74 | #15 | 0.0303 | Tier 0: Core Bottleneck Transducer |
 
 ---
 
@@ -58,7 +59,7 @@ No external disease/pathway benchmark assigned for this trait.
 ---
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
-1. Trait DISC_BIPEDAL_SALTATION (Bipedal Saltatory Hopping Locomotion) screened across N=17,130 mammalian orthologs in sample size N=8 species.
+1. Trait DISC_BIPEDAL_SALTATION (Bipedal Saltatory Hopping Locomotion) screened across N=11,127 mammalian orthologs in sample size N=8 species.
 2. Genomic inflation factor lambda_GC = 0.5972, demonstrating rigorous calibration across mammalian phylogeny.
 3. Genome-wide screening identified 25 significant loci at FDR q <= 0.05 and 5 loci at FDR q <= 0.01.
 4. Top discovery locus is HYAL3 (Rank #1, Psi = 0.1707, Z = 5.28, q = 7.32e-04).

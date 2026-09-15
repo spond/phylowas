@@ -26,23 +26,24 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-|   composite_rank | gene         |   codon_length |   taxa_count |   psi_score |   z_score |       fdr_q | tier                                       |
-|-----------------:|:-------------|---------------:|-------------:|------------:|----------:|------------:|:-------------------------------------------|
-|                1 | SP140L       |            583 |           38 |  0.037425   |  28.9022  | 1.31777e-47 | Tier 0: Core Bottleneck Transducer         |
-|                1 | DCAF12L1     |            532 |          444 |  0.0043894  |   3.24819 | 0.0921114   | Tier 2: Physiological Homeostasis Modifier |
-|                2 | NXF3         |            602 |          267 |  0.00243444 |   1.73005 | 0.999979    | Tier 2: Physiological Homeostasis Modifier |
-|                2 | OR8B3        |            322 |          116 |  0.0237198  |  18.2594  | 1.31777e-47 | Tier 0: Core Bottleneck Transducer         |
-|                3 | LOC124902601 |            354 |          143 |  0.0220554  |  16.9669  | 1.31777e-47 | Tier 0: Core Bottleneck Transducer         |
-|                3 | NEK4         |            889 |          161 |  0.01608    |  12.3266  | 5.31437e-32 | Tier 0: Core Bottleneck Transducer         |
-|                4 | CD163L1      |           1480 |          121 |  0.0208896  |  16.0616  | 1.31777e-47 | Tier 0: Core Bottleneck Transducer         |
-|                4 | H3-7         |            136 |          427 |  0.00375483 |   2.75541 | 0.356094    | Tier 2: Physiological Homeostasis Modifier |
-|                5 | H3C13        |            136 |          425 |  0.00376599 |   2.76408 | 0.348007    | Tier 2: Physiological Homeostasis Modifier |
-|                5 | C6orf15      |            500 |          115 |  0.0201508  |  15.4879  | 1.31777e-47 | Tier 0: Core Bottleneck Transducer         |
-|                6 | LOC124900338 |            200 |           46 |  0.0199008  |  15.2937  | 1.31777e-47 | Tier 0: Core Bottleneck Transducer         |
-|                6 | OR8B2        |            325 |          125 |  0.0150315  |  11.5124  | 7.52853e-28 | Tier 0: Core Bottleneck Transducer         |
-|                7 | LOC124900844 |            196 |           72 |  0.019846   |  15.2511  | 1.31777e-47 | Tier 0: Core Bottleneck Transducer         |
-|                7 | SPDYE14      |            281 |          242 |  0.0046352  |   3.43907 | 0.0499976   | Tier 1: Primary Regulatory Effector        |
-|                8 | PYHIN1       |            582 |          149 |  0.0192791  |  14.8109  | 1.52447e-46 | Tier 0: Core Bottleneck Transducer         |
+
+| Rank | Gene Symbol | Codons | Taxa | Selection Score (Ψ) | Z-Score | Composite Rank | FDR q-Value | Functional Tier |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **OR8B3** | 322 | 116 | 0.0237 | 26.99 | #1 | 2.07e-47 | Tier 0: Core Bottleneck Transducer |
+| 2 | **DCAF12L1** | 532 | 444 | 0.0044 | 4.76 | #2 | 2.52e-04 | Tier 0: Core Bottleneck Transducer |
+| 3 | **NXF3** | 602 | 267 | 0.0024 | 2.51 | #3 | 0.5164 | Tier 0: Core Bottleneck Transducer |
+| 4 | **LOC124902601** | 354 | 143 | 0.0221 | 25.07 | #4 | 2.07e-47 | Tier 0: Core Bottleneck Transducer |
+| 5 | **NEK4** | 889 | 161 | 0.0161 | 18.20 | #5 | 2.07e-47 | Tier 0: Core Bottleneck Transducer |
+| 6 | **CD163L1** | 1,480 | 121 | 0.0209 | 23.73 | #6 | 2.07e-47 | Tier 0: Core Bottleneck Transducer |
+| 7 | **H3-7** | 136 | 427 | 0.0038 | 4.03 | #7 | 0.0056 | Tier 0: Core Bottleneck Transducer |
+| 8 | **C6orf15** | 500 | 115 | 0.0202 | 22.88 | #8 | 2.07e-47 | Tier 0: Core Bottleneck Transducer |
+| 9 | **H3C13** | 136 | 425 | 0.0038 | 4.04 | #9 | 0.0054 | Tier 0: Core Bottleneck Transducer |
+| 10 | **TTLL2** | 600 | 124 | 0.0161 | 18.26 | #10 | 2.07e-47 | Tier 0: Core Bottleneck Transducer |
+| 11 | **OR8B2** | 325 | 125 | 0.0150 | 17.00 | #11 | 2.07e-47 | Tier 0: Core Bottleneck Transducer |
+| 12 | **SPDYE14** | 281 | 242 | 0.0046 | 5.04 | #12 | 6.48e-05 | Tier 0: Core Bottleneck Transducer |
+| 13 | **H2BC10** | 126 | 194 | 0.0136 | 15.33 | #13 | 2.07e-47 | Tier 0: Core Bottleneck Transducer |
+| 14 | **ATP1A4** | 1,060 | 622 | 0.0013 | 1.24 | #14 | 0.7945 | Tier 0: Core Bottleneck Transducer |
+| 15 | **H2BC26** | 128 | 418 | 0.0031 | 3.25 | #15 | 0.0807 | Tier 0: Core Bottleneck Transducer |
 
 ---
 
@@ -74,7 +75,7 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
-1. Trait DISC_AQUATIC_MARINE (Aquatic / Marine Diving Adaptation) screened across N=17,131 mammalian orthologs in sample size N=20 species.
+1. Trait DISC_AQUATIC_MARINE (Aquatic / Marine Diving Adaptation) screened across N=16,567 mammalian orthologs in sample size N=20 species.
 2. Genomic inflation factor lambda_GC = 0.0583, demonstrating rigorous calibration across mammalian phylogeny.
 3. Genome-wide screening identified 200 significant loci at FDR q <= 0.05 and 168 loci at FDR q <= 0.01.
 4. Top discovery locus is SP140L (Rank #1, Psi = 0.0374, Z = 28.90, q = 1.32e-47).

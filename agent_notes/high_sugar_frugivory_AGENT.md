@@ -26,23 +26,24 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-|   composite_rank | gene         |   codon_length |   taxa_count |   psi_score |   z_score |    fdr_q | tier                                |
-|-----------------:|:-------------|---------------:|-------------:|------------:|----------:|---------:|:------------------------------------|
-|                1 | PIGX         |            268 |          682 |   0.144134  |   4.57867 | 0.031338 | Tier 1: Primary Regulatory Effector |
-|                1 | IGSF21       |            475 |          625 |   0.115814  |   3.6419  | 0.128777 | Tier 1: Primary Regulatory Effector |
-|                2 | NLRP2        |           1071 |          150 |   0.107521  |   3.36761 | 0.209494 | Tier 1: Primary Regulatory Effector |
-|                2 | IFT46        |            342 |          696 |   0.140852  |   4.47011 | 0.031338 | Tier 1: Primary Regulatory Effector |
-|                3 | LOC102723934 |            559 |           49 |   0.139833  |   4.43641 | 0.031338 | Tier 1: Primary Regulatory Effector |
-|                4 | ADAM15       |            905 |          693 |   0.105793  |   3.31042 | 0.216324 | Tier 1: Primary Regulatory Effector |
-|                5 | SULF1        |            930 |          688 |   0.114404  |   3.59525 | 0.146956 | Tier 1: Primary Regulatory Effector |
-|                5 | TAS2R46      |            373 |          105 |   0.103804  |   3.24464 | 0.254992 | Tier 1: Primary Regulatory Effector |
-|                6 | SLCO5A1      |            918 |          661 |   0.112706  |   3.53911 | 0.167737 | Tier 1: Primary Regulatory Effector |
-|                7 | FNDC3B       |           1215 |          673 |   0.0996027 |   3.10567 | 0.287799 | Tier 1: Primary Regulatory Effector |
-|                7 | DAZAP2       |            174 |          682 |   0.111676  |   3.50502 | 0.168557 | Tier 3: Peripheral Omnibus Modifier |
-|                8 | CAPN1        |            801 |          671 |   0.0990929 |   3.08881 | 0.296282 | Tier 1: Primary Regulatory Effector |
-|                8 | CDC25A       |            580 |          696 |   0.110054  |   3.45139 | 0.180256 | Tier 1: Primary Regulatory Effector |
-|                9 | RCOR3        |            573 |          623 |   0.0962649 |   2.99526 | 0.324536 | Tier 1: Primary Regulatory Effector |
-|                9 | RALGPS1      |            560 |          704 |   0.109151  |   3.4215  | 0.18431  | Tier 1: Primary Regulatory Effector |
+
+| Rank | Gene Symbol | Codons | Taxa | Selection Score (Ψ) | Z-Score | Composite Rank | FDR q-Value | Functional Tier |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **PIGX** | 268 | 682 | 0.1441 | 5.64 | #1 | 4.15e-05 | Tier 0: Core Bottleneck Transducer |
+| 1 | **IGSF21** | 475 | 625 | 0.1158 | 4.25 | #1 | 0.0180 | Tier 0: Core Bottleneck Transducer |
+| 3 | **NLRP2** | 1,071 | 150 | 0.1075 | 3.84 | #3 | 0.0320 | Tier 0: Core Bottleneck Transducer |
+| 4 | **IFT46** | 342 | 696 | 0.1409 | 5.48 | #4 | 5.24e-05 | Tier 0: Core Bottleneck Transducer |
+| 5 | **ADAM15** | 905 | 693 | 0.1058 | 3.75 | #5 | 0.0320 | Tier 0: Core Bottleneck Transducer |
+| 6 | **SULF1** | 930 | 688 | 0.1144 | 4.18 | #6 | 0.0184 | Tier 0: Core Bottleneck Transducer |
+| 7 | **SLCO5A1** | 918 | 661 | 0.1127 | 4.10 | #7 | 0.0212 | Tier 0: Core Bottleneck Transducer |
+| 8 | **TAS2R46** | 373 | 105 | 0.1038 | 3.66 | #8 | 0.0428 | Tier 0: Core Bottleneck Transducer |
+| 9 | **CDC25A** | 580 | 696 | 0.1101 | 3.96 | #9 | 0.0307 | Tier 0: Core Bottleneck Transducer |
+| 10 | **FNDC3B** | 1,215 | 673 | 0.0996 | 3.45 | #10 | 0.0564 | Tier 0: Core Bottleneck Transducer |
+| 11 | **RALGPS1** | 560 | 704 | 0.1092 | 3.92 | #11 | 0.0317 | Tier 0: Core Bottleneck Transducer |
+| 12 | **CAPN1** | 801 | 671 | 0.0991 | 3.42 | #12 | 0.0578 | Tier 0: Core Bottleneck Transducer |
+| 13 | **RCOR3** | 573 | 623 | 0.0963 | 3.28 | #13 | 0.0664 | Tier 0: Core Bottleneck Transducer |
+| 14 | **OR10G9** | 317 | 104 | 0.1062 | 3.78 | #14 | 0.0320 | Tier 0: Core Bottleneck Transducer |
+| 15 | **TIFA** | 192 | 708 | 0.0989 | 3.41 | #15 | 0.0578 | Tier 0: Core Bottleneck Transducer |
 
 ---
 
@@ -74,7 +75,7 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
-1. Trait DISC_HIGH_SUGAR_FRUGIVORY (Metabolic Hyper-Glucotolerance & Fruit/Nectar Feeding) screened across N=17,130 mammalian orthologs in sample size N=8 species.
+1. Trait DISC_HIGH_SUGAR_FRUGIVORY (Metabolic Hyper-Glucotolerance & Fruit/Nectar Feeding) screened across N=5,019 mammalian orthologs in sample size N=8 species.
 2. Genomic inflation factor lambda_GC = 0.7004, demonstrating rigorous calibration across mammalian phylogeny.
 3. Genome-wide screening identified 5 significant loci at FDR q <= 0.05 and 0 loci at FDR q <= 0.01.
 4. Top discovery locus is PIGX (Rank #1, Psi = 0.1441, Z = 4.58, q = 3.13e-02).
