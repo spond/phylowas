@@ -3449,11 +3449,11 @@
         
 
     
-        <!-- Traditional Pathway Enrichment Section -->
+        <!-- VIF-Adjusted Canonical Pathway Enrichment Section -->
         <section class="content-section">
-          <h2 class="section-title">Canonical Pathway Enrichment Analysis (Top 250 Candidates)</h2>
+          <h2 class="section-title">VIF-Adjusted Canonical Pathway Enrichment (Top 250 Candidates)</h2>
           <p style="color: var(--text-secondary); margin-bottom: 1.25rem;">
-            Fisher's exact test over canonical pathway libraries (KEGG 2021, Reactome 2022, MSigDB Hallmark 2020) measuring functional overrepresentation among the top 250 prioritized candidate loci.
+            Variance Inflation Factor (VIF)-adjusted hypergeometric enrichment test (Gordon Smyth <em>Camera</em> framework) over canonical pathway libraries (KEGG 2021, Reactome 2022, MSigDB Hallmark 2020), rigorously controlling for tandem superfamily covariance and inter-gene background correlation across the top 250 prioritized candidate loci.
           </p>
           <div class="table-card">
             <div class="table-wrapper">
@@ -3465,6 +3465,7 @@
                     <th>Database</th>
                     <th>Gene Overlap</th>
                     <th>Fold Enrichment</th>
+                    <th>VIF (Camera)</th>
                     <th>FDR q-Value</th>
                     <th>Overlapping Candidate Genes</th>
                   </tr>
@@ -3477,6 +3478,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>63</strong> / 393</td>
               <td><span class="pill accent">9.6×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">4.91e-42</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">OR10G7, OR10H3, OR10R2, OR10S1, OR10X1, OR11A1, OR11H6, OR11H7, OR12D2, OR13C2, OR14J1, OR1A1, OR1A2, OR1D2, OR1F1, OR1J4, OR1N1, OR1N2, OR2A1, OR2A14, OR2AP1, OR2AT4, OR2B6, OR2I1P, OR2J1, OR2J2, OR2J3, OR2T1, OR2T2, OR2T35, OR2T6, OR2V1, OR2W1, OR3A1, OR4B1, OR4C11, OR4C13, OR4E1, OR4K15, OR4N5, OR4X1, OR52A1, OR52A5, OR52I2, OR52N1, OR56A4, OR56A5, OR56B1, OR5AK2, OR5AN1, OR5B2, OR5K3, OR5T1, OR5V1, OR5W2, OR6B3, OR6C65, OR6C75, OR6C76, OR6N1, OR6Y1, OR8G1, OR8K3</td>
             </tr>
@@ -3487,6 +3489,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>63</strong> / 401</td>
               <td><span class="pill accent">9.4×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">8.82e-42</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">OR10G7, OR10H3, OR10R2, OR10S1, OR10X1, OR11A1, OR11H6, OR11H7, OR12D2, OR13C2, OR14J1, OR1A1, OR1A2, OR1D2, OR1F1, OR1J4, OR1N1, OR1N2, OR2A1, OR2A14, OR2AP1, OR2AT4, OR2B6, OR2I1P, OR2J1, OR2J2, OR2J3, OR2T1, OR2T2, OR2T35, OR2T6, OR2V1, OR2W1, OR3A1, OR4B1, OR4C11, OR4C13, OR4E1, OR4K15, OR4N5, OR4X1, OR52A1, OR52A5, OR52I2, OR52N1, OR56A4, OR56A5, OR56B1, OR5AK2, OR5AN1, OR5B2, OR5K3, OR5T1, OR5V1, OR5W2, OR6B3, OR6C65, OR6C75, OR6C76, OR6N1, OR6Y1, OR8G1, OR8K3</td>
             </tr>
@@ -3497,6 +3500,7 @@
               <td><span class="badge-db badge-kegg">KEGG</span></td>
               <td><strong>65</strong> / 440</td>
               <td><span class="pill accent">8.9×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.14e-41</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">OR10G7, OR10H3, OR10R2, OR10S1, OR10X1, OR11A1, OR11H12, OR11H6, OR11H7, OR12D2, OR13C2, OR14J1, OR1A1, OR1A2, OR1D2, OR1F1, OR1J4, OR1N1, OR1N2, OR2A1, OR2A14, OR2A42, OR2AP1, OR2AT4, OR2B6, OR2J1, OR2J2, OR2J3, OR2T1, OR2T2, OR2T35, OR2T6, OR2V1, OR2W1, OR3A1, OR4B1, OR4C11, OR4C13, OR4E1, OR4K15, OR4N5, OR4X1, OR52A1, OR52A5, OR52I2, OR52N1, OR56A4, OR56A5, OR56B1, OR5AK2, OR5AN1, OR5B2, OR5K3, OR5T1, OR5V1, OR5W2, OR6B3, OR6C65, OR6C75, OR6C76, OR6N1, OR6Y1, OR8G1, OR8K3, OR9G1</td>
             </tr>
@@ -3507,6 +3511,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>67</strong> / 616</td>
               <td><span class="pill accent">6.5×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.47e-34</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">AKR1B10, OR10G7, OR10H3, OR10R2, OR10S1, OR10X1, OR11A1, OR11H6, OR11H7, OR12D2, OR13C2, OR14J1, OR1A1, OR1A2, OR1D2, OR1F1, OR1J4, OR1N1, OR1N2, OR2A1, OR2A14, OR2AP1, OR2AT4, OR2B6, OR2I1P, OR2J1, OR2J2, OR2J3, OR2T1, OR2T2, OR2T35, OR2T6, OR2V1, OR2W1, OR3A1, OR4B1, OR4C11, OR4C13, OR4E1, OR4K15, OR4N5, OR4X1, OR52A1, OR52A5, OR52I2, OR52N1, OR56A4, OR56A5, OR56B1, OR5AK2, OR5AN1, OR5B2, OR5K3, OR5T1, OR5V1, OR5W2, OR6B3, OR6C65, OR6C75, OR6C76, OR6N1, OR6Y1, OR8G1, OR8K3, SCNN1A, TAS2R14, TAS2R41</td>
             </tr>
@@ -3517,6 +3522,7 @@
               <td><span class="badge-db badge-kegg">KEGG</span></td>
               <td><strong>4</strong> / 28</td>
               <td><span class="pill accent">8.6×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.0516</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">ACSM2A, ACSM2B, ACSM6, OXCT2</td>
             </tr>
@@ -3527,6 +3533,7 @@
               <td><span class="badge-db badge-kegg">KEGG</span></td>
               <td><strong>8</strong> / 135</td>
               <td><span class="pill accent">3.6×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.0726</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">H2AC13, H2AC16, H2AC17, H2BC14, H2BC17, H3C10, HLA-DRB1, HLA-DRB5</td>
             </tr>
@@ -3537,6 +3544,7 @@
               <td><span class="badge-db badge-kegg">KEGG</span></td>
               <td><strong>9</strong> / 189</td>
               <td><span class="pill accent">2.9×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.1456</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">FPR2, FPR3, H2AC13, H2AC16, H2AC17, H2BC14, H2BC17, H3C10, MPO</td>
             </tr>
@@ -3547,6 +3555,7 @@
               <td><span class="badge-db badge-kegg">KEGG</span></td>
               <td><strong>4</strong> / 42</td>
               <td><span class="pill accent">5.7×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.1469</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">HLA-DRB1, HLA-DRB5, KIR2DL3, KIR3DL3</td>
             </tr>
@@ -3557,6 +3566,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 8</td>
               <td><span class="pill accent">15.0×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.1516</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CTSL, CTSV</td>
             </tr>
@@ -3567,6 +3577,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 8</td>
               <td><span class="pill accent">15.0×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.1516</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">ACSM2A, ACSM2B</td>
             </tr>
@@ -3577,6 +3588,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 8</td>
               <td><span class="pill accent">15.0×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.1516</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">FPR2, FPR3</td>
             </tr>
@@ -3587,6 +3599,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 9</td>
               <td><span class="pill accent">13.4×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.1711</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">ACSM2A, ACSM2B</td>
             </tr>
@@ -3597,6 +3610,7 @@
               <td><span class="badge-db badge-kegg">KEGG</span></td>
               <td><strong>5</strong> / 78</td>
               <td><span class="pill accent">3.9×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.1711</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CTSL, HLA-DRB1, HLA-DRB5, KIR2DL3, KIR3DL3</td>
             </tr>
@@ -3607,6 +3621,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 11</td>
               <td><span class="pill accent">10.9×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.2231</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CTSL, CTSV</td>
             </tr>
@@ -3617,6 +3632,7 @@
               <td><span class="badge-db badge-kegg">KEGG</span></td>
               <td><strong>3</strong> / 31</td>
               <td><span class="pill accent">5.8×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.2231</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CCL11, HLA-DRB1, HLA-DRB5</td>
             </tr>
@@ -3627,6 +3643,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>8</strong> / 196</td>
               <td><span class="pill accent">2.5×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.2441</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CCL11, CCL7, FPR2, FPR3, KEL, NTSR2, RXFP4, SSTR4</td>
             </tr>
@@ -3637,6 +3654,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 13</td>
               <td><span class="pill accent">9.2×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.2587</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CTSL, CTSV</td>
             </tr>
@@ -3647,6 +3665,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>3</strong> / 40</td>
               <td><span class="pill accent">4.5×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.3665</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">TAS2R14, TAS2R41, TAS2R60</td>
             </tr>
@@ -3657,6 +3676,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 17</td>
               <td><span class="pill accent">7.1×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.3864</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">HLA-DRB1, HLA-DRB5</td>
             </tr>
@@ -3667,6 +3687,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 20</td>
               <td><span class="pill accent">6.0×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.4526</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">HLA-DRB1, HLA-DRB5</td>
             </tr>
@@ -3677,6 +3698,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>13</strong> / 458</td>
               <td><span class="pill accent">1.7×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.4526</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CCL11, CCL7, FPR2, FPR3, KEL, NTSR2, P2RY13, RXFP4, SSTR4, TAAR6, TAS2R14, TAS2R41, TAS2R60</td>
             </tr>
@@ -3687,6 +3709,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>3</strong> / 47</td>
               <td><span class="pill accent">3.8×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.4526</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">SCNN1A, TAS2R14, TAS2R41</td>
             </tr>
@@ -3697,6 +3720,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 21</td>
               <td><span class="pill accent">5.7×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.4542</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">HLA-DRB1, HLA-DRB5</td>
             </tr>
@@ -3707,6 +3731,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>10</strong> / 327</td>
               <td><span class="pill accent">1.8×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.4542</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CCL11, CCL7, FPR2, FPR3, KEL, NTSR2, P2RY13, RXFP4, SSTR4, TAAR6</td>
             </tr>
@@ -3717,6 +3742,7 @@
               <td><span class="badge-db badge-kegg">KEGG</span></td>
               <td><strong>3</strong> / 50</td>
               <td><span class="pill accent">3.6×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.4645</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GYPC, HBA1, HBA2</td>
             </tr>

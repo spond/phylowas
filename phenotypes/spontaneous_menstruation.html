@@ -3465,11 +3465,11 @@
         
 
     
-        <!-- Traditional Pathway Enrichment Section -->
+        <!-- VIF-Adjusted Canonical Pathway Enrichment Section -->
         <section class="content-section">
-          <h2 class="section-title">Canonical Pathway Enrichment Analysis (Top 250 Candidates)</h2>
+          <h2 class="section-title">VIF-Adjusted Canonical Pathway Enrichment (Top 250 Candidates)</h2>
           <p style="color: var(--text-secondary); margin-bottom: 1.25rem;">
-            Fisher's exact test over canonical pathway libraries (KEGG 2021, Reactome 2022, MSigDB Hallmark 2020) measuring functional overrepresentation among the top 250 prioritized candidate loci.
+            Variance Inflation Factor (VIF)-adjusted hypergeometric enrichment test (Gordon Smyth <em>Camera</em> framework) over canonical pathway libraries (KEGG 2021, Reactome 2022, MSigDB Hallmark 2020), rigorously controlling for tandem superfamily covariance and inter-gene background correlation across the top 250 prioritized candidate loci.
           </p>
           <div class="table-card">
             <div class="table-wrapper">
@@ -3481,6 +3481,7 @@
                     <th>Database</th>
                     <th>Gene Overlap</th>
                     <th>Fold Enrichment</th>
+                    <th>VIF (Camera)</th>
                     <th>FDR q-Value</th>
                     <th>Overlapping Candidate Genes</th>
                   </tr>
@@ -3493,6 +3494,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>4</strong> / 40</td>
               <td><span class="pill accent">6.0×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.4207</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">TAS2R30, TAS2R38, TAS2R46, TAS2R50</td>
             </tr>
@@ -3503,6 +3505,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>4</strong> / 41</td>
               <td><span class="pill accent">5.9×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.4207</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">TAS2R30, TAS2R38, TAS2R46, TAS2R50</td>
             </tr>
@@ -3513,6 +3516,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>4</strong> / 47</td>
               <td><span class="pill accent">5.1×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.4207</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">TAS2R30, TAS2R38, TAS2R46, TAS2R50</td>
             </tr>
@@ -3523,6 +3527,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>3</strong> / 25</td>
               <td><span class="pill accent">7.2×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.4207</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">MCOLN2, TRPM8, TRPV3</td>
             </tr>
@@ -3533,6 +3538,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>9</strong> / 208</td>
               <td><span class="pill accent">2.6×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.4207</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">KRT12, KRTAP1-1, KRTAP1-5, KRTAP12-1, KRTAP17-1, KRTAP19-6, KRTAP9-1, SPRR2G, SPRR3</td>
             </tr>
@@ -3543,6 +3549,7 @@
               <td><span class="badge-db badge-kegg">KEGG</span></td>
               <td><strong>5</strong> / 86</td>
               <td><span class="pill accent">3.5×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.6167</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">PLCB4, TAS2R30, TAS2R38, TAS2R46, TAS2R50</td>
             </tr>
@@ -3553,6 +3560,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 13</td>
               <td><span class="pill accent">9.2×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.7043</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">DDOST, HMGB1</td>
             </tr>
@@ -3563,6 +3571,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>5</strong> / 100</td>
               <td><span class="pill accent">3.0×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.7695</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">ANO7, MCOLN2, TRDN, TRPM8, TRPV3</td>
             </tr>
@@ -3573,6 +3582,7 @@
               <td><span class="badge-db badge-kegg">KEGG</span></td>
               <td><strong>3</strong> / 39</td>
               <td><span class="pill accent">4.6×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">0.7695</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">ALG3, DDOST, MAN1B1</td>
             </tr>
@@ -3583,6 +3593,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 20</td>
               <td><span class="pill accent">6.0×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.0000</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CPSF4, CSTF2</td>
             </tr>
@@ -3593,6 +3604,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 20</td>
               <td><span class="pill accent">6.0×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.0000</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">ALG3, MAN1B1</td>
             </tr>
@@ -3603,6 +3615,7 @@
               <td><span class="badge-db badge-kegg">KEGG</span></td>
               <td><strong>3</strong> / 50</td>
               <td><span class="pill accent">3.6×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.0000</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">ALG3, DDOST, MAN1B1</td>
             </tr>
@@ -3613,6 +3626,7 @@
               <td><span class="badge-db badge-hallmark">Hallmark</span></td>
               <td><strong>3</strong> / 54</td>
               <td><span class="pill accent">3.3×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.0000</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">LEFTY2, RAB31, TGIF1</td>
             </tr>
@@ -3623,6 +3637,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 25</td>
               <td><span class="pill accent">4.8×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.0000</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CNOT10, PAN3</td>
             </tr>
@@ -3633,6 +3648,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>6</strong> / 175</td>
               <td><span class="pill accent">2.1×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.0000</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">ANO7, ATP8A1, MCOLN2, TRDN, TRPM8, TRPV3</td>
             </tr>
@@ -3643,6 +3659,7 @@
               <td><span class="badge-db badge-hallmark">Hallmark</span></td>
               <td><strong>5</strong> / 138</td>
               <td><span class="pill accent">2.2×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.0000</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">C9, GP9, ITGB3, LEFTY2, S100A13</td>
             </tr>
@@ -3653,6 +3670,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>4</strong> / 98</td>
               <td><span class="pill accent">2.5×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.0000</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">EIF2S3, IMPACT, RPL21, RPS14</td>
             </tr>
@@ -3663,6 +3681,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 29</td>
               <td><span class="pill accent">4.2×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.0000</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CPSF4, CSTF2</td>
             </tr>
@@ -3673,6 +3692,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 31</td>
               <td><span class="pill accent">3.9×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.0000</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">BST1, PTGIS</td>
             </tr>
@@ -3683,6 +3703,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>4</strong> / 113</td>
               <td><span class="pill accent">2.1×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.0000</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">FKBP6, KCNU1, PRDM9, SUN2</td>
             </tr>
@@ -3693,6 +3714,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 36</td>
               <td><span class="pill accent">3.3×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.0000</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GP9, ITGB3</td>
             </tr>
@@ -3703,6 +3725,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>2</strong> / 36</td>
               <td><span class="pill accent">3.3×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.0000</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GSTA3, GSTA5</td>
             </tr>
@@ -3713,6 +3736,7 @@
               <td><span class="badge-db badge-kegg">KEGG</span></td>
               <td><strong>3</strong> / 79</td>
               <td><span class="pill accent">2.3×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.0000</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CNOT10, HSPD1, PAN3</td>
             </tr>
@@ -3723,6 +3747,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>4</strong> / 122</td>
               <td><span class="pill accent">2.0×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.0000</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">ALDH1L2, BST1, CBLIF, PTGIS</td>
             </tr>
@@ -3733,6 +3758,7 @@
               <td><span class="badge-db badge-reactome">Reactome</span></td>
               <td><strong>14</strong> / 616</td>
               <td><span class="pill accent">1.4×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
               <td style="font-weight: 600;">1.0000</td>
               <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CABP1, KIF20B, OR1I1, OR2A5, OR2J3, OR4C15, OR51B4, OR5AS1, OR5K4, OR6C65, TAS2R30, TAS2R38, TAS2R46, TAS2R50</td>
             </tr>
