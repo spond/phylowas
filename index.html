@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pan-Mammalian Directional Tensor Phenomics (PhyloWAS) Portal</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        PhyloWAS Portal
+        <span class="brand-badge">VGP 742</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Phenomes Catalog</a></li>
+        <li><a href="matrix.html">Cross-Phenotype Synthesis</a></li>
+        <li><a href="phenotypes/echolocation.html">Flagship Biosonar</a></li>
+        <li><a href="https://github.com/veg/hyphy" target="_blank">HyPhy / HyphAeon</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Directional Foundation Tensors Resolve Convergent Phenotypes</h1>
+      <p>
+        Autonomous directional phenomics powered by precomputed selection-attribution tensors from the 
+        <strong>HyphAeon</strong> foundation model across <strong>742 mammalian genomes</strong>. 
+        Screening 15,035 high-quality orthologs across 27 continuous life-history traits and discrete evolutionary innovations.
+      </p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="#catalog" class="btn btn-primary">Browse All 27 Phenotypes ↓</a>
+        <a href="matrix.html" class="btn btn-secondary">View Pan-Phenotype Matrix →</a>
+        <a href="phenotypes/echolocation.html" class="btn btn-secondary">Flagship Echolocation Study →</a>
+      </div>
+    </section>
+
+    <!-- Key Stats -->
+    <section class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-val">742</div>
+        <div class="stat-lbl">Mammalian Genomes</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">15,035</div>
+        <div class="stat-lbl">Filtered Orthologs</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">27</div>
+        <div class="stat-lbl">Screened Phenotypes</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">0.493</div>
+        <div class="stat-lbl">Flagship λ_GC (Echolocation)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">157</div>
+        <div class="stat-lbl">Multi-Trait Frequent Fliers</div>
+      </div>
+    </section>
+
+    <!-- Flagship Spotlight Card -->
+    <section class="spotlight-card">
+      <div>
+        <span class="spotlight-badge">Flagship Benchmark</span>
+        <h2 class="spotlight-title">Ultrasonic Echolocation in Microbats & Toothed Whales</h2>
+        <p class="spotlight-desc">
+          Decoupled dual-track testing evaluates peak sitewise concordance (Track A, ρ_max) against whole-gene distributed remodeling (Track B, Ψ), 
+          rescuing canonical mechanosensory hearing transducers from severe gene-length dilution.
+        </p>
+        <div class="pill-list">
+          <div class="pill">TMC1 (Track A #1, Comp #1)</div>
+          <div class="pill">CIB2 (Track A #2, Comp #3)</div>
+          <div class="pill">PCDH15 (Track A #3, Comp #5)</div>
+          <div class="pill">Prestin (Track A #10, Comp #19)</div>
+          <div class="pill">LOXHD1 (Track A #12, Comp #23)</div>
+          <div class="pill">MYOM2 (Track A #7, Comp #13)</div>
+        </div>
+        <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+          <a href="phenotypes/echolocation.html" class="btn btn-primary">Open Flagship Biosonar Analysis →</a>
+          <a href="assets/figures/fig_echolocation_screen.pdf" class="btn btn-secondary" target="_blank">Download Vector PDF</a>
+        </div>
+      </div>
+      <div>
+        <img src="assets/figures/fig_echolocation_screen.png" alt="Echolocation Screen Figure" class="spotlight-img zoomable-img">
+      </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section id="catalog">
+      <div class="controls-bar">
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-category="all">All Phenotypes (27)</button><button class="filter-btn" data-category="Continuous Life History">Continuous Life History (9)</button><button class="filter-btn" data-category="Ecological & Trophic">Ecological & Trophic (5)</button><button class="filter-btn" data-category="Extreme Physiology">Extreme Physiology (4)</button><button class="filter-btn" data-category="Morphology & Physiology">Morphology & Physiology (5)</button><button class="filter-btn" data-category="Sensory Innovations">Sensory Innovations (4)</button>
+        </div>
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="catalogSearch" class="search-input" placeholder="Search phenotypes, genes, or keywords...">
+        </div>
+      </div>
+
+      <div class="catalog-grid">
+        
+        <div class="pheno-card" data-category="Sensory Innovations">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete Convergent</span>
+              <span class="cat-badge">Sensory Innovations</span>
+            </div>
+            <span class="spotlight-badge">Flagship Locus</span>
+            <h3 class="card-title"><a href="phenotypes/echolocation.html">Ultrasonic Echolocation (Biosonar)</a></h3>
+            <p class="card-desc">Independent evolution of high-frequency ultrasonic vocal production and specialized cochlear mechanosensation in microbats and odontocetes (toothed whales).</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">23</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.103</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">212</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">15,035</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> ENSG00000286615, PCDHB14, PRAC2, HLA-DQA2, KRTAP20-3, TRAV41
+            </div>
+            <div class="pill accent">Benchmark: OMIM / ClinVar Deafness & Hair Cell Transducers</div>
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/echolocation.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Continuous Life History">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Continuous</span>
+              <span class="cat-badge">Continuous Life History</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/adult_body_mass.html">Adult Body Mass (Scaling & Gigantism)</a></h3>
+            <p class="card-desc">Log10-transformed adult body mass spanning six orders of magnitude across 604 mammalian species from shrews to baleen whales.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">604</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.163</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">351</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,131</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> BTNL3, KIR2DL3, HOPX, ENSG00000304062, LOC124903972, FAM9C
+            </div>
+            <div class="pill accent">Benchmark: IGF1 Signaling & Skeletal Morphogenesis</div>
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/adult_body_mass.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Morphology & Physiology">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete Convergent</span>
+              <span class="cat-badge">Morphology & Physiology</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/bipedal_saltation.html">Bipedal Saltatory Hopping Locomotion</a></h3>
+            <p class="card-desc">Convergent musculoskeletal remodeling and biomechanical elasticity for ricochetal bipedal saltation in macropods, dipodids, and heteromyids.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">8</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.597</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">25</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,130</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> HYAL3, FGL2, CEP295NL, SERPINC1, ASTL, SQLE
+            </div>
+            
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/bipedal_saltation.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Ecological & Trophic">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete</span>
+              <span class="cat-badge">Ecological & Trophic</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/carnivory.html">Carnivorous Trophic Specialization</a></h3>
+            <p class="card-desc">Dietary specialization on vertebrate prey, protein catabolism, and hyper-carnivorous carnassial shear across 143 carnivorous mammals.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">143</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.088</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">190</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,131</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> CTAG2, PCDHB8, PCDHA10, LOC124902898, APOBR, H2BC4
+            </div>
+            
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/carnivory.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Morphology & Physiology">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete Convergent</span>
+              <span class="cat-badge">Morphology & Physiology</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/physical_body_armor.html">Dermal Armor, Osteoderms & Modified Spines</a></h3>
+            <p class="card-desc">Convergent evolution of mechanical defensive integument including keratinous quills, scales, and dermal bone osteoderms in armadillos, pangolins, and hedgehogs.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">13</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.902</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">37</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,130</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> TNFSF18, MLLT11, PRSS8, FAM227A, ASNS, GASK1B
+            </div>
+            <div class="pill accent">Benchmark: Keratin Associated Proteins & Bone Mineralization</div>
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/physical_body_armor.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Sensory Innovations">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete</span>
+              <span class="cat-badge">Sensory Innovations</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/diurnality.html">Diurnal Activity Cycle</a></h3>
+            <p class="card-desc">Re-adaptation to daytime photopic vision, ultraviolet radiation filtration, and daytime activity following the ancestral nocturnal bottleneck.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">123</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.192</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">213</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,131</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> LOC124904583, FOXG1, BTNL3, OR1F1, HSPA1B, SPATA31D4
+            </div>
+            <div class="pill accent">Benchmark: Cone Phototransduction & UV Protection</div>
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/diurnality.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Continuous Life History">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Continuous</span>
+              <span class="cat-badge">Continuous Life History</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/mean_precipitation.html">Environmental Precipitation (mm)</a></h3>
+            <p class="card-desc">Mean annual habitat precipitation across 519 mammalian ranges, capturing osmoregulatory and physiological adaptations to arid versus rainforest environments.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">519</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.110</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">445</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,131</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> BTNL3, TSPYL6, ENSG00000304062, OR56A4, SP100, IFITM1
+            </div>
+            
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/mean_precipitation.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Continuous Life History">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Continuous</span>
+              <span class="cat-badge">Continuous Life History</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/mean_temperature.html">Environmental Temperature (°C)</a></h3>
+            <p class="card-desc">Mean annual environmental temperature across native species ranges capturing cold tolerance and heat dissipation across 483 species.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">483</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.127</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">448</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,131</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> BTNL3, TSPYL6, LOC124903972, PCDHGB3, OR10H3, ENSG00000304062
+            </div>
+            
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/mean_temperature.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Morphology & Physiology">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete Convergent</span>
+              <span class="cat-badge">Morphology & Physiology</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/scar_free_regeneration.html">Epimorphic Scar-Free Skin & Tissue Regeneration</a></h3>
+            <p class="card-desc">Epimorphic blastema formation, extracellular matrix remodeling, and scar-free musculoskeletal regeneration in spiny mice (Acomys).</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">7</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.062</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">141</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,130</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> PSD3, UBE2E2, BAP1, CLSTN1, ICAM1, LAT2
+            </div>
+            <div class="pill accent">Benchmark: Extracellular Matrix Remodeling & Blastema Factors</div>
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/scar_free_regeneration.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Continuous Life History">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Continuous</span>
+              <span class="cat-badge">Continuous Life History</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/geographic_range.html">Geographic Range Size (km²)</a></h3>
+            <p class="card-desc">Log10-transformed geographic distribution area across 520 mammalian species, capturing ecological generalization versus narrow endemism.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">520</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.173</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">386</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,131</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> PRAMEF9, AKR1C4, OR8K5, OR2G6, LAIR2, SPDYE8
+            </div>
+            
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/geographic_range.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Continuous Life History">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Continuous Allometric</span>
+              <span class="cat-badge">Continuous Life History</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/gestation_length.html">Gestation Length (Allometric Residual)</a></h3>
+            <p class="card-desc">Residual prenatal developmental duration after controlling for maternal adult body mass across 491 mammalian species.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">491</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.115</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">394</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,131</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> LOC112267855, ENSG00000304062, TSPYL6, BTNL3, CST5, KRTAP1-1
+            </div>
+            
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/gestation_length.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Ecological & Trophic">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete</span>
+              <span class="cat-badge">Ecological & Trophic</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/herbivory.html">Herbivorous Trophic Specialization</a></h3>
+            <p class="card-desc">Plant forage processing, structural fiber breakdown, and secondary metabolite detoxification across 158 mammalian herbivores.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">158</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.292</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">214</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,131</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> KIR2DL3, OR6C3, SHC2, CST2, CFHR1, SHROOM2
+            </div>
+            
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/herbivory.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Continuous Life History">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Continuous Allometric</span>
+              <span class="cat-badge">Continuous Life History</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/litter_size.html">Litter Size (Allometric Residual)</a></h3>
+            <p class="card-desc">Residual fecundity and offspring number per litter after controlling for maternal adult body mass across 534 mammalian species.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">534</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.084</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">362</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,131</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> NOX5, NLRP13, AKR1C4, FAM240C, TREML4, OR8K5
+            </div>
+            
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/litter_size.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Extreme Physiology">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete Convergent</span>
+              <span class="cat-badge">Extreme Physiology</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/aquatic_marine.html">Marine Diving & Prolonged Apnea</a></h3>
+            <p class="card-desc">Convergent aquatic transitions, prolonged breath-hold apnea, hypoxia tolerance, and hydrostatic pressure resilience in Cetacea, Pinnipedia, and Sirenia.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">20</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.058</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">200</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,131</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> SP140L, DCAF12L1, NXF3, OR8B3, LOC124902601, NEK4
+            </div>
+            <div class="pill accent">Benchmark: Hypoxia Signaling, Myoglobin & Osmoregulation</div>
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/aquatic_marine.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Continuous Life History">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Continuous Allometric</span>
+              <span class="cat-badge">Continuous Life History</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/maximum_lifespan.html">Maximum Lifespan (Allometric Residual)</a></h3>
+            <p class="card-desc">Residual maximum longevity in months after allometric regression against adult body mass across 428 mammalian species, isolating genuine aging deceleration.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">428</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.092</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">469</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,131</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> LOC112267855, SPATA31D4, TSPYL6, BTNL3, CTSV, OR2J3
+            </div>
+            <div class="pill accent">Benchmark: GenAge DNA Double-Strand Repair & Longevity Hubs</div>
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/maximum_lifespan.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Ecological & Trophic">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete Convergent</span>
+              <span class="cat-badge">Ecological & Trophic</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/high_sugar_frugivory.html">Metabolic Hyper-Glucotolerance & Frugivory</a></h3>
+            <p class="card-desc">Adaptive resistance to metabolic syndrome, advanced glycation, and glycemic shocks under high-sugar fruit and nectar diets.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">8</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.700</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">5</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,130</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> PIGX, IGSF21, NLRP2, IFT46, LOC102723934, ADAM15
+            </div>
+            <div class="pill accent">Benchmark: Hexose Transporters & Insulin Signaling</div>
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/high_sugar_frugivory.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Morphology & Physiology">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete Convergent</span>
+              <span class="cat-badge">Morphology & Physiology</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/prehensile_tail.html">Muscular Tactile Prehensile Tail (Fifth Limb)</a></h3>
+            <p class="card-desc">Convergent arboreal grasping tails with specialized ventral friction pads, intrinsic caudal myology, and dedicated somatosensory representation.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">8</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.796</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">28</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,130</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> GARIN5B, ULBP3, SPATC1L, OR5P2, PTPRQ, OR5AS1
+            </div>
+            
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/prehensile_tail.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Extreme Physiology">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete Convergent</span>
+              <span class="cat-badge">Extreme Physiology</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/venom_resistance.html">Natural Neurotoxin & Snake/Scorpion Venom Resistance</a></h3>
+            <p class="card-desc">Convergent steric hindrance mutations in nicotinic acetylcholine receptors and endogenous antiproteases conferring resistance to venomous bites.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">7</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.455</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">54</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,130</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> FAM193A, PRDM9, PCDHGA3, NUTM2E, C4orf51, NUTM2A
+            </div>
+            <div class="pill accent">Benchmark: Nicotinic Receptors & Endogenous Antiproteases</div>
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/venom_resistance.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Sensory Innovations">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete</span>
+              <span class="cat-badge">Sensory Innovations</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/nocturnality.html">Nocturnal Activity Cycle</a></h3>
+            <p class="card-desc">Specialized scotopic rod vision, heightened acoustic/olfactory perception, and night-active physiological regulation in 88 nocturnal mammals.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">88</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.166</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">221</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,131</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> PNMA6F, SHROOM2, DDX3X, APOBR, OR52K2, STH
+            </div>
+            <div class="pill accent">Benchmark: Rod Phototransduction & Rhodopsin Tuning</div>
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/nocturnality.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Ecological & Trophic">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete Convergent</span>
+              <span class="cat-badge">Ecological & Trophic</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/myrmecophagy.html">Obligate Myrmecophagy & Tooth Reduction</a></h3>
+            <p class="card-desc">Convergent ant and termite feeding, chitin breakdown, keratinized stomach linings, and complete enamel regression in edentates and pangolins.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">8</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.559</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">101</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,130</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> TBX22, LRRC14, H3C4, RPS6, KISS1, H2AC1
+            </div>
+            <div class="pill accent">Benchmark: Chitinase Enzymes & Enamel Matrix Loss</div>
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/myrmecophagy.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Ecological & Trophic">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete Convergent</span>
+              <span class="cat-badge">Ecological & Trophic</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/foregut_fermentation.html">Pre-Gastric Foregut Fermentation</a></h3>
+            <p class="card-desc">Evolution of pre-gastric microbial fermentation chambers, acid-stable digestive lysozyme, and mucosal barrier defenses in ruminants, colobines, and macropods.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">8</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.751</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">53</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,130</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> HAP1, GARIN5B, MACC1, FOXL2NB, PRSS33, MICB
+            </div>
+            <div class="pill accent">Benchmark: Digestive Lysozyme & Mucosal Barrier Enzymes</div>
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/foregut_fermentation.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Continuous Life History">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Continuous Allometric</span>
+              <span class="cat-badge">Continuous Life History</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/sexual_maturity_age.html">Sexual Maturity Age (Allometric Residual)</a></h3>
+            <p class="card-desc">Residual age at reproductive sexual maturity after controlling for adult body mass across 424 mammalian species.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">424</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.132</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">560</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,131</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> CST2, SPATA31D3, GYPC, TSPYL6, MRGPRX4, ITLN1
+            </div>
+            
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/sexual_maturity_age.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Morphology & Physiology">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete Convergent</span>
+              <span class="cat-badge">Morphology & Physiology</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/spontaneous_menstruation.html">Spontaneous Decidualization & Menstruation</a></h3>
+            <p class="card-desc">Spontaneous maternal uterine decidualization and cyclical menstruation in higher primates, phyllostomid bats, and elephant shrews.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">18</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.673</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">37</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,130</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> CEACAM18, TP53AIP1, KRTAP9-1, CHAT, STH, MAP3K2
+            </div>
+            
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/spontaneous_menstruation.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Sensory Innovations">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete Convergent</span>
+              <span class="cat-badge">Sensory Innovations</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/subterranean_vision_loss.html">Subterranean Eye Regression & Microphthalmia</a></h3>
+            <p class="card-desc">Convergent subcutaneous ocular regression, lens crystallin pseudogenization, and visual atrophy across eight subterranean fossorial lineages.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">8</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.484</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">35</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,130</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> CLEC4E, SDCCAG8, NT5DC4, H3C2, ACTL8, NEK5
+            </div>
+            <div class="pill accent">Benchmark: RetNet Phototransduction & Lens Crystallins</div>
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/subterranean_vision_loss.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Extreme Physiology">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete Convergent</span>
+              <span class="cat-badge">Extreme Physiology</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/subterranean_hypoxia.html">Subterranean Hypoxia & Hypercapnia Adaptation</a></h3>
+            <p class="card-desc">Physiological tolerance to underground hypoxic and hypercapnic burrows across subterranean rodents, golden moles, and marsupial moles.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">8</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.044</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">233</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,131</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> IFITM1, HOPX, TMEM271, OR2T11, MGAT4D, RNF224
+            </div>
+            
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/subterranean_hypoxia.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Extreme Physiology">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Discrete Convergent</span>
+              <span class="cat-badge">Extreme Physiology</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/hibernation.html">True Hibernation & Metabolic Torpor</a></h3>
+            <p class="card-desc">Multi-day hypothermic metabolic depression, non-shivering thermogenesis, and profound ischemia-reperfusion tolerance across mammalian hibernators.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">8</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.081</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">200</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,131</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> KRTAP2-3, NANOGNB, GSTA5, RPRML, F8A3, GSTA3
+            </div>
+            <div class="pill accent">Benchmark: Brown Adipose Uncoupling & Torpor Metabolism</div>
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/hibernation.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pheno-card" data-category="Continuous Life History">
+          <div class="card-header">
+            <div class="card-badges">
+              <span class="type-badge">Continuous Allometric</span>
+              <span class="cat-badge">Continuous Life History</span>
+            </div>
+            
+            <h3 class="card-title"><a href="phenotypes/weaning_age.html">Weaning Age (Allometric Residual)</a></h3>
+            <p class="card-desc">Residual maternal lactation investment duration after controlling for adult body mass across 431 mammalian species.</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <div class="meta-item">
+                <span class="meta-val">431</span>
+                <span class="meta-lbl">Taxa Sample</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">λ = 0.091</span>
+                <span class="meta-lbl">Inflation (λ_GC)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">447</span>
+                <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-val">17,131</span>
+                <span class="meta-lbl">Orthologs</span>
+              </div>
+            </div>
+            <div class="top-hits-preview">
+              <strong>Top Discoveries:</strong> LOC112267855, SPATA31D3, FNDC4, BTNL3, SPATA31D4, TTLL2
+            </div>
+            
+            <div style="margin-top: 1rem;">
+              <a href="phenotypes/weaning_age.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+                Explore Results & Tables →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+  </main>
+
+  <!-- Image Lightbox Modal -->
+  <div id="imageModal" class="modal">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modalImg">
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div>
+        <strong>Pan-Mammalian Directional Tensor Phenomics (PhyloWAS)</strong><br>
+        Institute for Genomics and Evolutionary Medicine (iGEM), Temple University
+      </div>
+      <div>
+        Published to GitHub Pages &bull; Open Source Data Access &bull; 
+        <a href="https://github.com/veg/hyphy" target="_blank">HyPhy Software Consortium</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

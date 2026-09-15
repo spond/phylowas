@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cross-Phenotype Pan-Mammalian Synthesis Matrix | PhyloWAS Portal</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        PhyloWAS Portal
+        <span class="brand-badge">Synthesis</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Phenomes Catalog</a></li>
+        <li><a href="matrix.html" class="active">Cross-Phenotype Synthesis</a></li>
+        <li><a href="phenotypes/echolocation.html">Flagship Biosonar</a></li>
+        <li><a href="https://github.com/veg/hyphy" target="_blank">HyPhy / HyphAeon</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a> &gt; Cross-Phenotype Synthesis Matrix
+    </div>
+
+    <div class="detail-header">
+      <h1 class="detail-title">Pan-Mammalian Phenotypic Synthesis Matrix</h1>
+      <p style="color: var(--text-secondary); font-size: 1.1rem; max-width: 900px;">
+        Assembling genome-wide directional selection attribution scores across 27 distinct continuous and discrete phenotypes 
+        in 15,035 mammalian orthologs. Hierarchical bi-clustering exposes a fundamental omnigenic bifurcation into 
+        <strong>157 multi-trait frequent fliers</strong> and <strong>dedicated specialist loci</strong>.
+      </p>
+    </div>
+
+    <!-- Matrix Visualization -->
+    <section class="content-section">
+      <h2 class="section-title">Global Synthesis Heatmap (Top 50 Dynamic Loci × 27 Traits)</h2>
+      <div class="figure-container">
+        <img src="assets/figures/fig_pan_phenotype_matrix.png" alt="Pan-Phenotypic Matrix Heatmap" class="figure-img zoomable-img">
+        <div class="figure-caption">
+          <strong>Figure: Pan-Mammalian Phenotypic Synthesis Matrix across 15,035 shared orthologs and 27 macroevolutionary traits.</strong> 
+          Bipartite heatmap of signed statistical attribution exposes the omnigenic division of the mammalian genome into 157 multi-trait frequent fliers 
+          (cellular stress, proteostasis, and redox buffers) and dedicated specialists displaying extreme trait specificity (PSI ≥ 0.75).
+        </div>
+        <div class="figure-actions">
+          <a href="assets/figures/fig_pan_phenotype_matrix.pdf" class="btn btn-primary" target="_blank">Download High-Res Vector PDF</a>
+          <a href="data/synthesis/gene_phenotype_score_matrix.csv" class="btn btn-secondary" download>Download Full Score Matrix CSV (9 MB)</a>
+          <a href="data/synthesis/gene_phenotype_psi_matrix.csv" class="btn btn-secondary" download>Download PSI Specificity Matrix CSV (9 MB)</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Omnigenic Architecture Breakdown -->
+    <section class="content-section">
+      <h2 class="section-title">Omnigenic Architecture: Frequent Fliers vs Dedicated Specialists</h2>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem;">
+        <div style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 0.75rem; padding: 1.5rem;">
+          <h3 style="color: var(--accent-primary); margin-bottom: 0.75rem;">157 Multi-Trait Frequent Fliers</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">
+            Genes exhibiting significant directional selection (q ≤ 0.05) across three or more disparate macroevolutionary transitions. 
+            These loci do not encode phenotype-specific mechanical structures; instead, they function as universal physiological buffers 
+            governing proteostasis, ADP-ribosylation (<strong>PARP15</strong>), circadian pacing (<strong>BMAL2</strong>), 
+            and immune/antigen surveillance (<strong>TRBV24-1</strong>, <strong>CD1C</strong>).
+          </p>
+        </div>
+        <div style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 0.75rem; padding: 1.5rem;">
+          <h3 style="color: var(--accent-orange); margin-bottom: 0.75rem;">Dedicated Specialist Loci (PSI ≥ 0.75)</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">
+            Genes that concentrate virtually all their evolutionary signal within a single phenotype. Dedicated specialists supply 
+            the definitive physical effectors for each niche: <strong>TMC1</strong> and <strong>Prestin</strong> in biosonar, 
+            <strong>MB</strong> in deep diving, <strong>RNASE1</strong> in foregut fermentation, and <strong>UBE2E2</strong> in scar-free regeneration.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Frequent Fliers Interactive Table -->
+    <section class="content-section">
+      <h2 class="section-title">Top Multi-Trait Frequent Flier Loci</h2>
+      <div class="table-card">
+        <div class="table-header-controls">
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="tableSearch" class="search-input" placeholder="Filter frequent flier genes or functions...">
+          </div>
+          <div style="display: flex; gap: 1rem; align-items: center;">
+            <label style="font-size: 0.85rem; color: var(--text-muted);">
+              Show 
+              <select id="pageSize" style="background: var(--bg-tertiary); color: #fff; border: 1px solid var(--border-color); border-radius: 0.25rem; padding: 0.2rem 0.4rem;">
+                <option value="10">10</option>
+                <option value="20" selected>20</option>
+                <option value="50">50</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="table-wrapper">
+          <table id="rankingsTable">
+            <thead>
+              <tr>
+                <th data-col="gene">Gene Symbol</th>
+                <th data-col="count">Significant Traits</th>
+                <th>Top Phenotypes</th>
+                <th>Biological Function / Mechanism</th>
+                <th data-col="psi">Specificity (PSI)</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+        <tr data-gene="PARP15" data-count="9" data-psi="0.38">
+          <td class="gene-cell">PARP15</td>
+          <td><span class="pill accent">9 Phenotypes</span></td>
+          <td>Longevity, Temperature, Precipitation, Biosonar</td>
+          <td>Poly(ADP-ribose) polymerase; cellular stress and retrotransposon defense</td>
+          <td>0.38</td>
+        </tr>
+        
+        <tr data-gene="TRBV24-1" data-count="9" data-psi="0.35">
+          <td class="gene-cell">TRBV24-1</td>
+          <td><span class="pill accent">9 Phenotypes</span></td>
+          <td>Body Mass, Lifespan, Temperature, Subterranean</td>
+          <td>T-cell receptor beta variable segment; immune surveillance</td>
+          <td>0.35</td>
+        </tr>
+        
+        <tr data-gene="FAM240C" data-count="9" data-psi="0.36">
+          <td class="gene-cell">FAM240C</td>
+          <td><span class="pill accent">9 Phenotypes</span></td>
+          <td>Geographic Range, Lifespan, Subterranean, Temperature</td>
+          <td>Conserved nuclear factor; chromatin stability</td>
+          <td>0.36</td>
+        </tr>
+        
+        <tr data-gene="ALPG" data-count="8" data-psi="0.41">
+          <td class="gene-cell">ALPG</td>
+          <td><span class="pill accent">8 Phenotypes</span></td>
+          <td>Body Mass, Gestation, Longevity, Subterranean</td>
+          <td>Alkaline phosphatase; metabolic and placental phosphate transfer</td>
+          <td>0.41</td>
+        </tr>
+        
+        <tr data-gene="BMAL2" data-count="8" data-psi="0.39">
+          <td class="gene-cell">BMAL2</td>
+          <td><span class="pill accent">8 Phenotypes</span></td>
+          <td>Geographic Range, Lifespan, Temperature, Subterranean</td>
+          <td>Circadian clock bHLH-PAS transcription factor</td>
+          <td>0.39</td>
+        </tr>
+        
+        <tr data-gene="CALML6" data-count="8" data-psi="0.44">
+          <td class="gene-cell">CALML6</td>
+          <td><span class="pill accent">8 Phenotypes</span></td>
+          <td>Gestation, Lifespan, Temperature, Myrmecophagy</td>
+          <td>Calmodulin-like calcium sensor; stress signaling</td>
+          <td>0.44</td>
+        </tr>
+        
+        <tr data-gene="SPEGNB" data-count="8" data-psi="0.37">
+          <td class="gene-cell">SPEGNB</td>
+          <td><span class="pill accent">8 Phenotypes</span></td>
+          <td>Geographic Range, Gestation, Lifespan, Precipitation</td>
+          <td>Striated muscle bridge protein; mechanical shear buffer</td>
+          <td>0.37</td>
+        </tr>
+        
+        <tr data-gene="MYL5" data-count="8" data-psi="0.42">
+          <td class="gene-cell">MYL5</td>
+          <td><span class="pill accent">8 Phenotypes</span></td>
+          <td>Geographic Range, Lifespan, Temperature, Precipitation</td>
+          <td>Myosin regulatory light chain; contraction elasticity</td>
+          <td>0.42</td>
+        </tr>
+        
+        <tr data-gene="TAS2R5" data-count="8" data-psi="0.46">
+          <td class="gene-cell">TAS2R5</td>
+          <td><span class="pill accent">8 Phenotypes</span></td>
+          <td>Geographic Range, Gestation, Temperature, Subterranean</td>
+          <td>Bitter taste receptor family; xenobiotic sensory buffer</td>
+          <td>0.46</td>
+        </tr>
+        
+        <tr data-gene="CCNP" data-count="8" data-psi="0.38">
+          <td class="gene-cell">CCNP</td>
+          <td><span class="pill accent">8 Phenotypes</span></td>
+          <td>Geographic Range, Gestation, Lifespan, Temperature</td>
+          <td>Cyclin P; cell cycle checkpoint regulation</td>
+          <td>0.38</td>
+        </tr>
+        
+        <tr data-gene="CD1C" data-count="8" data-psi="0.43">
+          <td class="gene-cell">CD1C</td>
+          <td><span class="pill accent">8 Phenotypes</span></td>
+          <td>Longevity, Diurnality, Echolocation, Nocturnality</td>
+          <td>Lipid-antigen presenting molecule; antimicrobial defense</td>
+          <td>0.43</td>
+        </tr>
+        
+        <tr data-gene="TSNARE1" data-count="8" data-psi="0.4">
+          <td class="gene-cell">TSNARE1</td>
+          <td><span class="pill accent">8 Phenotypes</span></td>
+          <td>Geographic Range, Gestation, Lifespan, Temperature</td>
+          <td>t-SNARE domain protein; vesicle fusion and intracellular trafficking</td>
+          <td>0.40</td>
+        </tr>
+        
+        <tr data-gene="ADAM20" data-count="8" data-psi="0.39">
+          <td class="gene-cell">ADAM20</td>
+          <td><span class="pill accent">8 Phenotypes</span></td>
+          <td>Geographic Range, Litter Size, Longevity, Temperature</td>
+          <td>Disintegrin and metallopeptidase; membrane remodeling</td>
+          <td>0.39</td>
+        </tr>
+        
+        <tr data-gene="RAX2" data-count="8" data-psi="0.45">
+          <td class="gene-cell">RAX2</td>
+          <td><span class="pill accent">8 Phenotypes</span></td>
+          <td>Gestation, Lifespan, Temperature, Subterranean</td>
+          <td>Retinal and anterior neural homeobox transcription factor</td>
+          <td>0.45</td>
+        </tr>
+        
+        <tr data-gene="TRIM52" data-count="8" data-psi="0.37">
+          <td class="gene-cell">TRIM52</td>
+          <td><span class="pill accent">8 Phenotypes</span></td>
+          <td>Geographic Range, Lifespan, Temperature, Weaning</td>
+          <td>Tripartite motif E3 ubiquitin ligase; antiviral response</td>
+          <td>0.37</td>
+        </tr>
+        
+        <tr data-gene="IFI6" data-count="7" data-psi="0.47">
+          <td class="gene-cell">IFI6</td>
+          <td><span class="pill accent">7 Phenotypes</span></td>
+          <td>Gestation, Litter Size, Longevity, Temperature</td>
+          <td>Interferon-alpha inducible protein 6; mitochondrial apoptosis</td>
+          <td>0.47</td>
+        </tr>
+        
+        <tr data-gene="COA1" data-count="7" data-psi="0.44">
+          <td class="gene-cell">COA1</td>
+          <td><span class="pill accent">7 Phenotypes</span></td>
+          <td>Gestation, Litter Size, Longevity, Temperature</td>
+          <td>Cytochrome c oxidase assembly factor 1; mitochondrial respiration</td>
+          <td>0.44</td>
+        </tr>
+        
+        <tr data-gene="CRLF2" data-count="7" data-psi="0.46">
+          <td class="gene-cell">CRLF2</td>
+          <td><span class="pill accent">7 Phenotypes</span></td>
+          <td>Gestation, Litter Size, Longevity, Temperature</td>
+          <td>Cytokine receptor-like factor 2; dendritic cell signaling</td>
+          <td>0.46</td>
+        </tr>
+        
+        <tr data-gene="RBM23" data-count="7" data-psi="0.42">
+          <td class="gene-cell">RBM23</td>
+          <td><span class="pill accent">7 Phenotypes</span></td>
+          <td>Geographic Range, Gestation, Precipitation, Weaning</td>
+          <td>RNA-binding motif protein 23; splicing regulation</td>
+          <td>0.42</td>
+        </tr>
+        
+        <tr data-gene="SMIM42" data-count="7" data-psi="0.41">
+          <td class="gene-cell">SMIM42</td>
+          <td><span class="pill accent">7 Phenotypes</span></td>
+          <td>Gestation, Litter Size, Longevity, Temperature</td>
+          <td>Small integral membrane protein 42</td>
+          <td>0.41</td>
+        </tr>
+        
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination-controls">
+          <span id="pageInfo">Showing entries</span>
+          <div class="pagination-buttons">
+            <button id="prevPage" class="page-btn">Previous</button>
+            <button id="nextPage" class="page-btn">Next</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Image Lightbox Modal -->
+  <div id="imageModal" class="modal">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modalImg">
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div>
+        <strong>PhyloWAS Portal</strong> &bull; Institute for Genomics and Evolutionary Medicine
+      </div>
+      <div>
+        <a href="index.html">Back to Phenomes Catalog</a> &bull; <a href="https://github.com/veg/hyphy" target="_blank">HyPhy Consortium</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
