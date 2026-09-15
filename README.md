@@ -31,9 +31,10 @@ phylowas_portal/
 ├── agent_notes/                # Markdown AGENT.md analysis notes for each phenotype
 ├── data/                       # Downloadable screening CSVs and fast JSON tables
 │   ├── screens/                # Complete genome-wide screen CSV files
-│   ├── json/                   # Top 250 ranked loci JSON for instant web tables
+│   ├── json/                   # Top 250 ranked loci, communities, and pathway JSONs
 │   ├── contrasts/              # Factorial sister-clade contrast matrix CSV
-│   ├── communities/            # APC co-selection epistatic communities CSV
+│   ├── communities/            # APC co-selection epistatic communities CSV (all 27 phenotypes)
+│   ├── pathways/               # Canonical pathway enrichment CSV (all 27 phenotypes)
 │   └── synthesis/              # Gene × phenotype score and specificity matrices
 └── assets/
     ├── css/style.css           # Publication-grade responsive styles

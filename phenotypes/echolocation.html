@@ -98,54 +98,6 @@
             </div>
           </div>
         </section>
-
-        <!-- Co-Evolving Epistatic Communities Section -->
-        <section class="content-section">
-          <h2 class="section-title">Average Product-Corrected (APC) Co-Selection Epistatic Communities</h2>
-          <div class="table-card">
-            <div class="table-wrapper">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Community ID</th>
-                    <th>Size (Genes)</th>
-                    <th>Mean APC Density</th>
-                    <th>Density Z-Score</th>
-                    <th>Statistical p-Value</th>
-                    <th>Functional Characterization & Key Transducers</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="gene-cell" style="color: var(--accent-primary);">Module M1</td>
-                    <td><strong>179 loci</strong></td>
-                    <td>0.0991</td>
-                    <td><span class="pill accent">Z = +57.4</span></td>
-                    <td>&lt; 10⁻¹⁵</td>
-                    <td>
-                      <strong>Core Mechanotransduction Channel Pore & Motor Machinery</strong><br>
-                      Unites core pore transducer <em>TMC1</em>, channel subunit <em>CIB2</em>, outer hair cell piezoelectric motor <em>Prestin</em> (<em>SLC26A5</em>), shaft tensioner <em>LOXHD1</em>, and laryngeal elasticity elastic protein <em>MYOM2</em>.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="gene-cell" style="color: var(--accent-orange);">Module M2</td>
-                    <td><strong>171 loci</strong></td>
-                    <td>0.1088</td>
-                    <td><span class="pill" style="background: rgba(249,115,22,0.2); color: var(--accent-orange);">Z = +60.1</span></td>
-                    <td>&lt; 10⁻¹⁵</td>
-                    <td>
-                      <strong>Stereocilia Tip-Link Tethering & Synaptic Transmission</strong><br>
-                      Unites stereocilia tip-link tether <em>PCDH15</em>, calcium-permeable TRP channel <em>MCOLN3</em>, inner hair cell vesicular glutamate transporter <em>SLC17A8</em>, transmembrane protease <em>TMPRSS3</em>, and stereocilia actin scaffold <em>HOMER2</em>.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div style="margin-top: 1rem;">
-            <a href="../data/communities/echolocation_communities.csv" class="btn btn-secondary" download>Download APC Communities CSV</a>
-          </div>
-        </section>
         
 
     <!-- Interactive Rankings Table -->
@@ -3449,6 +3401,353 @@
         </div>
       </div>
     </section>
+
+    
+        <!-- Co-Evolving Epistatic Communities Section -->
+        <section class="content-section">
+          <h2 class="section-title">Average Product-Corrected (APC) Co-Selection Epistatic Communities</h2>
+          <p style="color: var(--text-secondary); margin-bottom: 1.25rem;">
+            Direct physical and functional co-selection networks extracted via unsupervised modularity optimization of directional tensor co-variance, corrected for phylogenetic background noise (APC).
+          </p>
+          <div class="table-card">
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Community ID</th>
+                    <th>Size (Genes)</th>
+                    <th>Mean APC Density</th>
+                    <th>Density Z-Score</th>
+                    <th>Statistical p-Value</th>
+                    <th>Functional Characterization &amp; Member Loci</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+            <tr>
+              <td class="gene-cell" style="color: var(--accent-primary); font-weight: 700;">Module M1</td>
+              <td><strong>179 loci</strong></td>
+              <td>0.0991</td>
+              <td><span class="pill accent">Z = +57.4</span></td>
+              <td>&lt; 10⁻¹⁵</td>
+              <td style="max-width: 500px; white-space: normal; line-height: 1.4;">
+                <div style='font-size: 0.85rem; color: #fff; margin-bottom: 0.25rem;'><strong>Core Mechanotransduction Channel Pore &amp; Motor Machinery</strong></div>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">TMC1, CIB2, SLC26A5 (Prestin), LOXHD1, MYOM2, ABCB4, ABTB1, ADAMTS6 (+5 more)</span>
+                <details style="margin-top: 0.35rem;">
+                  <summary style="font-size: 0.75rem; color: var(--accent-primary); cursor: pointer;">View all 179 member genes</summary>
+                  <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.35rem; max-height: 120px; overflow-y: auto; background: var(--bg-tertiary); padding: 0.4rem; border-radius: 0.25rem; font-family: var(--font-mono);">TMC1, CIB2, SLC26A5 (Prestin), LOXHD1, MYOM2, ABCB4, ABTB1, ADAMTS6, ADIPOR1, AMIGO1, AMMECR1L, AMPD3, AP1AR (+166 more)</div>
+                </details>
+              </td>
+            </tr>
+            
+            <tr>
+              <td class="gene-cell" style="color: var(--accent-primary); font-weight: 700;">Module M2</td>
+              <td><strong>171 loci</strong></td>
+              <td>0.1088</td>
+              <td><span class="pill accent">Z = +60.1</span></td>
+              <td>&lt; 10⁻¹⁵</td>
+              <td style="max-width: 500px; white-space: normal; line-height: 1.4;">
+                <div style='font-size: 0.85rem; color: #fff; margin-bottom: 0.25rem;'><strong>Stereocilia Tip-Link Tethering &amp; Synaptic Transmission</strong></div>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">PCDH15, MCOLN3, SLC17A8, TMPRSS3, HOMER2, AFF1, AGAP4, AKAP4 (+5 more)</span>
+                <details style="margin-top: 0.35rem;">
+                  <summary style="font-size: 0.75rem; color: var(--accent-primary); cursor: pointer;">View all 171 member genes</summary>
+                  <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.35rem; max-height: 120px; overflow-y: auto; background: var(--bg-tertiary); padding: 0.4rem; border-radius: 0.25rem; font-family: var(--font-mono);">PCDH15, MCOLN3, SLC17A8, TMPRSS3, HOMER2, AFF1, AGAP4, AKAP4, AKR1C8, ALPG, ANKRD34C, ANKRD54, APBB3 (+158 more)</div>
+                </details>
+              </td>
+            </tr>
+            
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div style="margin-top: 1rem;">
+            <a href="../data/communities/echolocation_communities.csv" class="btn btn-secondary" download>Download APC Communities CSV</a>
+          </div>
+        </section>
+        
+
+    
+        <!-- Traditional Pathway Enrichment Section -->
+        <section class="content-section">
+          <h2 class="section-title">Canonical Pathway Enrichment Analysis (Top 250 Candidates)</h2>
+          <p style="color: var(--text-secondary); margin-bottom: 1.25rem;">
+            Fisher's exact test over canonical pathway libraries (KEGG 2021, Reactome 2022, MSigDB Hallmark 2020) measuring functional overrepresentation among the top 250 prioritized candidate loci.
+          </p>
+          <div class="table-card">
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Rank</th>
+                    <th>Pathway Name</th>
+                    <th>Database</th>
+                    <th>Gene Overlap</th>
+                    <th>Fold Enrichment</th>
+                    <th>FDR q-Value</th>
+                    <th>Overlapping Candidate Genes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">1</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Sensory Processing Of Sound By Outer Hair Cells Of Cochlea R-HSA-9662361</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>7</strong> / 53</td>
+              <td><span class="pill accent">7.9×</span></td>
+              <td style="font-weight: 600;">0.0069</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CIB2, EPB41L1, MYO3A, PCDH15, RDX, SLC26A5, TMC1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">2</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Circadian entrainment</td>
+              <td><span class="badge-db badge-kegg">KEGG</span></td>
+              <td><strong>9</strong> / 97</td>
+              <td><span class="pill accent">5.6×</span></td>
+              <td style="font-weight: 600;">0.0069</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CAMK2D, GNB1, GNB2, GNG12, GNG5, KCNJ5, NOS1AP, PRKCA, RASD1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">3</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Sensory Processing Of Sound R-HSA-9659379</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>8</strong> / 75</td>
+              <td><span class="pill accent">6.4×</span></td>
+              <td style="font-weight: 600;">0.0069</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CIB2, EPB41L1, MYO3A, PCDH15, RDX, SLC17A8, SLC26A5, TMC1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">4</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Vasopressin Regulates Renal Water Homeostasis Via Aquaporins R-HSA-432040</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>6</strong> / 42</td>
+              <td><span class="pill accent">8.6×</span></td>
+              <td style="font-weight: 600;">0.0093</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5, NLRP3, PRKCA</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">5</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Activation Of G Protein Gated Potassium Channels R-HSA-1296041</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>5</strong> / 29</td>
+              <td><span class="pill accent">10.4×</span></td>
+              <td style="font-weight: 600;">0.0093</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5, KCNJ5</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">6</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Activation Of Kainate Receptors Upon Glutamate Binding R-HSA-451326</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>5</strong> / 29</td>
+              <td><span class="pill accent">10.4×</span></td>
+              <td style="font-weight: 600;">0.0093</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5, NCALD</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">7</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Sensory Processing Of Sound By Inner Hair Cells Of Cochlea R-HSA-9662360</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>7</strong> / 67</td>
+              <td><span class="pill accent">6.3×</span></td>
+              <td style="font-weight: 600;">0.0093</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CIB2, EPB41L1, MYO3A, PCDH15, RDX, SLC17A8, TMC1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">8</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">G Alpha (Z) Signaling Events R-HSA-418597</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>6</strong> / 47</td>
+              <td><span class="pill accent">7.7×</span></td>
+              <td style="font-weight: 600;">0.0093</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5, PRKCA, RGS4</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">9</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Glucagon Signaling In Metabolic Regulation R-HSA-163359</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>5</strong> / 32</td>
+              <td><span class="pill accent">9.4×</span></td>
+              <td style="font-weight: 600;">0.0100</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5, PRKCA</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">10</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Aquaporin-mediated Transport R-HSA-445717</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>6</strong> / 50</td>
+              <td><span class="pill accent">7.2×</span></td>
+              <td style="font-weight: 600;">0.0100</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5, NLRP3, PRKCA</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">11</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">G Beta:Gamma Signaling Thru BTK R-HSA-8964315</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>4</strong> / 18</td>
+              <td><span class="pill accent">13.4×</span></td>
+              <td style="font-weight: 600;">0.0100</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">12</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Glucagon-type Ligand Receptors R-HSA-420092</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>5</strong> / 33</td>
+              <td><span class="pill accent">9.1×</span></td>
+              <td style="font-weight: 600;">0.0100</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CPAMD8, GNB1, GNB2, GNG12, GNG5</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">13</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Neurotransmitter Receptors And Postsynaptic Signal Transmission R-HSA-112314</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>11</strong> / 182</td>
+              <td><span class="pill accent">3.6×</span></td>
+              <td style="font-weight: 600;">0.0100</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CAMK2D, EPB41L1, GNB1, GNB2, GNG12, GNG5, GPRIN1, HTR3B, KCNJ5, NCALD, PRKCA</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">14</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Prostacyclin Signaling Thru Prostacyclin Receptor R-HSA-392851</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>4</strong> / 19</td>
+              <td><span class="pill accent">12.7×</span></td>
+              <td style="font-weight: 600;">0.0100</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">15</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Transmission Across Chemical Synapses R-HSA-112315</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>13</strong> / 246</td>
+              <td><span class="pill accent">3.2×</span></td>
+              <td style="font-weight: 600;">0.0100</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CAMK2D, EPB41L1, GNB1, GNB2, GNG12, GNG5, GPRIN1, HTR3B, KCNJ5, NCALD, PPFIA1, PRKCA, STXBP1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">16</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Inwardly Rectifying K+ Channels R-HSA-1296065</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>5</strong> / 35</td>
+              <td><span class="pill accent">8.6×</span></td>
+              <td style="font-weight: 600;">0.0100</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5, KCNJ5</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">17</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">G Beta:Gamma Signaling Thru PLC Beta R-HSA-418217</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>4</strong> / 20</td>
+              <td><span class="pill accent">12.0×</span></td>
+              <td style="font-weight: 600;">0.0100</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">18</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">G Beta:Gamma Signaling Thru CDC42 R-HSA-8964616</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>4</strong> / 20</td>
+              <td><span class="pill accent">12.0×</span></td>
+              <td style="font-weight: 600;">0.0100</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">19</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Presynaptic Function Of Kainate Receptors R-HSA-500657</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>4</strong> / 21</td>
+              <td><span class="pill accent">11.5×</span></td>
+              <td style="font-weight: 600;">0.0116</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">20</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">ADP Signaling Thru P2Y Purinoceptor 12 R-HSA-392170</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>4</strong> / 22</td>
+              <td><span class="pill accent">10.9×</span></td>
+              <td style="font-weight: 600;">0.0132</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">21</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Tight junction</td>
+              <td><span class="badge-db badge-kegg">KEGG</span></td>
+              <td><strong>10</strong> / 169</td>
+              <td><span class="pill accent">3.6×</span></td>
+              <td style="font-weight: 600;">0.0148</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CD1A, CD1B, CD1C, CLDN9, MYL2, PPP2CA, RAPGEF2, RDX, TJP1, TUBAL3</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">22</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">G-protein Activation R-HSA-202040</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>4</strong> / 24</td>
+              <td><span class="pill accent">10.0×</span></td>
+              <td style="font-weight: 600;">0.0148</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">23</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Thromboxane Signaling Thru TP Receptor R-HSA-428930</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>4</strong> / 24</td>
+              <td><span class="pill accent">10.0×</span></td>
+              <td style="font-weight: 600;">0.0148</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">24</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Glucagon-like Peptide-1 (GLP1) Regulates Insulin Secretion R-HSA-381676</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>5</strong> / 42</td>
+              <td><span class="pill accent">7.2×</span></td>
+              <td style="font-weight: 600;">0.0148</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5, PRKCA</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">25</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Activation Of GABAB Receptors R-HSA-991365</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>5</strong> / 42</td>
+              <td><span class="pill accent">7.2×</span></td>
+              <td style="font-weight: 600;">0.0148</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GNB1, GNB2, GNG12, GNG5, KCNJ5</td>
+            </tr>
+            
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div style="margin-top: 1rem;">
+            <a href="../data/pathways/echolocation_pathways.csv" class="btn btn-secondary" download>Download Complete Pathway Enrichment CSV</a>
+          </div>
+        </section>
+        
 
     <!-- AGENT.md Analysis Notes Section -->
     <section class="content-section">

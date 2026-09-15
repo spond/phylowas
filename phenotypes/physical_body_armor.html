@@ -3384,6 +3384,369 @@
       </div>
     </section>
 
+    
+        <!-- Co-Evolving Epistatic Communities Section -->
+        <section class="content-section">
+          <h2 class="section-title">Average Product-Corrected (APC) Co-Selection Epistatic Communities</h2>
+          <p style="color: var(--text-secondary); margin-bottom: 1.25rem;">
+            Direct physical and functional co-selection networks extracted via unsupervised modularity optimization of directional tensor co-variance, corrected for phylogenetic background noise (APC).
+          </p>
+          <div class="table-card">
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Community ID</th>
+                    <th>Size (Genes)</th>
+                    <th>Mean APC Density</th>
+                    <th>Density Z-Score</th>
+                    <th>Statistical p-Value</th>
+                    <th>Functional Characterization &amp; Member Loci</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+            <tr>
+              <td class="gene-cell" style="color: var(--accent-primary); font-weight: 700;">Module M1</td>
+              <td><strong>10 loci</strong></td>
+              <td>0.0948</td>
+              <td><span class="pill accent">Z = +46.6</span></td>
+              <td>&lt; 10⁻¹⁵</td>
+              <td style="max-width: 500px; white-space: normal; line-height: 1.4;">
+                
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">ANKRD42, C14orf180, MRPL53, PRKAR1B, RTBDN, SERPINB10, SLC30A8, SYT15 (+2 more)</span>
+                <details style="margin-top: 0.35rem;">
+                  <summary style="font-size: 0.75rem; color: var(--accent-primary); cursor: pointer;">View all 10 member genes</summary>
+                  <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.35rem; max-height: 120px; overflow-y: auto; background: var(--bg-tertiary); padding: 0.4rem; border-radius: 0.25rem; font-family: var(--font-mono);">ANKRD42, C14orf180, MRPL53, PRKAR1B, RTBDN, SERPINB10, SLC30A8, SYT15, SYT15B, TRIM68</div>
+                </details>
+              </td>
+            </tr>
+            
+            <tr>
+              <td class="gene-cell" style="color: var(--accent-primary); font-weight: 700;">Module M2</td>
+              <td><strong>8 loci</strong></td>
+              <td>0.0701</td>
+              <td><span class="pill accent">Z = +27.2</span></td>
+              <td>1.76e-163</td>
+              <td style="max-width: 500px; white-space: normal; line-height: 1.4;">
+                
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">ADGRE2, CACNA2D4, LEFTY1, OR2D2, OR52N5, OR6K3, PLD4, SLPI</span>
+                <details style="margin-top: 0.35rem;">
+                  <summary style="font-size: 0.75rem; color: var(--accent-primary); cursor: pointer;">View all 8 member genes</summary>
+                  <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.35rem; max-height: 120px; overflow-y: auto; background: var(--bg-tertiary); padding: 0.4rem; border-radius: 0.25rem; font-family: var(--font-mono);">ADGRE2, CACNA2D4, LEFTY1, OR2D2, OR52N5, OR6K3, PLD4, SLPI</div>
+                </details>
+              </td>
+            </tr>
+            
+            <tr>
+              <td class="gene-cell" style="color: var(--accent-primary); font-weight: 700;">Module M3</td>
+              <td><strong>7 loci</strong></td>
+              <td>0.0636</td>
+              <td><span class="pill accent">Z = +21.4</span></td>
+              <td>6.95e-102</td>
+              <td style="max-width: 500px; white-space: normal; line-height: 1.4;">
+                
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">CCDC192, DGCR6, DGCR6L, HYAL1, NSF, SIRPB2, TMEM231</span>
+                <details style="margin-top: 0.35rem;">
+                  <summary style="font-size: 0.75rem; color: var(--accent-primary); cursor: pointer;">View all 7 member genes</summary>
+                  <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.35rem; max-height: 120px; overflow-y: auto; background: var(--bg-tertiary); padding: 0.4rem; border-radius: 0.25rem; font-family: var(--font-mono);">CCDC192, DGCR6, DGCR6L, HYAL1, NSF, SIRPB2, TMEM231</div>
+                </details>
+              </td>
+            </tr>
+            
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div style="margin-top: 1rem;">
+            <a href="../data/communities/physical_body_armor_communities.csv" class="btn btn-secondary" download>Download APC Communities CSV</a>
+          </div>
+        </section>
+        
+
+    
+        <!-- Traditional Pathway Enrichment Section -->
+        <section class="content-section">
+          <h2 class="section-title">Canonical Pathway Enrichment Analysis (Top 250 Candidates)</h2>
+          <p style="color: var(--text-secondary); margin-bottom: 1.25rem;">
+            Fisher's exact test over canonical pathway libraries (KEGG 2021, Reactome 2022, MSigDB Hallmark 2020) measuring functional overrepresentation among the top 250 prioritized candidate loci.
+          </p>
+          <div class="table-card">
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Rank</th>
+                    <th>Pathway Name</th>
+                    <th>Database</th>
+                    <th>Gene Overlap</th>
+                    <th>Fold Enrichment</th>
+                    <th>FDR q-Value</th>
+                    <th>Overlapping Candidate Genes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">1</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Ribosome biogenesis in eukaryotes</td>
+              <td><span class="badge-db badge-kegg">KEGG</span></td>
+              <td><strong>7</strong> / 108</td>
+              <td><span class="pill accent">3.9×</span></td>
+              <td style="font-weight: 600;">0.7339</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CSNK2A2, GNL3L, NOP56, RCL1, RPP38, RPP40, TBL3</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">2</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">RNA Polymerase III Transcription Initiation From Type 3 Promoter R-HSA-76071</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>3</strong> / 27</td>
+              <td><span class="pill accent">6.7×</span></td>
+              <td style="font-weight: 600;">0.7339</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">BRF2, POLR2E, POLR3F</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">3</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Synthesis Of PC R-HSA-1483191</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>3</strong> / 27</td>
+              <td><span class="pill accent">6.7×</span></td>
+              <td style="font-weight: 600;">0.7339</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CSNK2A2, LPIN1, STARD7</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">4</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Sensory Processing Of Sound By Outer Hair Cells Of Cochlea R-HSA-9662361</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>4</strong> / 53</td>
+              <td><span class="pill accent">4.5×</span></td>
+              <td style="font-weight: 600;">0.7339</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CHRNA10, ESPN, MSN, TPRN</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">5</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">TNFs Bind Their Physiological Receptors R-HSA-5669034</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>3</strong> / 29</td>
+              <td><span class="pill accent">6.2×</span></td>
+              <td style="font-weight: 600;">0.7339</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">TNFRSF18, TNFRSF1B, TNFSF18</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">6</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Myogenesis R-HSA-525793</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>3</strong> / 29</td>
+              <td><span class="pill accent">6.2×</span></td>
+              <td style="font-weight: 600;">0.7339</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">MAPK12, NEO1, TCF7L1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">7</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">tRNA Processing In Nucleus R-HSA-6784531</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>4</strong> / 57</td>
+              <td><span class="pill accent">4.2×</span></td>
+              <td style="font-weight: 600;">0.7721</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CSTF2, NUP214, RPP38, RPP40</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">8</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">RNA Polymerase III Transcription Initiation R-HSA-76046</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>3</strong> / 35</td>
+              <td><span class="pill accent">5.2×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">BRF2, POLR2E, POLR3F</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">9</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Cytosolic DNA-sensing pathway</td>
+              <td><span class="badge-db badge-kegg">KEGG</span></td>
+              <td><strong>4</strong> / 63</td>
+              <td><span class="pill accent">3.8×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">IL33, POLR2E, POLR3F, RIPK1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">10</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Primary immunodeficiency</td>
+              <td><span class="badge-db badge-kegg">KEGG</span></td>
+              <td><strong>3</strong> / 38</td>
+              <td><span class="pill accent">4.8×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">AICDA, JAK3, RFXAP</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">11</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Response Of EIF2AK1 (HRI) To Heme Deficiency R-HSA-9648895</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>2</strong> / 15</td>
+              <td><span class="pill accent">8.0×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">ASNS, CEBPG</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">12</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">RNA Polymerase III Abortive And Retractive Initiation R-HSA-749476</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>3</strong> / 40</td>
+              <td><span class="pill accent">4.5×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">BRF2, POLR2E, POLR3F</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">13</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">tRNA Processing R-HSA-72306</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>5</strong> / 105</td>
+              <td><span class="pill accent">2.9×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CSTF2, NSUN6, NUP214, RPP38, RPP40</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">14</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">RNA Polymerase III Chain Elongation R-HSA-73780</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>2</strong> / 17</td>
+              <td><span class="pill accent">7.1×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">POLR2E, POLR3F</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">15</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>5</strong> / 107</td>
+              <td><span class="pill accent">2.8×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">IL13RA2, JAK3, MCL1, RNASEH2A, TNFRSF1B</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">16</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Sensory Processing Of Sound R-HSA-9659379</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>4</strong> / 75</td>
+              <td><span class="pill accent">3.2×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CHRNA10, ESPN, MSN, TPRN</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">17</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Scavenging By Class A Receptors R-HSA-3000480</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>2</strong> / 19</td>
+              <td><span class="pill accent">6.3×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">MSR1, SCGB3A2</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">18</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">mRNA Splicing - Minor Pathway R-HSA-72165</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>3</strong> / 49</td>
+              <td><span class="pill accent">3.7×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">DDX23, POLR2E, SNRNP40</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">19</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">KRAS Signaling Dn</td>
+              <td><span class="badge-db badge-hallmark">Hallmark</span></td>
+              <td><strong>7</strong> / 200</td>
+              <td><span class="pill accent">2.1×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">ARHGDIG, DTNB, FGF16, P2RY4, PROP1, SIDT1, TCF7L1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">20</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">RNA Polymerase III Transcription Termination R-HSA-73980</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>2</strong> / 22</td>
+              <td><span class="pill accent">5.5×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">POLR2E, POLR3F</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">21</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Chaperonin-mediated Protein Folding R-HSA-390466</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>4</strong> / 90</td>
+              <td><span class="pill accent">2.7×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CSNK2A2, NOP56, PFDN6, TUBB</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">22</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Interleukin-20 Family Signaling R-HSA-8854691</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>2</strong> / 26</td>
+              <td><span class="pill accent">4.6×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">IL22, JAK3</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">23</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">RNA Polymerase III Transcription Initiation From Type 2 Promoter R-HSA-76066</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>2</strong> / 26</td>
+              <td><span class="pill accent">4.6×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">POLR2E, POLR3F</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">24</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">FGFR2 Alternative Splicing R-HSA-6803529</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>2</strong> / 26</td>
+              <td><span class="pill accent">4.6×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">POLR2E, RBFOX2</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">25</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Metal Ion SLC Transporters R-HSA-425410</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>2</strong> / 26</td>
+              <td><span class="pill accent">4.6×</span></td>
+              <td style="font-weight: 600;">0.7904</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">HEPH, SLC30A8</td>
+            </tr>
+            
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div style="margin-top: 1rem;">
+            <a href="../data/pathways/physical_body_armor_pathways.csv" class="btn btn-secondary" download>Download Complete Pathway Enrichment CSV</a>
+          </div>
+        </section>
+        
+
     <!-- AGENT.md Analysis Notes Section -->
     <section class="content-section">
       <h2 class="section-title">AGENT.md Analysis Notes & Atomic Fact Deck</h2>

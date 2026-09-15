@@ -1,0 +1,22 @@
+[
+  {
+    "community_id": "M2",
+    "size": 28,
+    "mean_apc_density": 0.146,
+    "density_z_score": 58.09,
+    "p_value": "0.00e+00",
+    "fdr_q": "0.00e+00",
+    "member_genes": "ACTL8, ANGPTL5, CCNP, CD1A, CDC25C, CGN, CSKMT, CXCL8 (+20 more)",
+    "all_genes": "ACTL8, ANGPTL5, CCNP, CD1A, CDC25C, CGN, CSKMT, CXCL8, DEFB112, DLX4, ECI2, HACD1, HTR1E, KDM5C, NEK5, NIT1, NLGN4X, OR6M1, PDXK, PIGB, RNF175, SCD5, SETD9, SLC22A5, SLC2A4RG, THAP5, TM4SF18, TUBG1"
+  },
+  {
+    "community_id": "M1",
+    "size": 40,
+    "mean_apc_density": 0.0356,
+    "density_z_score": 20.56,
+    "p_value": "3.21e-94",
+    "fdr_q": "3.21e-94",
+    "member_genes": "BTBD2, CCDC90B, DDX3X, DDX3Y, ENSG00000286190, FABP12, GGTLC1, GGTLC2 (+32 more)",
+    "all_genes": "BTBD2, CCDC90B, DDX3X, DDX3Y, ENSG00000286190, FABP12, GGTLC1, GGTLC2, GGTLC3, GRIA4, H3C2, HOMER3, IDI2, IFI27L1, IFNW1, LGALS9, LGALS9C, LOC124903067, MAL2, MCTP1, NLRP7, NT5DC4, OR10A2, OR2F1, OR2F2, OR4P4, OR51M1, P2RY4, PCDHB15, PRR23A, PYDC1, RPP25, SERF1A, SULT1C2, SULT1C3, TIMD4, TMEM126A, TMEM272, TPSD1, TXLNG"
+  }
+]

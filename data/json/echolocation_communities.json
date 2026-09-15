@@ -1,0 +1,22 @@
+[
+  {
+    "community_id": "M1",
+    "size": 179,
+    "mean_apc_density": 0.0991140007972717,
+    "density_z_score": 57.444300565688614,
+    "p_value": "0.00e+00",
+    "fdr_q": "0.00e+00",
+    "member_genes": "TMC1, CIB2, SLC26A5 (Prestin), LOXHD1, MYOM2, ABCB4, ABTB1, ADAMTS6 (+5 more)",
+    "all_genes": "TMC1, CIB2, SLC26A5 (Prestin), LOXHD1, MYOM2, ABCB4, ABTB1, ADAMTS6, ADIPOR1, AMIGO1, AMMECR1L, AMPD3, AP1AR (+166 more)"
+  },
+  {
+    "community_id": "M2",
+    "size": 171,
+    "mean_apc_density": 0.1088142767548561,
+    "density_z_score": 60.1238089540288,
+    "p_value": "0.00e+00",
+    "fdr_q": "0.00e+00",
+    "member_genes": "PCDH15, MCOLN3, SLC17A8, TMPRSS3, HOMER2, AFF1, AGAP4, AKAP4 (+5 more)",
+    "all_genes": "PCDH15, MCOLN3, SLC17A8, TMPRSS3, HOMER2, AFF1, AGAP4, AKAP4, AKR1C8, ALPG, ANKRD34C, ANKRD54, APBB3 (+158 more)"
+  }
+]

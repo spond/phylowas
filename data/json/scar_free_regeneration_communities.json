@@ -1,0 +1,42 @@
+[
+  {
+    "community_id": "M1",
+    "size": 14,
+    "mean_apc_density": 0.0933,
+    "density_z_score": 31.65,
+    "p_value": "4.17e-220",
+    "fdr_q": "1.67e-219",
+    "member_genes": "DNAJC5G, GNG14, HLA-DQB1, OR12D2, OR13C9, OR1J1, OR2AJ1, OR2W1 (+6 more)",
+    "all_genes": "DNAJC5G, GNG14, HLA-DQB1, OR12D2, OR13C9, OR1J1, OR2AJ1, OR2W1, OR52E4, OR56B2P, OR5D18, OR5V1, RNF228, TMEM191B"
+  },
+  {
+    "community_id": "M2",
+    "size": 13,
+    "mean_apc_density": 0.0649,
+    "density_z_score": 20.4,
+    "p_value": "8.02e-93",
+    "fdr_q": "1.60e-92",
+    "member_genes": "CCL4, CCR1, CHERP, DUSP21, INAVA, KCNT1, MRGPRX1, OR4K13 (+5 more)",
+    "all_genes": "CCL4, CCR1, CHERP, DUSP21, INAVA, KCNT1, MRGPRX1, OR4K13, OR52E6, RNASE4, SCGB1D2, SSX5, TRAF5"
+  },
+  {
+    "community_id": "M4",
+    "size": 5,
+    "mean_apc_density": 0.1561,
+    "density_z_score": 17.53,
+    "p_value": "3.95e-69",
+    "fdr_q": "5.27e-69",
+    "member_genes": "EIF3F, ICAM1, LAT2, SERF1A, SLC18A1",
+    "all_genes": "EIF3F, ICAM1, LAT2, SERF1A, SLC18A1"
+  },
+  {
+    "community_id": "M3",
+    "size": 7,
+    "mean_apc_density": 0.0563,
+    "density_z_score": 9.19,
+    "p_value": "2.01e-20",
+    "fdr_q": "2.01e-20",
+    "member_genes": "CACNA1B, DOC2B, IL15RA, OR1N1, SRRM3, SSX1, TMLHE",
+    "all_genes": "CACNA1B, DOC2B, IL15RA, OR1N1, SRRM3, SSX1, TMLHE"
+  }
+]
