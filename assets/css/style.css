@@ -772,3 +772,149 @@ footer {
   align-items: center;
   gap: 1rem;
 }
+
+/* Species & Cohort Section Styles */
+.species-cohort-intro {
+  color: var(--text-secondary);
+  font-size: 0.975rem;
+  margin-bottom: 1.5rem;
+  max-width: 1000px;
+  line-height: 1.6;
+}
+
+.species-cohort-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.cohort-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-sm);
+}
+
+.cohort-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.cohort-card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cohort-count-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  background: rgba(56, 189, 248, 0.15);
+  color: var(--accent-primary);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+.cohort-ctrl-badge {
+  background: rgba(148, 163, 184, 0.15);
+  color: var(--text-secondary);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+.taxa-pill-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.taxon-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 0.375rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.825rem;
+  color: var(--text-primary);
+  transition: border-color 0.2s;
+}
+
+.taxon-badge:hover {
+  border-color: var(--accent-primary);
+}
+
+.taxon-badge em {
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+.taxon-tag {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  background: var(--bg-tertiary);
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.25rem;
+  color: var(--accent-primary);
+}
+
+.taxa-details {
+  margin-top: 0.75rem;
+}
+
+.taxa-details summary {
+  font-size: 0.825rem;
+  color: var(--accent-primary);
+  cursor: pointer;
+  padding: 0.35rem 0;
+  font-weight: 500;
+}
+
+.taxa-details summary:hover {
+  text-decoration: underline;
+}
+
+.controls-cohort-panel {
+  background: rgba(15, 23, 42, 0.5);
+  border: 1px dashed var(--border-color);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  margin-top: 1rem;
+}
+
+.extremes-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.extremes-table th {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border-color);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.extremes-table td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid rgba(51, 65, 85, 0.4);
+}
+
+.extremes-table tr:hover {
+  background: var(--card-hover);
+}
