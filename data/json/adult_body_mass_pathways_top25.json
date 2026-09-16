@@ -6,10 +6,10 @@
     "overlap": 4,
     "pathway_size": 11,
     "fold_enrichment": 21.87,
-    "vif": 2.08,
-    "z_score": 5.42,
-    "p_value": "2.93e-08",
-    "fdr_q": "6.25e-06",
+    "vif": 2.0,
+    "z_score": 5.53,
+    "p_value": "1.59e-08",
+    "fdr_q": "3.40e-06",
     "genes": "ADH1A, ADH1B, ADH1C, ADH7"
   },
   {
@@ -74,7 +74,7 @@
     "vif": 11.02,
     "z_score": 3.74,
     "p_value": "9.20e-05",
-    "fdr_q": "0.0032",
+    "fdr_q": "0.0033",
     "genes": "OPN1SW, OR10A2, OR10A5, OR10J5, OR10X1, OR11A1, OR13C8, OR1J4, OR1Q1, OR1S1, OR1S2, OR2A4, OR2AG1, OR2AG2, OR4B1, OR4C5, OR4D1, OR4D2, OR51A2, OR51B4, OR51B6, OR52A1, OR52A5, OR52L1, OR56A4, OR56B1, OR5AK2, OR5B17, OR5B2, OR5B21, OR5T2, OR5V1, OR5W2, OR6A2, OR6C2, OR6C6, OR7C2, OR8A1, OR8D1, OR8D2, OR8G1, OR8J1, OR8K3, OR8K5, OR9A4, OR9Q1"
   },
   {
@@ -84,27 +84,14 @@
     "overlap": 6,
     "pathway_size": 55,
     "fold_enrichment": 6.56,
-    "vif": 1.7,
-    "z_score": 3.71,
-    "p_value": "1.03e-04",
-    "fdr_q": "0.0032",
+    "vif": 1.79,
+    "z_score": 3.62,
+    "p_value": "1.50e-04",
+    "fdr_q": "0.0040",
     "genes": "H2AC4, H2BC13, H2BC15, H2BC3, H2BC4, SYCE1"
   },
   {
     "rank": 8,
-    "pathway": "Neutrophil extracellular trap formation",
-    "database": "KEGG",
-    "overlap": 16,
-    "pathway_size": 172,
-    "fold_enrichment": 5.59,
-    "vif": 4.3,
-    "z_score": 3.66,
-    "p_value": "1.28e-04",
-    "fdr_q": "0.0034",
-    "genes": "H2AC13, H2AC15, H2AC16, H2AC4, H2AC8, H2BC13, H2BC15, H2BC3, H2BC4, H2BC7, H4C11, H4C13, H4C2, H4C4, H4C7, H4C9"
-  },
-  {
-    "rank": 9,
     "pathway": "Packaging Of Telomere Ends R-HSA-171306",
     "database": "Reactome",
     "overlap": 5,
@@ -113,24 +100,24 @@
     "vif": 2.42,
     "z_score": 3.6,
     "p_value": "1.58e-04",
-    "fdr_q": "0.0035",
+    "fdr_q": "0.0040",
     "genes": "H2AC4, H2BC13, H2BC15, H2BC3, H2BC4"
   },
   {
-    "rank": 10,
-    "pathway": "Alcoholism",
+    "rank": 9,
+    "pathway": "Neutrophil extracellular trap formation",
     "database": "KEGG",
     "overlap": 16,
-    "pathway_size": 176,
-    "fold_enrichment": 5.47,
-    "vif": 4.3,
-    "z_score": 3.6,
-    "p_value": "1.61e-04",
-    "fdr_q": "0.0035",
+    "pathway_size": 172,
+    "fold_enrichment": 5.59,
+    "vif": 4.48,
+    "z_score": 3.58,
+    "p_value": "1.70e-04",
+    "fdr_q": "0.0040",
     "genes": "H2AC13, H2AC15, H2AC16, H2AC4, H2AC8, H2BC13, H2BC15, H2BC3, H2BC4, H2BC7, H4C11, H4C13, H4C2, H4C4, H4C7, H4C9"
   },
   {
-    "rank": 11,
+    "rank": 10,
     "pathway": "Cleavage Of Damaged Purine R-HSA-110331",
     "database": "Reactome",
     "overlap": 5,
@@ -139,24 +126,24 @@
     "vif": 2.13,
     "z_score": 3.55,
     "p_value": "1.93e-04",
-    "fdr_q": "0.0037",
+    "fdr_q": "0.0041",
     "genes": "H2AC4, H2BC13, H2BC15, H2BC3, H2BC4"
   },
   {
-    "rank": 12,
-    "pathway": "Lectin Pathway Of Complement Activation R-HSA-166662",
-    "database": "Reactome",
-    "overlap": 2,
-    "pathway_size": 8,
-    "fold_enrichment": 15.04,
-    "vif": 1.29,
-    "z_score": 3.33,
-    "p_value": "4.42e-04",
-    "fdr_q": "0.0079",
-    "genes": "FCN3, MBL2"
+    "rank": 11,
+    "pathway": "Alcoholism",
+    "database": "KEGG",
+    "overlap": 16,
+    "pathway_size": 176,
+    "fold_enrichment": 5.47,
+    "vif": 4.48,
+    "z_score": 3.52,
+    "p_value": "2.13e-04",
+    "fdr_q": "0.0041",
+    "genes": "H2AC13, H2AC15, H2AC16, H2AC4, H2AC8, H2BC13, H2BC15, H2BC3, H2BC4, H2BC7, H4C11, H4C13, H4C2, H4C4, H4C7, H4C9"
   },
   {
-    "rank": 13,
+    "rank": 12,
     "pathway": "SIRT1 Negatively Regulates rRNA Expression R-HSA-427359",
     "database": "Reactome",
     "overlap": 5,
@@ -169,7 +156,7 @@
     "genes": "H2AC4, H2BC13, H2BC15, H2BC3, H2BC4"
   },
   {
-    "rank": 14,
+    "rank": 13,
     "pathway": "Activated PKN1 Stimulates Transcription Of Androgen Receptor Regulated KLK2 And KLK3 R-HSA-5625886",
     "database": "Reactome",
     "overlap": 5,
@@ -180,6 +167,19 @@
     "p_value": "5.19e-04",
     "fdr_q": "0.0079",
     "genes": "H2AC4, H2BC13, H2BC15, H2BC3, H2BC4"
+  },
+  {
+    "rank": 14,
+    "pathway": "Lectin Pathway Of Complement Activation R-HSA-166662",
+    "database": "Reactome",
+    "overlap": 2,
+    "pathway_size": 8,
+    "fold_enrichment": 15.04,
+    "vif": 1.33,
+    "z_score": 3.28,
+    "p_value": "5.20e-04",
+    "fdr_q": "0.0079",
+    "genes": "FCN3, MBL2"
   },
   {
     "rank": 15,
@@ -196,19 +196,6 @@
   },
   {
     "rank": 16,
-    "pathway": "Inhibition Of DNA Recombination At Telomere R-HSA-9670095",
-    "database": "Reactome",
-    "overlap": 5,
-    "pathway_size": 45,
-    "fold_enrichment": 6.68,
-    "vif": 1.93,
-    "z_score": 3.15,
-    "p_value": "8.08e-04",
-    "fdr_q": "0.0105",
-    "genes": "H2AC4, H2BC13, H2BC15, H2BC3, H2BC4"
-  },
-  {
-    "rank": 17,
     "pathway": "Base-Excision Repair, AP Site Formation R-HSA-73929",
     "database": "Reactome",
     "overlap": 5,
@@ -221,7 +208,7 @@
     "genes": "H2AC4, H2BC13, H2BC15, H2BC3, H2BC4"
   },
   {
-    "rank": 18,
+    "rank": 17,
     "pathway": "RNA Polymerase I Promoter Opening R-HSA-73728",
     "database": "Reactome",
     "overlap": 5,
@@ -230,6 +217,19 @@
     "vif": 3.34,
     "z_score": 3.13,
     "p_value": "8.84e-04",
+    "fdr_q": "0.0105",
+    "genes": "H2AC4, H2BC13, H2BC15, H2BC3, H2BC4"
+  },
+  {
+    "rank": 18,
+    "pathway": "Inhibition Of DNA Recombination At Telomere R-HSA-9670095",
+    "database": "Reactome",
+    "overlap": 5,
+    "pathway_size": 45,
+    "fold_enrichment": 6.68,
+    "vif": 1.96,
+    "z_score": 3.13,
+    "p_value": "8.87e-04",
     "fdr_q": "0.0105",
     "genes": "H2AC4, H2BC13, H2BC15, H2BC3, H2BC4"
   },

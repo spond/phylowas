@@ -22,7 +22,7 @@
     "vif": 1.55,
     "z_score": 2.55,
     "p_value": "0.0054",
-    "fdr_q": "0.5246",
+    "fdr_q": "0.5524",
     "genes": "INPPL1, ITPKC, PLCH2"
   },
   {
@@ -35,7 +35,7 @@
     "vif": 1.0,
     "z_score": 2.53,
     "p_value": "0.0058",
-    "fdr_q": "0.5246",
+    "fdr_q": "0.5524",
     "genes": "ENPP3, PANK4"
   },
   {
@@ -48,7 +48,7 @@
     "vif": 1.62,
     "z_score": 2.48,
     "p_value": "0.0065",
-    "fdr_q": "0.5246",
+    "fdr_q": "0.5524",
     "genes": "CACNA1A, PRKCD, PRKCZ, SOCS2"
   },
   {
@@ -61,7 +61,7 @@
     "vif": 1.06,
     "z_score": 2.45,
     "p_value": "0.0072",
-    "fdr_q": "0.5246",
+    "fdr_q": "0.5524",
     "genes": "B4GALT6, ST8SIA6"
   },
   {
@@ -74,7 +74,7 @@
     "vif": 1.99,
     "z_score": 2.34,
     "p_value": "0.0096",
-    "fdr_q": "0.5246",
+    "fdr_q": "0.5524",
     "genes": "DIDO1, DUOX2"
   },
   {
@@ -87,24 +87,11 @@
     "vif": 1.24,
     "z_score": 2.33,
     "p_value": "0.0098",
-    "fdr_q": "0.5246",
+    "fdr_q": "0.5524",
     "genes": "ENPP3, NMRK2, PNP"
   },
   {
     "rank": 8,
-    "pathway": "VEGFR2 Mediated Cell Proliferation R-HSA-5218921",
-    "database": "Reactome",
-    "overlap": 2,
-    "pathway_size": 17,
-    "fold_enrichment": 7.08,
-    "vif": 1.0,
-    "z_score": 2.31,
-    "p_value": "0.0104",
-    "fdr_q": "0.5246",
-    "genes": "PRKCD, PRKCZ"
-  },
-  {
-    "rank": 9,
     "pathway": "Inositol Phosphate Metabolism R-HSA-1483249",
     "database": "Reactome",
     "overlap": 4,
@@ -113,8 +100,21 @@
     "vif": 1.84,
     "z_score": 2.25,
     "p_value": "0.0122",
-    "fdr_q": "0.5455",
+    "fdr_q": "0.5524",
     "genes": "IMPA1, INPPL1, ITPKC, PLCH2"
+  },
+  {
+    "rank": 9,
+    "pathway": "VEGFR2 Mediated Cell Proliferation R-HSA-5218921",
+    "database": "Reactome",
+    "overlap": 2,
+    "pathway_size": 17,
+    "fold_enrichment": 7.08,
+    "vif": 1.06,
+    "z_score": 2.24,
+    "p_value": "0.0125",
+    "fdr_q": "0.5524",
+    "genes": "PRKCD, PRKCZ"
   },
   {
     "rank": 10,
@@ -170,6 +170,19 @@
   },
   {
     "rank": 14,
+    "pathway": "Sphingolipid metabolism",
+    "database": "KEGG",
+    "overlap": 3,
+    "pathway_size": 48,
+    "fold_enrichment": 3.76,
+    "vif": 1.21,
+    "z_score": 1.75,
+    "p_value": "0.0402",
+    "fdr_q": "0.6901",
+    "genes": "ACER1, B4GALT6, CERS1"
+  },
+  {
+    "rank": 15,
     "pathway": "PIWI-interacting RNA (piRNA) Biogenesis R-HSA-5601884",
     "database": "Reactome",
     "overlap": 3,
@@ -182,7 +195,7 @@
     "genes": "PIWIL1, POLR2F, TDRD12"
   },
   {
-    "rank": 15,
+    "rank": 16,
     "pathway": "Growth Hormone Receptor Signaling R-HSA-982772",
     "database": "Reactome",
     "overlap": 2,
@@ -195,7 +208,7 @@
     "genes": "SOCS2, STAT5B"
   },
   {
-    "rank": 16,
+    "rank": 17,
     "pathway": "ABC transporters",
     "database": "KEGG",
     "overlap": 3,
@@ -208,7 +221,7 @@
     "genes": "ABCA3, ABCG2, TAP2"
   },
   {
-    "rank": 17,
+    "rank": 18,
     "pathway": "Pyrimidine metabolism",
     "database": "KEGG",
     "overlap": 3,
@@ -221,20 +234,20 @@
     "genes": "ENPP3, NME6, PNP"
   },
   {
-    "rank": 18,
-    "pathway": "Sphingolipid metabolism",
+    "rank": 19,
+    "pathway": "GnRH secretion",
     "database": "KEGG",
-    "overlap": 3,
-    "pathway_size": 48,
+    "overlap": 4,
+    "pathway_size": 64,
     "fold_enrichment": 3.76,
-    "vif": 1.31,
-    "z_score": 1.68,
-    "p_value": "0.0463",
+    "vif": 2.11,
+    "z_score": 1.64,
+    "p_value": "0.0504",
     "fdr_q": "0.6901",
-    "genes": "ACER1, B4GALT6, CERS1"
+    "genes": "CACNA1H, CGA, KCNN1, KISS1"
   },
   {
-    "rank": 19,
+    "rank": 20,
     "pathway": "Metabolism Of Amine-Derived Hormones R-HSA-209776",
     "database": "Reactome",
     "overlap": 2,
@@ -245,19 +258,6 @@
     "p_value": "0.0506",
     "fdr_q": "0.6901",
     "genes": "DIDO1, DUOX2"
-  },
-  {
-    "rank": 20,
-    "pathway": "GnRH secretion",
-    "database": "KEGG",
-    "overlap": 4,
-    "pathway_size": 64,
-    "fold_enrichment": 3.76,
-    "vif": 2.14,
-    "z_score": 1.63,
-    "p_value": "0.0515",
-    "fdr_q": "0.6901",
-    "genes": "CACNA1H, CGA, KCNN1, KISS1"
   },
   {
     "rank": 21,
@@ -292,9 +292,9 @@
     "overlap": 2,
     "pathway_size": 24,
     "fold_enrichment": 5.01,
-    "vif": 1.26,
+    "vif": 1.25,
     "z_score": 1.57,
-    "p_value": "0.0583",
+    "p_value": "0.0582",
     "fdr_q": "0.6901",
     "genes": "HEY1, PBX1"
   },
@@ -307,7 +307,7 @@
     "fold_enrichment": 3.84,
     "vif": 1.64,
     "z_score": 1.53,
-    "p_value": "0.0624",
+    "p_value": "0.0629",
     "fdr_q": "0.6901",
     "genes": "H2AC1, H2AC12, H2AC14"
   },

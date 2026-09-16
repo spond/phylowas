@@ -6,10 +6,10 @@
     "overlap": 3,
     "pathway_size": 8,
     "fold_enrichment": 22.55,
-    "vif": 1.1,
-    "z_score": 6.24,
-    "p_value": "2.18e-10",
-    "fdr_q": "7.30e-08",
+    "vif": 1.16,
+    "z_score": 6.08,
+    "p_value": "5.87e-10",
+    "fdr_q": "1.96e-07",
     "genes": "ACSM2A, ACSM2B, GLYATL2"
   },
   {

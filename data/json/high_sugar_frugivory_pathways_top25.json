@@ -6,10 +6,10 @@
     "overlap": 3,
     "pathway_size": 11,
     "fold_enrichment": 16.4,
-    "vif": 2.02,
-    "z_score": 3.84,
-    "p_value": "6.10e-05",
-    "fdr_q": "0.0262",
+    "vif": 1.94,
+    "z_score": 3.93,
+    "p_value": "4.30e-05",
+    "fdr_q": "0.0195",
     "genes": "PTPN11, STAT3, STAT5B"
   },
   {
@@ -19,10 +19,10 @@
     "overlap": 3,
     "pathway_size": 15,
     "fold_enrichment": 12.03,
-    "vif": 1.5,
-    "z_score": 3.71,
-    "p_value": "1.04e-04",
-    "fdr_q": "0.0262",
+    "vif": 1.44,
+    "z_score": 3.78,
+    "p_value": "7.75e-05",
+    "fdr_q": "0.0195",
     "genes": "MTHFD1L, MTHFD2, MTHFR"
   },
   {
@@ -32,10 +32,10 @@
     "overlap": 3,
     "pathway_size": 18,
     "fold_enrichment": 10.02,
-    "vif": 1.5,
-    "z_score": 3.31,
-    "p_value": "4.65e-04",
-    "fdr_q": "0.0778",
+    "vif": 1.49,
+    "z_score": 3.33,
+    "p_value": "4.36e-04",
+    "fdr_q": "0.0730",
     "genes": "MTHFD1L, MTHFD2, MTHFR"
   },
   {
@@ -45,10 +45,10 @@
     "overlap": 4,
     "pathway_size": 40,
     "fold_enrichment": 6.01,
-    "vif": 1.29,
-    "z_score": 3.09,
-    "p_value": "0.0010",
-    "fdr_q": "0.1275",
+    "vif": 1.21,
+    "z_score": 3.19,
+    "p_value": "7.10e-04",
+    "fdr_q": "0.0891",
     "genes": "PRKCA, PTPN11, STAT3, STAT5B"
   },
   {
@@ -58,10 +58,10 @@
     "overlap": 2,
     "pathway_size": 12,
     "fold_enrichment": 10.02,
-    "vif": 1.0,
-    "z_score": 2.94,
-    "p_value": "0.0017",
-    "fdr_q": "0.1664",
+    "vif": 1.08,
+    "z_score": 2.83,
+    "p_value": "0.0023",
+    "fdr_q": "0.2247",
     "genes": "NCOR1, PRKCA"
   },
   {
@@ -71,10 +71,10 @@
     "overlap": 2,
     "pathway_size": 9,
     "fold_enrichment": 13.36,
-    "vif": 1.55,
-    "z_score": 2.83,
-    "p_value": "0.0023",
-    "fdr_q": "0.1962",
+    "vif": 1.6,
+    "z_score": 2.78,
+    "p_value": "0.0027",
+    "fdr_q": "0.2247",
     "genes": "STAT3, STAT5B"
   },
   {
@@ -97,14 +97,27 @@
     "overlap": 2,
     "pathway_size": 10,
     "fold_enrichment": 12.03,
-    "vif": 1.55,
-    "z_score": 2.65,
-    "p_value": "0.0040",
-    "fdr_q": "0.2528",
+    "vif": 1.6,
+    "z_score": 2.61,
+    "p_value": "0.0045",
+    "fdr_q": "0.2610",
     "genes": "STAT3, STAT5B"
   },
   {
     "rank": 9,
+    "pathway": "Interleukin-6 Signaling R-HSA-1059683",
+    "database": "Reactome",
+    "overlap": 2,
+    "pathway_size": 11,
+    "fold_enrichment": 10.93,
+    "vif": 1.43,
+    "z_score": 2.6,
+    "p_value": "0.0047",
+    "fdr_q": "0.2610",
+    "genes": "PTPN11, STAT3"
+  },
+  {
+    "rank": 10,
     "pathway": "Acetylcholine Regulates Insulin Secretion R-HSA-399997",
     "database": "Reactome",
     "overlap": 2,
@@ -113,11 +126,11 @@
     "vif": 1.69,
     "z_score": 2.54,
     "p_value": "0.0055",
-    "fdr_q": "0.3015",
+    "fdr_q": "0.2785",
     "genes": "GNA14, PRKCA"
   },
   {
-    "rank": 10,
+    "rank": 11,
     "pathway": "STAT5 Activation Downstream Of FLT3 ITD Mutants R-HSA-9702518",
     "database": "Reactome",
     "overlap": 2,
@@ -126,11 +139,11 @@
     "vif": 1.78,
     "z_score": 2.47,
     "p_value": "0.0068",
-    "fdr_q": "0.3015",
+    "fdr_q": "0.2945",
     "genes": "PTPN11, STAT5B"
   },
   {
-    "rank": 11,
+    "rank": 12,
     "pathway": "RHOD GTPase Cycle R-HSA-9013405",
     "database": "Reactome",
     "overlap": 4,
@@ -139,21 +152,8 @@
     "vif": 1.65,
     "z_score": 2.46,
     "p_value": "0.0070",
-    "fdr_q": "0.3015",
+    "fdr_q": "0.2945",
     "genes": "ANKFY1, CAPZB, LMAN1, RHOD"
-  },
-  {
-    "rank": 12,
-    "pathway": "Interleukin-6 Signaling R-HSA-1059683",
-    "database": "Reactome",
-    "overlap": 2,
-    "pathway_size": 11,
-    "fold_enrichment": 10.93,
-    "vif": 1.61,
-    "z_score": 2.45,
-    "p_value": "0.0072",
-    "fdr_q": "0.3015",
-    "genes": "PTPN11, STAT3"
   },
   {
     "rank": 13,
@@ -170,6 +170,32 @@
   },
   {
     "rank": 14,
+    "pathway": "Signaling By VEGF R-HSA-194138",
+    "database": "Reactome",
+    "overlap": 6,
+    "pathway_size": 91,
+    "fold_enrichment": 3.97,
+    "vif": 1.97,
+    "z_score": 2.33,
+    "p_value": "0.0098",
+    "fdr_q": "0.3518",
+    "genes": "ABI2, ELMO1, FLT1, ITPR1, NCF2, PRKCA"
+  },
+  {
+    "rank": 15,
+    "pathway": "Interleukin-20 Family Signaling R-HSA-8854691",
+    "database": "Reactome",
+    "overlap": 3,
+    "pathway_size": 26,
+    "fold_enrichment": 6.94,
+    "vif": 1.94,
+    "z_score": 2.28,
+    "p_value": "0.0113",
+    "fdr_q": "0.3650",
+    "genes": "PTPN11, STAT3, STAT5B"
+  },
+  {
+    "rank": 16,
     "pathway": "GAB1 Signalosome R-HSA-180292",
     "database": "Reactome",
     "overlap": 2,
@@ -178,11 +204,11 @@
     "vif": 1.05,
     "z_score": 2.25,
     "p_value": "0.0121",
-    "fdr_q": "0.3864",
+    "fdr_q": "0.3650",
     "genes": "BTC, PTPN11"
   },
   {
-    "rank": 15,
+    "rank": 17,
     "pathway": "Necroptosis",
     "database": "KEGG",
     "overlap": 7,
@@ -191,24 +217,11 @@
     "vif": 1.65,
     "z_score": 2.24,
     "p_value": "0.0125",
-    "fdr_q": "0.3864",
+    "fdr_q": "0.3650",
     "genes": "CAPN1, CHMP4C, H2AC11, H2AC12, H2AC13, STAT3, STAT5B"
   },
   {
-    "rank": 16,
-    "pathway": "Interleukin-20 Family Signaling R-HSA-8854691",
-    "database": "Reactome",
-    "overlap": 3,
-    "pathway_size": 26,
-    "fold_enrichment": 6.94,
-    "vif": 2.02,
-    "z_score": 2.23,
-    "p_value": "0.0128",
-    "fdr_q": "0.3864",
-    "genes": "PTPN11, STAT3, STAT5B"
-  },
-  {
-    "rank": 17,
+    "rank": 18,
     "pathway": "Interleukin-3, Interleukin-5 And GM-CSF Signaling R-HSA-512988",
     "database": "Reactome",
     "overlap": 3,
@@ -217,21 +230,8 @@
     "vif": 1.0,
     "z_score": 2.22,
     "p_value": "0.0131",
-    "fdr_q": "0.3864",
+    "fdr_q": "0.3650",
     "genes": "PRKCA, PTPN11, STAT5B"
-  },
-  {
-    "rank": 18,
-    "pathway": "Signaling By VEGF R-HSA-194138",
-    "database": "Reactome",
-    "overlap": 6,
-    "pathway_size": 91,
-    "fold_enrichment": 3.97,
-    "vif": 2.28,
-    "z_score": 2.17,
-    "p_value": "0.0149",
-    "fdr_q": "0.4151",
-    "genes": "ABI2, ELMO1, FLT1, ITPR1, NCF2, PRKCA"
   },
   {
     "rank": 19,
@@ -240,10 +240,10 @@
     "overlap": 3,
     "pathway_size": 28,
     "fold_enrichment": 6.44,
-    "vif": 2.02,
-    "z_score": 2.12,
-    "p_value": "0.0172",
-    "fdr_q": "0.4541",
+    "vif": 1.94,
+    "z_score": 2.16,
+    "p_value": "0.0153",
+    "fdr_q": "0.4040",
     "genes": "PTPN11, STAT3, STAT5B"
   },
   {
@@ -261,6 +261,19 @@
   },
   {
     "rank": 21,
+    "pathway": "VEGFR2 Mediated Cell Proliferation R-HSA-5218921",
+    "database": "Reactome",
+    "overlap": 2,
+    "pathway_size": 17,
+    "fold_enrichment": 7.08,
+    "vif": 1.45,
+    "z_score": 1.92,
+    "p_value": "0.0276",
+    "fdr_q": "0.6480",
+    "genes": "ITPR1, PRKCA"
+  },
+  {
+    "rank": 22,
     "pathway": "Prolactin Receptor Signaling R-HSA-1170546",
     "database": "Reactome",
     "overlap": 2,
@@ -269,11 +282,24 @@
     "vif": 1.76,
     "z_score": 1.9,
     "p_value": "0.0284",
-    "fdr_q": "0.6518",
+    "fdr_q": "0.6480",
     "genes": "PTPN11, STAT5B"
   },
   {
-    "rank": 22,
+    "rank": 23,
+    "pathway": "VEGFA-VEGFR2 Pathway R-HSA-4420097",
+    "database": "Reactome",
+    "overlap": 5,
+    "pathway_size": 85,
+    "fold_enrichment": 3.54,
+    "vif": 1.97,
+    "z_score": 1.87,
+    "p_value": "0.0307",
+    "fdr_q": "0.6518",
+    "genes": "ABI2, ELMO1, ITPR1, NCF2, PRKCA"
+  },
+  {
+    "rank": 24,
     "pathway": "Deregulated CDK5 Triggers Neurodegenerative Pathways In Alzheimers Disease Models R-HSA-8862803",
     "database": "Reactome",
     "overlap": 2,
@@ -286,42 +312,16 @@
     "genes": "CAPN1, CDC25A"
   },
   {
-    "rank": 23,
-    "pathway": "VEGFR2 Mediated Cell Proliferation R-HSA-5218921",
-    "database": "Reactome",
-    "overlap": 2,
-    "pathway_size": 17,
-    "fold_enrichment": 7.08,
-    "vif": 1.64,
-    "z_score": 1.81,
-    "p_value": "0.0355",
-    "fdr_q": "0.6518",
-    "genes": "ITPR1, PRKCA"
-  },
-  {
-    "rank": 24,
-    "pathway": "Vibrio cholerae infection",
-    "database": "KEGG",
-    "overlap": 4,
-    "pathway_size": 49,
-    "fold_enrichment": 4.91,
-    "vif": 2.83,
-    "z_score": 1.79,
-    "p_value": "0.0371",
-    "fdr_q": "0.6518",
-    "genes": "ATP6V1G3, PRKCA, SEC61A2, SEC61B"
-  },
-  {
     "rank": 25,
-    "pathway": "Signaling By KIT In Disease R-HSA-9669938",
-    "database": "Reactome",
+    "pathway": "Protein export",
+    "database": "KEGG",
     "overlap": 2,
-    "pathway_size": 18,
-    "fold_enrichment": 6.68,
-    "vif": 1.55,
-    "z_score": 1.78,
-    "p_value": "0.0377",
+    "pathway_size": 23,
+    "fold_enrichment": 5.23,
+    "vif": 1.0,
+    "z_score": 1.82,
+    "p_value": "0.0341",
     "fdr_q": "0.6518",
-    "genes": "STAT3, STAT5B"
+    "genes": "SEC61A2, SEC61B"
   }
 ]

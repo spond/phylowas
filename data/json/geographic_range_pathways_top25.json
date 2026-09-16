@@ -27,6 +27,19 @@
   },
   {
     "rank": 3,
+    "pathway": "mRNA Editing R-HSA-75072",
+    "database": "Reactome",
+    "overlap": 2,
+    "pathway_size": 8,
+    "fold_enrichment": 15.04,
+    "vif": 1.28,
+    "z_score": 3.34,
+    "p_value": "4.17e-04",
+    "fdr_q": "0.0271",
+    "genes": "ADAR, APOBEC3H"
+  },
+  {
+    "rank": 4,
     "pathway": "Taste transduction",
     "database": "KEGG",
     "overlap": 10,
@@ -35,11 +48,11 @@
     "vif": 4.72,
     "z_score": 3.3,
     "p_value": "4.90e-04",
-    "fdr_q": "0.0348",
+    "fdr_q": "0.0271",
     "genes": "HTR3C, HTR3E, TAS2R10, TAS2R20, TAS2R30, TAS2R31, TAS2R46, TAS2R5, TAS2R50, TAS2R9"
   },
   {
-    "rank": 4,
+    "rank": 5,
     "pathway": "Sensory Perception Of Sweet, Bitter, And Umami (Glutamate) Taste R-HSA-9717207",
     "database": "Reactome",
     "overlap": 7,
@@ -48,11 +61,11 @@
     "vif": 5.37,
     "z_score": 3.17,
     "p_value": "7.71e-04",
-    "fdr_q": "0.0348",
+    "fdr_q": "0.0334",
     "genes": "TAS2R10, TAS2R20, TAS2R30, TAS2R31, TAS2R46, TAS2R5, TAS2R50"
   },
   {
-    "rank": 5,
+    "rank": 6,
     "pathway": "Interaction With Cumulus Cells And Zona Pellucida R-HSA-2534343",
     "database": "Reactome",
     "overlap": 2,
@@ -61,11 +74,11 @@
     "vif": 1.75,
     "z_score": 3.09,
     "p_value": "9.88e-04",
-    "fdr_q": "0.0348",
+    "fdr_q": "0.0334",
     "genes": "ADAM20, OVGP1"
   },
   {
-    "rank": 6,
+    "rank": 7,
     "pathway": "Steroid hormone biosynthesis",
     "database": "KEGG",
     "overlap": 7,
@@ -74,21 +87,8 @@
     "vif": 4.52,
     "z_score": 3.07,
     "p_value": "0.0011",
-    "fdr_q": "0.0348",
+    "fdr_q": "0.0334",
     "genes": "AKR1C4, CYP11B1, CYP11B2, HSD17B6, UGT1A6, UGT1A8, UGT2B28"
-  },
-  {
-    "rank": 7,
-    "pathway": "mRNA Editing R-HSA-75072",
-    "database": "Reactome",
-    "overlap": 2,
-    "pathway_size": 8,
-    "fold_enrichment": 15.04,
-    "vif": 1.53,
-    "z_score": 3.06,
-    "p_value": "0.0011",
-    "fdr_q": "0.0348",
-    "genes": "ADAR, APOBEC3H"
   },
   {
     "rank": 8,
@@ -113,7 +113,7 @@
     "vif": 10.39,
     "z_score": 2.77,
     "p_value": "0.0028",
-    "fdr_q": "0.0531",
+    "fdr_q": "0.0499",
     "genes": "OR10G6, OR13D1, OR1G1, OR1L1, OR2A4, OR2G3, OR2G6, OR2T11, OR2T27, OR2V1, OR2Z1, OR3A2, OR4C15, OR4L1, OR51D1, OR51E1, OR5K2, OR5M11, OR6A2, OR6F1, OR7D2, OR8D1, OR8D2, OR8G1, OR8G5, OR8H1, OR8K5"
   },
   {
@@ -126,7 +126,7 @@
     "vif": 10.1,
     "z_score": 2.77,
     "p_value": "0.0028",
-    "fdr_q": "0.0531",
+    "fdr_q": "0.0499",
     "genes": "OR10G6, OR13D1, OR1G1, OR1L1, OR2A4, OR2G3, OR2G6, OR2T11, OR2T27, OR2V1, OR2Z1, OR3A2, OR4C15, OR4L1, OR51D1, OR51E1, OR5K2, OR5M11, OR6A2, OR6F1, OR7D2, OR8D1, OR8D2, OR8G1, OR8G5, OR8H1, OR8K5"
   },
   {
@@ -139,7 +139,7 @@
     "vif": 5.88,
     "z_score": 2.77,
     "p_value": "0.0028",
-    "fdr_q": "0.0531",
+    "fdr_q": "0.0499",
     "genes": "TAS2R10, TAS2R20, TAS2R30, TAS2R31, TAS2R46, TAS2R5, TAS2R50"
   },
   {
@@ -152,11 +152,24 @@
     "vif": 8.86,
     "z_score": 2.76,
     "p_value": "0.0029",
-    "fdr_q": "0.0531",
+    "fdr_q": "0.0499",
     "genes": "OR10G6, OR13D1, OR1G1, OR1L1, OR2A4, OR2G3, OR2G6, OR2T11, OR2T27, OR2V1, OR2Z1, OR3A2, OR4C15, OR4L1, OR51D1, OR51E1, OR5K2, OR5M11, OR6A2, OR6F1, OR7D2, OR8D1, OR8D2, OR8G1, OR8G5, OR8H1, OR8K5"
   },
   {
     "rank": 13,
+    "pathway": "Glucuronidation R-HSA-156588",
+    "database": "Reactome",
+    "overlap": 3,
+    "pathway_size": 19,
+    "fold_enrichment": 9.5,
+    "vif": 2.03,
+    "z_score": 2.75,
+    "p_value": "0.0029",
+    "fdr_q": "0.0499",
+    "genes": "UGT1A6, UGT1A8, UGT2B28"
+  },
+  {
+    "rank": 14,
     "pathway": "Systemic lupus erythematosus",
     "database": "KEGG",
     "overlap": 11,
@@ -165,21 +178,8 @@
     "vif": 5.45,
     "z_score": 2.59,
     "p_value": "0.0047",
-    "fdr_q": "0.0805",
+    "fdr_q": "0.0748",
     "genes": "FCGR3B, H2AC11, H2BC18, H2BC3, H2BC4, H2BC7, H2BC8, H3C4, H4C13, H4C2, H4C6"
-  },
-  {
-    "rank": 14,
-    "pathway": "Glucuronidation R-HSA-156588",
-    "database": "Reactome",
-    "overlap": 3,
-    "pathway_size": 19,
-    "fold_enrichment": 9.5,
-    "vif": 2.42,
-    "z_score": 2.52,
-    "p_value": "0.0058",
-    "fdr_q": "0.0919",
-    "genes": "UGT1A6, UGT1A8, UGT2B28"
   },
   {
     "rank": 15,
@@ -189,9 +189,9 @@
     "pathway_size": 10,
     "fold_enrichment": 12.03,
     "vif": 1.95,
-    "z_score": 2.36,
+    "z_score": 2.37,
     "p_value": "0.0090",
-    "fdr_q": "0.1258",
+    "fdr_q": "0.1194",
     "genes": "CYP11B1, CYP11B2"
   },
   {
@@ -204,11 +204,24 @@
     "vif": 3.77,
     "z_score": 2.36,
     "p_value": "0.0091",
-    "fdr_q": "0.1258",
+    "fdr_q": "0.1194",
     "genes": "FCGR3B, H2AC11, H2BC18, H2BC3, H2BC4, H2BC7, H2BC8, H3C4, H4C13, H4C2, H4C6"
   },
   {
     "rank": 17,
+    "pathway": "Ascorbate and aldarate metabolism",
+    "database": "KEGG",
+    "overlap": 3,
+    "pathway_size": 24,
+    "fold_enrichment": 7.52,
+    "vif": 2.03,
+    "z_score": 2.36,
+    "p_value": "0.0092",
+    "fdr_q": "0.1194",
+    "genes": "UGT1A6, UGT1A8, UGT2B28"
+  },
+  {
+    "rank": 18,
     "pathway": "Metabolism of xenobiotics by cytochrome P450",
     "database": "KEGG",
     "overlap": 8,
@@ -217,21 +230,8 @@
     "vif": 8.56,
     "z_score": 2.18,
     "p_value": "0.0147",
-    "fdr_q": "0.1891",
+    "fdr_q": "0.1810",
     "genes": "CYP2A13, CYP2A6, GSTM1, GSTM2, GSTM5, UGT1A6, UGT1A8, UGT2B28"
-  },
-  {
-    "rank": 18,
-    "pathway": "Ascorbate and aldarate metabolism",
-    "database": "KEGG",
-    "overlap": 3,
-    "pathway_size": 24,
-    "fold_enrichment": 7.52,
-    "vif": 2.42,
-    "z_score": 2.16,
-    "p_value": "0.0154",
-    "fdr_q": "0.1891",
-    "genes": "UGT1A6, UGT1A8, UGT2B28"
   },
   {
     "rank": 19,
@@ -240,10 +240,10 @@
     "overlap": 3,
     "pathway_size": 38,
     "fold_enrichment": 4.75,
-    "vif": 1.37,
-    "z_score": 2.03,
-    "p_value": "0.0211",
-    "fdr_q": "0.2458",
+    "vif": 1.36,
+    "z_score": 2.04,
+    "p_value": "0.0208",
+    "fdr_q": "0.2414",
     "genes": "AKR1C4, BCO2, RBP1"
   },
   {
@@ -256,7 +256,7 @@
     "vif": 3.77,
     "z_score": 2.01,
     "p_value": "0.0224",
-    "fdr_q": "0.2460",
+    "fdr_q": "0.2450",
     "genes": "H2AC11, H2BC18, H2BC3, H2BC4, H2BC7, H2BC8, H3C4, H4C13, H4C2, H4C6"
   },
   {
@@ -269,7 +269,7 @@
     "vif": 1.99,
     "z_score": 1.97,
     "p_value": "0.0242",
-    "fdr_q": "0.2460",
+    "fdr_q": "0.2450",
     "genes": "ARSF, ARSH"
   },
   {
@@ -282,7 +282,7 @@
     "vif": 3.41,
     "z_score": 1.97,
     "p_value": "0.0245",
-    "fdr_q": "0.2460",
+    "fdr_q": "0.2450",
     "genes": "CYP2A6, HSD17B6, UGT1A6, UGT1A8, UGT2B28"
   },
   {
@@ -292,10 +292,10 @@
     "overlap": 3,
     "pathway_size": 40,
     "fold_enrichment": 4.51,
-    "vif": 1.37,
-    "z_score": 1.94,
-    "p_value": "0.0259",
-    "fdr_q": "0.2491",
+    "vif": 1.36,
+    "z_score": 1.95,
+    "p_value": "0.0255",
+    "fdr_q": "0.2450",
     "genes": "AKR1C4, BCO2, RBP1"
   },
   {
@@ -313,15 +313,15 @@
   },
   {
     "rank": 25,
-    "pathway": "Immunoregulatory Interactions Between A Lymphoid And A non-Lymphoid Cell R-HSA-198933",
-    "database": "Reactome",
-    "overlap": 5,
-    "pathway_size": 86,
-    "fold_enrichment": 3.5,
-    "vif": 2.33,
+    "pathway": "Porphyrin and chlorophyll metabolism",
+    "database": "KEGG",
+    "overlap": 3,
+    "pathway_size": 37,
+    "fold_enrichment": 4.88,
+    "vif": 2.03,
     "z_score": 1.7,
-    "p_value": "0.0444",
-    "fdr_q": "0.3922",
-    "genes": "CD300E, CLEC4G, IGLL5, LAIR2, PVR"
+    "p_value": "0.0441",
+    "fdr_q": "0.3757",
+    "genes": "UGT1A6, UGT1A8, UGT2B28"
   }
 ]

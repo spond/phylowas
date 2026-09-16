@@ -40,6 +40,19 @@
   },
   {
     "rank": 4,
+    "pathway": "Vitamin B5 (Pantothenate) Metabolism R-HSA-199220",
+    "database": "Reactome",
+    "overlap": 2,
+    "pathway_size": 15,
+    "fold_enrichment": 8.02,
+    "vif": 1.11,
+    "z_score": 2.4,
+    "p_value": "0.0083",
+    "fdr_q": "0.4057",
+    "genes": "FASN, PPCDC"
+  },
+  {
+    "rank": 5,
     "pathway": "Acetylcholine Neurotransmitter Release Cycle R-HSA-264642",
     "database": "Reactome",
     "overlap": 2,
@@ -48,11 +61,11 @@
     "vif": 1.06,
     "z_score": 2.34,
     "p_value": "0.0095",
-    "fdr_q": "0.4225",
+    "fdr_q": "0.4057",
     "genes": "RAB3A, TSPOAP1"
   },
   {
-    "rank": 5,
+    "rank": 6,
     "pathway": "Serotonin Neurotransmitter Release Cycle R-HSA-181429",
     "database": "Reactome",
     "overlap": 2,
@@ -61,11 +74,11 @@
     "vif": 1.0,
     "z_score": 2.31,
     "p_value": "0.0104",
-    "fdr_q": "0.4225",
+    "fdr_q": "0.4057",
     "genes": "RAB3A, TSPOAP1"
   },
   {
-    "rank": 6,
+    "rank": 7,
     "pathway": "Norepinephrine Neurotransmitter Release Cycle R-HSA-181430",
     "database": "Reactome",
     "overlap": 2,
@@ -74,21 +87,8 @@
     "vif": 1.0,
     "z_score": 2.31,
     "p_value": "0.0104",
-    "fdr_q": "0.4225",
+    "fdr_q": "0.4057",
     "genes": "RAB3A, TSPOAP1"
-  },
-  {
-    "rank": 7,
-    "pathway": "Vitamin B5 (Pantothenate) Metabolism R-HSA-199220",
-    "database": "Reactome",
-    "overlap": 2,
-    "pathway_size": 15,
-    "fold_enrichment": 8.02,
-    "vif": 1.21,
-    "z_score": 2.29,
-    "p_value": "0.0109",
-    "fdr_q": "0.4225",
-    "genes": "FASN, PPCDC"
   },
   {
     "rank": 8,
@@ -175,10 +175,10 @@
     "overlap": 5,
     "pathway_size": 114,
     "fold_enrichment": 2.64,
-    "vif": 1.13,
-    "z_score": 1.8,
-    "p_value": "0.0359",
-    "fdr_q": "0.6682",
+    "vif": 1.1,
+    "z_score": 1.83,
+    "p_value": "0.0339",
+    "fdr_q": "0.6289",
     "genes": "BPIFB2, IGFBP7, LAMB1, MEPE, SERPINC1"
   },
   {
@@ -191,11 +191,24 @@
     "vif": 1.49,
     "z_score": 1.79,
     "p_value": "0.0370",
-    "fdr_q": "0.6682",
+    "fdr_q": "0.6289",
     "genes": "FASN, NCOA2, SQLE"
   },
   {
     "rank": 16,
+    "pathway": "ZBP1(DAI) Mediated Induction Of Type I IFNs R-HSA-1606322",
+    "database": "Reactome",
+    "overlap": 2,
+    "pathway_size": 20,
+    "fold_enrichment": 6.01,
+    "vif": 1.31,
+    "z_score": 1.78,
+    "p_value": "0.0373",
+    "fdr_q": "0.6289",
+    "genes": "MYD88, NLRP4"
+  },
+  {
+    "rank": 17,
     "pathway": "Role Of Phospholipids In Phagocytosis R-HSA-2029485",
     "database": "Reactome",
     "overlap": 2,
@@ -204,11 +217,11 @@
     "vif": 1.0,
     "z_score": 1.76,
     "p_value": "0.0393",
-    "fdr_q": "0.6682",
+    "fdr_q": "0.6289",
     "genes": "PLA2G6, PRKCE"
   },
   {
-    "rank": 17,
+    "rank": 18,
     "pathway": "Hyaluronan Metabolism R-HSA-2142845",
     "database": "Reactome",
     "overlap": 2,
@@ -217,21 +230,8 @@
     "vif": 1.97,
     "z_score": 1.72,
     "p_value": "0.0429",
-    "fdr_q": "0.6866",
+    "fdr_q": "0.6485",
     "genes": "ABCC5, HYAL3"
-  },
-  {
-    "rank": 18,
-    "pathway": "ZBP1(DAI) Mediated Induction Of Type I IFNs R-HSA-1606322",
-    "database": "Reactome",
-    "overlap": 2,
-    "pathway_size": 20,
-    "fold_enrichment": 6.01,
-    "vif": 1.46,
-    "z_score": 1.69,
-    "p_value": "0.0455",
-    "fdr_q": "0.6868",
-    "genes": "MYD88, NLRP4"
   },
   {
     "rank": 19,
@@ -280,8 +280,8 @@
     "pathway_size": 30,
     "fold_enrichment": 4.01,
     "vif": 1.15,
-    "z_score": 1.34,
-    "p_value": "0.0906",
+    "z_score": 1.33,
+    "p_value": "0.0910",
     "fdr_q": "0.8045",
     "genes": "ALDOC, ENO2"
   },
@@ -318,9 +318,9 @@
     "overlap": 2,
     "pathway_size": 30,
     "fold_enrichment": 4.01,
-    "vif": 1.21,
-    "z_score": 1.3,
-    "p_value": "0.0963",
+    "vif": 1.23,
+    "z_score": 1.29,
+    "p_value": "0.0982",
     "fdr_q": "0.8045",
     "genes": "PSEN2, S100B"
   }

@@ -1,0 +1,3884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loss of Tooth Enamel & Edentulism | PhyloWAS Portal</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="../index.html" class="brand">
+        PhyloWAS Portal
+        <span class="brand-badge">Discrete Convergent</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Phenomes Catalog</a></li>
+        <li><a href="../matrix.html">Cross-Phenotype Synthesis</a></li>
+        <li><a href="echolocation.html" class="">Flagship Biosonar</a></li>
+        <li><a href="https://github.com/veg/hyphy" target="_blank">HyPhy / HyphAeon</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <div class="breadcrumbs">
+      <a href="../index.html">Home</a> &gt; <a href="../index.html#catalog">Phenotypes</a> &gt; Loss of Tooth Enamel & Edentulism
+    </div>
+
+    <div class="detail-header">
+      <h1 class="detail-title">Loss of Tooth Enamel & Edentulism</h1>
+      <p style="color: var(--text-secondary); font-size: 1.1rem; max-width: 900px;">
+        Convergent breakdown of amelogenesis, pseudogenization of enamel structural matrix proteins, and development of complete edentulism or enamel-less peg dentition.
+      </p>
+    </div>
+
+    <!-- Metadata Panel -->
+    <section class="detail-meta-panel">
+      <div class="meta-item">
+        <span class="meta-val">24</span>
+        <span class="meta-lbl">Taxa Sample Size</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-val">λ = 0.981</span>
+        <span class="meta-lbl">Genomic Inflation (λ_GC)</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-val">99</span>
+        <span class="meta-lbl">Sig Loci (q ≤ 0.05)</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-val">71</span>
+        <span class="meta-lbl">Sig Loci (q ≤ 0.01)</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-val">16,105</span>
+        <span class="meta-lbl">Screened Orthologs</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-val">Morphology & Physiology</span>
+        <span class="meta-lbl">Phenotypic Domain</span>
+      </div>
+    </section>
+
+    <!-- Key Plots Section -->
+    <section class="content-section">
+      <h2 class="section-title">Genome-Wide Selection Attribution Screen</h2>
+      <div class="figure-container">
+        <img src="../assets/figures/fig_DISC_ENAMEL_LOSS_EDENTULISM_screen.png" alt="Loss of Tooth Enamel & Edentulism Screen Figure" class="figure-img zoomable-img">
+        <div class="figure-caption">
+          <strong>Figure: Genome-wide directional selection screen for Loss of Tooth Enamel & Edentulism.</strong> 
+          Attribution across 15,035 mammalian orthologs in 742 genomes. Calibrated quantile-quantile scaling establishes statistical control (λ_GC = 0.981).
+        </div>
+        <div class="figure-actions">
+          <a href="../assets/figures/fig_DISC_ENAMEL_LOSS_EDENTULISM_screen.pdf" class="btn btn-primary" target="_blank">Download Publication Vector PDF</a>
+          <a href="../data/screens/enamel_loss_edentulism_screen.csv" class="btn btn-secondary" download>Download Full Screen CSV</a>
+          <a href="../data/json/enamel_loss_edentulism_top250.json" class="btn btn-secondary" download>Download Top 250 JSON</a>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- Interactive Rankings Table -->
+    <section class="content-section">
+      <h2 class="section-title">Interactive Top-Ranked Candidate Loci (Top 250)</h2>
+      <div class="table-card">
+        <div class="table-header-controls">
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="tableSearch" class="search-input" placeholder="Search gene symbols or keywords...">
+          </div>
+          <div style="display: flex; gap: 1rem; align-items: center;">
+            <label style="font-size: 0.85rem; color: var(--text-muted);">
+              Rows per page: 
+              <select id="pageSize" style="background: var(--bg-tertiary); color: #fff; border: 1px solid var(--border-color); border-radius: 0.25rem; padding: 0.2rem 0.4rem;">
+                <option value="25" selected>25</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+                <option value="250">250</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="table-wrapper">
+          <table id="rankingsTable">
+            <thead>
+              <tr>
+                <th data-col="rank">Rank</th>
+                <th data-col="gene">Gene Symbol & Function</th>
+                <th data-col="codon_length">Codons</th>
+                <th data-col="taxa_count">Taxa</th>
+                <th data-col="rho">Track A Concordance (ρ_max)</th>
+                <th data-col="rho_rank">Track A Rank</th>
+                <th data-col="psi">Track B Remodeling (Ψ)</th>
+                <th data-col="psi_rank">Track B Rank</th>
+                <th data-col="comp_rank">Composite Rank</th>
+                <th data-col="q">FDR q-Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+            <tr data-rank="1" data-gene="CD1B" data-codon_length="363" data-taxa_count="186" data-rho="0.522" data-rho_rank="5778" data-psi="0.240" data-psi_rank="48" data-comp_rank="1" data-q="0.0238">
+              <td style="font-weight: 700; color: var(--accent-primary);">1</td>
+              <td class="gene-cell">CD1B  </td>
+              <td>363</td>
+              <td>186</td>
+              <td><strong>0.522</strong></td>
+              <td>#5778</td>
+              <td>0.240</td>
+              <td>#48</td>
+              <td>#1</td>
+              <td>0.0238</td>
+            </tr>
+            
+            <tr data-rank="2" data-gene="H2BC13" data-codon_length="128" data-taxa_count="192" data-rho="0.882" data-rho_rank="92" data-psi="0.414" data-psi_rank="1" data-comp_rank="2" data-q="4.52e-17">
+              <td style="font-weight: 700; color: var(--accent-primary);">2</td>
+              <td class="gene-cell">H2BC13  </td>
+              <td>128</td>
+              <td>192</td>
+              <td><strong>0.882</strong></td>
+              <td>#92</td>
+              <td>0.414</td>
+              <td>#1</td>
+              <td>#2</td>
+              <td>4.52e-17</td>
+            </tr>
+            
+            <tr data-rank="3" data-gene="PRR20C" data-codon_length="294" data-taxa_count="240" data-rho="0.476" data-rho_rank="7330" data-psi="0.251" data-psi_rank="34" data-comp_rank="3" data-q="0.0074">
+              <td style="font-weight: 700; color: var(--accent-primary);">3</td>
+              <td class="gene-cell">PRR20C  </td>
+              <td>294</td>
+              <td>240</td>
+              <td><strong>0.476</strong></td>
+              <td>#7330</td>
+              <td>0.251</td>
+              <td>#34</td>
+              <td>#3</td>
+              <td>0.0074</td>
+            </tr>
+            
+            <tr data-rank="4" data-gene="BANF1" data-codon_length="98" data-taxa_count="687" data-rho="0.707" data-rho_rank="1718" data-psi="0.365" data-psi_rank="2" data-comp_rank="4" data-q="1.97e-11">
+              <td style="font-weight: 700; color: var(--accent-primary);">4</td>
+              <td class="gene-cell">BANF1  </td>
+              <td>98</td>
+              <td>687</td>
+              <td><strong>0.707</strong></td>
+              <td>#1718</td>
+              <td>0.365</td>
+              <td>#2</td>
+              <td>#4</td>
+              <td>1.97e-11</td>
+            </tr>
+            
+            <tr data-rank="5" data-gene="PRR20A" data-codon_length="276" data-taxa_count="279" data-rho="0.460" data-rho_rank="8019" data-psi="0.229" data-psi_rank="73" data-comp_rank="5" data-q="0.0593">
+              <td style="font-weight: 700; color: var(--accent-primary);">5</td>
+              <td class="gene-cell">PRR20A  </td>
+              <td>276</td>
+              <td>279</td>
+              <td><strong>0.460</strong></td>
+              <td>#8019</td>
+              <td>0.229</td>
+              <td>#73</td>
+              <td>#5</td>
+              <td>0.0593</td>
+            </tr>
+            
+            <tr data-rank="6" data-gene="SSU72L4" data-codon_length="196" data-taxa_count="100" data-rho="0.797" data-rho_rank="332" data-psi="0.360" data-psi_rank="3" data-comp_rank="6" data-q="6.03e-11">
+              <td style="font-weight: 700; color: var(--accent-primary);">6</td>
+              <td class="gene-cell">SSU72L4  </td>
+              <td>196</td>
+              <td>100</td>
+              <td><strong>0.797</strong></td>
+              <td>#332</td>
+              <td>0.360</td>
+              <td>#3</td>
+              <td>#6</td>
+              <td>6.03e-11</td>
+            </tr>
+            
+            <tr data-rank="7" data-gene="PAX8" data-codon_length="468" data-taxa_count="713" data-rho="0.472" data-rho_rank="7509" data-psi="0.176" data-psi_rank="488" data-comp_rank="7" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">7</td>
+              <td class="gene-cell">PAX8  </td>
+              <td>468</td>
+              <td>713</td>
+              <td><strong>0.472</strong></td>
+              <td>#7509</td>
+              <td>0.176</td>
+              <td>#488</td>
+              <td>#7</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="8" data-gene="ADGRE2" data-codon_length="843" data-taxa_count="123" data-rho="0.761" data-rho_rank="678" data-psi="0.343" data-psi_rank="4" data-comp_rank="8" data-q="2.85e-09">
+              <td style="font-weight: 700; color: var(--accent-primary);">8</td>
+              <td class="gene-cell">ADGRE2  </td>
+              <td>843</td>
+              <td>123</td>
+              <td><strong>0.761</strong></td>
+              <td>#678</td>
+              <td>0.343</td>
+              <td>#4</td>
+              <td>#8</td>
+              <td>2.85e-09</td>
+            </tr>
+            
+            <tr data-rank="9" data-gene="PHB1" data-codon_length="274" data-taxa_count="702" data-rho="0.408" data-rho_rank="10875" data-psi="0.191" data-psi_rank="256" data-comp_rank="9" data-q="0.8212">
+              <td style="font-weight: 700; color: var(--accent-primary);">9</td>
+              <td class="gene-cell">PHB1  </td>
+              <td>274</td>
+              <td>702</td>
+              <td><strong>0.408</strong></td>
+              <td>#10875</td>
+              <td>0.191</td>
+              <td>#256</td>
+              <td>#9</td>
+              <td>0.8212</td>
+            </tr>
+            
+            <tr data-rank="10" data-gene="H2BC6" data-codon_length="131" data-taxa_count="375" data-rho="0.551" data-rho_rank="5055" data-psi="0.316" data-psi_rank="5" data-comp_rank="10" data-q="5.61e-07">
+              <td style="font-weight: 700; color: var(--accent-primary);">10</td>
+              <td class="gene-cell">H2BC6  </td>
+              <td>131</td>
+              <td>375</td>
+              <td><strong>0.551</strong></td>
+              <td>#5055</td>
+              <td>0.316</td>
+              <td>#5</td>
+              <td>#10</td>
+              <td>5.61e-07</td>
+            </tr>
+            
+            <tr data-rank="11" data-gene="TRGV11" data-codon_length="116" data-taxa_count="310" data-rho="0.458" data-rho_rank="8107" data-psi="0.226" data-psi_rank="79" data-comp_rank="11" data-q="0.0811">
+              <td style="font-weight: 700; color: var(--accent-primary);">11</td>
+              <td class="gene-cell">TRGV11  </td>
+              <td>116</td>
+              <td>310</td>
+              <td><strong>0.458</strong></td>
+              <td>#8107</td>
+              <td>0.226</td>
+              <td>#79</td>
+              <td>#11</td>
+              <td>0.0811</td>
+            </tr>
+            
+            <tr data-rank="12" data-gene="TRGV8" data-codon_length="119" data-taxa_count="183" data-rho="0.664" data-rho_rank="2481" data-psi="0.315" data-psi_rank="6" data-comp_rank="12" data-q="6.33e-07">
+              <td style="font-weight: 700; color: var(--accent-primary);">12</td>
+              <td class="gene-cell">TRGV8  </td>
+              <td>119</td>
+              <td>183</td>
+              <td><strong>0.664</strong></td>
+              <td>#2481</td>
+              <td>0.315</td>
+              <td>#6</td>
+              <td>#12</td>
+              <td>6.33e-07</td>
+            </tr>
+            
+            <tr data-rank="13" data-gene="RPL23A" data-codon_length="158" data-taxa_count="674" data-rho="0.397" data-rho_rank="11716" data-psi="0.195" data-psi_rank="223" data-comp_rank="13" data-q="0.6873">
+              <td style="font-weight: 700; color: var(--accent-primary);">13</td>
+              <td class="gene-cell">RPL23A  </td>
+              <td>158</td>
+              <td>674</td>
+              <td><strong>0.397</strong></td>
+              <td>#11716</td>
+              <td>0.195</td>
+              <td>#223</td>
+              <td>#13</td>
+              <td>0.6873</td>
+            </tr>
+            
+            <tr data-rank="14" data-gene="CPHXL" data-codon_length="409" data-taxa_count="115" data-rho="0.847" data-rho_rank="151" data-psi="0.303" data-psi_rank="7" data-comp_rank="14" data-q="5.18e-06">
+              <td style="font-weight: 700; color: var(--accent-primary);">14</td>
+              <td class="gene-cell">CPHXL  </td>
+              <td>409</td>
+              <td>115</td>
+              <td><strong>0.847</strong></td>
+              <td>#151</td>
+              <td>0.303</td>
+              <td>#7</td>
+              <td>#14</td>
+              <td>5.18e-06</td>
+            </tr>
+            
+            <tr data-rank="15" data-gene="CST1" data-codon_length="155" data-taxa_count="149" data-rho="0.503" data-rho_rank="6342" data-psi="0.200" data-psi_rank="184" data-comp_rank="15" data-q="0.5195">
+              <td style="font-weight: 700; color: var(--accent-primary);">15</td>
+              <td class="gene-cell">CST1  </td>
+              <td>155</td>
+              <td>149</td>
+              <td><strong>0.503</strong></td>
+              <td>#6342</td>
+              <td>0.200</td>
+              <td>#184</td>
+              <td>#15</td>
+              <td>0.5195</td>
+            </tr>
+            
+            <tr data-rank="16" data-gene="H2AC4" data-codon_length="131" data-taxa_count="450" data-rho="0.650" data-rho_rank="2773" data-psi="0.302" data-psi_rank="8" data-comp_rank="16" data-q="6.15e-06">
+              <td style="font-weight: 700; color: var(--accent-primary);">16</td>
+              <td class="gene-cell">H2AC4  </td>
+              <td>131</td>
+              <td>450</td>
+              <td><strong>0.650</strong></td>
+              <td>#2773</td>
+              <td>0.302</td>
+              <td>#8</td>
+              <td>#16</td>
+              <td>6.15e-06</td>
+            </tr>
+            
+            <tr data-rank="17" data-gene="CHMP1A" data-codon_length="197" data-taxa_count="705" data-rho="0.443" data-rho_rank="8798" data-psi="0.164" data-psi_rank="844" data-comp_rank="17" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">17</td>
+              <td class="gene-cell">CHMP1A  </td>
+              <td>197</td>
+              <td>705</td>
+              <td><strong>0.443</strong></td>
+              <td>#8798</td>
+              <td>0.164</td>
+              <td>#844</td>
+              <td>#17</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="18" data-gene="KLRC3" data-codon_length="245" data-taxa_count="154" data-rho="0.628" data-rho_rank="3238" data-psi="0.300" data-psi_rank="9" data-comp_rank="18" data-q="8.04e-06">
+              <td style="font-weight: 700; color: var(--accent-primary);">18</td>
+              <td class="gene-cell">KLRC3  </td>
+              <td>245</td>
+              <td>154</td>
+              <td><strong>0.628</strong></td>
+              <td>#3238</td>
+              <td>0.300</td>
+              <td>#9</td>
+              <td>#18</td>
+              <td>8.04e-06</td>
+            </tr>
+            
+            <tr data-rank="19" data-gene="SOX1" data-codon_length="446" data-taxa_count="587" data-rho="0.494" data-rho_rank="6651" data-psi="0.208" data-psi_rank="140" data-comp_rank="19" data-q="0.3376">
+              <td style="font-weight: 700; color: var(--accent-primary);">19</td>
+              <td class="gene-cell">SOX1  </td>
+              <td>446</td>
+              <td>587</td>
+              <td><strong>0.494</strong></td>
+              <td>#6651</td>
+              <td>0.208</td>
+              <td>#140</td>
+              <td>#19</td>
+              <td>0.3376</td>
+            </tr>
+            
+            <tr data-rank="20" data-gene="GBP7" data-codon_length="709" data-taxa_count="132" data-rho="0.745" data-rho_rank="928" data-psi="0.295" data-psi_rank="10" data-comp_rank="20" data-q="1.94e-05">
+              <td style="font-weight: 700; color: var(--accent-primary);">20</td>
+              <td class="gene-cell">GBP7  </td>
+              <td>709</td>
+              <td>132</td>
+              <td><strong>0.745</strong></td>
+              <td>#928</td>
+              <td>0.295</td>
+              <td>#10</td>
+              <td>#20</td>
+              <td>1.94e-05</td>
+            </tr>
+            
+            <tr data-rank="21" data-gene="DDA1" data-codon_length="102" data-taxa_count="718" data-rho="0.391" data-rho_rank="12134" data-psi="0.211" data-psi_rank="122" data-comp_rank="21" data-q="0.2682">
+              <td style="font-weight: 700; color: var(--accent-primary);">21</td>
+              <td class="gene-cell">DDA1  </td>
+              <td>102</td>
+              <td>718</td>
+              <td><strong>0.391</strong></td>
+              <td>#12134</td>
+              <td>0.211</td>
+              <td>#122</td>
+              <td>#21</td>
+              <td>0.2682</td>
+            </tr>
+            
+            <tr data-rank="22" data-gene="KLRC2" data-codon_length="236" data-taxa_count="150" data-rho="0.605" data-rho_rank="3758" data-psi="0.293" data-psi_rank="11" data-comp_rank="22" data-q="2.53e-05">
+              <td style="font-weight: 700; color: var(--accent-primary);">22</td>
+              <td class="gene-cell">KLRC2  </td>
+              <td>236</td>
+              <td>150</td>
+              <td><strong>0.605</strong></td>
+              <td>#3758</td>
+              <td>0.293</td>
+              <td>#11</td>
+              <td>#22</td>
+              <td>2.53e-05</td>
+            </tr>
+            
+            <tr data-rank="23" data-gene="PRR20D" data-codon_length="280" data-taxa_count="282" data-rho="0.440" data-rho_rank="8919" data-psi="0.218" data-psi_rank="97" data-comp_rank="23" data-q="0.1659">
+              <td style="font-weight: 700; color: var(--accent-primary);">23</td>
+              <td class="gene-cell">PRR20D  </td>
+              <td>280</td>
+              <td>282</td>
+              <td><strong>0.440</strong></td>
+              <td>#8919</td>
+              <td>0.218</td>
+              <td>#97</td>
+              <td>#23</td>
+              <td>0.1659</td>
+            </tr>
+            
+            <tr data-rank="24" data-gene="GSTM4" data-codon_length="231" data-taxa_count="212" data-rho="0.566" data-rho_rank="4669" data-psi="0.293" data-psi_rank="12" data-comp_rank="24" data-q="2.53e-05">
+              <td style="font-weight: 700; color: var(--accent-primary);">24</td>
+              <td class="gene-cell">GSTM4  </td>
+              <td>231</td>
+              <td>212</td>
+              <td><strong>0.566</strong></td>
+              <td>#4669</td>
+              <td>0.293</td>
+              <td>#12</td>
+              <td>#24</td>
+              <td>2.53e-05</td>
+            </tr>
+            
+            <tr data-rank="25" data-gene="ALPI" data-codon_length="568" data-taxa_count="332" data-rho="0.483" data-rho_rank="7033" data-psi="0.216" data-psi_rank="105" data-comp_rank="25" data-q="0.1952">
+              <td style="font-weight: 700; color: var(--accent-primary);">25</td>
+              <td class="gene-cell">ALPI  </td>
+              <td>568</td>
+              <td>332</td>
+              <td><strong>0.483</strong></td>
+              <td>#7033</td>
+              <td>0.216</td>
+              <td>#105</td>
+              <td>#25</td>
+              <td>0.1952</td>
+            </tr>
+            
+            <tr data-rank="26" data-gene="H2BC4" data-codon_length="126" data-taxa_count="414" data-rho="0.667" data-rho_rank="2440" data-psi="0.289" data-psi_rank="13" data-comp_rank="26" data-q="4.27e-05">
+              <td style="font-weight: 700; color: var(--accent-primary);">26</td>
+              <td class="gene-cell">H2BC4  </td>
+              <td>126</td>
+              <td>414</td>
+              <td><strong>0.667</strong></td>
+              <td>#2440</td>
+              <td>0.289</td>
+              <td>#13</td>
+              <td>#26</td>
+              <td>4.27e-05</td>
+            </tr>
+            
+            <tr data-rank="27" data-gene="PRR20E" data-codon_length="280" data-taxa_count="294" data-rho="0.437" data-rho_rank="9068" data-psi="0.208" data-psi_rank="139" data-comp_rank="27" data-q="0.3347">
+              <td style="font-weight: 700; color: var(--accent-primary);">27</td>
+              <td class="gene-cell">PRR20E  </td>
+              <td>280</td>
+              <td>294</td>
+              <td><strong>0.437</strong></td>
+              <td>#9068</td>
+              <td>0.208</td>
+              <td>#139</td>
+              <td>#27</td>
+              <td>0.3347</td>
+            </tr>
+            
+            <tr data-rank="28" data-gene="KLRC1" data-codon_length="219" data-taxa_count="199" data-rho="0.638" data-rho_rank="3031" data-psi="0.288" data-psi_rank="14" data-comp_rank="28" data-q="5.50e-05">
+              <td style="font-weight: 700; color: var(--accent-primary);">28</td>
+              <td class="gene-cell">KLRC1  </td>
+              <td>219</td>
+              <td>199</td>
+              <td><strong>0.638</strong></td>
+              <td>#3031</td>
+              <td>0.288</td>
+              <td>#14</td>
+              <td>#28</td>
+              <td>5.50e-05</td>
+            </tr>
+            
+            <tr data-rank="29" data-gene="OR4D2" data-codon_length="311" data-taxa_count="272" data-rho="0.549" data-rho_rank="5104" data-psi="0.234" data-psi_rank="60" data-comp_rank="29" data-q="0.0408">
+              <td style="font-weight: 700; color: var(--accent-primary);">29</td>
+              <td class="gene-cell">OR4D2  </td>
+              <td>311</td>
+              <td>272</td>
+              <td><strong>0.549</strong></td>
+              <td>#5104</td>
+              <td>0.234</td>
+              <td>#60</td>
+              <td>#29</td>
+              <td>0.0408</td>
+            </tr>
+            
+            <tr data-rank="30" data-gene="OOSP3" data-codon_length="195" data-taxa_count="144" data-rho="0.877" data-rho_rank="99" data-psi="0.287" data-psi_rank="15" data-comp_rank="30" data-q="6.35e-05">
+              <td style="font-weight: 700; color: var(--accent-primary);">30</td>
+              <td class="gene-cell">OOSP3  </td>
+              <td>195</td>
+              <td>144</td>
+              <td><strong>0.877</strong></td>
+              <td>#99</td>
+              <td>0.287</td>
+              <td>#15</td>
+              <td>#30</td>
+              <td>6.35e-05</td>
+            </tr>
+            
+            <tr data-rank="31" data-gene="CSRP2" data-codon_length="193" data-taxa_count="720" data-rho="0.456" data-rho_rank="8250" data-psi="0.166" data-psi_rank="785" data-comp_rank="31" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">31</td>
+              <td class="gene-cell">CSRP2  </td>
+              <td>193</td>
+              <td>720</td>
+              <td><strong>0.456</strong></td>
+              <td>#8250</td>
+              <td>0.166</td>
+              <td>#785</td>
+              <td>#31</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="32" data-gene="GSTM5" data-codon_length="304" data-taxa_count="134" data-rho="0.595" data-rho_rank="3971" data-psi="0.284" data-psi_rank="16" data-comp_rank="32" data-q="9.51e-05">
+              <td style="font-weight: 700; color: var(--accent-primary);">32</td>
+              <td class="gene-cell">GSTM5  </td>
+              <td>304</td>
+              <td>134</td>
+              <td><strong>0.595</strong></td>
+              <td>#3971</td>
+              <td>0.284</td>
+              <td>#16</td>
+              <td>#32</td>
+              <td>9.51e-05</td>
+            </tr>
+            
+            <tr data-rank="33" data-gene="SYT1" data-codon_length="448" data-taxa_count="702" data-rho="0.717" data-rho_rank="1499" data-psi="0.228" data-psi_rank="74" data-comp_rank="33" data-q="0.0707">
+              <td style="font-weight: 700; color: var(--accent-primary);">33</td>
+              <td class="gene-cell">SYT1  </td>
+              <td>448</td>
+              <td>702</td>
+              <td><strong>0.717</strong></td>
+              <td>#1499</td>
+              <td>0.228</td>
+              <td>#74</td>
+              <td>#33</td>
+              <td>0.0707</td>
+            </tr>
+            
+            <tr data-rank="34" data-gene="C1orf202" data-codon_length="177" data-taxa_count="130" data-rho="0.913" data-rho_rank="60" data-psi="0.281" data-psi_rank="17" data-comp_rank="34" data-q="1.56e-04">
+              <td style="font-weight: 700; color: var(--accent-primary);">34</td>
+              <td class="gene-cell">C1orf202  </td>
+              <td>177</td>
+              <td>130</td>
+              <td><strong>0.913</strong></td>
+              <td>#60</td>
+              <td>0.281</td>
+              <td>#17</td>
+              <td>#34</td>
+              <td>1.56e-04</td>
+            </tr>
+            
+            <tr data-rank="35" data-gene="SEPHS1" data-codon_length="404" data-taxa_count="705" data-rho="0.369" data-rho_rank="13554" data-psi="0.244" data-psi_rank="44" data-comp_rank="35" data-q="0.0157">
+              <td style="font-weight: 700; color: var(--accent-primary);">35</td>
+              <td class="gene-cell">SEPHS1  </td>
+              <td>404</td>
+              <td>705</td>
+              <td><strong>0.369</strong></td>
+              <td>#13554</td>
+              <td>0.244</td>
+              <td>#44</td>
+              <td>#35</td>
+              <td>0.0157</td>
+            </tr>
+            
+            <tr data-rank="36" data-gene="OR6C1" data-codon_length="315" data-taxa_count="193" data-rho="0.866" data-rho_rank="108" data-psi="0.280" data-psi_rank="18" data-comp_rank="36" data-q="1.79e-04">
+              <td style="font-weight: 700; color: var(--accent-primary);">36</td>
+              <td class="gene-cell">OR6C1  </td>
+              <td>315</td>
+              <td>193</td>
+              <td><strong>0.866</strong></td>
+              <td>#108</td>
+              <td>0.280</td>
+              <td>#18</td>
+              <td>#36</td>
+              <td>1.79e-04</td>
+            </tr>
+            
+            <tr data-rank="37" data-gene="ALPP" data-codon_length="605" data-taxa_count="314" data-rho="0.510" data-rho_rank="6169" data-psi="0.212" data-psi_rank="115" data-comp_rank="37" data-q="0.2510">
+              <td style="font-weight: 700; color: var(--accent-primary);">37</td>
+              <td class="gene-cell">ALPP  </td>
+              <td>605</td>
+              <td>314</td>
+              <td><strong>0.510</strong></td>
+              <td>#6169</td>
+              <td>0.212</td>
+              <td>#115</td>
+              <td>#37</td>
+              <td>0.2510</td>
+            </tr>
+            
+            <tr data-rank="38" data-gene="GSTM2" data-codon_length="244" data-taxa_count="152" data-rho="0.567" data-rho_rank="4647" data-psi="0.275" data-psi_rank="19" data-comp_rank="38" data-q="3.60e-04">
+              <td style="font-weight: 700; color: var(--accent-primary);">38</td>
+              <td class="gene-cell">GSTM2  </td>
+              <td>244</td>
+              <td>152</td>
+              <td><strong>0.567</strong></td>
+              <td>#4647</td>
+              <td>0.275</td>
+              <td>#19</td>
+              <td>#38</td>
+              <td>3.60e-04</td>
+            </tr>
+            
+            <tr data-rank="39" data-gene="UBLCP1" data-codon_length="318" data-taxa_count="725" data-rho="0.417" data-rho_rank="10284" data-psi="0.145" data-psi_rank="2668" data-comp_rank="39" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">39</td>
+              <td class="gene-cell">UBLCP1  </td>
+              <td>318</td>
+              <td>725</td>
+              <td><strong>0.417</strong></td>
+              <td>#10284</td>
+              <td>0.145</td>
+              <td>#2668</td>
+              <td>#39</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="40" data-gene="GSTM1" data-codon_length="226" data-taxa_count="138" data-rho="0.581" data-rho_rank="4273" data-psi="0.272" data-psi_rank="20" data-comp_rank="40" data-q="5.48e-04">
+              <td style="font-weight: 700; color: var(--accent-primary);">40</td>
+              <td class="gene-cell">GSTM1  </td>
+              <td>226</td>
+              <td>138</td>
+              <td><strong>0.581</strong></td>
+              <td>#4273</td>
+              <td>0.272</td>
+              <td>#20</td>
+              <td>#40</td>
+              <td>5.48e-04</td>
+            </tr>
+            
+            <tr data-rank="41" data-gene="UBTD1" data-codon_length="228" data-taxa_count="719" data-rho="0.548" data-rho_rank="5131" data-psi="0.154" data-psi_rank="1503" data-comp_rank="41" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">41</td>
+              <td class="gene-cell">UBTD1  </td>
+              <td>228</td>
+              <td>719</td>
+              <td><strong>0.548</strong></td>
+              <td>#5131</td>
+              <td>0.154</td>
+              <td>#1503</td>
+              <td>#41</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="42" data-gene="MAN1B1" data-codon_length="715" data-taxa_count="111" data-rho="0.894" data-rho_rank="78" data-psi="0.271" data-psi_rank="21" data-comp_rank="42" data-q="5.97e-04">
+              <td style="font-weight: 700; color: var(--accent-primary);">42</td>
+              <td class="gene-cell">MAN1B1  </td>
+              <td>715</td>
+              <td>111</td>
+              <td><strong>0.894</strong></td>
+              <td>#78</td>
+              <td>0.271</td>
+              <td>#21</td>
+              <td>#42</td>
+              <td>5.97e-04</td>
+            </tr>
+            
+            <tr data-rank="43" data-gene="HNRNPF" data-codon_length="420" data-taxa_count="671" data-rho="0.535" data-rho_rank="5434" data-psi="0.184" data-psi_rank="327" data-comp_rank="43" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">43</td>
+              <td class="gene-cell">HNRNPF  </td>
+              <td>420</td>
+              <td>671</td>
+              <td><strong>0.535</strong></td>
+              <td>#5434</td>
+              <td>0.184</td>
+              <td>#327</td>
+              <td>#43</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="44" data-gene="SCGB2A2" data-codon_length="101" data-taxa_count="243" data-rho="0.802" data-rho_rank="313" data-psi="0.271" data-psi_rank="22" data-comp_rank="44" data-q="6.30e-04">
+              <td style="font-weight: 700; color: var(--accent-primary);">44</td>
+              <td class="gene-cell">SCGB2A2  </td>
+              <td>101</td>
+              <td>243</td>
+              <td><strong>0.802</strong></td>
+              <td>#313</td>
+              <td>0.271</td>
+              <td>#22</td>
+              <td>#44</td>
+              <td>6.30e-04</td>
+            </tr>
+            
+            <tr data-rank="45" data-gene="OGT" data-codon_length="1046" data-taxa_count="676" data-rho="0.692" data-rho_rank="2000" data-psi="0.169" data-psi_rank="703" data-comp_rank="45" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">45</td>
+              <td class="gene-cell">OGT  </td>
+              <td>1,046</td>
+              <td>676</td>
+              <td><strong>0.692</strong></td>
+              <td>#2000</td>
+              <td>0.169</td>
+              <td>#703</td>
+              <td>#45</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="46" data-gene="TUBA3E" data-codon_length="454" data-taxa_count="152" data-rho="0.631" data-rho_rank="3185" data-psi="0.270" data-psi_rank="23" data-comp_rank="46" data-q="6.86e-04">
+              <td style="font-weight: 700; color: var(--accent-primary);">46</td>
+              <td class="gene-cell">TUBA3E  </td>
+              <td>454</td>
+              <td>152</td>
+              <td><strong>0.631</strong></td>
+              <td>#3185</td>
+              <td>0.270</td>
+              <td>#23</td>
+              <td>#46</td>
+              <td>6.86e-04</td>
+            </tr>
+            
+            <tr data-rank="47" data-gene="ALPG" data-codon_length="634" data-taxa_count="291" data-rho="0.512" data-rho_rank="6117" data-psi="0.213" data-psi_rank="110" data-comp_rank="47" data-q="0.2320">
+              <td style="font-weight: 700; color: var(--accent-primary);">47</td>
+              <td class="gene-cell">ALPG  </td>
+              <td>634</td>
+              <td>291</td>
+              <td><strong>0.512</strong></td>
+              <td>#6117</td>
+              <td>0.213</td>
+              <td>#110</td>
+              <td>#47</td>
+              <td>0.2320</td>
+            </tr>
+            
+            <tr data-rank="48" data-gene="SCGB1D2" data-codon_length="102" data-taxa_count="241" data-rho="0.619" data-rho_rank="3462" data-psi="0.269" data-psi_rank="24" data-comp_rank="48" data-q="7.31e-04">
+              <td style="font-weight: 700; color: var(--accent-primary);">48</td>
+              <td class="gene-cell">SCGB1D2  </td>
+              <td>102</td>
+              <td>241</td>
+              <td><strong>0.619</strong></td>
+              <td>#3462</td>
+              <td>0.269</td>
+              <td>#24</td>
+              <td>#48</td>
+              <td>7.31e-04</td>
+            </tr>
+            
+            <tr data-rank="49" data-gene="CASP10" data-codon_length="547" data-taxa_count="355" data-rho="0.504" data-rho_rank="6317" data-psi="0.188" data-psi_rank="286" data-comp_rank="49" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">49</td>
+              <td class="gene-cell">CASP10  </td>
+              <td>547</td>
+              <td>355</td>
+              <td><strong>0.504</strong></td>
+              <td>#6317</td>
+              <td>0.188</td>
+              <td>#286</td>
+              <td>#49</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="50" data-gene="BMP8B" data-codon_length="420" data-taxa_count="108" data-rho="0.845" data-rho_rank="158" data-psi="0.269" data-psi_rank="25" data-comp_rank="50" data-q="7.31e-04">
+              <td style="font-weight: 700; color: var(--accent-primary);">50</td>
+              <td class="gene-cell">BMP8B  </td>
+              <td>420</td>
+              <td>108</td>
+              <td><strong>0.845</strong></td>
+              <td>#158</td>
+              <td>0.269</td>
+              <td>#25</td>
+              <td>#50</td>
+              <td>7.31e-04</td>
+            </tr>
+            
+            <tr data-rank="51" data-gene="RBM18" data-codon_length="190" data-taxa_count="726" data-rho="0.535" data-rho_rank="5446" data-psi="0.206" data-psi_rank="147" data-comp_rank="51" data-q="0.3782">
+              <td style="font-weight: 700; color: var(--accent-primary);">51</td>
+              <td class="gene-cell">RBM18  </td>
+              <td>190</td>
+              <td>726</td>
+              <td><strong>0.535</strong></td>
+              <td>#5446</td>
+              <td>0.206</td>
+              <td>#147</td>
+              <td>#51</td>
+              <td>0.3782</td>
+            </tr>
+            
+            <tr data-rank="52" data-gene="BMP8A" data-codon_length="408" data-taxa_count="107" data-rho="0.845" data-rho_rank="157" data-psi="0.266" data-psi_rank="26" data-comp_rank="52" data-q="0.0010">
+              <td style="font-weight: 700; color: var(--accent-primary);">52</td>
+              <td class="gene-cell">BMP8A  </td>
+              <td>408</td>
+              <td>107</td>
+              <td><strong>0.845</strong></td>
+              <td>#157</td>
+              <td>0.266</td>
+              <td>#26</td>
+              <td>#52</td>
+              <td>0.0010</td>
+            </tr>
+            
+            <tr data-rank="53" data-gene="OR11A1" data-codon_length="329" data-taxa_count="239" data-rho="0.784" data-rho_rank="394" data-psi="0.184" data-psi_rank="333" data-comp_rank="53" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">53</td>
+              <td class="gene-cell">OR11A1  </td>
+              <td>329</td>
+              <td>239</td>
+              <td><strong>0.784</strong></td>
+              <td>#394</td>
+              <td>0.184</td>
+              <td>#333</td>
+              <td>#53</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="54" data-gene="KLRC4" data-codon_length="161" data-taxa_count="176" data-rho="0.583" data-rho_rank="4238" data-psi="0.266" data-psi_rank="27" data-comp_rank="54" data-q="0.0011">
+              <td style="font-weight: 700; color: var(--accent-primary);">54</td>
+              <td class="gene-cell">KLRC4  </td>
+              <td>161</td>
+              <td>176</td>
+              <td><strong>0.583</strong></td>
+              <td>#4238</td>
+              <td>0.266</td>
+              <td>#27</td>
+              <td>#54</td>
+              <td>0.0011</td>
+            </tr>
+            
+            <tr data-rank="55" data-gene="LHFPL6" data-codon_length="200" data-taxa_count="712" data-rho="0.466" data-rho_rank="7722" data-psi="0.164" data-psi_rank="854" data-comp_rank="55" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">55</td>
+              <td class="gene-cell">LHFPL6  </td>
+              <td>200</td>
+              <td>712</td>
+              <td><strong>0.466</strong></td>
+              <td>#7722</td>
+              <td>0.164</td>
+              <td>#854</td>
+              <td>#55</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="56" data-gene="SCGB1D4" data-codon_length="88" data-taxa_count="265" data-rho="0.611" data-rho_rank="3637" data-psi="0.264" data-psi_rank="28" data-comp_rank="56" data-q="0.0015">
+              <td style="font-weight: 700; color: var(--accent-primary);">56</td>
+              <td class="gene-cell">SCGB1D4  </td>
+              <td>88</td>
+              <td>265</td>
+              <td><strong>0.611</strong></td>
+              <td>#3637</td>
+              <td>0.264</td>
+              <td>#28</td>
+              <td>#56</td>
+              <td>0.0015</td>
+            </tr>
+            
+            <tr data-rank="57" data-gene="CYP11B1" data-codon_length="525" data-taxa_count="343" data-rho="0.594" data-rho_rank="3985" data-psi="0.176" data-psi_rank="500" data-comp_rank="57" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">57</td>
+              <td class="gene-cell">CYP11B1  </td>
+              <td>525</td>
+              <td>343</td>
+              <td><strong>0.594</strong></td>
+              <td>#3985</td>
+              <td>0.176</td>
+              <td>#500</td>
+              <td>#57</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="58" data-gene="EIF4A2" data-codon_length="408" data-taxa_count="709" data-rho="0.302" data-rho_rank="15401" data-psi="0.262" data-psi_rank="29" data-comp_rank="58" data-q="0.0019">
+              <td style="font-weight: 700; color: var(--accent-primary);">58</td>
+              <td class="gene-cell">EIF4A2  </td>
+              <td>408</td>
+              <td>709</td>
+              <td><strong>0.302</strong></td>
+              <td>#15401</td>
+              <td>0.262</td>
+              <td>#29</td>
+              <td>#58</td>
+              <td>0.0019</td>
+            </tr>
+            
+            <tr data-rank="59" data-gene="CRX" data-codon_length="305" data-taxa_count="668" data-rho="0.670" data-rho_rank="2388" data-psi="0.153" data-psi_rank="1628" data-comp_rank="59" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">59</td>
+              <td class="gene-cell">CRX  </td>
+              <td>305</td>
+              <td>668</td>
+              <td><strong>0.670</strong></td>
+              <td>#2388</td>
+              <td>0.153</td>
+              <td>#1628</td>
+              <td>#59</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="60" data-gene="RBMY1F" data-codon_length="445" data-taxa_count="100" data-rho="0.913" data-rho_rank="58" data-psi="0.261" data-psi_rank="30" data-comp_rank="60" data-q="0.0019">
+              <td style="font-weight: 700; color: var(--accent-primary);">60</td>
+              <td class="gene-cell">RBMY1F  </td>
+              <td>445</td>
+              <td>100</td>
+              <td><strong>0.913</strong></td>
+              <td>#58</td>
+              <td>0.261</td>
+              <td>#30</td>
+              <td>#60</td>
+              <td>0.0019</td>
+            </tr>
+            
+            <tr data-rank="61" data-gene="HDAC1" data-codon_length="495" data-taxa_count="665" data-rho="0.548" data-rho_rank="5125" data-psi="0.147" data-psi_rank="2408" data-comp_rank="61" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">61</td>
+              <td class="gene-cell">HDAC1  </td>
+              <td>495</td>
+              <td>665</td>
+              <td><strong>0.548</strong></td>
+              <td>#5125</td>
+              <td>0.147</td>
+              <td>#2408</td>
+              <td>#61</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="62" data-gene="SUMO1" data-codon_length="132" data-taxa_count="649" data-rho="0.506" data-rho_rank="6262" data-psi="0.259" data-psi_rank="31" data-comp_rank="62" data-q="0.0025">
+              <td style="font-weight: 700; color: var(--accent-primary);">62</td>
+              <td class="gene-cell">SUMO1  </td>
+              <td>132</td>
+              <td>649</td>
+              <td><strong>0.506</strong></td>
+              <td>#6262</td>
+              <td>0.259</td>
+              <td>#31</td>
+              <td>#62</td>
+              <td>0.0025</td>
+            </tr>
+            
+            <tr data-rank="63" data-gene="CYFIP1" data-codon_length="1272" data-taxa_count="660" data-rho="0.430" data-rho_rank="9438" data-psi="0.149" data-psi_rank="2027" data-comp_rank="63" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">63</td>
+              <td class="gene-cell">CYFIP1  </td>
+              <td>1,272</td>
+              <td>660</td>
+              <td><strong>0.430</strong></td>
+              <td>#9438</td>
+              <td>0.149</td>
+              <td>#2027</td>
+              <td>#63</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="64" data-gene="LDHAL6A" data-codon_length="341" data-taxa_count="144" data-rho="0.894" data-rho_rank="72" data-psi="0.259" data-psi_rank="32" data-comp_rank="64" data-q="0.0027">
+              <td style="font-weight: 700; color: var(--accent-primary);">64</td>
+              <td class="gene-cell">LDHAL6A  </td>
+              <td>341</td>
+              <td>144</td>
+              <td><strong>0.894</strong></td>
+              <td>#72</td>
+              <td>0.259</td>
+              <td>#32</td>
+              <td>#64</td>
+              <td>0.0027</td>
+            </tr>
+            
+            <tr data-rank="65" data-gene="CYP11B2" data-codon_length="510" data-taxa_count="375" data-rho="0.558" data-rho_rank="4875" data-psi="0.172" data-psi_rank="597" data-comp_rank="65" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">65</td>
+              <td class="gene-cell">CYP11B2  </td>
+              <td>510</td>
+              <td>375</td>
+              <td><strong>0.558</strong></td>
+              <td>#4875</td>
+              <td>0.172</td>
+              <td>#597</td>
+              <td>#65</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="66" data-gene="H2BC10" data-codon_length="126" data-taxa_count="194" data-rho="0.632" data-rho_rank="3126" data-psi="0.254" data-psi_rank="33" data-comp_rank="66" data-q="0.0053">
+              <td style="font-weight: 700; color: var(--accent-primary);">66</td>
+              <td class="gene-cell">H2BC10  </td>
+              <td>126</td>
+              <td>194</td>
+              <td><strong>0.632</strong></td>
+              <td>#3126</td>
+              <td>0.254</td>
+              <td>#33</td>
+              <td>#66</td>
+              <td>0.0053</td>
+            </tr>
+            
+            <tr data-rank="67" data-gene="CLEC4A" data-codon_length="259" data-taxa_count="345" data-rho="0.661" data-rho_rank="2533" data-psi="0.187" data-psi_rank="293" data-comp_rank="67" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">67</td>
+              <td class="gene-cell">CLEC4A  </td>
+              <td>259</td>
+              <td>345</td>
+              <td><strong>0.661</strong></td>
+              <td>#2533</td>
+              <td>0.187</td>
+              <td>#293</td>
+              <td>#67</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="68" data-gene="KDM4F" data-codon_length="672" data-taxa_count="190" data-rho="0.642" data-rho_rank="2929" data-psi="0.169" data-psi_rank="668" data-comp_rank="68" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">68</td>
+              <td class="gene-cell">KDM4F  </td>
+              <td>672</td>
+              <td>190</td>
+              <td><strong>0.642</strong></td>
+              <td>#2929</td>
+              <td>0.169</td>
+              <td>#668</td>
+              <td>#68</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="69" data-gene="TPSAB1" data-codon_length="309" data-taxa_count="148" data-rho="0.775" data-rho_rank="474" data-psi="0.250" data-psi_rank="35" data-comp_rank="69" data-q="0.0077">
+              <td style="font-weight: 700; color: var(--accent-primary);">69</td>
+              <td class="gene-cell">TPSAB1  </td>
+              <td>309</td>
+              <td>148</td>
+              <td><strong>0.775</strong></td>
+              <td>#474</td>
+              <td>0.250</td>
+              <td>#35</td>
+              <td>#69</td>
+              <td>0.0077</td>
+            </tr>
+            
+            <tr data-rank="70" data-gene="ARPC1A" data-codon_length="375" data-taxa_count="686" data-rho="0.395" data-rho_rank="11883" data-psi="0.159" data-psi_rank="1116" data-comp_rank="70" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">70</td>
+              <td class="gene-cell">ARPC1A  </td>
+              <td>375</td>
+              <td>686</td>
+              <td><strong>0.395</strong></td>
+              <td>#11883</td>
+              <td>0.159</td>
+              <td>#1116</td>
+              <td>#70</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="71" data-gene="SCGB2A1" data-codon_length="100" data-taxa_count="269" data-rho="0.745" data-rho_rank="934" data-psi="0.250" data-psi_rank="36" data-comp_rank="71" data-q="0.0082">
+              <td style="font-weight: 700; color: var(--accent-primary);">71</td>
+              <td class="gene-cell">SCGB2A1  </td>
+              <td>100</td>
+              <td>269</td>
+              <td><strong>0.745</strong></td>
+              <td>#934</td>
+              <td>0.250</td>
+              <td>#36</td>
+              <td>#71</td>
+              <td>0.0082</td>
+            </tr>
+            
+            <tr data-rank="72" data-gene="STARD13" data-codon_length="1141" data-taxa_count="674" data-rho="0.643" data-rho_rank="2905" data-psi="0.165" data-psi_rank="806" data-comp_rank="72" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">72</td>
+              <td class="gene-cell">STARD13  </td>
+              <td>1,141</td>
+              <td>674</td>
+              <td><strong>0.643</strong></td>
+              <td>#2905</td>
+              <td>0.165</td>
+              <td>#806</td>
+              <td>#72</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="73" data-gene="CNFN" data-codon_length="137" data-taxa_count="710" data-rho="0.642" data-rho_rank="2924" data-psi="0.248" data-psi_rank="37" data-comp_rank="73" data-q="0.0100">
+              <td style="font-weight: 700; color: var(--accent-primary);">73</td>
+              <td class="gene-cell">CNFN  </td>
+              <td>137</td>
+              <td>710</td>
+              <td><strong>0.642</strong></td>
+              <td>#2924</td>
+              <td>0.248</td>
+              <td>#37</td>
+              <td>#73</td>
+              <td>0.0100</td>
+            </tr>
+            
+            <tr data-rank="74" data-gene="MTSS1" data-codon_length="779" data-taxa_count="659" data-rho="0.558" data-rho_rank="4851" data-psi="0.153" data-psi_rank="1637" data-comp_rank="74" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">74</td>
+              <td class="gene-cell">MTSS1  </td>
+              <td>779</td>
+              <td>659</td>
+              <td><strong>0.558</strong></td>
+              <td>#4851</td>
+              <td>0.153</td>
+              <td>#1637</td>
+              <td>#74</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="75" data-gene="OR8S1" data-codon_length="313" data-taxa_count="230" data-rho="0.667" data-rho_rank="2442" data-psi="0.248" data-psi_rank="38" data-comp_rank="75" data-q="0.0100">
+              <td style="font-weight: 700; color: var(--accent-primary);">75</td>
+              <td class="gene-cell">OR8S1  </td>
+              <td>313</td>
+              <td>230</td>
+              <td><strong>0.667</strong></td>
+              <td>#2442</td>
+              <td>0.248</td>
+              <td>#38</td>
+              <td>#75</td>
+              <td>0.0100</td>
+            </tr>
+            
+            <tr data-rank="76" data-gene="SIX1" data-codon_length="343" data-taxa_count="726" data-rho="0.379" data-rho_rank="12921" data-psi="0.214" data-psi_rank="109" data-comp_rank="76" data-q="0.2320">
+              <td style="font-weight: 700; color: var(--accent-primary);">76</td>
+              <td class="gene-cell">SIX1  </td>
+              <td>343</td>
+              <td>726</td>
+              <td><strong>0.379</strong></td>
+              <td>#12921</td>
+              <td>0.214</td>
+              <td>#109</td>
+              <td>#76</td>
+              <td>0.2320</td>
+            </tr>
+            
+            <tr data-rank="77" data-gene="H2BC9" data-codon_length="126" data-taxa_count="301" data-rho="0.574" data-rho_rank="4481" data-psi="0.247" data-psi_rank="39" data-comp_rank="77" data-q="0.0107">
+              <td style="font-weight: 700; color: var(--accent-primary);">77</td>
+              <td class="gene-cell">H2BC9  </td>
+              <td>126</td>
+              <td>301</td>
+              <td><strong>0.574</strong></td>
+              <td>#4481</td>
+              <td>0.247</td>
+              <td>#39</td>
+              <td>#77</td>
+              <td>0.0107</td>
+            </tr>
+            
+            <tr data-rank="78" data-gene="SULT4A1" data-codon_length="296" data-taxa_count="642" data-rho="0.746" data-rho_rank="925" data-psi="0.216" data-psi_rank="103" data-comp_rank="78" data-q="0.1907">
+              <td style="font-weight: 700; color: var(--accent-primary);">78</td>
+              <td class="gene-cell">SULT4A1  </td>
+              <td>296</td>
+              <td>642</td>
+              <td><strong>0.746</strong></td>
+              <td>#925</td>
+              <td>0.216</td>
+              <td>#103</td>
+              <td>#78</td>
+              <td>0.1907</td>
+            </tr>
+            
+            <tr data-rank="79" data-gene="MYL11" data-codon_length="173" data-taxa_count="670" data-rho="0.769" data-rho_rank="518" data-psi="0.246" data-psi_rank="40" data-comp_rank="79" data-q="0.0118">
+              <td style="font-weight: 700; color: var(--accent-primary);">79</td>
+              <td class="gene-cell">MYL11  </td>
+              <td>173</td>
+              <td>670</td>
+              <td><strong>0.769</strong></td>
+              <td>#518</td>
+              <td>0.246</td>
+              <td>#40</td>
+              <td>#79</td>
+              <td>0.0118</td>
+            </tr>
+            
+            <tr data-rank="80" data-gene="GPM6A" data-codon_length="291" data-taxa_count="693" data-rho="0.417" data-rho_rank="10425" data-psi="0.127" data-psi_rank="7339" data-comp_rank="80" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">80</td>
+              <td class="gene-cell">GPM6A  </td>
+              <td>291</td>
+              <td>693</td>
+              <td><strong>0.417</strong></td>
+              <td>#10425</td>
+              <td>0.127</td>
+              <td>#7339</td>
+              <td>#80</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="81" data-gene="ABCE1" data-codon_length="604" data-taxa_count="714" data-rho="0.752" data-rho_rank="808" data-psi="0.246" data-psi_rank="41" data-comp_rank="81" data-q="0.0120">
+              <td style="font-weight: 700; color: var(--accent-primary);">81</td>
+              <td class="gene-cell">ABCE1  </td>
+              <td>604</td>
+              <td>714</td>
+              <td><strong>0.752</strong></td>
+              <td>#808</td>
+              <td>0.246</td>
+              <td>#41</td>
+              <td>#81</td>
+              <td>0.0120</td>
+            </tr>
+            
+            <tr data-rank="82" data-gene="PLAC8" data-codon_length="118" data-taxa_count="614" data-rho="0.408" data-rho_rank="11063" data-psi="0.180" data-psi_rank="421" data-comp_rank="82" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">82</td>
+              <td class="gene-cell">PLAC8  </td>
+              <td>118</td>
+              <td>614</td>
+              <td><strong>0.408</strong></td>
+              <td>#11063</td>
+              <td>0.180</td>
+              <td>#421</td>
+              <td>#82</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="83" data-gene="KHDC1" data-codon_length="170" data-taxa_count="162" data-rho="0.554" data-rho_rank="4965" data-psi="0.246" data-psi_rank="42" data-comp_rank="83" data-q="0.0124">
+              <td style="font-weight: 700; color: var(--accent-primary);">83</td>
+              <td class="gene-cell">KHDC1  </td>
+              <td>170</td>
+              <td>162</td>
+              <td><strong>0.554</strong></td>
+              <td>#4965</td>
+              <td>0.246</td>
+              <td>#42</td>
+              <td>#83</td>
+              <td>0.0124</td>
+            </tr>
+            
+            <tr data-rank="84" data-gene="IPPK" data-codon_length="530" data-taxa_count="697" data-rho="0.422" data-rho_rank="9914" data-psi="0.135" data-psi_rank="4992" data-comp_rank="84" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">84</td>
+              <td class="gene-cell">IPPK  </td>
+              <td>530</td>
+              <td>697</td>
+              <td><strong>0.422</strong></td>
+              <td>#9914</td>
+              <td>0.135</td>
+              <td>#4992</td>
+              <td>#84</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="85" data-gene="ADPRHL1" data-codon_length="2335" data-taxa_count="122" data-rho="0.784" data-rho_rank="390" data-psi="0.245" data-psi_rank="43" data-comp_rank="85" data-q="0.0130">
+              <td style="font-weight: 700; color: var(--accent-primary);">85</td>
+              <td class="gene-cell">ADPRHL1  </td>
+              <td>2,335</td>
+              <td>122</td>
+              <td><strong>0.784</strong></td>
+              <td>#390</td>
+              <td>0.245</td>
+              <td>#43</td>
+              <td>#85</td>
+              <td>0.0130</td>
+            </tr>
+            
+            <tr data-rank="86" data-gene="MECP2" data-codon_length="514" data-taxa_count="693" data-rho="0.693" data-rho_rank="1963" data-psi="0.140" data-psi_rank="3682" data-comp_rank="86" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">86</td>
+              <td class="gene-cell">MECP2  </td>
+              <td>514</td>
+              <td>693</td>
+              <td><strong>0.693</strong></td>
+              <td>#1963</td>
+              <td>0.140</td>
+              <td>#3682</td>
+              <td>#86</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="87" data-gene="NPRL3" data-codon_length="571" data-taxa_count="671" data-rho="0.398" data-rho_rank="11656" data-psi="0.171" data-psi_rank="621" data-comp_rank="87" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">87</td>
+              <td class="gene-cell">NPRL3  </td>
+              <td>571</td>
+              <td>671</td>
+              <td><strong>0.398</strong></td>
+              <td>#11656</td>
+              <td>0.171</td>
+              <td>#621</td>
+              <td>#87</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="88" data-gene="HYPK" data-codon_length="123" data-taxa_count="718" data-rho="0.742" data-rho_rank="982" data-psi="0.242" data-psi_rank="45" data-comp_rank="88" data-q="0.0198">
+              <td style="font-weight: 700; color: var(--accent-primary);">88</td>
+              <td class="gene-cell">HYPK  </td>
+              <td>123</td>
+              <td>718</td>
+              <td><strong>0.742</strong></td>
+              <td>#982</td>
+              <td>0.242</td>
+              <td>#45</td>
+              <td>#88</td>
+              <td>0.0198</td>
+            </tr>
+            
+            <tr data-rank="89" data-gene="PRR20B" data-codon_length="280" data-taxa_count="269" data-rho="0.463" data-rho_rank="7876" data-psi="0.190" data-psi_rank="262" data-comp_rank="89" data-q="0.8699">
+              <td style="font-weight: 700; color: var(--accent-primary);">89</td>
+              <td class="gene-cell">PRR20B  </td>
+              <td>280</td>
+              <td>269</td>
+              <td><strong>0.463</strong></td>
+              <td>#7876</td>
+              <td>0.190</td>
+              <td>#262</td>
+              <td>#89</td>
+              <td>0.8699</td>
+            </tr>
+            
+            <tr data-rank="90" data-gene="OR1J2" data-codon_length="325" data-taxa_count="305" data-rho="0.749" data-rho_rank="900" data-psi="0.241" data-psi_rank="46" data-comp_rank="90" data-q="0.0201">
+              <td style="font-weight: 700; color: var(--accent-primary);">90</td>
+              <td class="gene-cell">OR1J2  </td>
+              <td>325</td>
+              <td>305</td>
+              <td><strong>0.749</strong></td>
+              <td>#900</td>
+              <td>0.241</td>
+              <td>#46</td>
+              <td>#90</td>
+              <td>0.0201</td>
+            </tr>
+            
+            <tr data-rank="91" data-gene="RAB32" data-codon_length="236" data-taxa_count="677" data-rho="0.465" data-rho_rank="7809" data-psi="0.173" data-psi_rank="557" data-comp_rank="91" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">91</td>
+              <td class="gene-cell">RAB32  </td>
+              <td>236</td>
+              <td>677</td>
+              <td><strong>0.465</strong></td>
+              <td>#7809</td>
+              <td>0.173</td>
+              <td>#557</td>
+              <td>#91</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="92" data-gene="CT45A2" data-codon_length="189" data-taxa_count="110" data-rho="0.813" data-rho_rank="272" data-psi="0.241" data-psi_rank="47" data-comp_rank="92" data-q="0.0201">
+              <td style="font-weight: 700; color: var(--accent-primary);">92</td>
+              <td class="gene-cell">CT45A2  </td>
+              <td>189</td>
+              <td>110</td>
+              <td><strong>0.813</strong></td>
+              <td>#272</td>
+              <td>0.241</td>
+              <td>#47</td>
+              <td>#92</td>
+              <td>0.0201</td>
+            </tr>
+            
+            <tr data-rank="93" data-gene="NANP" data-codon_length="250" data-taxa_count="680" data-rho="0.422" data-rho_rank="9926" data-psi="0.151" data-psi_rank="1832" data-comp_rank="93" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">93</td>
+              <td class="gene-cell">NANP  </td>
+              <td>250</td>
+              <td>680</td>
+              <td><strong>0.422</strong></td>
+              <td>#9926</td>
+              <td>0.151</td>
+              <td>#1832</td>
+              <td>#93</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="94" data-gene="TMOD1" data-codon_length="359" data-taxa_count="718" data-rho="0.620" data-rho_rank="3443" data-psi="0.156" data-psi_rank="1360" data-comp_rank="94" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">94</td>
+              <td class="gene-cell">TMOD1  </td>
+              <td>359</td>
+              <td>718</td>
+              <td><strong>0.620</strong></td>
+              <td>#3443</td>
+              <td>0.156</td>
+              <td>#1360</td>
+              <td>#94</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="95" data-gene="LMO4" data-codon_length="165" data-taxa_count="725" data-rho="0.440" data-rho_rank="8932" data-psi="0.239" data-psi_rank="49" data-comp_rank="95" data-q="0.0270">
+              <td style="font-weight: 700; color: var(--accent-primary);">95</td>
+              <td class="gene-cell">LMO4  </td>
+              <td>165</td>
+              <td>725</td>
+              <td><strong>0.440</strong></td>
+              <td>#8932</td>
+              <td>0.239</td>
+              <td>#49</td>
+              <td>#95</td>
+              <td>0.0270</td>
+            </tr>
+            
+            <tr data-rank="96" data-gene="PERP" data-codon_length="196" data-taxa_count="711" data-rho="0.789" data-rho_rank="366" data-psi="0.238" data-psi_rank="50" data-comp_rank="96" data-q="0.0290">
+              <td style="font-weight: 700; color: var(--accent-primary);">96</td>
+              <td class="gene-cell">PERP  </td>
+              <td>196</td>
+              <td>711</td>
+              <td><strong>0.789</strong></td>
+              <td>#366</td>
+              <td>0.238</td>
+              <td>#50</td>
+              <td>#96</td>
+              <td>0.0290</td>
+            </tr>
+            
+            <tr data-rank="97" data-gene="NDRG3" data-codon_length="383" data-taxa_count="604" data-rho="0.377" data-rho_rank="13103" data-psi="0.132" data-psi_rank="5707" data-comp_rank="97" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">97</td>
+              <td class="gene-cell">NDRG3  </td>
+              <td>383</td>
+              <td>604</td>
+              <td><strong>0.377</strong></td>
+              <td>#13103</td>
+              <td>0.132</td>
+              <td>#5707</td>
+              <td>#97</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="98" data-gene="NXT1" data-codon_length="142" data-taxa_count="720" data-rho="0.457" data-rho_rank="8169" data-psi="0.121" data-psi_rank="9357" data-comp_rank="98" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">98</td>
+              <td class="gene-cell">NXT1  </td>
+              <td>142</td>
+              <td>720</td>
+              <td><strong>0.457</strong></td>
+              <td>#8169</td>
+              <td>0.121</td>
+              <td>#9357</td>
+              <td>#98</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="99" data-gene="C1GALT1C1L" data-codon_length="321" data-taxa_count="179" data-rho="0.751" data-rho_rank="878" data-psi="0.237" data-psi_rank="51" data-comp_rank="99" data-q="0.0305">
+              <td style="font-weight: 700; color: var(--accent-primary);">99</td>
+              <td class="gene-cell">C1GALT1C1L  </td>
+              <td>321</td>
+              <td>179</td>
+              <td><strong>0.751</strong></td>
+              <td>#878</td>
+              <td>0.237</td>
+              <td>#51</td>
+              <td>#99</td>
+              <td>0.0305</td>
+            </tr>
+            
+            <tr data-rank="100" data-gene="TPT1" data-codon_length="172" data-taxa_count="662" data-rho="0.378" data-rho_rank="13004" data-psi="0.162" data-psi_rank="928" data-comp_rank="100" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">100</td>
+              <td class="gene-cell">TPT1  </td>
+              <td>172</td>
+              <td>662</td>
+              <td><strong>0.378</strong></td>
+              <td>#13004</td>
+              <td>0.162</td>
+              <td>#928</td>
+              <td>#100</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="101" data-gene="GPR148" data-codon_length="366" data-taxa_count="199" data-rho="0.745" data-rho_rank="932" data-psi="0.237" data-psi_rank="52" data-comp_rank="101" data-q="0.0305">
+              <td style="font-weight: 700; color: var(--accent-primary);">101</td>
+              <td class="gene-cell">GPR148  </td>
+              <td>366</td>
+              <td>199</td>
+              <td><strong>0.745</strong></td>
+              <td>#932</td>
+              <td>0.237</td>
+              <td>#52</td>
+              <td>#101</td>
+              <td>0.0305</td>
+            </tr>
+            
+            <tr data-rank="102" data-gene="KBTBD11" data-codon_length="775" data-taxa_count="590" data-rho="0.515" data-rho_rank="6044" data-psi="0.146" data-psi_rank="2548" data-comp_rank="102" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">102</td>
+              <td class="gene-cell">KBTBD11  </td>
+              <td>775</td>
+              <td>590</td>
+              <td><strong>0.515</strong></td>
+              <td>#6044</td>
+              <td>0.146</td>
+              <td>#2548</td>
+              <td>#102</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="103" data-gene="HSPE1" data-codon_length="102" data-taxa_count="648" data-rho="0.678" data-rho_rank="2252" data-psi="0.236" data-psi_rank="53" data-comp_rank="103" data-q="0.0338">
+              <td style="font-weight: 700; color: var(--accent-primary);">103</td>
+              <td class="gene-cell">HSPE1  </td>
+              <td>102</td>
+              <td>648</td>
+              <td><strong>0.678</strong></td>
+              <td>#2252</td>
+              <td>0.236</td>
+              <td>#53</td>
+              <td>#103</td>
+              <td>0.0338</td>
+            </tr>
+            
+            <tr data-rank="104" data-gene="EHD3" data-codon_length="543" data-taxa_count="690" data-rho="0.369" data-rho_rank="13530" data-psi="0.145" data-psi_rank="2631" data-comp_rank="104" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">104</td>
+              <td class="gene-cell">EHD3  </td>
+              <td>543</td>
+              <td>690</td>
+              <td><strong>0.369</strong></td>
+              <td>#13530</td>
+              <td>0.145</td>
+              <td>#2631</td>
+              <td>#104</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="105" data-gene="FAM24A" data-codon_length="122" data-taxa_count="152" data-rho="0.697" data-rho_rank="1897" data-psi="0.236" data-psi_rank="54" data-comp_rank="105" data-q="0.0338">
+              <td style="font-weight: 700; color: var(--accent-primary);">105</td>
+              <td class="gene-cell">FAM24A  </td>
+              <td>122</td>
+              <td>152</td>
+              <td><strong>0.697</strong></td>
+              <td>#1897</td>
+              <td>0.236</td>
+              <td>#54</td>
+              <td>#105</td>
+              <td>0.0338</td>
+            </tr>
+            
+            <tr data-rank="106" data-gene="H1-4" data-codon_length="228" data-taxa_count="641" data-rho="0.764" data-rho_rank="570" data-psi="0.163" data-psi_rank="888" data-comp_rank="106" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">106</td>
+              <td class="gene-cell">H1-4  </td>
+              <td>228</td>
+              <td>641</td>
+              <td><strong>0.764</strong></td>
+              <td>#570</td>
+              <td>0.163</td>
+              <td>#888</td>
+              <td>#106</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="107" data-gene="GTF2H5" data-codon_length="71" data-taxa_count="709" data-rho="0.402" data-rho_rank="11428" data-psi="0.236" data-psi_rank="55" data-comp_rank="107" data-q="0.0344">
+              <td style="font-weight: 700; color: var(--accent-primary);">107</td>
+              <td class="gene-cell">GTF2H5  </td>
+              <td>71</td>
+              <td>709</td>
+              <td><strong>0.402</strong></td>
+              <td>#11428</td>
+              <td>0.236</td>
+              <td>#55</td>
+              <td>#107</td>
+              <td>0.0344</td>
+            </tr>
+            
+            <tr data-rank="108" data-gene="BRSK2" data-codon_length="678" data-taxa_count="602" data-rho="0.543" data-rho_rank="5238" data-psi="0.147" data-psi_rank="2276" data-comp_rank="108" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">108</td>
+              <td class="gene-cell">BRSK2  </td>
+              <td>678</td>
+              <td>602</td>
+              <td><strong>0.543</strong></td>
+              <td>#5238</td>
+              <td>0.147</td>
+              <td>#2276</td>
+              <td>#108</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="109" data-gene="OR2H2" data-codon_length="321" data-taxa_count="287" data-rho="0.953" data-rho_rank="37" data-psi="0.236" data-psi_rank="56" data-comp_rank="109" data-q="0.0351">
+              <td style="font-weight: 700; color: var(--accent-primary);">109</td>
+              <td class="gene-cell">OR2H2  </td>
+              <td>321</td>
+              <td>287</td>
+              <td><strong>0.953</strong></td>
+              <td>#37</td>
+              <td>0.236</td>
+              <td>#56</td>
+              <td>#109</td>
+              <td>0.0351</td>
+            </tr>
+            
+            <tr data-rank="110" data-gene="RIMS4" data-codon_length="270" data-taxa_count="703" data-rho="0.402" data-rho_rank="11439" data-psi="0.156" data-psi_rank="1307" data-comp_rank="110" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">110</td>
+              <td class="gene-cell">RIMS4  </td>
+              <td>270</td>
+              <td>703</td>
+              <td><strong>0.402</strong></td>
+              <td>#11439</td>
+              <td>0.156</td>
+              <td>#1307</td>
+              <td>#110</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="111" data-gene="TNNC2" data-codon_length="170" data-taxa_count="690" data-rho="0.752" data-rho_rank="788" data-psi="0.235" data-psi_rank="57" data-comp_rank="111" data-q="0.0356">
+              <td style="font-weight: 700; color: var(--accent-primary);">111</td>
+              <td class="gene-cell">TNNC2  </td>
+              <td>170</td>
+              <td>690</td>
+              <td><strong>0.752</strong></td>
+              <td>#788</td>
+              <td>0.235</td>
+              <td>#57</td>
+              <td>#111</td>
+              <td>0.0356</td>
+            </tr>
+            
+            <tr data-rank="112" data-gene="GDI1" data-codon_length="456" data-taxa_count="680" data-rho="0.345" data-rho_rank="14519" data-psi="0.154" data-psi_rank="1548" data-comp_rank="112" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">112</td>
+              <td class="gene-cell">GDI1  </td>
+              <td>456</td>
+              <td>680</td>
+              <td><strong>0.345</strong></td>
+              <td>#14519</td>
+              <td>0.154</td>
+              <td>#1548</td>
+              <td>#112</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="113" data-gene="UBTFL1" data-codon_length="406" data-taxa_count="245" data-rho="0.769" data-rho_rank="508" data-psi="0.235" data-psi_rank="58" data-comp_rank="113" data-q="0.0386">
+              <td style="font-weight: 700; color: var(--accent-primary);">113</td>
+              <td class="gene-cell">UBTFL1  </td>
+              <td>406</td>
+              <td>245</td>
+              <td><strong>0.769</strong></td>
+              <td>#508</td>
+              <td>0.235</td>
+              <td>#58</td>
+              <td>#113</td>
+              <td>0.0386</td>
+            </tr>
+            
+            <tr data-rank="114" data-gene="DDX19A" data-codon_length="483" data-taxa_count="602" data-rho="0.578" data-rho_rank="4352" data-psi="0.150" data-psi_rank="1916" data-comp_rank="114" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">114</td>
+              <td class="gene-cell">DDX19A  </td>
+              <td>483</td>
+              <td>602</td>
+              <td><strong>0.578</strong></td>
+              <td>#4352</td>
+              <td>0.150</td>
+              <td>#1916</td>
+              <td>#114</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="115" data-gene="TPSB2" data-codon_length="294" data-taxa_count="176" data-rho="0.775" data-rho_rank="473" data-psi="0.234" data-psi_rank="59" data-comp_rank="115" data-q="0.0387">
+              <td style="font-weight: 700; color: var(--accent-primary);">115</td>
+              <td class="gene-cell">TPSB2  </td>
+              <td>294</td>
+              <td>176</td>
+              <td><strong>0.775</strong></td>
+              <td>#473</td>
+              <td>0.234</td>
+              <td>#59</td>
+              <td>#115</td>
+              <td>0.0387</td>
+            </tr>
+            
+            <tr data-rank="116" data-gene="TMEM240" data-codon_length="173" data-taxa_count="684" data-rho="0.369" data-rho_rank="13526" data-psi="0.157" data-psi_rank="1276" data-comp_rank="116" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">116</td>
+              <td class="gene-cell">TMEM240  </td>
+              <td>173</td>
+              <td>684</td>
+              <td><strong>0.369</strong></td>
+              <td>#13526</td>
+              <td>0.157</td>
+              <td>#1276</td>
+              <td>#116</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="117" data-gene="OPRL1" data-codon_length="290" data-taxa_count="712" data-rho="0.460" data-rho_rank="8002" data-psi="0.161" data-psi_rank="1005" data-comp_rank="117" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">117</td>
+              <td class="gene-cell">OPRL1  </td>
+              <td>290</td>
+              <td>712</td>
+              <td><strong>0.460</strong></td>
+              <td>#8002</td>
+              <td>0.161</td>
+              <td>#1005</td>
+              <td>#117</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="118" data-gene="FAM24B" data-codon_length="106" data-taxa_count="171" data-rho="0.684" data-rho_rank="2147" data-psi="0.234" data-psi_rank="61" data-comp_rank="118" data-q="0.0408">
+              <td style="font-weight: 700; color: var(--accent-primary);">118</td>
+              <td class="gene-cell">FAM24B  </td>
+              <td>106</td>
+              <td>171</td>
+              <td><strong>0.684</strong></td>
+              <td>#2147</td>
+              <td>0.234</td>
+              <td>#61</td>
+              <td>#118</td>
+              <td>0.0408</td>
+            </tr>
+            
+            <tr data-rank="119" data-gene="RBFOX3" data-codon_length="375" data-taxa_count="648" data-rho="0.386" data-rho_rank="12568" data-psi="0.126" data-psi_rank="7793" data-comp_rank="119" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">119</td>
+              <td class="gene-cell">RBFOX3  </td>
+              <td>375</td>
+              <td>648</td>
+              <td><strong>0.386</strong></td>
+              <td>#12568</td>
+              <td>0.126</td>
+              <td>#7793</td>
+              <td>#119</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="120" data-gene="CT45A6" data-codon_length="202" data-taxa_count="106" data-rho="0.830" data-rho_rank="191" data-psi="0.233" data-psi_rank="62" data-comp_rank="120" data-q="0.0435">
+              <td style="font-weight: 700; color: var(--accent-primary);">120</td>
+              <td class="gene-cell">CT45A6  </td>
+              <td>202</td>
+              <td>106</td>
+              <td><strong>0.830</strong></td>
+              <td>#191</td>
+              <td>0.233</td>
+              <td>#62</td>
+              <td>#120</td>
+              <td>0.0435</td>
+            </tr>
+            
+            <tr data-rank="121" data-gene="LUC7L" data-codon_length="340" data-taxa_count="640" data-rho="0.326" data-rho_rank="14995" data-psi="0.152" data-psi_rank="1665" data-comp_rank="121" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">121</td>
+              <td class="gene-cell">LUC7L  </td>
+              <td>340</td>
+              <td>640</td>
+              <td><strong>0.326</strong></td>
+              <td>#14995</td>
+              <td>0.152</td>
+              <td>#1665</td>
+              <td>#121</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="122" data-gene="CT45A8" data-codon_length="198" data-taxa_count="100" data-rho="0.801" data-rho_rank="318" data-psi="0.233" data-psi_rank="63" data-comp_rank="122" data-q="0.0435">
+              <td style="font-weight: 700; color: var(--accent-primary);">122</td>
+              <td class="gene-cell">CT45A8  </td>
+              <td>198</td>
+              <td>100</td>
+              <td><strong>0.801</strong></td>
+              <td>#318</td>
+              <td>0.233</td>
+              <td>#63</td>
+              <td>#122</td>
+              <td>0.0435</td>
+            </tr>
+            
+            <tr data-rank="123" data-gene="KHDRBS3" data-codon_length="368" data-taxa_count="664" data-rho="0.399" data-rho_rank="11619" data-psi="0.125" data-psi_rank="8078" data-comp_rank="123" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">123</td>
+              <td class="gene-cell">KHDRBS3  </td>
+              <td>368</td>
+              <td>664</td>
+              <td><strong>0.399</strong></td>
+              <td>#11619</td>
+              <td>0.125</td>
+              <td>#8078</td>
+              <td>#123</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="124" data-gene="SSU72L5" data-codon_length="203" data-taxa_count="128" data-rho="0.718" data-rho_rank="1495" data-psi="0.233" data-psi_rank="64" data-comp_rank="124" data-q="0.0451">
+              <td style="font-weight: 700; color: var(--accent-primary);">124</td>
+              <td class="gene-cell">SSU72L5  </td>
+              <td>203</td>
+              <td>128</td>
+              <td><strong>0.718</strong></td>
+              <td>#1495</td>
+              <td>0.233</td>
+              <td>#64</td>
+              <td>#124</td>
+              <td>0.0451</td>
+            </tr>
+            
+            <tr data-rank="125" data-gene="DEFB104A" data-codon_length="83" data-taxa_count="382" data-rho="0.518" data-rho_rank="5951" data-psi="0.223" data-psi_rank="84" data-comp_rank="125" data-q="0.1047">
+              <td style="font-weight: 700; color: var(--accent-primary);">125</td>
+              <td class="gene-cell">DEFB104A  </td>
+              <td>83</td>
+              <td>382</td>
+              <td><strong>0.518</strong></td>
+              <td>#5951</td>
+              <td>0.223</td>
+              <td>#84</td>
+              <td>#125</td>
+              <td>0.1047</td>
+            </tr>
+            
+            <tr data-rank="126" data-gene="PPP2CA" data-codon_length="358" data-taxa_count="690" data-rho="0.445" data-rho_rank="8721" data-psi="0.232" data-psi_rank="65" data-comp_rank="126" data-q="0.0451">
+              <td style="font-weight: 700; color: var(--accent-primary);">126</td>
+              <td class="gene-cell">PPP2CA  </td>
+              <td>358</td>
+              <td>690</td>
+              <td><strong>0.445</strong></td>
+              <td>#8721</td>
+              <td>0.232</td>
+              <td>#65</td>
+              <td>#126</td>
+              <td>0.0451</td>
+            </tr>
+            
+            <tr data-rank="127" data-gene="KLHL2" data-codon_length="593" data-taxa_count="671" data-rho="0.534" data-rho_rank="5469" data-psi="0.166" data-psi_rank="781" data-comp_rank="127" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">127</td>
+              <td class="gene-cell">KLHL2  </td>
+              <td>593</td>
+              <td>671</td>
+              <td><strong>0.534</strong></td>
+              <td>#5469</td>
+              <td>0.166</td>
+              <td>#781</td>
+              <td>#127</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="128" data-gene="MLLT3" data-codon_length="609" data-taxa_count="670" data-rho="0.725" data-rho_rank="1338" data-psi="0.232" data-psi_rank="66" data-comp_rank="128" data-q="0.0451">
+              <td style="font-weight: 700; color: var(--accent-primary);">128</td>
+              <td class="gene-cell">MLLT3  </td>
+              <td>609</td>
+              <td>670</td>
+              <td><strong>0.725</strong></td>
+              <td>#1338</td>
+              <td>0.232</td>
+              <td>#66</td>
+              <td>#128</td>
+              <td>0.0451</td>
+            </tr>
+            
+            <tr data-rank="129" data-gene="CFL1" data-codon_length="166" data-taxa_count="712" data-rho="0.410" data-rho_rank="10747" data-psi="0.232" data-psi_rank="67" data-comp_rank="129" data-q="0.0451">
+              <td style="font-weight: 700; color: var(--accent-primary);">129</td>
+              <td class="gene-cell">CFL1  </td>
+              <td>166</td>
+              <td>712</td>
+              <td><strong>0.410</strong></td>
+              <td>#10747</td>
+              <td>0.232</td>
+              <td>#67</td>
+              <td>#129</td>
+              <td>0.0451</td>
+            </tr>
+            
+            <tr data-rank="130" data-gene="LY6H" data-codon_length="157" data-taxa_count="608" data-rho="0.661" data-rho_rank="2538" data-psi="0.145" data-psi_rank="2740" data-comp_rank="130" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">130</td>
+              <td class="gene-cell">LY6H  </td>
+              <td>157</td>
+              <td>608</td>
+              <td><strong>0.661</strong></td>
+              <td>#2538</td>
+              <td>0.145</td>
+              <td>#2740</td>
+              <td>#130</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="131" data-gene="MFSD14A" data-codon_length="497" data-taxa_count="697" data-rho="0.520" data-rho_rank="5889" data-psi="0.159" data-psi_rank="1083" data-comp_rank="131" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">131</td>
+              <td class="gene-cell">MFSD14A  </td>
+              <td>497</td>
+              <td>697</td>
+              <td><strong>0.520</strong></td>
+              <td>#5889</td>
+              <td>0.159</td>
+              <td>#1083</td>
+              <td>#131</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="132" data-gene="SCGB1D1" data-codon_length="101" data-taxa_count="267" data-rho="0.602" data-rho_rank="3827" data-psi="0.231" data-psi_rank="68" data-comp_rank="132" data-q="0.0515">
+              <td style="font-weight: 700; color: var(--accent-primary);">132</td>
+              <td class="gene-cell">SCGB1D1  </td>
+              <td>101</td>
+              <td>267</td>
+              <td><strong>0.602</strong></td>
+              <td>#3827</td>
+              <td>0.231</td>
+              <td>#68</td>
+              <td>#132</td>
+              <td>0.0515</td>
+            </tr>
+            
+            <tr data-rank="133" data-gene="CA8" data-codon_length="292" data-taxa_count="697" data-rho="0.736" data-rho_rank="1163" data-psi="0.191" data-psi_rank="254" data-comp_rank="133" data-q="0.8121">
+              <td style="font-weight: 700; color: var(--accent-primary);">133</td>
+              <td class="gene-cell">CA8  </td>
+              <td>292</td>
+              <td>697</td>
+              <td><strong>0.736</strong></td>
+              <td>#1163</td>
+              <td>0.191</td>
+              <td>#254</td>
+              <td>#133</td>
+              <td>0.8121</td>
+            </tr>
+            
+            <tr data-rank="134" data-gene="HNRNPA1" data-codon_length="334" data-taxa_count="663" data-rho="0.371" data-rho_rank="13387" data-psi="0.231" data-psi_rank="69" data-comp_rank="134" data-q="0.0515">
+              <td style="font-weight: 700; color: var(--accent-primary);">134</td>
+              <td class="gene-cell">HNRNPA1  </td>
+              <td>334</td>
+              <td>663</td>
+              <td><strong>0.371</strong></td>
+              <td>#13387</td>
+              <td>0.231</td>
+              <td>#69</td>
+              <td>#134</td>
+              <td>0.0515</td>
+            </tr>
+            
+            <tr data-rank="135" data-gene="RASGEF1A" data-codon_length="489" data-taxa_count="709" data-rho="0.476" data-rho_rank="7324" data-psi="0.133" data-psi_rank="5382" data-comp_rank="135" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">135</td>
+              <td class="gene-cell">RASGEF1A  </td>
+              <td>489</td>
+              <td>709</td>
+              <td><strong>0.476</strong></td>
+              <td>#7324</td>
+              <td>0.133</td>
+              <td>#5382</td>
+              <td>#135</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="136" data-gene="MYL12B" data-codon_length="172" data-taxa_count="704" data-rho="0.260" data-rho_rank="15887" data-psi="0.231" data-psi_rank="70" data-comp_rank="136" data-q="0.0531">
+              <td style="font-weight: 700; color: var(--accent-primary);">136</td>
+              <td class="gene-cell">MYL12B  </td>
+              <td>172</td>
+              <td>704</td>
+              <td><strong>0.260</strong></td>
+              <td>#15887</td>
+              <td>0.231</td>
+              <td>#70</td>
+              <td>#136</td>
+              <td>0.0531</td>
+            </tr>
+            
+            <tr data-rank="137" data-gene="ENOX1" data-codon_length="646" data-taxa_count="484" data-rho="0.394" data-rho_rank="11989" data-psi="0.129" data-psi_rank="6615" data-comp_rank="137" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">137</td>
+              <td class="gene-cell">ENOX1  </td>
+              <td>646</td>
+              <td>484</td>
+              <td><strong>0.394</strong></td>
+              <td>#11989</td>
+              <td>0.129</td>
+              <td>#6615</td>
+              <td>#137</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="138" data-gene="FGFBP2" data-codon_length="228" data-taxa_count="157" data-rho="0.880" data-rho_rank="94" data-psi="0.230" data-psi_rank="71" data-comp_rank="138" data-q="0.0542">
+              <td style="font-weight: 700; color: var(--accent-primary);">138</td>
+              <td class="gene-cell">FGFBP2  </td>
+              <td>228</td>
+              <td>157</td>
+              <td><strong>0.880</strong></td>
+              <td>#94</td>
+              <td>0.230</td>
+              <td>#71</td>
+              <td>#138</td>
+              <td>0.0542</td>
+            </tr>
+            
+            <tr data-rank="139" data-gene="MTA1" data-codon_length="759" data-taxa_count="613" data-rho="0.440" data-rho_rank="8908" data-psi="0.150" data-psi_rank="1906" data-comp_rank="139" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">139</td>
+              <td class="gene-cell">MTA1  </td>
+              <td>759</td>
+              <td>613</td>
+              <td><strong>0.440</strong></td>
+              <td>#8908</td>
+              <td>0.150</td>
+              <td>#1906</td>
+              <td>#139</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="140" data-gene="DEFB4B" data-codon_length="67" data-taxa_count="243" data-rho="0.565" data-rho_rank="4712" data-psi="0.229" data-psi_rank="72" data-comp_rank="140" data-q="0.0593">
+              <td style="font-weight: 700; color: var(--accent-primary);">140</td>
+              <td class="gene-cell">DEFB4B  </td>
+              <td>67</td>
+              <td>243</td>
+              <td><strong>0.565</strong></td>
+              <td>#4712</td>
+              <td>0.229</td>
+              <td>#72</td>
+              <td>#140</td>
+              <td>0.0593</td>
+            </tr>
+            
+            <tr data-rank="141" data-gene="TECR" data-codon_length="315" data-taxa_count="707" data-rho="0.459" data-rho_rank="8097" data-psi="0.173" data-psi_rank="569" data-comp_rank="141" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">141</td>
+              <td class="gene-cell">TECR  </td>
+              <td>315</td>
+              <td>707</td>
+              <td><strong>0.459</strong></td>
+              <td>#8097</td>
+              <td>0.173</td>
+              <td>#569</td>
+              <td>#141</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="142" data-gene="HECA" data-codon_length="582" data-taxa_count="636" data-rho="0.644" data-rho_rank="2880" data-psi="0.162" data-psi_rank="944" data-comp_rank="142" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">142</td>
+              <td class="gene-cell">HECA  </td>
+              <td>582</td>
+              <td>636</td>
+              <td><strong>0.644</strong></td>
+              <td>#2880</td>
+              <td>0.162</td>
+              <td>#944</td>
+              <td>#142</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="143" data-gene="HRAS" data-codon_length="189" data-taxa_count="590" data-rho="0.462" data-rho_rank="7913" data-psi="0.159" data-psi_rank="1124" data-comp_rank="143" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">143</td>
+              <td class="gene-cell">HRAS  </td>
+              <td>189</td>
+              <td>590</td>
+              <td><strong>0.462</strong></td>
+              <td>#7913</td>
+              <td>0.159</td>
+              <td>#1124</td>
+              <td>#143</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="144" data-gene="PCDHB9" data-codon_length="867" data-taxa_count="116" data-rho="0.866" data-rho_rank="111" data-psi="0.228" data-psi_rank="75" data-comp_rank="144" data-q="0.0710">
+              <td style="font-weight: 700; color: var(--accent-primary);">144</td>
+              <td class="gene-cell">PCDHB9  </td>
+              <td>867</td>
+              <td>116</td>
+              <td><strong>0.866</strong></td>
+              <td>#111</td>
+              <td>0.228</td>
+              <td>#75</td>
+              <td>#144</td>
+              <td>0.0710</td>
+            </tr>
+            
+            <tr data-rank="145" data-gene="CRYBA2" data-codon_length="198" data-taxa_count="644" data-rho="0.440" data-rho_rank="8918" data-psi="0.158" data-psi_rank="1170" data-comp_rank="145" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">145</td>
+              <td class="gene-cell">CRYBA2  </td>
+              <td>198</td>
+              <td>644</td>
+              <td><strong>0.440</strong></td>
+              <td>#8918</td>
+              <td>0.158</td>
+              <td>#1170</td>
+              <td>#145</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="146" data-gene="EDDM3A" data-codon_length="148" data-taxa_count="293" data-rho="0.502" data-rho_rank="6370" data-psi="0.227" data-psi_rank="76" data-comp_rank="146" data-q="0.0710">
+              <td style="font-weight: 700; color: var(--accent-primary);">146</td>
+              <td class="gene-cell">EDDM3A  </td>
+              <td>148</td>
+              <td>293</td>
+              <td><strong>0.502</strong></td>
+              <td>#6370</td>
+              <td>0.227</td>
+              <td>#76</td>
+              <td>#146</td>
+              <td>0.0710</td>
+            </tr>
+            
+            <tr data-rank="147" data-gene="DGKH" data-codon_length="1202" data-taxa_count="672" data-rho="0.487" data-rho_rank="6928" data-psi="0.138" data-psi_rank="4040" data-comp_rank="147" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">147</td>
+              <td class="gene-cell">DGKH  </td>
+              <td>1,202</td>
+              <td>672</td>
+              <td><strong>0.487</strong></td>
+              <td>#6928</td>
+              <td>0.138</td>
+              <td>#4040</td>
+              <td>#147</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="148" data-gene="TOP1MT" data-codon_length="569" data-taxa_count="216" data-rho="0.708" data-rho_rank="1650" data-psi="0.227" data-psi_rank="77" data-comp_rank="148" data-q="0.0724">
+              <td style="font-weight: 700; color: var(--accent-primary);">148</td>
+              <td class="gene-cell">TOP1MT  </td>
+              <td>569</td>
+              <td>216</td>
+              <td><strong>0.708</strong></td>
+              <td>#1650</td>
+              <td>0.227</td>
+              <td>#77</td>
+              <td>#148</td>
+              <td>0.0724</td>
+            </tr>
+            
+            <tr data-rank="149" data-gene="LDLRAD4" data-codon_length="336" data-taxa_count="669" data-rho="0.493" data-rho_rank="6702" data-psi="0.164" data-psi_rank="841" data-comp_rank="149" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">149</td>
+              <td class="gene-cell">LDLRAD4  </td>
+              <td>336</td>
+              <td>669</td>
+              <td><strong>0.493</strong></td>
+              <td>#6702</td>
+              <td>0.164</td>
+              <td>#841</td>
+              <td>#149</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="150" data-gene="NRIP2" data-codon_length="334" data-taxa_count="270" data-rho="0.590" data-rho_rank="4111" data-psi="0.227" data-psi_rank="78" data-comp_rank="150" data-q="0.0738">
+              <td style="font-weight: 700; color: var(--accent-primary);">150</td>
+              <td class="gene-cell">NRIP2  </td>
+              <td>334</td>
+              <td>270</td>
+              <td><strong>0.590</strong></td>
+              <td>#4111</td>
+              <td>0.227</td>
+              <td>#78</td>
+              <td>#150</td>
+              <td>0.0738</td>
+            </tr>
+            
+            <tr data-rank="151" data-gene="TRIM62" data-codon_length="483" data-taxa_count="709" data-rho="0.362" data-rho_rank="13828" data-psi="0.140" data-psi_rank="3684" data-comp_rank="151" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">151</td>
+              <td class="gene-cell">TRIM62  </td>
+              <td>483</td>
+              <td>709</td>
+              <td><strong>0.362</strong></td>
+              <td>#13828</td>
+              <td>0.140</td>
+              <td>#3684</td>
+              <td>#151</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="152" data-gene="BRD1" data-codon_length="1218" data-taxa_count="661" data-rho="0.675" data-rho_rank="2298" data-psi="0.159" data-psi_rank="1130" data-comp_rank="152" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">152</td>
+              <td class="gene-cell">BRD1  </td>
+              <td>1,218</td>
+              <td>661</td>
+              <td><strong>0.675</strong></td>
+              <td>#2298</td>
+              <td>0.159</td>
+              <td>#1130</td>
+              <td>#152</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="153" data-gene="RFPL4A" data-codon_length="305" data-taxa_count="153" data-rho="0.521" data-rho_rank="5844" data-psi="0.226" data-psi_rank="80" data-comp_rank="153" data-q="0.0811">
+              <td style="font-weight: 700; color: var(--accent-primary);">153</td>
+              <td class="gene-cell">RFPL4A  </td>
+              <td>305</td>
+              <td>153</td>
+              <td><strong>0.521</strong></td>
+              <td>#5844</td>
+              <td>0.226</td>
+              <td>#80</td>
+              <td>#153</td>
+              <td>0.0811</td>
+            </tr>
+            
+            <tr data-rank="154" data-gene="STX11" data-codon_length="363" data-taxa_count="654" data-rho="0.475" data-rho_rank="7378" data-psi="0.169" data-psi_rank="704" data-comp_rank="154" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">154</td>
+              <td class="gene-cell">STX11  </td>
+              <td>363</td>
+              <td>654</td>
+              <td><strong>0.475</strong></td>
+              <td>#7378</td>
+              <td>0.169</td>
+              <td>#704</td>
+              <td>#154</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="155" data-gene="PFN1" data-codon_length="141" data-taxa_count="711" data-rho="0.628" data-rho_rank="3243" data-psi="0.225" data-psi_rank="81" data-comp_rank="155" data-q="0.0864">
+              <td style="font-weight: 700; color: var(--accent-primary);">155</td>
+              <td class="gene-cell">PFN1  </td>
+              <td>141</td>
+              <td>711</td>
+              <td><strong>0.628</strong></td>
+              <td>#3243</td>
+              <td>0.225</td>
+              <td>#81</td>
+              <td>#155</td>
+              <td>0.0864</td>
+            </tr>
+            
+            <tr data-rank="156" data-gene="PSMA1" data-codon_length="280" data-taxa_count="713" data-rho="0.437" data-rho_rank="9058" data-psi="0.206" data-psi_rank="146" data-comp_rank="156" data-q="0.3774">
+              <td style="font-weight: 700; color: var(--accent-primary);">156</td>
+              <td class="gene-cell">PSMA1  </td>
+              <td>280</td>
+              <td>713</td>
+              <td><strong>0.437</strong></td>
+              <td>#9058</td>
+              <td>0.206</td>
+              <td>#146</td>
+              <td>#156</td>
+              <td>0.3774</td>
+            </tr>
+            
+            <tr data-rank="157" data-gene="CT45A3" data-codon_length="202" data-taxa_count="115" data-rho="0.825" data-rho_rank="205" data-psi="0.224" data-psi_rank="82" data-comp_rank="157" data-q="0.1000">
+              <td style="font-weight: 700; color: var(--accent-primary);">157</td>
+              <td class="gene-cell">CT45A3  </td>
+              <td>202</td>
+              <td>115</td>
+              <td><strong>0.825</strong></td>
+              <td>#205</td>
+              <td>0.224</td>
+              <td>#82</td>
+              <td>#157</td>
+              <td>0.1000</td>
+            </tr>
+            
+            <tr data-rank="158" data-gene="PRR20G" data-codon_length="263" data-taxa_count="428" data-rho="0.467" data-rho_rank="7674" data-psi="0.178" data-psi_rank="454" data-comp_rank="158" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">158</td>
+              <td class="gene-cell">PRR20G  </td>
+              <td>263</td>
+              <td>428</td>
+              <td><strong>0.467</strong></td>
+              <td>#7674</td>
+              <td>0.178</td>
+              <td>#454</td>
+              <td>#158</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="159" data-gene="DCAF8L1" data-codon_length="659" data-taxa_count="151" data-rho="0.894" data-rho_rank="80" data-psi="0.223" data-psi_rank="83" data-comp_rank="159" data-q="0.1047">
+              <td style="font-weight: 700; color: var(--accent-primary);">159</td>
+              <td class="gene-cell">DCAF8L1  </td>
+              <td>659</td>
+              <td>151</td>
+              <td><strong>0.894</strong></td>
+              <td>#80</td>
+              <td>0.223</td>
+              <td>#83</td>
+              <td>#159</td>
+              <td>0.1047</td>
+            </tr>
+            
+            <tr data-rank="160" data-gene="BANP" data-codon_length="515" data-taxa_count="686" data-rho="0.466" data-rho_rank="7768" data-psi="0.155" data-psi_rank="1434" data-comp_rank="160" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">160</td>
+              <td class="gene-cell">BANP  </td>
+              <td>515</td>
+              <td>686</td>
+              <td><strong>0.466</strong></td>
+              <td>#7768</td>
+              <td>0.155</td>
+              <td>#1434</td>
+              <td>#160</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="161" data-gene="GINS1" data-codon_length="114" data-taxa_count="667" data-rho="0.356" data-rho_rank="14118" data-psi="0.136" data-psi_rank="4516" data-comp_rank="161" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">161</td>
+              <td class="gene-cell">GINS1  </td>
+              <td>114</td>
+              <td>667</td>
+              <td><strong>0.356</strong></td>
+              <td>#14118</td>
+              <td>0.136</td>
+              <td>#4516</td>
+              <td>#161</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="162" data-gene="H3-4" data-codon_length="143" data-taxa_count="427" data-rho="0.626" data-rho_rank="3279" data-psi="0.223" data-psi_rank="85" data-comp_rank="162" data-q="0.1086">
+              <td style="font-weight: 700; color: var(--accent-primary);">162</td>
+              <td class="gene-cell">H3-4  </td>
+              <td>143</td>
+              <td>427</td>
+              <td><strong>0.626</strong></td>
+              <td>#3279</td>
+              <td>0.223</td>
+              <td>#85</td>
+              <td>#162</td>
+              <td>0.1086</td>
+            </tr>
+            
+            <tr data-rank="163" data-gene="GID8" data-codon_length="229" data-taxa_count="715" data-rho="0.391" data-rho_rank="12159" data-psi="0.222" data-psi_rank="86" data-comp_rank="163" data-q="0.1112">
+              <td style="font-weight: 700; color: var(--accent-primary);">163</td>
+              <td class="gene-cell">GID8  </td>
+              <td>229</td>
+              <td>715</td>
+              <td><strong>0.391</strong></td>
+              <td>#12159</td>
+              <td>0.222</td>
+              <td>#86</td>
+              <td>#163</td>
+              <td>0.1112</td>
+            </tr>
+            
+            <tr data-rank="164" data-gene="CLEC10A" data-codon_length="350" data-taxa_count="491" data-rho="0.681" data-rho_rank="2189" data-psi="0.169" data-psi_rank="682" data-comp_rank="164" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">164</td>
+              <td class="gene-cell">CLEC10A  </td>
+              <td>350</td>
+              <td>491</td>
+              <td><strong>0.681</strong></td>
+              <td>#2189</td>
+              <td>0.169</td>
+              <td>#682</td>
+              <td>#164</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="165" data-gene="CDK19" data-codon_length="524" data-taxa_count="677" data-rho="0.425" data-rho_rank="9806" data-psi="0.169" data-psi_rank="684" data-comp_rank="165" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">165</td>
+              <td class="gene-cell">CDK19  </td>
+              <td>524</td>
+              <td>677</td>
+              <td><strong>0.425</strong></td>
+              <td>#9806</td>
+              <td>0.169</td>
+              <td>#684</td>
+              <td>#165</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="166" data-gene="SECTM1" data-codon_length="258" data-taxa_count="225" data-rho="0.736" data-rho_rank="1169" data-psi="0.222" data-psi_rank="87" data-comp_rank="166" data-q="0.1112">
+              <td style="font-weight: 700; color: var(--accent-primary);">166</td>
+              <td class="gene-cell">SECTM1  </td>
+              <td>258</td>
+              <td>225</td>
+              <td><strong>0.736</strong></td>
+              <td>#1169</td>
+              <td>0.222</td>
+              <td>#87</td>
+              <td>#166</td>
+              <td>0.1112</td>
+            </tr>
+            
+            <tr data-rank="167" data-gene="PTPRK" data-codon_length="1458" data-taxa_count="653" data-rho="0.534" data-rho_rank="5473" data-psi="0.144" data-psi_rank="2856" data-comp_rank="167" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">167</td>
+              <td class="gene-cell">PTPRK  </td>
+              <td>1,458</td>
+              <td>653</td>
+              <td><strong>0.534</strong></td>
+              <td>#5473</td>
+              <td>0.144</td>
+              <td>#2856</td>
+              <td>#167</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="168" data-gene="PARP15" data-codon_length="687" data-taxa_count="129" data-rho="0.825" data-rho_rank="207" data-psi="0.221" data-psi_rank="88" data-comp_rank="168" data-q="0.1255">
+              <td style="font-weight: 700; color: var(--accent-primary);">168</td>
+              <td class="gene-cell">PARP15  <div style="font-size: 0.75rem; color: var(--text-muted); max-width: 400px; white-space: normal;">Poly(ADP-ribose) polymerase family member 15. Frequent-flier locus governing post-translational ADP-ribosylation under metabolic stress.</div></td>
+              <td>687</td>
+              <td>129</td>
+              <td><strong>0.825</strong></td>
+              <td>#207</td>
+              <td>0.221</td>
+              <td>#88</td>
+              <td>#168</td>
+              <td>0.1255</td>
+            </tr>
+            
+            <tr data-rank="169" data-gene="GRK2" data-codon_length="703" data-taxa_count="682" data-rho="0.712" data-rho_rank="1584" data-psi="0.148" data-psi_rank="2211" data-comp_rank="169" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">169</td>
+              <td class="gene-cell">GRK2  </td>
+              <td>703</td>
+              <td>682</td>
+              <td><strong>0.712</strong></td>
+              <td>#1584</td>
+              <td>0.148</td>
+              <td>#2211</td>
+              <td>#169</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="170" data-gene="OR51G2" data-codon_length="352" data-taxa_count="188" data-rho="0.506" data-rho_rank="6269" data-psi="0.221" data-psi_rank="89" data-comp_rank="170" data-q="0.1255">
+              <td style="font-weight: 700; color: var(--accent-primary);">170</td>
+              <td class="gene-cell">OR51G2  </td>
+              <td>352</td>
+              <td>188</td>
+              <td><strong>0.506</strong></td>
+              <td>#6269</td>
+              <td>0.221</td>
+              <td>#89</td>
+              <td>#170</td>
+              <td>0.1255</td>
+            </tr>
+            
+            <tr data-rank="171" data-gene="AP2A2" data-codon_length="976" data-taxa_count="627" data-rho="0.548" data-rho_rank="5123" data-psi="0.160" data-psi_rank="1063" data-comp_rank="171" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">171</td>
+              <td class="gene-cell">AP2A2  </td>
+              <td>976</td>
+              <td>627</td>
+              <td><strong>0.548</strong></td>
+              <td>#5123</td>
+              <td>0.160</td>
+              <td>#1063</td>
+              <td>#171</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="172" data-gene="MED31" data-codon_length="131" data-taxa_count="702" data-rho="0.627" data-rho_rank="3263" data-psi="0.220" data-psi_rank="90" data-comp_rank="172" data-q="0.1374">
+              <td style="font-weight: 700; color: var(--accent-primary);">172</td>
+              <td class="gene-cell">MED31  </td>
+              <td>131</td>
+              <td>702</td>
+              <td><strong>0.627</strong></td>
+              <td>#3263</td>
+              <td>0.220</td>
+              <td>#90</td>
+              <td>#172</td>
+              <td>0.1374</td>
+            </tr>
+            
+            <tr data-rank="173" data-gene="MRGBP" data-codon_length="204" data-taxa_count="693" data-rho="0.455" data-rho_rank="8298" data-psi="0.193" data-psi_rank="244" data-comp_rank="173" data-q="0.7695">
+              <td style="font-weight: 700; color: var(--accent-primary);">173</td>
+              <td class="gene-cell">MRGBP  </td>
+              <td>204</td>
+              <td>693</td>
+              <td><strong>0.455</strong></td>
+              <td>#8298</td>
+              <td>0.193</td>
+              <td>#244</td>
+              <td>#173</td>
+              <td>0.7695</td>
+            </tr>
+            
+            <tr data-rank="174" data-gene="ASPHD2" data-codon_length="387" data-taxa_count="408" data-rho="0.858" data-rho_rank="129" data-psi="0.220" data-psi_rank="91" data-comp_rank="174" data-q="0.1450">
+              <td style="font-weight: 700; color: var(--accent-primary);">174</td>
+              <td class="gene-cell">ASPHD2  </td>
+              <td>387</td>
+              <td>408</td>
+              <td><strong>0.858</strong></td>
+              <td>#129</td>
+              <td>0.220</td>
+              <td>#91</td>
+              <td>#174</td>
+              <td>0.1450</td>
+            </tr>
+            
+            <tr data-rank="175" data-gene="KRT17" data-codon_length="457" data-taxa_count="698" data-rho="0.780" data-rho_rank="426" data-psi="0.219" data-psi_rank="92" data-comp_rank="175" data-q="0.1496">
+              <td style="font-weight: 700; color: var(--accent-primary);">175</td>
+              <td class="gene-cell">KRT17  </td>
+              <td>457</td>
+              <td>698</td>
+              <td><strong>0.780</strong></td>
+              <td>#426</td>
+              <td>0.219</td>
+              <td>#92</td>
+              <td>#175</td>
+              <td>0.1496</td>
+            </tr>
+            
+            <tr data-rank="176" data-gene="RXFP4" data-codon_length="398" data-taxa_count="439" data-rho="0.600" data-rho_rank="3875" data-psi="0.149" data-psi_rank="2029" data-comp_rank="176" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">176</td>
+              <td class="gene-cell">RXFP4  </td>
+              <td>398</td>
+              <td>439</td>
+              <td><strong>0.600</strong></td>
+              <td>#3875</td>
+              <td>0.149</td>
+              <td>#2029</td>
+              <td>#176</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="177" data-gene="MPPED1" data-codon_length="330" data-taxa_count="677" data-rho="0.707" data-rho_rank="1735" data-psi="0.175" data-psi_rank="518" data-comp_rank="177" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">177</td>
+              <td class="gene-cell">MPPED1  </td>
+              <td>330</td>
+              <td>677</td>
+              <td><strong>0.707</strong></td>
+              <td>#1735</td>
+              <td>0.175</td>
+              <td>#518</td>
+              <td>#177</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="178" data-gene="HDAC3" data-codon_length="433" data-taxa_count="724" data-rho="0.667" data-rho_rank="2445" data-psi="0.219" data-psi_rank="93" data-comp_rank="178" data-q="0.1496">
+              <td style="font-weight: 700; color: var(--accent-primary);">178</td>
+              <td class="gene-cell">HDAC3  </td>
+              <td>433</td>
+              <td>724</td>
+              <td><strong>0.667</strong></td>
+              <td>#2445</td>
+              <td>0.219</td>
+              <td>#93</td>
+              <td>#178</td>
+              <td>0.1496</td>
+            </tr>
+            
+            <tr data-rank="179" data-gene="CAMK2A" data-codon_length="489" data-taxa_count="695" data-rho="0.381" data-rho_rank="12834" data-psi="0.161" data-psi_rank="994" data-comp_rank="179" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">179</td>
+              <td class="gene-cell">CAMK2A  </td>
+              <td>489</td>
+              <td>695</td>
+              <td><strong>0.381</strong></td>
+              <td>#12834</td>
+              <td>0.161</td>
+              <td>#994</td>
+              <td>#179</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="180" data-gene="NT5DC4" data-codon_length="435" data-taxa_count="129" data-rho="0.844" data-rho_rank="159" data-psi="0.219" data-psi_rank="94" data-comp_rank="180" data-q="0.1513">
+              <td style="font-weight: 700; color: var(--accent-primary);">180</td>
+              <td class="gene-cell">NT5DC4  </td>
+              <td>435</td>
+              <td>129</td>
+              <td><strong>0.844</strong></td>
+              <td>#159</td>
+              <td>0.219</td>
+              <td>#94</td>
+              <td>#180</td>
+              <td>0.1513</td>
+            </tr>
+            
+            <tr data-rank="181" data-gene="BRD4" data-codon_length="1512" data-taxa_count="644" data-rho="0.456" data-rho_rank="8180" data-psi="0.124" data-psi_rank="8363" data-comp_rank="181" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">181</td>
+              <td class="gene-cell">BRD4  </td>
+              <td>1,512</td>
+              <td>644</td>
+              <td><strong>0.456</strong></td>
+              <td>#8180</td>
+              <td>0.124</td>
+              <td>#8363</td>
+              <td>#181</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="182" data-gene="OR4D1" data-codon_length="330" data-taxa_count="403" data-rho="0.957" data-rho_rank="32" data-psi="0.218" data-psi_rank="95" data-comp_rank="182" data-q="0.1631">
+              <td style="font-weight: 700; color: var(--accent-primary);">182</td>
+              <td class="gene-cell">OR4D1  </td>
+              <td>330</td>
+              <td>403</td>
+              <td><strong>0.957</strong></td>
+              <td>#32</td>
+              <td>0.218</td>
+              <td>#95</td>
+              <td>#182</td>
+              <td>0.1631</td>
+            </tr>
+            
+            <tr data-rank="183" data-gene="S100A6" data-codon_length="98" data-taxa_count="533" data-rho="0.389" data-rho_rank="12306" data-psi="0.218" data-psi_rank="96" data-comp_rank="183" data-q="0.1648">
+              <td style="font-weight: 700; color: var(--accent-primary);">183</td>
+              <td class="gene-cell">S100A6  </td>
+              <td>98</td>
+              <td>533</td>
+              <td><strong>0.389</strong></td>
+              <td>#12306</td>
+              <td>0.218</td>
+              <td>#96</td>
+              <td>#183</td>
+              <td>0.1648</td>
+            </tr>
+            
+            <tr data-rank="184" data-gene="MAP1LC3C" data-codon_length="161" data-taxa_count="422" data-rho="0.407" data-rho_rank="11144" data-psi="0.154" data-psi_rank="1542" data-comp_rank="184" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">184</td>
+              <td class="gene-cell">MAP1LC3C  </td>
+              <td>161</td>
+              <td>422</td>
+              <td><strong>0.407</strong></td>
+              <td>#11144</td>
+              <td>0.154</td>
+              <td>#1542</td>
+              <td>#184</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="185" data-gene="PA2G4" data-codon_length="394" data-taxa_count="723" data-rho="0.408" data-rho_rank="10988" data-psi="0.151" data-psi_rank="1837" data-comp_rank="185" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">185</td>
+              <td class="gene-cell">PA2G4  </td>
+              <td>394</td>
+              <td>723</td>
+              <td><strong>0.408</strong></td>
+              <td>#10988</td>
+              <td>0.151</td>
+              <td>#1837</td>
+              <td>#185</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="186" data-gene="GATAD2A" data-codon_length="663" data-taxa_count="707" data-rho="0.418" data-rho_rank="10149" data-psi="0.124" data-psi_rank="8423" data-comp_rank="186" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">186</td>
+              <td class="gene-cell">GATAD2A  </td>
+              <td>663</td>
+              <td>707</td>
+              <td><strong>0.418</strong></td>
+              <td>#10149</td>
+              <td>0.124</td>
+              <td>#8423</td>
+              <td>#186</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="187" data-gene="LIN52" data-codon_length="112" data-taxa_count="711" data-rho="0.312" data-rho_rank="15258" data-psi="0.218" data-psi_rank="98" data-comp_rank="187" data-q="0.1671">
+              <td style="font-weight: 700; color: var(--accent-primary);">187</td>
+              <td class="gene-cell">LIN52  </td>
+              <td>112</td>
+              <td>711</td>
+              <td><strong>0.312</strong></td>
+              <td>#15258</td>
+              <td>0.218</td>
+              <td>#98</td>
+              <td>#187</td>
+              <td>0.1671</td>
+            </tr>
+            
+            <tr data-rank="188" data-gene="CRYBB2" data-codon_length="205" data-taxa_count="679" data-rho="0.453" data-rho_rank="8381" data-psi="0.167" data-psi_rank="757" data-comp_rank="188" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">188</td>
+              <td class="gene-cell">CRYBB2  </td>
+              <td>205</td>
+              <td>679</td>
+              <td><strong>0.453</strong></td>
+              <td>#8381</td>
+              <td>0.167</td>
+              <td>#757</td>
+              <td>#188</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="189" data-gene="ARL11" data-codon_length="357" data-taxa_count="326" data-rho="0.538" data-rho_rank="5384" data-psi="0.217" data-psi_rank="99" data-comp_rank="189" data-q="0.1726">
+              <td style="font-weight: 700; color: var(--accent-primary);">189</td>
+              <td class="gene-cell">ARL11  </td>
+              <td>357</td>
+              <td>326</td>
+              <td><strong>0.538</strong></td>
+              <td>#5384</td>
+              <td>0.217</td>
+              <td>#99</td>
+              <td>#189</td>
+              <td>0.1726</td>
+            </tr>
+            
+            <tr data-rank="190" data-gene="GRID1" data-codon_length="1009" data-taxa_count="627" data-rho="0.456" data-rho_rank="8252" data-psi="0.126" data-psi_rank="7507" data-comp_rank="190" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">190</td>
+              <td class="gene-cell">GRID1  </td>
+              <td>1,009</td>
+              <td>627</td>
+              <td><strong>0.456</strong></td>
+              <td>#8252</td>
+              <td>0.126</td>
+              <td>#7507</td>
+              <td>#190</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="191" data-gene="TRIM31" data-codon_length="464" data-taxa_count="269" data-rho="0.837" data-rho_rank="172" data-psi="0.217" data-psi_rank="100" data-comp_rank="191" data-q="0.1861">
+              <td style="font-weight: 700; color: var(--accent-primary);">191</td>
+              <td class="gene-cell">TRIM31  </td>
+              <td>464</td>
+              <td>269</td>
+              <td><strong>0.837</strong></td>
+              <td>#172</td>
+              <td>0.217</td>
+              <td>#100</td>
+              <td>#191</td>
+              <td>0.1861</td>
+            </tr>
+            
+            <tr data-rank="192" data-gene="KLHL17" data-codon_length="667" data-taxa_count="677" data-rho="0.631" data-rho_rank="3177" data-psi="0.141" data-psi_rank="3384" data-comp_rank="192" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">192</td>
+              <td class="gene-cell">KLHL17  </td>
+              <td>667</td>
+              <td>677</td>
+              <td><strong>0.631</strong></td>
+              <td>#3177</td>
+              <td>0.141</td>
+              <td>#3384</td>
+              <td>#192</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="193" data-gene="UBL5" data-codon_length="73" data-taxa_count="648" data-rho="0.241" data-rho_rank="16013" data-psi="0.216" data-psi_rank="101" data-comp_rank="193" data-q="0.1889">
+              <td style="font-weight: 700; color: var(--accent-primary);">193</td>
+              <td class="gene-cell">UBL5  </td>
+              <td>73</td>
+              <td>648</td>
+              <td><strong>0.241</strong></td>
+              <td>#16013</td>
+              <td>0.216</td>
+              <td>#101</td>
+              <td>#193</td>
+              <td>0.1889</td>
+            </tr>
+            
+            <tr data-rank="194" data-gene="SPOCK3" data-codon_length="438" data-taxa_count="558" data-rho="0.550" data-rho_rank="5067" data-psi="0.216" data-psi_rank="102" data-comp_rank="194" data-q="0.1899">
+              <td style="font-weight: 700; color: var(--accent-primary);">194</td>
+              <td class="gene-cell">SPOCK3  </td>
+              <td>438</td>
+              <td>558</td>
+              <td><strong>0.550</strong></td>
+              <td>#5067</td>
+              <td>0.216</td>
+              <td>#102</td>
+              <td>#194</td>
+              <td>0.1899</td>
+            </tr>
+            
+            <tr data-rank="195" data-gene="MEOX2" data-codon_length="316" data-taxa_count="701" data-rho="0.408" data-rho_rank="10929" data-psi="0.132" data-psi_rank="5606" data-comp_rank="195" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">195</td>
+              <td class="gene-cell">MEOX2  </td>
+              <td>316</td>
+              <td>701</td>
+              <td><strong>0.408</strong></td>
+              <td>#10929</td>
+              <td>0.132</td>
+              <td>#5606</td>
+              <td>#195</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="196" data-gene="MBD3" data-codon_length="298" data-taxa_count="682" data-rho="0.399" data-rho_rank="11608" data-psi="0.170" data-psi_rank="664" data-comp_rank="196" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">196</td>
+              <td class="gene-cell">MBD3  </td>
+              <td>298</td>
+              <td>682</td>
+              <td><strong>0.399</strong></td>
+              <td>#11608</td>
+              <td>0.170</td>
+              <td>#664</td>
+              <td>#196</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="197" data-gene="PURB" data-codon_length="390" data-taxa_count="649" data-rho="0.497" data-rho_rank="6572" data-psi="0.129" data-psi_rank="6780" data-comp_rank="197" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">197</td>
+              <td class="gene-cell">PURB  </td>
+              <td>390</td>
+              <td>649</td>
+              <td><strong>0.497</strong></td>
+              <td>#6572</td>
+              <td>0.129</td>
+              <td>#6780</td>
+              <td>#197</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="198" data-gene="AMMECR1L" data-codon_length="311" data-taxa_count="730" data-rho="0.510" data-rho_rank="6175" data-psi="0.216" data-psi_rank="104" data-comp_rank="198" data-q="0.1944">
+              <td style="font-weight: 700; color: var(--accent-primary);">198</td>
+              <td class="gene-cell">AMMECR1L  </td>
+              <td>311</td>
+              <td>730</td>
+              <td><strong>0.510</strong></td>
+              <td>#6175</td>
+              <td>0.216</td>
+              <td>#104</td>
+              <td>#198</td>
+              <td>0.1944</td>
+            </tr>
+            
+            <tr data-rank="199" data-gene="PCDHB3" data-codon_length="1140" data-taxa_count="338" data-rho="0.552" data-rho_rank="5014" data-psi="0.158" data-psi_rank="1176" data-comp_rank="199" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">199</td>
+              <td class="gene-cell">PCDHB3  </td>
+              <td>1,140</td>
+              <td>338</td>
+              <td><strong>0.552</strong></td>
+              <td>#5014</td>
+              <td>0.158</td>
+              <td>#1176</td>
+              <td>#199</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="200" data-gene="DTD1" data-codon_length="210" data-taxa_count="692" data-rho="0.395" data-rho_rank="11921" data-psi="0.181" data-psi_rank="387" data-comp_rank="200" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">200</td>
+              <td class="gene-cell">DTD1  </td>
+              <td>210</td>
+              <td>692</td>
+              <td><strong>0.395</strong></td>
+              <td>#11921</td>
+              <td>0.181</td>
+              <td>#387</td>
+              <td>#200</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="201" data-gene="AGAP4" data-codon_length="184" data-taxa_count="167" data-rho="0.765" data-rho_rank="563" data-psi="0.215" data-psi_rank="106" data-comp_rank="201" data-q="0.2133">
+              <td style="font-weight: 700; color: var(--accent-primary);">201</td>
+              <td class="gene-cell">AGAP4  </td>
+              <td>184</td>
+              <td>167</td>
+              <td><strong>0.765</strong></td>
+              <td>#563</td>
+              <td>0.215</td>
+              <td>#106</td>
+              <td>#201</td>
+              <td>0.2133</td>
+            </tr>
+            
+            <tr data-rank="202" data-gene="CA5B" data-codon_length="336" data-taxa_count="591" data-rho="0.576" data-rho_rank="4438" data-psi="0.152" data-psi_rank="1745" data-comp_rank="202" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">202</td>
+              <td class="gene-cell">CA5B  </td>
+              <td>336</td>
+              <td>591</td>
+              <td><strong>0.576</strong></td>
+              <td>#4438</td>
+              <td>0.152</td>
+              <td>#1745</td>
+              <td>#202</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="203" data-gene="TPM2" data-codon_length="284" data-taxa_count="690" data-rho="0.764" data-rho_rank="649" data-psi="0.215" data-psi_rank="107" data-comp_rank="203" data-q="0.2133">
+              <td style="font-weight: 700; color: var(--accent-primary);">203</td>
+              <td class="gene-cell">TPM2  </td>
+              <td>284</td>
+              <td>690</td>
+              <td><strong>0.764</strong></td>
+              <td>#649</td>
+              <td>0.215</td>
+              <td>#107</td>
+              <td>#203</td>
+              <td>0.2133</td>
+            </tr>
+            
+            <tr data-rank="204" data-gene="UNC50" data-codon_length="259" data-taxa_count="721" data-rho="0.532" data-rho_rank="5534" data-psi="0.155" data-psi_rank="1433" data-comp_rank="204" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">204</td>
+              <td class="gene-cell">UNC50  </td>
+              <td>259</td>
+              <td>721</td>
+              <td><strong>0.532</strong></td>
+              <td>#5534</td>
+              <td>0.155</td>
+              <td>#1433</td>
+              <td>#204</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="205" data-gene="C1QL3" data-codon_length="255" data-taxa_count="686" data-rho="0.436" data-rho_rank="9132" data-psi="0.214" data-psi_rank="108" data-comp_rank="205" data-q="0.2234">
+              <td style="font-weight: 700; color: var(--accent-primary);">205</td>
+              <td class="gene-cell">C1QL3  </td>
+              <td>255</td>
+              <td>686</td>
+              <td><strong>0.436</strong></td>
+              <td>#9132</td>
+              <td>0.214</td>
+              <td>#108</td>
+              <td>#205</td>
+              <td>0.2234</td>
+            </tr>
+            
+            <tr data-rank="206" data-gene="CHERP" data-codon_length="961" data-taxa_count="658" data-rho="0.480" data-rho_rank="7154" data-psi="0.137" data-psi_rank="4278" data-comp_rank="206" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">206</td>
+              <td class="gene-cell">CHERP  </td>
+              <td>961</td>
+              <td>658</td>
+              <td><strong>0.480</strong></td>
+              <td>#7154</td>
+              <td>0.137</td>
+              <td>#4278</td>
+              <td>#206</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="207" data-gene="GNRH2" data-codon_length="123" data-taxa_count="424" data-rho="0.494" data-rho_rank="6668" data-psi="0.209" data-psi_rank="131" data-comp_rank="207" data-q="0.3001">
+              <td style="font-weight: 700; color: var(--accent-primary);">207</td>
+              <td class="gene-cell">GNRH2  </td>
+              <td>123</td>
+              <td>424</td>
+              <td><strong>0.494</strong></td>
+              <td>#6668</td>
+              <td>0.209</td>
+              <td>#131</td>
+              <td>#207</td>
+              <td>0.3001</td>
+            </tr>
+            
+            <tr data-rank="208" data-gene="HSD3B1" data-codon_length="376" data-taxa_count="425" data-rho="0.525" data-rho_rank="5729" data-psi="0.181" data-psi_rank="396" data-comp_rank="208" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">208</td>
+              <td class="gene-cell">HSD3B1  </td>
+              <td>376</td>
+              <td>425</td>
+              <td><strong>0.525</strong></td>
+              <td>#5729</td>
+              <td>0.181</td>
+              <td>#396</td>
+              <td>#208</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="209" data-gene="ALG13" data-codon_length="1194" data-taxa_count="269" data-rho="0.882" data-rho_rank="93" data-psi="0.213" data-psi_rank="111" data-comp_rank="209" data-q="0.2417">
+              <td style="font-weight: 700; color: var(--accent-primary);">209</td>
+              <td class="gene-cell">ALG13  </td>
+              <td>1,194</td>
+              <td>269</td>
+              <td><strong>0.882</strong></td>
+              <td>#93</td>
+              <td>0.213</td>
+              <td>#111</td>
+              <td>#209</td>
+              <td>0.2417</td>
+            </tr>
+            
+            <tr data-rank="210" data-gene="POLD2" data-codon_length="462" data-taxa_count="712" data-rho="0.412" data-rho_rank="10657" data-psi="0.170" data-psi_rank="646" data-comp_rank="210" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">210</td>
+              <td class="gene-cell">POLD2  </td>
+              <td>462</td>
+              <td>712</td>
+              <td><strong>0.412</strong></td>
+              <td>#10657</td>
+              <td>0.170</td>
+              <td>#646</td>
+              <td>#210</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="211" data-gene="COPS3" data-codon_length="455" data-taxa_count="704" data-rho="0.427" data-rho_rank="9541" data-psi="0.213" data-psi_rank="112" data-comp_rank="211" data-q="0.2469">
+              <td style="font-weight: 700; color: var(--accent-primary);">211</td>
+              <td class="gene-cell">COPS3  </td>
+              <td>455</td>
+              <td>704</td>
+              <td><strong>0.427</strong></td>
+              <td>#9541</td>
+              <td>0.213</td>
+              <td>#112</td>
+              <td>#211</td>
+              <td>0.2469</td>
+            </tr>
+            
+            <tr data-rank="212" data-gene="SHANK2" data-codon_length="1911" data-taxa_count="515" data-rho="0.732" data-rho_rank="1219" data-psi="0.155" data-psi_rank="1419" data-comp_rank="212" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">212</td>
+              <td class="gene-cell">SHANK2  </td>
+              <td>1,911</td>
+              <td>515</td>
+              <td><strong>0.732</strong></td>
+              <td>#1219</td>
+              <td>0.155</td>
+              <td>#1419</td>
+              <td>#212</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="213" data-gene="KIAA1586" data-codon_length="764" data-taxa_count="246" data-rho="0.757" data-rho_rank="710" data-psi="0.213" data-psi_rank="113" data-comp_rank="213" data-q="0.2469">
+              <td style="font-weight: 700; color: var(--accent-primary);">213</td>
+              <td class="gene-cell">KIAA1586  </td>
+              <td>764</td>
+              <td>246</td>
+              <td><strong>0.757</strong></td>
+              <td>#710</td>
+              <td>0.213</td>
+              <td>#113</td>
+              <td>#213</td>
+              <td>0.2469</td>
+            </tr>
+            
+            <tr data-rank="214" data-gene="PSMD13" data-codon_length="376" data-taxa_count="700" data-rho="0.456" data-rho_rank="8238" data-psi="0.135" data-psi_rank="4825" data-comp_rank="214" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">214</td>
+              <td class="gene-cell">PSMD13  </td>
+              <td>376</td>
+              <td>700</td>
+              <td><strong>0.456</strong></td>
+              <td>#8238</td>
+              <td>0.135</td>
+              <td>#4825</td>
+              <td>#214</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="215" data-gene="CYP3A43" data-codon_length="506" data-taxa_count="100" data-rho="0.707" data-rho_rank="1675" data-psi="0.213" data-psi_rank="114" data-comp_rank="215" data-q="0.2469">
+              <td style="font-weight: 700; color: var(--accent-primary);">215</td>
+              <td class="gene-cell">CYP3A43  </td>
+              <td>506</td>
+              <td>100</td>
+              <td><strong>0.707</strong></td>
+              <td>#1675</td>
+              <td>0.213</td>
+              <td>#114</td>
+              <td>#215</td>
+              <td>0.2469</td>
+            </tr>
+            
+            <tr data-rank="216" data-gene="DAZAP1" data-codon_length="408" data-taxa_count="702" data-rho="0.417" data-rho_rank="10311" data-psi="0.130" data-psi_rank="6351" data-comp_rank="216" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">216</td>
+              <td class="gene-cell">DAZAP1  </td>
+              <td>408</td>
+              <td>702</td>
+              <td><strong>0.417</strong></td>
+              <td>#10311</td>
+              <td>0.130</td>
+              <td>#6351</td>
+              <td>#216</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="217" data-gene="SERPINA1" data-codon_length="479" data-taxa_count="338" data-rho="0.578" data-rho_rank="4345" data-psi="0.176" data-psi_rank="485" data-comp_rank="217" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">217</td>
+              <td class="gene-cell">SERPINA1  </td>
+              <td>479</td>
+              <td>338</td>
+              <td><strong>0.578</strong></td>
+              <td>#4345</td>
+              <td>0.176</td>
+              <td>#485</td>
+              <td>#217</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="218" data-gene="GZMB" data-codon_length="295" data-taxa_count="224" data-rho="0.636" data-rho_rank="3066" data-psi="0.212" data-psi_rank="116" data-comp_rank="218" data-q="0.2520">
+              <td style="font-weight: 700; color: var(--accent-primary);">218</td>
+              <td class="gene-cell">GZMB  </td>
+              <td>295</td>
+              <td>224</td>
+              <td><strong>0.636</strong></td>
+              <td>#3066</td>
+              <td>0.212</td>
+              <td>#116</td>
+              <td>#218</td>
+              <td>0.2520</td>
+            </tr>
+            
+            <tr data-rank="219" data-gene="CKM" data-codon_length="383" data-taxa_count="666" data-rho="0.752" data-rho_rank="820" data-psi="0.212" data-psi_rank="117" data-comp_rank="219" data-q="0.2524">
+              <td style="font-weight: 700; color: var(--accent-primary);">219</td>
+              <td class="gene-cell">CKM  </td>
+              <td>383</td>
+              <td>666</td>
+              <td><strong>0.752</strong></td>
+              <td>#820</td>
+              <td>0.212</td>
+              <td>#117</td>
+              <td>#219</td>
+              <td>0.2524</td>
+            </tr>
+            
+            <tr data-rank="220" data-gene="OPCML" data-codon_length="352" data-taxa_count="640" data-rho="0.739" data-rho_rank="1089" data-psi="0.166" data-psi_rank="777" data-comp_rank="220" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">220</td>
+              <td class="gene-cell">OPCML  </td>
+              <td>352</td>
+              <td>640</td>
+              <td><strong>0.739</strong></td>
+              <td>#1089</td>
+              <td>0.166</td>
+              <td>#777</td>
+              <td>#220</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="221" data-gene="KCNJ12" data-codon_length="447" data-taxa_count="683" data-rho="0.406" data-rho_rank="11258" data-psi="0.134" data-psi_rank="5192" data-comp_rank="221" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">221</td>
+              <td class="gene-cell">KCNJ12  </td>
+              <td>447</td>
+              <td>683</td>
+              <td><strong>0.406</strong></td>
+              <td>#11258</td>
+              <td>0.134</td>
+              <td>#5192</td>
+              <td>#221</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="222" data-gene="CRCT1" data-codon_length="117" data-taxa_count="234" data-rho="0.756" data-rho_rank="717" data-psi="0.212" data-psi_rank="118" data-comp_rank="222" data-q="0.2538">
+              <td style="font-weight: 700; color: var(--accent-primary);">222</td>
+              <td class="gene-cell">CRCT1  </td>
+              <td>117</td>
+              <td>234</td>
+              <td><strong>0.756</strong></td>
+              <td>#717</td>
+              <td>0.212</td>
+              <td>#118</td>
+              <td>#222</td>
+              <td>0.2538</td>
+            </tr>
+            
+            <tr data-rank="223" data-gene="KSR2" data-codon_length="968" data-taxa_count="629" data-rho="0.457" data-rho_rank="8159" data-psi="0.149" data-psi_rank="2090" data-comp_rank="223" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">223</td>
+              <td class="gene-cell">KSR2  </td>
+              <td>968</td>
+              <td>629</td>
+              <td><strong>0.457</strong></td>
+              <td>#8159</td>
+              <td>0.149</td>
+              <td>#2090</td>
+              <td>#223</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="224" data-gene="MYL1" data-codon_length="215" data-taxa_count="711" data-rho="0.764" data-rho_rank="636" data-psi="0.212" data-psi_rank="119" data-comp_rank="224" data-q="0.2580">
+              <td style="font-weight: 700; color: var(--accent-primary);">224</td>
+              <td class="gene-cell">MYL1  </td>
+              <td>215</td>
+              <td>711</td>
+              <td><strong>0.764</strong></td>
+              <td>#636</td>
+              <td>0.212</td>
+              <td>#119</td>
+              <td>#224</td>
+              <td>0.2580</td>
+            </tr>
+            
+            <tr data-rank="225" data-gene="CERS6" data-codon_length="392" data-taxa_count="687" data-rho="0.436" data-rho_rank="9124" data-psi="0.155" data-psi_rank="1418" data-comp_rank="225" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">225</td>
+              <td class="gene-cell">CERS6  </td>
+              <td>392</td>
+              <td>687</td>
+              <td><strong>0.436</strong></td>
+              <td>#9124</td>
+              <td>0.155</td>
+              <td>#1418</td>
+              <td>#225</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="226" data-gene="TAGLN2" data-codon_length="200" data-taxa_count="715" data-rho="0.500" data-rho_rank="6477" data-psi="0.212" data-psi_rank="120" data-comp_rank="226" data-q="0.2606">
+              <td style="font-weight: 700; color: var(--accent-primary);">226</td>
+              <td class="gene-cell">TAGLN2  </td>
+              <td>200</td>
+              <td>715</td>
+              <td><strong>0.500</strong></td>
+              <td>#6477</td>
+              <td>0.212</td>
+              <td>#120</td>
+              <td>#226</td>
+              <td>0.2606</td>
+            </tr>
+            
+            <tr data-rank="227" data-gene="TMEM250" data-codon_length="139" data-taxa_count="681" data-rho="0.398" data-rho_rank="11692" data-psi="0.151" data-psi_rank="1848" data-comp_rank="227" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">227</td>
+              <td class="gene-cell">TMEM250  </td>
+              <td>139</td>
+              <td>681</td>
+              <td><strong>0.398</strong></td>
+              <td>#11692</td>
+              <td>0.151</td>
+              <td>#1848</td>
+              <td>#227</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="228" data-gene="CD1A" data-codon_length="345" data-taxa_count="170" data-rho="0.515" data-rho_rank="6028" data-psi="0.211" data-psi_rank="121" data-comp_rank="228" data-q="0.2663">
+              <td style="font-weight: 700; color: var(--accent-primary);">228</td>
+              <td class="gene-cell">CD1A  </td>
+              <td>345</td>
+              <td>170</td>
+              <td><strong>0.515</strong></td>
+              <td>#6028</td>
+              <td>0.211</td>
+              <td>#121</td>
+              <td>#228</td>
+              <td>0.2663</td>
+            </tr>
+            
+            <tr data-rank="229" data-gene="SDHC" data-codon_length="178" data-taxa_count="691" data-rho="0.583" data-rho_rank="4234" data-psi="0.162" data-psi_rank="926" data-comp_rank="229" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">229</td>
+              <td class="gene-cell">SDHC  </td>
+              <td>178</td>
+              <td>691</td>
+              <td><strong>0.583</strong></td>
+              <td>#4234</td>
+              <td>0.162</td>
+              <td>#926</td>
+              <td>#229</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="230" data-gene="CES1" data-codon_length="576" data-taxa_count="275" data-rho="0.440" data-rho_rank="8933" data-psi="0.167" data-psi_rank="736" data-comp_rank="230" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">230</td>
+              <td class="gene-cell">CES1  </td>
+              <td>576</td>
+              <td>275</td>
+              <td><strong>0.440</strong></td>
+              <td>#8933</td>
+              <td>0.167</td>
+              <td>#736</td>
+              <td>#230</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="231" data-gene="RAB44" data-codon_length="1456" data-taxa_count="161" data-rho="0.815" data-rho_rank="266" data-psi="0.211" data-psi_rank="123" data-comp_rank="231" data-q="0.2682">
+              <td style="font-weight: 700; color: var(--accent-primary);">231</td>
+              <td class="gene-cell">RAB44  </td>
+              <td>1,456</td>
+              <td>161</td>
+              <td><strong>0.815</strong></td>
+              <td>#266</td>
+              <td>0.211</td>
+              <td>#123</td>
+              <td>#231</td>
+              <td>0.2682</td>
+            </tr>
+            
+            <tr data-rank="232" data-gene="SLC25A42" data-codon_length="330" data-taxa_count="697" data-rho="0.641" data-rho_rank="2947" data-psi="0.163" data-psi_rank="914" data-comp_rank="232" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">232</td>
+              <td class="gene-cell">SLC25A42  </td>
+              <td>330</td>
+              <td>697</td>
+              <td><strong>0.641</strong></td>
+              <td>#2947</td>
+              <td>0.163</td>
+              <td>#914</td>
+              <td>#232</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="233" data-gene="CLEC2B" data-codon_length="168" data-taxa_count="376" data-rho="0.607" data-rho_rank="3730" data-psi="0.211" data-psi_rank="124" data-comp_rank="233" data-q="0.2719">
+              <td style="font-weight: 700; color: var(--accent-primary);">233</td>
+              <td class="gene-cell">CLEC2B  </td>
+              <td>168</td>
+              <td>376</td>
+              <td><strong>0.607</strong></td>
+              <td>#3730</td>
+              <td>0.211</td>
+              <td>#124</td>
+              <td>#233</td>
+              <td>0.2719</td>
+            </tr>
+            
+            <tr data-rank="234" data-gene="INSL5" data-codon_length="141" data-taxa_count="534" data-rho="0.420" data-rho_rank="10005" data-psi="0.163" data-psi_rank="915" data-comp_rank="234" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">234</td>
+              <td class="gene-cell">INSL5  </td>
+              <td>141</td>
+              <td>534</td>
+              <td><strong>0.420</strong></td>
+              <td>#10005</td>
+              <td>0.163</td>
+              <td>#915</td>
+              <td>#234</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="235" data-gene="IFNL3" data-codon_length="231" data-taxa_count="135" data-rho="0.541" data-rho_rank="5302" data-psi="0.211" data-psi_rank="125" data-comp_rank="235" data-q="0.2719">
+              <td style="font-weight: 700; color: var(--accent-primary);">235</td>
+              <td class="gene-cell">IFNL3  </td>
+              <td>231</td>
+              <td>135</td>
+              <td><strong>0.541</strong></td>
+              <td>#5302</td>
+              <td>0.211</td>
+              <td>#125</td>
+              <td>#235</td>
+              <td>0.2719</td>
+            </tr>
+            
+            <tr data-rank="236" data-gene="MYL7" data-codon_length="187" data-taxa_count="696" data-rho="0.408" data-rho_rank="11013" data-psi="0.169" data-psi_rank="705" data-comp_rank="236" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">236</td>
+              <td class="gene-cell">MYL7  </td>
+              <td>187</td>
+              <td>696</td>
+              <td><strong>0.408</strong></td>
+              <td>#11013</td>
+              <td>0.169</td>
+              <td>#705</td>
+              <td>#236</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="237" data-gene="EIF5A2" data-codon_length="154" data-taxa_count="726" data-rho="0.375" data-rho_rank="13189" data-psi="0.211" data-psi_rank="126" data-comp_rank="237" data-q="0.2724">
+              <td style="font-weight: 700; color: var(--accent-primary);">237</td>
+              <td class="gene-cell">EIF5A2  </td>
+              <td>154</td>
+              <td>726</td>
+              <td><strong>0.375</strong></td>
+              <td>#13189</td>
+              <td>0.211</td>
+              <td>#126</td>
+              <td>#237</td>
+              <td>0.2724</td>
+            </tr>
+            
+            <tr data-rank="238" data-gene="FOXO1" data-codon_length="675" data-taxa_count="650" data-rho="0.770" data-rho_rank="506" data-psi="0.136" data-psi_rank="4709" data-comp_rank="238" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">238</td>
+              <td class="gene-cell">FOXO1  </td>
+              <td>675</td>
+              <td>650</td>
+              <td><strong>0.770</strong></td>
+              <td>#506</td>
+              <td>0.136</td>
+              <td>#4709</td>
+              <td>#238</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="239" data-gene="ADAT3" data-codon_length="372" data-taxa_count="143" data-rho="0.663" data-rho_rank="2496" data-psi="0.210" data-psi_rank="127" data-comp_rank="239" data-q="0.2837">
+              <td style="font-weight: 700; color: var(--accent-primary);">239</td>
+              <td class="gene-cell">ADAT3  </td>
+              <td>372</td>
+              <td>143</td>
+              <td><strong>0.663</strong></td>
+              <td>#2496</td>
+              <td>0.210</td>
+              <td>#127</td>
+              <td>#239</td>
+              <td>0.2837</td>
+            </tr>
+            
+            <tr data-rank="240" data-gene="TSPEAR" data-codon_length="670" data-taxa_count="537" data-rho="0.762" data-rho_rank="673" data-psi="0.158" data-psi_rank="1152" data-comp_rank="240" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">240</td>
+              <td class="gene-cell">TSPEAR  </td>
+              <td>670</td>
+              <td>537</td>
+              <td><strong>0.762</strong></td>
+              <td>#673</td>
+              <td>0.158</td>
+              <td>#1152</td>
+              <td>#240</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="241" data-gene="SIGLEC14" data-codon_length="452" data-taxa_count="150" data-rho="0.632" data-rho_rank="3134" data-psi="0.210" data-psi_rank="128" data-comp_rank="241" data-q="0.2862">
+              <td style="font-weight: 700; color: var(--accent-primary);">241</td>
+              <td class="gene-cell">SIGLEC14  </td>
+              <td>452</td>
+              <td>150</td>
+              <td><strong>0.632</strong></td>
+              <td>#3134</td>
+              <td>0.210</td>
+              <td>#128</td>
+              <td>#241</td>
+              <td>0.2862</td>
+            </tr>
+            
+            <tr data-rank="242" data-gene="GET4" data-codon_length="332" data-taxa_count="646" data-rho="0.492" data-rho_rank="6721" data-psi="0.154" data-psi_rank="1508" data-comp_rank="242" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">242</td>
+              <td class="gene-cell">GET4  </td>
+              <td>332</td>
+              <td>646</td>
+              <td><strong>0.492</strong></td>
+              <td>#6721</td>
+              <td>0.154</td>
+              <td>#1508</td>
+              <td>#242</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="243" data-gene="S100A5" data-codon_length="94" data-taxa_count="709" data-rho="0.617" data-rho_rank="3496" data-psi="0.210" data-psi_rank="129" data-comp_rank="243" data-q="0.2907">
+              <td style="font-weight: 700; color: var(--accent-primary);">243</td>
+              <td class="gene-cell">S100A5  </td>
+              <td>94</td>
+              <td>709</td>
+              <td><strong>0.617</strong></td>
+              <td>#3496</td>
+              <td>0.210</td>
+              <td>#129</td>
+              <td>#243</td>
+              <td>0.2907</td>
+            </tr>
+            
+            <tr data-rank="244" data-gene="HNF4G" data-codon_length="408" data-taxa_count="697" data-rho="0.426" data-rho_rank="9664" data-psi="0.153" data-psi_rank="1659" data-comp_rank="244" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">244</td>
+              <td class="gene-cell">HNF4G  </td>
+              <td>408</td>
+              <td>697</td>
+              <td><strong>0.426</strong></td>
+              <td>#9664</td>
+              <td>0.153</td>
+              <td>#1659</td>
+              <td>#244</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="245" data-gene="CYP2C9" data-codon_length="494" data-taxa_count="120" data-rho="0.894" data-rho_rank="79" data-psi="0.210" data-psi_rank="130" data-comp_rank="245" data-q="0.2978">
+              <td style="font-weight: 700; color: var(--accent-primary);">245</td>
+              <td class="gene-cell">CYP2C9  </td>
+              <td>494</td>
+              <td>120</td>
+              <td><strong>0.894</strong></td>
+              <td>#79</td>
+              <td>0.210</td>
+              <td>#130</td>
+              <td>#245</td>
+              <td>0.2978</td>
+            </tr>
+            
+            <tr data-rank="246" data-gene="SLC47A2" data-codon_length="681" data-taxa_count="482" data-rho="0.520" data-rho_rank="5864" data-psi="0.177" data-psi_rank="472" data-comp_rank="246" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">246</td>
+              <td class="gene-cell">SLC47A2  </td>
+              <td>681</td>
+              <td>482</td>
+              <td><strong>0.520</strong></td>
+              <td>#5864</td>
+              <td>0.177</td>
+              <td>#472</td>
+              <td>#246</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="247" data-gene="CST3" data-codon_length="159" data-taxa_count="484" data-rho="0.443" data-rho_rank="8817" data-psi="0.181" data-psi_rank="380" data-comp_rank="247" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">247</td>
+              <td class="gene-cell">CST3  </td>
+              <td>159</td>
+              <td>484</td>
+              <td><strong>0.443</strong></td>
+              <td>#8817</td>
+              <td>0.181</td>
+              <td>#380</td>
+              <td>#247</td>
+              <td>0.8804</td>
+            </tr>
+            
+            <tr data-rank="248" data-gene="OR12D2" data-codon_length="308" data-taxa_count="123" data-rho="0.755" data-rho_rank="758" data-psi="0.209" data-psi_rank="132" data-comp_rank="248" data-q="0.3123">
+              <td style="font-weight: 700; color: var(--accent-primary);">248</td>
+              <td class="gene-cell">OR12D2  </td>
+              <td>308</td>
+              <td>123</td>
+              <td><strong>0.755</strong></td>
+              <td>#758</td>
+              <td>0.209</td>
+              <td>#132</td>
+              <td>#248</td>
+              <td>0.3123</td>
+            </tr>
+            
+            <tr data-rank="249" data-gene="RTL8A" data-codon_length="115" data-taxa_count="129" data-rho="0.673" data-rho_rank="2346" data-psi="0.209" data-psi_rank="133" data-comp_rank="249" data-q="0.3155">
+              <td style="font-weight: 700; color: var(--accent-primary);">249</td>
+              <td class="gene-cell">RTL8A  </td>
+              <td>115</td>
+              <td>129</td>
+              <td><strong>0.673</strong></td>
+              <td>#2346</td>
+              <td>0.209</td>
+              <td>#133</td>
+              <td>#249</td>
+              <td>0.3155</td>
+            </tr>
+            
+            <tr data-rank="250" data-gene="TMEM185B" data-codon_length="353" data-taxa_count="692" data-rho="0.503" data-rho_rank="6352" data-psi="0.149" data-psi_rank="2063" data-comp_rank="250" data-q="0.8804">
+              <td style="font-weight: 700; color: var(--accent-primary);">250</td>
+              <td class="gene-cell">TMEM185B  </td>
+              <td>353</td>
+              <td>692</td>
+              <td><strong>0.503</strong></td>
+              <td>#6352</td>
+              <td>0.149</td>
+              <td>#2063</td>
+              <td>#250</td>
+              <td>0.8804</td>
+            </tr>
+            
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination-controls">
+          <span id="pageInfo">Showing entries</span>
+          <div class="pagination-buttons">
+            <button id="prevPage" class="page-btn">Previous</button>
+            <button id="nextPage" class="page-btn">Next</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+        <!-- Co-Evolving Epistatic Communities Section -->
+        <section class="content-section">
+          <h2 class="section-title">Average Product-Corrected (APC) Co-Selection Epistatic Communities</h2>
+          <p style="color: var(--text-secondary); margin-bottom: 1.25rem;">
+            Direct physical and functional co-selection networks extracted via unsupervised modularity optimization of directional tensor co-variance, corrected for phylogenetic background noise (APC).
+          </p>
+          <div class="table-card">
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Community ID</th>
+                    <th>Size (Genes)</th>
+                    <th>Mean APC Density</th>
+                    <th>Density Z-Score</th>
+                    <th>Statistical p-Value</th>
+                    <th>Functional Characterization &amp; Member Loci</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+            <tr>
+              <td class="gene-cell" style="color: var(--accent-primary); font-weight: 700;">Module M2</td>
+              <td><strong>67 loci</strong></td>
+              <td>0.0807</td>
+              <td><span class="pill accent">Z = +24.8</span></td>
+              <td>6.61e-136</td>
+              <td style="max-width: 500px; white-space: normal; line-height: 1.4;">
+                
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">ADGRE2, ALPG, ALPI, ALPP, ASPHD2, BMP8A, BMP8B, CASP10 (+59 more)</span>
+                <details style="margin-top: 0.35rem;">
+                  <summary style="font-size: 0.75rem; color: var(--accent-primary); cursor: pointer;">View all 67 member genes</summary>
+                  <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.35rem; max-height: 120px; overflow-y: auto; background: var(--bg-tertiary); padding: 0.4rem; border-radius: 0.25rem; font-family: var(--font-mono);">ADGRE2, ALPG, ALPI, ALPP, ASPHD2, BMP8A, BMP8B, CASP10, CD1B, CLEC10A, CLEC4A, CRX, CRYBA2, CT45A2, CT45A3, CT45A6, CT45A8, CYP11B1, CYP11B2, ENOX1, GRID1, GSTM1, GSTM2, GSTM4, GSTM5, H1-4, H2AC4, H2BC10, H2BC13, H2BC4, H2BC9, HNRNPF, HRAS, KDM4F, KLHL17, KLHL2, LUC7L, MAP1LC3C, MBD3, MLLT3, MRGBP, NDRG3, NRIP2, OGT, OR1J2, OR4D1, OR51G2, PARP15, PLAC8, PRR20A, PRR20B, PRR20C, PRR20D, PRR20E, PRR20G, RBM18, SCGB1D1, SCGB1D2, SCGB1D4, SCGB2A1, SCGB2A2, SSU72L5, STX11, SYT1, TPSAB1, TPSB2, TUBA3E</div>
+                </details>
+              </td>
+            </tr>
+            
+            <tr>
+              <td class="gene-cell" style="color: var(--accent-primary); font-weight: 700;">Module M1</td>
+              <td><strong>116 loci</strong></td>
+              <td>0.0252</td>
+              <td><span class="pill accent">Z = +13.9</span></td>
+              <td>8.89e-44</td>
+              <td style="max-width: 500px; white-space: normal; line-height: 1.4;">
+                
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">ABCE1, ADPRHL1, AP2A2, ARL11, ARPC1A, BANF1, BANP, BRD1 (+108 more)</span>
+                <details style="margin-top: 0.35rem;">
+                  <summary style="font-size: 0.75rem; color: var(--accent-primary); cursor: pointer;">View all 116 member genes</summary>
+                  <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.35rem; max-height: 120px; overflow-y: auto; background: var(--bg-tertiary); padding: 0.4rem; border-radius: 0.25rem; font-family: var(--font-mono);">ABCE1, ADPRHL1, AP2A2, ARL11, ARPC1A, BANF1, BANP, BRD1, BRD4, BRSK2, C1GALT1C1L, C1orf202, CA8, CAMK2A, CDK19, CFL1, CHMP1A, CNFN, CPHXL, CRYBB2, CSRP2, CST1, CYFIP1, DCAF8L1, DDX19A, DEFB104A, DEFB4B, DTD1, EDDM3A, EHD3, EIF4A2, FAM24A, FAM24B, FGFBP2, GBP7, GID8, GINS1, GPM6A, GPR148, GRK2, GTF2H5, H3-4, HDAC1, HDAC3, HECA, HNRNPA1, HSPE1, HYPK, IPPK, KBTBD11, KHDC1, KLRC1, KLRC2, KLRC3, KLRC4, KRT17, LDHAL6A, LIN52, LMO4, LY6H, MAN1B1, MED31, MFSD14A, MPPED1, MTA1, MTSS1, MYL11, MYL12B, NANP, NT5DC4, NXT1, OOSP3, OPRL1, OR11A1, OR2H2, OR4D2, OR6C1, OR8S1, PA2G4, PAX8, PCDHB3, PCDHB9, PERP, PHB1, PPP2CA, PSMA1, PTPRK, PURB, RAB32, RASGEF1A, RBFOX3, RFPL4A, RIMS4, RPL23A, RXFP4, S100A6, SECTM1, SOX1, SPOCK3, SSU72L4, SULT4A1, SUMO1, TECR, TMEM240, TMOD1, TNNC2, TOP1MT, TPT1, TRGV11, TRGV8, TRIM31, TRIM62, UBL5, UBLCP1, UBTD1, UBTFL1</div>
+                </details>
+              </td>
+            </tr>
+            
+            <tr>
+              <td class="gene-cell" style="color: var(--accent-primary); font-weight: 700;">Module M3</td>
+              <td><strong>5 loci</strong></td>
+              <td>0.0273</td>
+              <td><span class="pill accent">Z = +0.6</span></td>
+              <td>0.2813</td>
+              <td style="max-width: 500px; white-space: normal; line-height: 1.4;">
+                
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">H2BC6, NPRL3, PFN1, RBMY1F, SIX1</span>
+                <details style="margin-top: 0.35rem;">
+                  <summary style="font-size: 0.75rem; color: var(--accent-primary); cursor: pointer;">View all 5 member genes</summary>
+                  <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.35rem; max-height: 120px; overflow-y: auto; background: var(--bg-tertiary); padding: 0.4rem; border-radius: 0.25rem; font-family: var(--font-mono);">H2BC6, NPRL3, PFN1, RBMY1F, SIX1</div>
+                </details>
+              </td>
+            </tr>
+            
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div style="margin-top: 1rem;">
+            <a href="../data/communities/enamel_loss_edentulism_communities.csv" class="btn btn-secondary" download>Download APC Communities CSV</a>
+          </div>
+        </section>
+        
+
+    
+        <!-- VIF-Adjusted Canonical Pathway Enrichment Section -->
+        <section class="content-section">
+          <h2 class="section-title">VIF-Adjusted Canonical Pathway Enrichment (Top 250 Candidates)</h2>
+          <p style="color: var(--text-secondary); margin-bottom: 1.25rem;">
+            Variance Inflation Factor (VIF)-adjusted hypergeometric enrichment test (Gordon Smyth <em>Camera</em> framework) over canonical pathway libraries (KEGG 2021, Reactome 2022, MSigDB Hallmark 2020), rigorously controlling for tandem superfamily covariance and inter-gene background correlation across the top 250 prioritized candidate loci.
+          </p>
+          <div class="table-card">
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Rank</th>
+                    <th>Pathway Name</th>
+                    <th>Database</th>
+                    <th>Gene Overlap</th>
+                    <th>Fold Enrichment</th>
+                    <th>VIF (Camera)</th>
+                    <th>FDR q-Value</th>
+                    <th>Overlapping Candidate Genes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">1</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Disorders Of Developmental Biology R-HSA-9675151</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>3</strong> / 12</td>
+              <td><span class="pill accent">15.0×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
+              <td style="font-weight: 600;">5.42e-05</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">HDAC1, HDAC3, MECP2</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">2</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Regulation Of MECP2 Expression And Activity R-HSA-9022692</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>4</strong> / 31</td>
+              <td><span class="pill accent">7.8×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
+              <td style="font-weight: 600;">0.0033</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CAMK2A, HDAC1, HDAC3, MECP2</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">3</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">MECP2 Regulates Transcription Of Neuronal Ligands R-HSA-9022702</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>2</strong> / 7</td>
+              <td><span class="pill accent">17.2×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
+              <td style="font-weight: 600;">0.0033</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">HDAC1, MECP2</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">4</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Loss Of MECP2 Binding Ability To NCoR/SMRT Complex R-HSA-9022537</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>2</strong> / 7</td>
+              <td><span class="pill accent">17.2×</span></td>
+              <td><span class="pill muted">1.0×</span></td>
+              <td style="font-weight: 600;">0.0033</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">HDAC3, MECP2</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">5</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">ERCC6 (CSB) And EHMT2 (G9a) Positively Regulate rRNA Expression R-HSA-427389</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>7</strong> / 43</td>
+              <td><span class="pill accent">9.8×</span></td>
+              <td><span class="pill muted">3.5×</span></td>
+              <td style="font-weight: 600;">0.0116</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GATAD2A, H2AC4, H2BC13, H2BC4, H2BC9, HDAC1, MTA1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">6</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Glucocorticoid Biosynthesis R-HSA-194002</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>3</strong> / 10</td>
+              <td><span class="pill accent">18.0×</span></td>
+              <td><span class="pill muted">2.6×</span></td>
+              <td style="font-weight: 600;">0.0116</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CYP11B1, CYP11B2, HSD3B1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">7</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">RNA Polymerase I Promoter Clearance R-HSA-73854</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>8</strong> / 75</td>
+              <td><span class="pill accent">6.4×</span></td>
+              <td><span class="pill muted">2.5×</span></td>
+              <td style="font-weight: 600;">0.0116</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GATAD2A, GTF2H5, H2AC4, H2BC13, H2BC4, H2BC9, HDAC1, MTA1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">8</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Relaxin Receptors R-HSA-444821</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>2</strong> / 8</td>
+              <td><span class="pill accent">15.0×</span></td>
+              <td><span class="pill muted">1.1×</span></td>
+              <td style="font-weight: 600;">0.0116</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">INSL5, RXFP4</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">9</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">HDACs Deacetylate Histones R-HSA-3214815</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>8</strong> / 59</td>
+              <td><span class="pill accent">8.2×</span></td>
+              <td><span class="pill muted">3.5×</span></td>
+              <td style="font-weight: 600;">0.0116</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GATAD2A, H2AC4, H2BC13, H2BC4, H2BC9, HDAC1, HDAC3, MTA1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">10</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">RNA Polymerase I Transcription R-HSA-73864</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>8</strong> / 76</td>
+              <td><span class="pill accent">6.3×</span></td>
+              <td><span class="pill muted">2.5×</span></td>
+              <td style="font-weight: 600;">0.0118</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GATAD2A, GTF2H5, H2AC4, H2BC13, H2BC4, H2BC9, HDAC1, MTA1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">11</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">RAF Activation R-HSA-5673000</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>4</strong> / 31</td>
+              <td><span class="pill accent">7.8×</span></td>
+              <td><span class="pill muted">1.6×</span></td>
+              <td style="font-weight: 600;">0.0187</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CAMK2A, HRAS, PHB1, PPP2CA</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">12</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Packaging Of Telomere Ends R-HSA-171306</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>5</strong> / 31</td>
+              <td><span class="pill accent">9.7×</span></td>
+              <td><span class="pill muted">2.9×</span></td>
+              <td style="font-weight: 600;">0.0219</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">H2AC4, H2BC13, H2BC4, H2BC9, H3-4</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">13</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">p75NTR Negatively Regulates Cell Cycle Via SC1 R-HSA-193670</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>2</strong> / 6</td>
+              <td><span class="pill accent">20.1×</span></td>
+              <td><span class="pill muted">2.0×</span></td>
+              <td style="font-weight: 600;">0.0292</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">HDAC1, HDAC3</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">14</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Paradoxical Activation Of RAF Signaling By Kinase Inactive BRAF R-HSA-6802955</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>4</strong> / 38</td>
+              <td><span class="pill accent">6.3×</span></td>
+              <td><span class="pill muted">1.4×</span></td>
+              <td style="font-weight: 600;">0.0343</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CAMK2A, HRAS, KSR2, PHB1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">15</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Mineralocorticoid Biosynthesis R-HSA-193993</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>2</strong> / 6</td>
+              <td><span class="pill accent">20.1×</span></td>
+              <td><span class="pill muted">2.1×</span></td>
+              <td style="font-weight: 600;">0.0360</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">CYP11B2, HSD3B1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">16</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Positive Epigenetic Regulation Of rRNA Expression R-HSA-5250913</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>7</strong> / 70</td>
+              <td><span class="pill accent">6.0×</span></td>
+              <td><span class="pill muted">2.7×</span></td>
+              <td style="font-weight: 600;">0.0360</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GATAD2A, H2AC4, H2BC13, H2BC4, H2BC9, HDAC1, MTA1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">17</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Cleavage Of Damaged Purine R-HSA-110331</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>5</strong> / 35</td>
+              <td><span class="pill accent">8.6×</span></td>
+              <td><span class="pill muted">2.9×</span></td>
+              <td style="font-weight: 600;">0.0360</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">H2AC4, H2BC13, H2BC4, H2BC9, H3-4</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">18</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Formation Of beta-catenin:TCF Transactivating Complex R-HSA-201722</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>6</strong> / 56</td>
+              <td><span class="pill accent">6.4×</span></td>
+              <td><span class="pill muted">2.8×</span></td>
+              <td style="font-weight: 600;">0.0624</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">H2AC4, H2BC13, H2BC4, H2BC9, H3-4, HDAC1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">19</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Cleavage Of Damaged Pyrimidine R-HSA-110329</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>5</strong> / 40</td>
+              <td><span class="pill accent">7.5×</span></td>
+              <td><span class="pill muted">2.9×</span></td>
+              <td style="font-weight: 600;">0.0734</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">H2AC4, H2BC13, H2BC4, H2BC9, H3-4</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">20</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">DNA Damage/Telomere Stress Induced Senescence R-HSA-2559586</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>6</strong> / 58</td>
+              <td><span class="pill accent">6.2×</span></td>
+              <td><span class="pill muted">2.8×</span></td>
+              <td style="font-weight: 600;">0.0737</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">H1-4, H2AC4, H2BC13, H2BC4, H2BC9, H3-4</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">21</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Condensation Of Prophase Chromosomes R-HSA-2299718</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>5</strong> / 41</td>
+              <td><span class="pill accent">7.3×</span></td>
+              <td><span class="pill muted">2.9×</span></td>
+              <td style="font-weight: 600;">0.0737</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">H2AC4, H2BC13, H2BC4, H2BC9, H3-4</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">22</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Epigenetic Regulation Of Gene Expression R-HSA-212165</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>8</strong> / 112</td>
+              <td><span class="pill accent">4.3×</span></td>
+              <td><span class="pill muted">2.3×</span></td>
+              <td style="font-weight: 600;">0.0737</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">GATAD2A, GTF2H5, H2AC4, H2BC13, H2BC4, H2BC9, HDAC1, MTA1</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">23</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Base-Excision Repair, AP Site Formation R-HSA-73929</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>5</strong> / 42</td>
+              <td><span class="pill accent">7.2×</span></td>
+              <td><span class="pill muted">2.9×</span></td>
+              <td style="font-weight: 600;">0.0799</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">H2AC4, H2BC13, H2BC4, H2BC9, H3-4</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">24</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Thiamine metabolism</td>
+              <td><span class="badge-db badge-kegg">KEGG</span></td>
+              <td><strong>3</strong> / 15</td>
+              <td><span class="pill accent">12.0×</span></td>
+              <td><span class="pill muted">3.0×</span></td>
+              <td style="font-weight: 600;">0.0984</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">ALPG, ALPI, ALPP</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: 700; color: var(--accent-primary);">25</td>
+              <td style="font-weight: 600; color: #fff; max-width: 320px; white-space: normal;">Inhibition Of DNA Recombination At Telomere R-HSA-9670095</td>
+              <td><span class="badge-db badge-reactome">Reactome</span></td>
+              <td><strong>5</strong> / 45</td>
+              <td><span class="pill accent">6.7×</span></td>
+              <td><span class="pill muted">2.9×</span></td>
+              <td style="font-weight: 600;">0.1064</td>
+              <td style="max-width: 350px; white-space: normal; font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-secondary);">H2AC4, H2BC13, H2BC4, H2BC9, H3-4</td>
+            </tr>
+            
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div style="margin-top: 1rem;">
+            <a href="../data/pathways/enamel_loss_edentulism_pathways.csv" class="btn btn-secondary" download>Download Complete Pathway Enrichment CSV</a>
+          </div>
+        </section>
+        
+
+    <!-- AGENT.md Analysis Notes Section -->
+    <section class="content-section">
+      <h2 class="section-title">AGENT.md Analysis Notes & Atomic Fact Deck</h2>
+      <div style="margin-bottom: 1rem;">
+        <a href="../agent_notes/enamel_loss_edentulism_AGENT.md" class="btn btn-secondary" download>Download Raw Markdown Checkpoint (.md)</a>
+      </div>
+      <div class="notes-container"># Checkpoint Report: Loss of Tooth Enamel & Edentulism
+- **Phenotype ID:** `DISC_ENAMEL_LOSS_EDENTULISM`
+- **Trait Class:** `binary` (Sample Size: 24 species)
+- **Genomic Inflation Factor ($\lambda_{\mathrm{GC}}$):** 0.9808
+- **Total Mammalian Orthologs Screened:** 16,105
+- **Date / Timestamp:** 2026-09-15 22:14:40
+
+---
+
+## 1. Executive Co-Author Presentation Brief
+- **Genome-Wide Significance:** Identified **99 loci at $\mathrm{FDR}\;q \le 0.05$** and **71 loci at $\mathrm{FDR}\;q \le 0.01$**.
+- **Calibration Control:** $\lambda_{\mathrm{GC}} = 0.9808$ confirms effective insulation against neutral homoplasy and GC-biased gene conversion.
+- **Top Discovery Hits:** Leading loci include CD1B, H2BC13, PRR20C, BANF1, PRR20A.
+- **Canonical Recovery:** Spontaneously recovered 0/8 gold-standard machinery in the top 200 (Enamel matrix structural proteins and processing proteases pseudogenized in edentulous and enamel-less mammalian lineages.).
+
+---
+
+## 2. Deterministic Reproduction CLI Command
+```bash
+python3 scripts/01_screen_phenotype.py \
+  --phenotype DISC_ENAMEL_LOSS_EDENTULISM \
+  --tensors data/axomeme_site_tensors.h5 \
+  --outdir results/DISC_ENAMEL_LOSS_EDENTULISM/
+```
+
+---
+
+## 3. Top Discovery Loci (Genome-Wide Screen)
+|   composite_rank | gene    |   codon_length |   taxa_count |   psi_score |   z_score |       fdr_q | tier                               |
+|-----------------:|:--------|---------------:|-------------:|------------:|----------:|------------:|:-----------------------------------|
+|                1 | CD1B    |            363 |          186 |    0.23965  |   4.28247 | 0.00310075  | Tier 0: Core Bottleneck Transducer |
+|                2 | H2BC13  |            128 |          192 |    0.414222 |  10.8064  | 2.58382e-23 | Tier 0: Core Bottleneck Transducer |
+|                3 | PRR20C  |            294 |          240 |    0.250848 |   4.70093 | 0.000613349 | Tier 0: Core Bottleneck Transducer |
+|                4 | BANF1   |             98 |          687 |    0.364709 |   8.95605 | 1.3549e-15  | Tier 0: Core Bottleneck Transducer |
+|                5 | PRR20A  |            276 |          279 |    0.229311 |   3.89607 | 0.0107843   | Tier 0: Core Bottleneck Transducer |
+|                6 | SSU72L4 |            196 |          100 |    0.35962  |   8.76587 | 4.97501e-15 | Tier 0: Core Bottleneck Transducer |
+|                7 | PAX8    |            468 |          713 |    0.175886 |   1.89954 | 0.920156    | Tier 0: Core Bottleneck Transducer |
+|                8 | ADGRE2  |            843 |          123 |    0.342727 |   8.13456 | 8.32325e-13 | Tier 0: Core Bottleneck Transducer |
+|                9 | PHB1    |            274 |          702 |    0.191202 |   2.47191 | 0.422739    | Tier 0: Core Bottleneck Transducer |
+|               10 | H2BC6   |            131 |          375 |    0.315906 |   7.13225 | 1.59021e-09 | Tier 0: Core Bottleneck Transducer |
+|               11 | TRGV11  |            116 |          310 |    0.225889 |   3.7682  | 0.0165766   | Tier 0: Core Bottleneck Transducer |
+|               12 | TRGV8   |            119 |          183 |    0.314624 |   7.08433 | 1.87514e-09 | Tier 0: Core Bottleneck Transducer |
+|               13 | RPL23A  |            158 |          674 |    0.194894 |   2.60989 | 0.326368    | Tier 0: Core Bottleneck Transducer |
+|               14 | CPHXL   |            409 |          115 |    0.302844 |   6.64409 | 3.50958e-08 | Tier 0: Core Bottleneck Transducer |
+|               15 | CST1    |            155 |          149 |    0.20002  |   2.80143 | 0.221947    | Tier 0: Core Bottleneck Transducer |
+
+---
+
+## 4. External Validation & Ground Truth Triangulation
+**Ground Truth Benchmark:** Enamel matrix structural proteins and processing proteases pseudogenized in edentulous and enamel-less mammalian lineages. (Enamel Pseudogenization in Mysticeti, Pholidota & Xenarthra)
+- **Top 50 Recovery:** 0 / 8 loci
+- **Top 200 Recovery:** 0 / 8 loci
+- **Top 500 Recovery:** 1 / 8 loci
+
+|   composite_rank | gene   |   codon_length |   psi_score |   z_score |    fdr_q |
+|-----------------:|:-------|---------------:|------------:|----------:|---------:|
+|              404 | KLK4   |            284 |   0.19597   |   2.6501  | 0.30279  |
+|             2418 | AMELX  |            227 |   0.155087  |   1.12224 | 0.920156 |
+|            16013 | ODAM   |            295 |   0.0729581 |  -1.94701 | 0.999986 |
+
+---
+
+## 5. Visual Artifacts
+- **Vector Figure (PDF):** [`figures/fig_DISC_ENAMEL_LOSS_EDENTULISM_screen.pdf`](file:///Users/sergei/Projects/TOGA_MEME/LargeScalePhyloWAS/figures/fig_DISC_ENAMEL_LOSS_EDENTULISM_screen.pdf)
+- **Preview Figure (PNG):** [`figures/fig_DISC_ENAMEL_LOSS_EDENTULISM_screen.png`](file:///Users/sergei/Projects/TOGA_MEME/LargeScalePhyloWAS/figures/fig_DISC_ENAMEL_LOSS_EDENTULISM_screen.png)
+
+---
+
+## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
+1. Trait DISC_ENAMEL_LOSS_EDENTULISM (Loss of Tooth Enamel & Edentulism) screened across N=16,105 mammalian orthologs in sample size N=24 species.
+2. Genomic inflation factor lambda_GC = 0.9808, demonstrating rigorous calibration across mammalian phylogeny.
+3. Genome-wide screening identified 99 significant loci at FDR q <= 0.05 and 71 loci at FDR q <= 0.01.
+4. Top discovery locus is CD1B (Rank #1, Psi = 0.2397, Z = 4.28, q = 3.10e-03).
+5. External validation against Enamel matrix structural proteins and processing proteases pseudogenized in edentulous and enamel-less mammalian lineages. recovered 0/8 gold loci in the top 50, 0/8 in the top 200, and 1/8 in the top 500.
+6. Canonical locus KLK4 achieves Rank #404 (Psi = 0.1960, Z = 2.65, q = 3.03e-01).
+7. Canonical locus AMELX achieves Rank #2418 (Psi = 0.1551, Z = 1.12, q = 9.20e-01).
+8. Canonical locus ODAM achieves Rank #16013 (Psi = 0.0730, Z = -1.95, q = 1.00e+00).
+</div>
+    </section>
+  </main>
+
+  <!-- Image Lightbox Modal -->
+  <div id="imageModal" class="modal">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modalImg">
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div>
+        <strong>PhyloWAS Portal &bull; Loss of Tooth Enamel & Edentulism</strong><br>
+        Institute for Genomics and Evolutionary Medicine, Temple University
+      </div>
+      <div>
+        <a href="../index.html">Back to Catalog</a> &bull; <a href="../matrix.html">Synthesis Matrix</a> &bull; 
+        <a href="https://github.com/veg/hyphy" target="_blank">HyPhy Consortium</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/app.js"></script>
+</body>
+</html>

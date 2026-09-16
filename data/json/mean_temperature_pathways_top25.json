@@ -6,10 +6,10 @@
     "overlap": 62,
     "pathway_size": 340,
     "fold_enrichment": 10.97,
-    "vif": 15.81,
-    "z_score": 6.03,
-    "p_value": "8.41e-10",
-    "fdr_q": "1.65e-07",
+    "vif": 16.03,
+    "z_score": 5.98,
+    "p_value": "1.09e-09",
+    "fdr_q": "2.13e-07",
     "genes": "OR10A3, OR10A5, OR10H2, OR10H3, OR10X1, OR11A1, OR12D2, OR13C2, OR13C5, OR1A1, OR1A2, OR1L4, OR1L6, OR1L8, OR1S2, OR2AG1, OR2AG2, OR2AJ1, OR2F1, OR2F2, OR2J2, OR4C11, OR4C13, OR4F15, OR4K15, OR4N5, OR4S2, OR51B6, OR51I2, OR52A1, OR52A5, OR52E2, OR52I2, OR52L1, OR52N4, OR56A3, OR56A4, OR56A5, OR56B1, OR5A2, OR5AK2, OR5B17, OR5B2, OR5I1, OR5L1, OR5L2, OR5M1, OR5M10, OR5T2, OR5T3, OR5V1, OR5W2, OR6C2, OR6C3, OR6C6, OR7C2, OR8A1, OR8B2, OR8B3, OR8J2, OR8K3, OR9Q1"
   },
   {
@@ -19,10 +19,10 @@
     "overlap": 62,
     "pathway_size": 347,
     "fold_enrichment": 10.75,
-    "vif": 15.81,
-    "z_score": 5.95,
-    "p_value": "1.31e-09",
-    "fdr_q": "1.65e-07",
+    "vif": 16.03,
+    "z_score": 5.91,
+    "p_value": "1.69e-09",
+    "fdr_q": "2.13e-07",
     "genes": "OR10A3, OR10A5, OR10H2, OR10H3, OR10X1, OR11A1, OR12D2, OR13C2, OR13C5, OR1A1, OR1A2, OR1L4, OR1L6, OR1L8, OR1S2, OR2AG1, OR2AG2, OR2AJ1, OR2F1, OR2F2, OR2J2, OR4C11, OR4C13, OR4F15, OR4K15, OR4N5, OR4S2, OR51B6, OR51I2, OR52A1, OR52A5, OR52E2, OR52I2, OR52L1, OR52N4, OR56A3, OR56A4, OR56A5, OR56B1, OR5A2, OR5AK2, OR5B17, OR5B2, OR5I1, OR5L1, OR5L2, OR5M1, OR5M10, OR5T2, OR5T3, OR5V1, OR5W2, OR6C2, OR6C3, OR6C6, OR7C2, OR8A1, OR8B2, OR8B3, OR8J2, OR8K3, OR9Q1"
   },
   {
@@ -32,10 +32,10 @@
     "overlap": 61,
     "pathway_size": 379,
     "fold_enrichment": 9.68,
-    "vif": 15.48,
-    "z_score": 5.6,
-    "p_value": "1.04e-08",
-    "fdr_q": "8.75e-07",
+    "vif": 15.72,
+    "z_score": 5.56,
+    "p_value": "1.33e-08",
+    "fdr_q": "1.12e-06",
     "genes": "OR10A3, OR10A5, OR10H2, OR10H3, OR10X1, OR11A1, OR12D2, OR13C2, OR13C5, OR1A1, OR1A2, OR1L4, OR1L6, OR1L8, OR1S2, OR2AG1, OR2AG2, OR2AJ1, OR2F1, OR2F2, OR2J2, OR4C11, OR4C13, OR4F15, OR4K15, OR4N5, OR4S2, OR51B6, OR51I2, OR52A1, OR52A5, OR52E2, OR52I2, OR52L1, OR52N4, OR56A3, OR56A4, OR56A5, OR56B1, OR5A2, OR5AK2, OR5B17, OR5B2, OR5I1, OR5L1, OR5L2, OR5M1, OR5M10, OR5T2, OR5T3, OR5V1, OR5W2, OR6C2, OR6C3, OR6C6, OR7C2, OR8A1, OR8B2, OR8B3, OR8K3, OR9Q1"
   },
   {
@@ -45,10 +45,10 @@
     "overlap": 63,
     "pathway_size": 546,
     "fold_enrichment": 6.94,
-    "vif": 16.35,
-    "z_score": 4.5,
-    "p_value": "3.34e-06",
-    "fdr_q": "2.10e-04",
+    "vif": 16.56,
+    "z_score": 4.48,
+    "p_value": "3.81e-06",
+    "fdr_q": "2.40e-04",
     "genes": "OR10A3, OR10A5, OR10H2, OR10H3, OR10X1, OR11A1, OR12D2, OR13C2, OR13C5, OR1A1, OR1A2, OR1L4, OR1L6, OR1L8, OR1S2, OR2AG1, OR2AG2, OR2AJ1, OR2F1, OR2F2, OR2J2, OR4C11, OR4C13, OR4F15, OR4K15, OR4N5, OR4S2, OR51B6, OR51I2, OR52A1, OR52A5, OR52E2, OR52I2, OR52L1, OR52N4, OR56A3, OR56A4, OR56A5, OR56B1, OR5A2, OR5AK2, OR5B17, OR5B2, OR5I1, OR5L1, OR5L2, OR5M1, OR5M10, OR5T2, OR5T3, OR5V1, OR5W2, OR6C2, OR6C3, OR6C6, OR7C2, OR8A1, OR8B2, OR8B3, OR8J2, OR8K3, OR9Q1, TAS2R14"
   },
   {
@@ -222,6 +222,19 @@
   },
   {
     "rank": 18,
+    "pathway": "Antigen processing and presentation",
+    "database": "KEGG",
+    "overlap": 6,
+    "pathway_size": 55,
+    "fold_enrichment": 6.56,
+    "vif": 2.46,
+    "z_score": 3.09,
+    "p_value": "0.0010",
+    "fdr_q": "0.0141",
+    "genes": "CD74, CTSL, HLA-DPA1, HLA-DPB1, KLRC1, KLRC3"
+  },
+  {
+    "rank": 19,
     "pathway": "DNA Methylation R-HSA-5334118",
     "database": "Reactome",
     "overlap": 5,
@@ -230,11 +243,11 @@
     "vif": 3.28,
     "z_score": 3.03,
     "p_value": "0.0012",
-    "fdr_q": "0.0169",
+    "fdr_q": "0.0161",
     "genes": "H2BC11, H2BC12, H2BC13, H2BC15, H2BC17"
   },
   {
-    "rank": 19,
+    "rank": 20,
     "pathway": "Assembly Of ORC Complex At Origin Of Replication R-HSA-68616",
     "database": "Reactome",
     "overlap": 5,
@@ -243,11 +256,11 @@
     "vif": 2.87,
     "z_score": 3.0,
     "p_value": "0.0013",
-    "fdr_q": "0.0169",
+    "fdr_q": "0.0161",
     "genes": "H2BC11, H2BC12, H2BC13, H2BC15, H2BC17"
   },
   {
-    "rank": 20,
+    "rank": 21,
     "pathway": "Phosphorylation Of CD3 And TCR Zeta Chains R-HSA-202427",
     "database": "Reactome",
     "overlap": 3,
@@ -256,11 +269,11 @@
     "vif": 2.12,
     "z_score": 3.0,
     "p_value": "0.0013",
-    "fdr_q": "0.0169",
+    "fdr_q": "0.0161",
     "genes": "HLA-DPA1, HLA-DQB2, TARP"
   },
   {
-    "rank": 21,
+    "rank": 22,
     "pathway": "Neutrophil extracellular trap formation",
     "database": "KEGG",
     "overlap": 13,
@@ -269,11 +282,11 @@
     "vif": 3.77,
     "z_score": 2.98,
     "p_value": "0.0014",
-    "fdr_q": "0.0173",
+    "fdr_q": "0.0165",
     "genes": "CTSG, FPR3, H2AC17, H2BC10, H2BC11, H2BC12, H2BC13, H2BC15, H2BC17, H2BC8, H2BW1, H2BW2, H4C9"
   },
   {
-    "rank": 22,
+    "rank": 23,
     "pathway": "PRC2 Methylates Histones And DNA R-HSA-212300",
     "database": "Reactome",
     "overlap": 5,
@@ -282,11 +295,24 @@
     "vif": 2.57,
     "z_score": 2.96,
     "p_value": "0.0015",
-    "fdr_q": "0.0174",
+    "fdr_q": "0.0166",
     "genes": "H2BC11, H2BC12, H2BC13, H2BC15, H2BC17"
   },
   {
-    "rank": 23,
+    "rank": 24,
+    "pathway": "Recruitment And ATM-mediated Phosphorylation Of Repair And Signal Proteins At DNA Double Strand Breaks R-HSA-5693565",
+    "database": "Reactome",
+    "overlap": 5,
+    "pathway_size": 55,
+    "fold_enrichment": 5.47,
+    "vif": 1.66,
+    "z_score": 2.94,
+    "p_value": "0.0016",
+    "fdr_q": "0.0168",
+    "genes": "H2BC11, H2BC12, H2BC13, H2BC15, H2BC17"
+  },
+  {
+    "rank": 25,
     "pathway": "Condensation Of Prophase Chromosomes R-HSA-2299718",
     "database": "Reactome",
     "overlap": 5,
@@ -295,33 +321,7 @@
     "vif": 2.53,
     "z_score": 2.94,
     "p_value": "0.0017",
-    "fdr_q": "0.0182",
+    "fdr_q": "0.0168",
     "genes": "H2BC11, H2BC12, H2BC13, H2BC15, H2BC17"
-  },
-  {
-    "rank": 24,
-    "pathway": "Defective Pyroptosis R-HSA-9710421",
-    "database": "Reactome",
-    "overlap": 5,
-    "pathway_size": 40,
-    "fold_enrichment": 7.52,
-    "vif": 2.69,
-    "z_score": 2.9,
-    "p_value": "0.0019",
-    "fdr_q": "0.0193",
-    "genes": "H2BC11, H2BC12, H2BC13, H2BC15, H2BC17"
-  },
-  {
-    "rank": 25,
-    "pathway": "Glucuronidation R-HSA-156588",
-    "database": "Reactome",
-    "overlap": 3,
-    "pathway_size": 19,
-    "fold_enrichment": 9.5,
-    "vif": 1.84,
-    "z_score": 2.89,
-    "p_value": "0.0019",
-    "fdr_q": "0.0193",
-    "genes": "UGT1A10, UGT3A1, UGT3A2"
   }
 ]

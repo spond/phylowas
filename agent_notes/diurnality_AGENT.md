@@ -1,16 +1,16 @@
 # Checkpoint Report: Diurnal Activity Cycle
 - **Phenotype ID:** `DISC_DIURNALITY`
 - **Trait Class:** `binary` (Sample Size: 123 species)
-- **Genomic Inflation Factor ($\lambda_{\mathrm{GC}}$):** 0.1925
-- **Total Mammalian Orthologs Screened:** 17,131
-- **Date / Timestamp:** 2026-09-15 10:21:56
+- **Genomic Inflation Factor ($\lambda_{\mathrm{GC}}$):** 0.9076
+- **Total Mammalian Orthologs Screened:** 16,908
+- **Date / Timestamp:** 2026-09-15 22:14:25
 
 ---
 
 ## 1. Executive Co-Author Presentation Brief
-- **Genome-Wide Significance:** Identified **213 loci at $\mathrm{FDR}\;q \le 0.05$** and **164 loci at $\mathrm{FDR}\;q \le 0.01$**.
-- **Calibration Control:** $\lambda_{\mathrm{GC}} = 0.1925$ confirms effective insulation against neutral homoplasy and GC-biased gene conversion.
-- **Top Discovery Hits:** Leading loci include LOC124904583, FOXG1, BTNL3, OR1F1, HSPA1B.
+- **Genome-Wide Significance:** Identified **156 loci at $\mathrm{FDR}\;q \le 0.05$** and **114 loci at $\mathrm{FDR}\;q \le 0.01$**.
+- **Calibration Control:** $\lambda_{\mathrm{GC}} = 0.9076$ confirms effective insulation against neutral homoplasy and GC-biased gene conversion.
+- **Top Discovery Hits:** Leading loci include FOXG1, OR5T1, OR1F1, CARD18, HSPA1B.
 
 
 ---
@@ -26,24 +26,23 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-
-| Rank | Gene Symbol | Codons | Taxa | Selection Score (Ψ) | Z-Score | Composite Rank | FDR q-Value | Functional Tier |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | **FOXG1** | 810 | 574 | 0.0064 | 3.63 | #1 | 0.0183 | Tier 0: Core Bottleneck Transducer |
-| 2 | **OR5T1** | 346 | 117 | 0.0218 | 13.51 | #2 | 1.20e-37 | Tier 0: Core Bottleneck Transducer |
-| 3 | **OR1F1** | 321 | 316 | 0.0084 | 4.90 | #3 | 1.30e-04 | Tier 0: Core Bottleneck Transducer |
-| 4 | **CARD18** | 97 | 131 | 0.0210 | 13.01 | #4 | 4.83e-35 | Tier 0: Core Bottleneck Transducer |
-| 5 | **HSPA1B** | 659 | 435 | 0.0077 | 4.50 | #5 | 7.21e-04 | Tier 0: Core Bottleneck Transducer |
-| 6 | **SLC9C1** | 1,138 | 226 | 0.0185 | 11.38 | #6 | 1.57e-26 | Tier 0: Core Bottleneck Transducer |
-| 7 | **H2AC8** | 146 | 178 | 0.0181 | 11.14 | #7 | 1.78e-25 | Tier 0: Core Bottleneck Transducer |
-| 8 | **MNX1** | 457 | 561 | 0.0064 | 3.64 | #8 | 0.0181 | Tier 0: Core Bottleneck Transducer |
-| 9 | **MEX3D** | 746 | 456 | 0.0065 | 3.71 | #9 | 0.0147 | Tier 0: Core Bottleneck Transducer |
-| 10 | **GBP6** | 653 | 154 | 0.0174 | 10.70 | #10 | 1.76e-23 | Tier 0: Core Bottleneck Transducer |
-| 11 | **OR1Q1** | 322 | 394 | 0.0061 | 3.46 | #11 | 0.0316 | Tier 0: Core Bottleneck Transducer |
-| 12 | **OR2AJ1** | 347 | 206 | 0.0140 | 8.51 | #12 | 2.45e-14 | Tier 0: Core Bottleneck Transducer |
-| 13 | **ONECUT3** | 552 | 494 | 0.0035 | 1.79 | #13 | 0.8668 | Tier 0: Core Bottleneck Transducer |
-| 14 | **NEK4** | 889 | 161 | 0.0136 | 8.23 | #14 | 2.18e-13 | Tier 0: Core Bottleneck Transducer |
-| 15 | **TBL1X** | 588 | 404 | 0.0098 | 5.85 | #15 | 1.00e-06 | Tier 0: Core Bottleneck Transducer |
+|   composite_rank | gene    |   codon_length |   taxa_count |   psi_score |   z_score |       fdr_q | tier                               |
+|-----------------:|:--------|---------------:|-------------:|------------:|----------:|------------:|:-----------------------------------|
+|                1 | FOXG1   |            810 |          574 |  0.00638491 |   3.63431 | 0.018266    | Tier 0: Core Bottleneck Transducer |
+|                2 | OR5T1   |            346 |          117 |  0.0218215  |  13.507   | 1.20166e-37 | Tier 0: Core Bottleneck Transducer |
+|                3 | OR1F1   |            321 |          316 |  0.00836064 |   4.89793 | 0.000130108 | Tier 0: Core Bottleneck Transducer |
+|                4 | CARD18  |             97 |          131 |  0.021037   |  13.0053  | 4.82699e-35 | Tier 0: Core Bottleneck Transducer |
+|                5 | HSPA1B  |            659 |          435 |  0.00774121 |   4.50176 | 0.000721195 | Tier 0: Core Bottleneck Transducer |
+|                6 | SLC9C1  |           1138 |          226 |  0.018488   |  11.375   | 1.56902e-26 | Tier 0: Core Bottleneck Transducer |
+|                7 | H2AC8   |            146 |          178 |  0.0181132  |  11.1353  | 1.78439e-25 | Tier 0: Core Bottleneck Transducer |
+|                8 | MNX1    |            457 |          561 |  0.00639427 |   3.6403  | 0.0181119   | Tier 0: Core Bottleneck Transducer |
+|                9 | MEX3D   |            746 |          456 |  0.0065068  |   3.71227 | 0.0147163   | Tier 0: Core Bottleneck Transducer |
+|               10 | GBP6    |            653 |          154 |  0.0174297  |  10.6982  | 1.75526e-23 | Tier 0: Core Bottleneck Transducer |
+|               11 | OR1Q1   |            322 |          394 |  0.00611322 |   3.46055 | 0.0316481   | Tier 0: Core Bottleneck Transducer |
+|               12 | OR2AJ1  |            347 |          206 |  0.0140086  |   8.51017 | 2.44707e-14 | Tier 0: Core Bottleneck Transducer |
+|               13 | ONECUT3 |            552 |          494 |  0.00350353 |   1.79148 | 0.866805    | Tier 0: Core Bottleneck Transducer |
+|               14 | NEK4    |            889 |          161 |  0.0135774  |   8.23439 | 2.17962e-13 | Tier 0: Core Bottleneck Transducer |
+|               15 | TBL1X   |            588 |          404 |  0.00984645 |   5.8482  | 1.00023e-06 | Tier 0: Core Bottleneck Transducer |
 
 ---
 
@@ -60,6 +59,6 @@ No external disease/pathway benchmark assigned for this trait.
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
 1. Trait DISC_DIURNALITY (Diurnal Activity Cycle) screened across N=16,908 mammalian orthologs in sample size N=123 species.
-2. Genomic inflation factor lambda_GC = 0.1925, demonstrating rigorous calibration across mammalian phylogeny.
-3. Genome-wide screening identified 213 significant loci at FDR q <= 0.05 and 164 loci at FDR q <= 0.01.
-4. Top discovery locus is LOC124904583 (Rank #1, Psi = 0.0437, Z = 20.65, q = 2.86e-47).
+2. Genomic inflation factor lambda_GC = 0.9076, demonstrating rigorous calibration across mammalian phylogeny.
+3. Genome-wide screening identified 156 significant loci at FDR q <= 0.05 and 114 loci at FDR q <= 0.01.
+4. Top discovery locus is FOXG1 (Rank #1, Psi = 0.0064, Z = 3.63, q = 1.83e-02).

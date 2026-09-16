@@ -13,7 +13,6 @@ Deployed via **GitHub Pages**: [https://spond.github.io/PhyloWAS-Portal/](https:
 - **27 Screened Phenotypes:** 9 continuous life-history traits (allometric residuals) and 18 discrete macroevolutionary innovations.
 - **Decoupled Dual-Track Testing:** Peak sitewise concordance (Track A, ρ_max) and whole-gene distributed remodeling (Track B, Ψ).
 - **Sub-unitary Calibration:** λ_GC = 0.4931 in flagship echolocation screen.
-- **VIF-Adjusted Pathway Enrichment:** Gordon Smyth Camera variance inflation framework accounting for tandem multigene family covariance across 2,188 canonical pathways.
 - **Omnigenic Pan-Mammalian Matrix:** Uncovers 157 multi-trait frequent fliers and dedicated specialists (PSI ≥ 0.75).
 
 ---

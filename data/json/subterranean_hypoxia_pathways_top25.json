@@ -58,10 +58,10 @@
     "overlap": 2,
     "pathway_size": 6,
     "fold_enrichment": 20.05,
-    "vif": 1.15,
-    "z_score": 4.16,
-    "p_value": "1.58e-05",
-    "fdr_q": "7.37e-04",
+    "vif": 1.27,
+    "z_score": 3.97,
+    "p_value": "3.61e-05",
+    "fdr_q": "0.0017",
     "genes": "MLKL, RIPK3"
   },
   {
@@ -79,6 +79,19 @@
   },
   {
     "rank": 7,
+    "pathway": "Canonical Retinoid Cycle In Rods (Twilight Vision) R-HSA-2453902",
+    "database": "Reactome",
+    "overlap": 3,
+    "pathway_size": 23,
+    "fold_enrichment": 7.84,
+    "vif": 1.52,
+    "z_score": 2.8,
+    "p_value": "0.0025",
+    "fdr_q": "0.0738",
+    "genes": "ABCA4, RBP3, RDH8"
+  },
+  {
+    "rank": 8,
     "pathway": "CYP2E1 Reactions R-HSA-211999",
     "database": "Reactome",
     "overlap": 3,
@@ -87,21 +100,8 @@
     "vif": 4.24,
     "z_score": 2.8,
     "p_value": "0.0025",
-    "fdr_q": "0.0844",
+    "fdr_q": "0.0738",
     "genes": "CYP2A6, CYP2A7, CYP2F1"
-  },
-  {
-    "rank": 8,
-    "pathway": "Canonical Retinoid Cycle In Rods (Twilight Vision) R-HSA-2453902",
-    "database": "Reactome",
-    "overlap": 3,
-    "pathway_size": 23,
-    "fold_enrichment": 7.84,
-    "vif": 1.64,
-    "z_score": 2.7,
-    "p_value": "0.0034",
-    "fdr_q": "0.1003",
-    "genes": "ABCA4, RBP3, RDH8"
   },
   {
     "rank": 9,
@@ -118,19 +118,6 @@
   },
   {
     "rank": 10,
-    "pathway": "Synthesis Of Pyrophosphates In Cytosol R-HSA-1855167",
-    "database": "Reactome",
-    "overlap": 2,
-    "pathway_size": 10,
-    "fold_enrichment": 12.03,
-    "vif": 1.95,
-    "z_score": 2.37,
-    "p_value": "0.0090",
-    "fdr_q": "0.1965",
-    "genes": "NUDT10, NUDT11"
-  },
-  {
-    "rank": 11,
     "pathway": "Fatty Acids R-HSA-211935",
     "database": "Reactome",
     "overlap": 2,
@@ -139,8 +126,21 @@
     "vif": 2.24,
     "z_score": 2.35,
     "p_value": "0.0093",
-    "fdr_q": "0.1965",
+    "fdr_q": "0.2027",
     "genes": "CYP2A7, CYP2F1"
+  },
+  {
+    "rank": 11,
+    "pathway": "Synthesis Of Pyrophosphates In Cytosol R-HSA-1855167",
+    "database": "Reactome",
+    "overlap": 2,
+    "pathway_size": 10,
+    "fold_enrichment": 12.03,
+    "vif": 1.98,
+    "z_score": 2.34,
+    "p_value": "0.0096",
+    "fdr_q": "0.2027",
+    "genes": "NUDT10, NUDT11"
   },
   {
     "rank": 12,
@@ -152,7 +152,7 @@
     "vif": 2.24,
     "z_score": 2.13,
     "p_value": "0.0166",
-    "fdr_q": "0.3094",
+    "fdr_q": "0.3188",
     "genes": "ALDH3A1, CES1, CYP2A6, CYP2A7, CYP2F1, FMO3"
   },
   {
@@ -165,7 +165,7 @@
     "vif": 1.23,
     "z_score": 2.09,
     "p_value": "0.0185",
-    "fdr_q": "0.3094",
+    "fdr_q": "0.3188",
     "genes": "RIPK3, UBE2N"
   },
   {
@@ -178,7 +178,7 @@
     "vif": 2.81,
     "z_score": 2.07,
     "p_value": "0.0192",
-    "fdr_q": "0.3094",
+    "fdr_q": "0.3188",
     "genes": "ALDH3A1, CES1, CYP2A6, CYP2A7, CYP2F1, FMO3, GSTT2, GSTT2B, UGT1A6, UGT3A2"
   },
   {
@@ -191,24 +191,11 @@
     "vif": 3.49,
     "z_score": 2.03,
     "p_value": "0.0212",
-    "fdr_q": "0.3094",
+    "fdr_q": "0.3230",
     "genes": "CYP2A6, CYP2A7, CYP2F1"
   },
   {
     "rank": 16,
-    "pathway": "Folate biosynthesis",
-    "database": "KEGG",
-    "overlap": 3,
-    "pathway_size": 24,
-    "fold_enrichment": 7.52,
-    "vif": 2.79,
-    "z_score": 2.01,
-    "p_value": "0.0223",
-    "fdr_q": "0.3094",
-    "genes": "ALPG, ALPI, ALPP"
-  },
-  {
-    "rank": 17,
     "pathway": "Metabolism Of Angiotensinogen To Angiotensins R-HSA-2022377",
     "database": "Reactome",
     "overlap": 2,
@@ -217,8 +204,21 @@
     "vif": 1.22,
     "z_score": 2.0,
     "p_value": "0.0226",
-    "fdr_q": "0.3094",
+    "fdr_q": "0.3230",
     "genes": "CES1, CMA1"
+  },
+  {
+    "rank": 17,
+    "pathway": "Folate biosynthesis",
+    "database": "KEGG",
+    "overlap": 3,
+    "pathway_size": 24,
+    "fold_enrichment": 7.52,
+    "vif": 2.86,
+    "z_score": 1.99,
+    "p_value": "0.0236",
+    "fdr_q": "0.3230",
+    "genes": "ALPG, ALPI, ALPP"
   },
   {
     "rank": 18,
@@ -318,10 +318,10 @@
     "overlap": 2,
     "pathway_size": 26,
     "fold_enrichment": 4.63,
-    "vif": 1.15,
-    "z_score": 1.53,
-    "p_value": "0.0636",
-    "fdr_q": "0.5927",
+    "vif": 1.27,
+    "z_score": 1.45,
+    "p_value": "0.0729",
+    "fdr_q": "0.6790",
     "genes": "MLKL, RIPK3"
   }
 ]

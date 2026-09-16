@@ -22,7 +22,7 @@
     "vif": 10.1,
     "z_score": 5.31,
     "p_value": "5.48e-08",
-    "fdr_q": "5.79e-06",
+    "fdr_q": "5.01e-06",
     "genes": "OR10A3, OR11G2, OR11H1, OR13F1, OR1A1, OR1A2, OR1S1, OR1S2, OR2AE1, OR2AG1, OR2AG2, OR2F2, OR2T6, OR4C13, OR4F15, OR4F17, OR4K5, OR4M2B, OR4N2, OR51A7, OR51E1, OR51T1, OR52A1, OR52A5, OR52J3, OR52K2, OR52L1, OR5A1, OR5AP2, OR5K2, OR5K4, OR5L2, OR5M1, OR5M11, OR5M3, OR5T2, OR5V1, OR6C3, OR6C68, OR6N1, OR8B2, OR8B3, OR8H2, OR8J3, OR8U1, OR9Q2"
   },
   {
@@ -35,7 +35,7 @@
     "vif": 10.39,
     "z_score": 5.3,
     "p_value": "5.68e-08",
-    "fdr_q": "5.79e-06",
+    "fdr_q": "5.01e-06",
     "genes": "OR10A3, OR11G2, OR11H1, OR13F1, OR1A1, OR1A2, OR1S1, OR1S2, OR2AE1, OR2AG1, OR2AG2, OR2F2, OR2T6, OR4C13, OR4F15, OR4F17, OR4K5, OR4M2B, OR4N2, OR51A7, OR51E1, OR51T1, OR52A1, OR52A5, OR52J3, OR52K2, OR52L1, OR5A1, OR5AP2, OR5K2, OR5K4, OR5L2, OR5M1, OR5M11, OR5M3, OR5T2, OR5V1, OR6C3, OR6C68, OR6N1, OR8B2, OR8B3, OR8H2, OR8J3, OR8U1, OR9Q2"
   },
   {
@@ -48,7 +48,7 @@
     "vif": 2.0,
     "z_score": 5.27,
     "p_value": "6.98e-08",
-    "fdr_q": "5.79e-06",
+    "fdr_q": "5.01e-06",
     "genes": "HLA-DQA1, HLA-DQA2, HLA-DQB2, TARP"
   },
   {
@@ -58,10 +58,10 @@
     "overlap": 5,
     "pathway_size": 25,
     "fold_enrichment": 12.03,
-    "vif": 1.61,
-    "z_score": 5.03,
-    "p_value": "2.42e-07",
-    "fdr_q": "1.61e-05",
+    "vif": 1.48,
+    "z_score": 5.25,
+    "p_value": "7.55e-08",
+    "fdr_q": "5.01e-06",
     "genes": "HLA-DQA1, HLA-DQA2, HLA-DQB2, PKN1, TARP"
   },
   {
@@ -71,10 +71,10 @@
     "overlap": 4,
     "pathway_size": 17,
     "fold_enrichment": 14.15,
-    "vif": 1.87,
-    "z_score": 4.46,
-    "p_value": "4.05e-06",
-    "fdr_q": "2.24e-04",
+    "vif": 1.69,
+    "z_score": 4.7,
+    "p_value": "1.29e-06",
+    "fdr_q": "7.14e-05",
     "genes": "HLA-DQA1, HLA-DQA2, HLA-DQB2, TARP"
   },
   {
@@ -144,6 +144,19 @@
   },
   {
     "rank": 12,
+    "pathway": "Drug ADME R-HSA-9748784",
+    "database": "Reactome",
+    "overlap": 8,
+    "pathway_size": 81,
+    "fold_enrichment": 5.94,
+    "vif": 2.61,
+    "z_score": 3.32,
+    "p_value": "4.57e-04",
+    "fdr_q": "0.0126",
+    "genes": "ACSM5, CES1, CYP2C19, GSTA1, GSTA2, SLC22A7, SULT1A1, UGT2B28"
+  },
+  {
+    "rank": 13,
     "pathway": "Activated PKN1 Stimulates Transcription Of Androgen Receptor Regulated KLK2 And KLK3 R-HSA-5625886",
     "database": "Reactome",
     "overlap": 5,
@@ -152,11 +165,11 @@
     "vif": 2.59,
     "z_score": 3.28,
     "p_value": "5.19e-04",
-    "fdr_q": "0.0144",
+    "fdr_q": "0.0133",
     "genes": "H2BC11, H2BC13, H2BC17, H2BC9, PKN1"
   },
   {
-    "rank": 13,
+    "rank": 14,
     "pathway": "RHO GTPases Activate PKNs R-HSA-5625740",
     "database": "Reactome",
     "overlap": 6,
@@ -165,11 +178,11 @@
     "vif": 2.29,
     "z_score": 3.24,
     "p_value": "5.94e-04",
-    "fdr_q": "0.0152",
+    "fdr_q": "0.0141",
     "genes": "H2BC11, H2BC13, H2BC17, H2BC9, MYH14, PKN1"
   },
   {
-    "rank": 14,
+    "rank": 15,
     "pathway": "Systemic lupus erythematosus",
     "database": "KEGG",
     "overlap": 13,
@@ -178,21 +191,8 @@
     "vif": 5.45,
     "z_score": 3.21,
     "p_value": "6.73e-04",
-    "fdr_q": "0.0160",
+    "fdr_q": "0.0149",
     "genes": "FCGR3B, H2BC11, H2BC13, H2BC17, H2BC9, H2BW1, H3C11, H3C6, H4C2, H4C5, HLA-DQA1, HLA-DQA2, HLA-DQB1"
-  },
-  {
-    "rank": 15,
-    "pathway": "Drug ADME R-HSA-9748784",
-    "database": "Reactome",
-    "overlap": 8,
-    "pathway_size": 81,
-    "fold_enrichment": 5.94,
-    "vif": 2.97,
-    "z_score": 3.11,
-    "p_value": "9.39e-04",
-    "fdr_q": "0.0208",
-    "genes": "ACSM5, CES1, CYP2C19, GSTA1, GSTA2, SLC22A7, SULT1A1, UGT2B28"
   },
   {
     "rank": 16,
@@ -204,7 +204,7 @@
     "vif": 3.49,
     "z_score": 2.97,
     "p_value": "0.0015",
-    "fdr_q": "0.0313",
+    "fdr_q": "0.0312",
     "genes": "AHRR, CYP2B6, CYP2C19, CYP3A43"
   },
   {
@@ -214,10 +214,10 @@
     "overlap": 5,
     "pathway_size": 55,
     "fold_enrichment": 5.47,
-    "vif": 1.7,
-    "z_score": 2.9,
-    "p_value": "0.0019",
-    "fdr_q": "0.0363",
+    "vif": 1.65,
+    "z_score": 2.95,
+    "p_value": "0.0016",
+    "fdr_q": "0.0312",
     "genes": "HLA-DQA1, HLA-DQA2, HLA-DQB1, HSPA1A, KLRC3"
   },
   {
@@ -227,10 +227,10 @@
     "overlap": 4,
     "pathway_size": 33,
     "fold_enrichment": 7.29,
-    "vif": 1.95,
-    "z_score": 2.88,
-    "p_value": "0.0020",
-    "fdr_q": "0.0363",
+    "vif": 1.91,
+    "z_score": 2.91,
+    "p_value": "0.0018",
+    "fdr_q": "0.0331",
     "genes": "GSTA1, GSTA2, GSTT2, GSTT2B"
   },
   {
@@ -253,10 +253,10 @@
     "overlap": 5,
     "pathway_size": 62,
     "fold_enrichment": 4.85,
-    "vif": 1.61,
-    "z_score": 2.72,
-    "p_value": "0.0033",
-    "fdr_q": "0.0546",
+    "vif": 1.52,
+    "z_score": 2.8,
+    "p_value": "0.0025",
+    "fdr_q": "0.0423",
     "genes": "HLA-DQA1, HLA-DQA2, HLA-DQB2, PKN1, TARP"
   },
   {
@@ -269,11 +269,24 @@
     "vif": 2.42,
     "z_score": 2.7,
     "p_value": "0.0035",
-    "fdr_q": "0.0552",
+    "fdr_q": "0.0541",
     "genes": "H2BC11, H2BC13, H2BC17, H2BC9"
   },
   {
     "rank": 22,
+    "pathway": "G2/M DNA Damage Checkpoint R-HSA-69473",
+    "database": "Reactome",
+    "overlap": 5,
+    "pathway_size": 65,
+    "fold_enrichment": 4.63,
+    "vif": 1.53,
+    "z_score": 2.69,
+    "p_value": "0.0036",
+    "fdr_q": "0.0541",
+    "genes": "BRIP1, H2BC11, H2BC13, H2BC17, H2BC9"
+  },
+  {
+    "rank": 23,
     "pathway": "Cleavage Of Damaged Purine R-HSA-110331",
     "database": "Reactome",
     "overlap": 4,
@@ -282,11 +295,24 @@
     "vif": 2.13,
     "z_score": 2.64,
     "p_value": "0.0041",
-    "fdr_q": "0.0618",
+    "fdr_q": "0.0591",
     "genes": "H2BC11, H2BC13, H2BC17, H2BC9"
   },
   {
-    "rank": 23,
+    "rank": 24,
+    "pathway": "Biological Oxidations R-HSA-211859",
+    "database": "Reactome",
+    "overlap": 12,
+    "pathway_size": 198,
+    "fold_enrichment": 3.64,
+    "vif": 3.16,
+    "z_score": 2.58,
+    "p_value": "0.0049",
+    "fdr_q": "0.0678",
+    "genes": "ACSM5, AHRR, CES1, CYP2B6, CYP2C19, CYP3A43, GSTA1, GSTA2, GSTT2, GSTT2B, SULT1A1, UGT2B28"
+  },
+  {
+    "rank": 25,
     "pathway": "Cytosolic Iron-Sulfur Cluster Assembly R-HSA-2564830",
     "database": "Reactome",
     "overlap": 2,
@@ -295,33 +321,7 @@
     "vif": 1.32,
     "z_score": 2.56,
     "p_value": "0.0053",
-    "fdr_q": "0.0761",
+    "fdr_q": "0.0700",
     "genes": "BRIP1, RTEL1"
-  },
-  {
-    "rank": 24,
-    "pathway": "G2/M DNA Damage Checkpoint R-HSA-69473",
-    "database": "Reactome",
-    "overlap": 5,
-    "pathway_size": 65,
-    "fold_enrichment": 4.63,
-    "vif": 1.77,
-    "z_score": 2.5,
-    "p_value": "0.0062",
-    "fdr_q": "0.0823",
-    "genes": "BRIP1, H2BC11, H2BC13, H2BC17, H2BC9"
-  },
-  {
-    "rank": 25,
-    "pathway": "Biological Oxidations R-HSA-211859",
-    "database": "Reactome",
-    "overlap": 12,
-    "pathway_size": 198,
-    "fold_enrichment": 3.64,
-    "vif": 3.37,
-    "z_score": 2.5,
-    "p_value": "0.0062",
-    "fdr_q": "0.0823",
-    "genes": "ACSM5, AHRR, CES1, CYP2B6, CYP2C19, CYP3A43, GSTA1, GSTA2, GSTT2, GSTT2B, SULT1A1, UGT2B28"
   }
 ]

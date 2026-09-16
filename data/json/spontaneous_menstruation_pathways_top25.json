@@ -6,10 +6,10 @@
     "overlap": 3,
     "pathway_size": 12,
     "fold_enrichment": 15.04,
-    "vif": 2.09,
-    "z_score": 3.59,
-    "p_value": "1.65e-04",
-    "fdr_q": "0.0509",
+    "vif": 1.66,
+    "z_score": 4.04,
+    "p_value": "2.72e-05",
+    "fdr_q": "0.0084",
     "genes": "DDOST, HMGB1, LGALS3"
   },
   {
@@ -53,19 +53,6 @@
   },
   {
     "rank": 5,
-    "pathway": "Various types of N-glycan biosynthesis",
-    "database": "KEGG",
-    "overlap": 3,
-    "pathway_size": 39,
-    "fold_enrichment": 4.63,
-    "vif": 1.34,
-    "z_score": 2.01,
-    "p_value": "0.0225",
-    "fdr_q": "0.7500",
-    "genes": "ALG3, DDOST, MAN1B1"
-  },
-  {
-    "rank": 6,
     "pathway": "Sensory Perception Of Taste R-HSA-9717189",
     "database": "Reactome",
     "overlap": 5,
@@ -78,20 +65,7 @@
     "genes": "TAS2R13, TAS2R30, TAS2R38, TAS2R46, TAS2R50"
   },
   {
-    "rank": 7,
-    "pathway": "Diseases Associated With N-glycosylation Of Proteins R-HSA-3781860",
-    "database": "Reactome",
-    "overlap": 2,
-    "pathway_size": 20,
-    "fold_enrichment": 6.01,
-    "vif": 1.32,
-    "z_score": 1.78,
-    "p_value": "0.0376",
-    "fdr_q": "0.7500",
-    "genes": "ALG3, MAN1B1"
-  },
-  {
-    "rank": 8,
+    "rank": 6,
     "pathway": "Processing Of Intronless Pre-mRNAs R-HSA-77595",
     "database": "Reactome",
     "overlap": 2,
@@ -104,7 +78,20 @@
     "genes": "CPSF4, CSTF2"
   },
   {
-    "rank": 9,
+    "rank": 7,
+    "pathway": "Various types of N-glycan biosynthesis",
+    "database": "KEGG",
+    "overlap": 3,
+    "pathway_size": 39,
+    "fold_enrichment": 4.63,
+    "vif": 1.87,
+    "z_score": 1.7,
+    "p_value": "0.0450",
+    "fdr_q": "0.7500",
+    "genes": "ALG3, DDOST, MAN1B1"
+  },
+  {
+    "rank": 8,
     "pathway": "Taste transduction",
     "database": "KEGG",
     "overlap": 6,
@@ -117,17 +104,30 @@
     "genes": "PLCB4, TAS2R13, TAS2R30, TAS2R38, TAS2R46, TAS2R50"
   },
   {
-    "rank": 10,
-    "pathway": "N-Glycan biosynthesis",
-    "database": "KEGG",
-    "overlap": 3,
-    "pathway_size": 50,
-    "fold_enrichment": 3.61,
-    "vif": 1.34,
-    "z_score": 1.6,
-    "p_value": "0.0552",
+    "rank": 9,
+    "pathway": "Diseases Associated With N-glycosylation Of Proteins R-HSA-3781860",
+    "database": "Reactome",
+    "overlap": 2,
+    "pathway_size": 20,
+    "fold_enrichment": 6.01,
+    "vif": 1.5,
+    "z_score": 1.67,
+    "p_value": "0.0475",
     "fdr_q": "0.7500",
-    "genes": "ALG3, DDOST, MAN1B1"
+    "genes": "ALG3, MAN1B1"
+  },
+  {
+    "rank": 10,
+    "pathway": "Deadenylation Of mRNA R-HSA-429947",
+    "database": "Reactome",
+    "overlap": 2,
+    "pathway_size": 25,
+    "fold_enrichment": 4.81,
+    "vif": 1.25,
+    "z_score": 1.52,
+    "p_value": "0.0642",
+    "fdr_q": "0.7500",
+    "genes": "CNOT10, PAN3"
   },
   {
     "rank": 11,
@@ -157,16 +157,16 @@
   },
   {
     "rank": 13,
-    "pathway": "Deadenylation Of mRNA R-HSA-429947",
+    "pathway": "Processing Of Capped Intronless Pre-mRNA R-HSA-75067",
     "database": "Reactome",
     "overlap": 2,
-    "pathway_size": 25,
-    "fold_enrichment": 4.81,
-    "vif": 1.28,
-    "z_score": 1.5,
-    "p_value": "0.0669",
+    "pathway_size": 27,
+    "fold_enrichment": 4.45,
+    "vif": 1.24,
+    "z_score": 1.42,
+    "p_value": "0.0775",
     "fdr_q": "0.7500",
-    "genes": "CNOT10, PAN3"
+    "genes": "CPSF4, CSTF2"
   },
   {
     "rank": 14,
@@ -183,29 +183,29 @@
   },
   {
     "rank": 15,
-    "pathway": "Processing Of Capped Intronless Pre-mRNA R-HSA-75067",
-    "database": "Reactome",
-    "overlap": 2,
-    "pathway_size": 27,
-    "fold_enrichment": 4.45,
-    "vif": 1.38,
-    "z_score": 1.35,
-    "p_value": "0.0886",
-    "fdr_q": "0.7500",
-    "genes": "CPSF4, CSTF2"
-  },
-  {
-    "rank": 16,
     "pathway": "TGF-beta Signaling",
     "database": "Hallmark",
     "overlap": 3,
     "pathway_size": 52,
     "fold_enrichment": 3.47,
-    "vif": 1.73,
-    "z_score": 1.35,
-    "p_value": "0.0887",
+    "vif": 1.66,
+    "z_score": 1.38,
+    "p_value": "0.0837",
     "fdr_q": "0.7500",
     "genes": "LEFTY2, RAB31, TGIF1"
+  },
+  {
+    "rank": 16,
+    "pathway": "N-Glycan biosynthesis",
+    "database": "KEGG",
+    "overlap": 3,
+    "pathway_size": 50,
+    "fold_enrichment": 3.61,
+    "vif": 1.87,
+    "z_score": 1.35,
+    "p_value": "0.0885",
+    "fdr_q": "0.7500",
+    "genes": "ALG3, DDOST, MAN1B1"
   },
   {
     "rank": 17,
@@ -240,9 +240,9 @@
     "overlap": 2,
     "pathway_size": 27,
     "fold_enrichment": 4.45,
-    "vif": 1.44,
-    "z_score": 1.32,
-    "p_value": "0.0938",
+    "vif": 1.47,
+    "z_score": 1.3,
+    "p_value": "0.0960",
     "fdr_q": "0.7500",
     "genes": "CHPT1, SLC44A5"
   },

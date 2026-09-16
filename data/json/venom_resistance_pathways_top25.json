@@ -27,19 +27,6 @@
   },
   {
     "rank": 3,
-    "pathway": "Gain-of-function MRAS Complexes Activate RAF Signaling R-HSA-9726842",
-    "database": "Reactome",
-    "overlap": 2,
-    "pathway_size": 7,
-    "fold_enrichment": 17.18,
-    "vif": 1.22,
-    "z_score": 3.71,
-    "p_value": "1.03e-04",
-    "fdr_q": "0.0109",
-    "genes": "ARAF, BRAF"
-  },
-  {
-    "rank": 4,
     "pathway": "APEX1-Independent Resolution Of AP Sites Via Single Nucleotide Replacement Pathway R-HSA-5649702",
     "database": "Reactome",
     "overlap": 2,
@@ -48,8 +35,21 @@
     "vif": 1.47,
     "z_score": 3.69,
     "p_value": "1.13e-04",
-    "fdr_q": "0.0109",
+    "fdr_q": "0.0145",
     "genes": "NEIL2, PNKP"
+  },
+  {
+    "rank": 4,
+    "pathway": "Gain-of-function MRAS Complexes Activate RAF Signaling R-HSA-9726842",
+    "database": "Reactome",
+    "overlap": 2,
+    "pathway_size": 7,
+    "fold_enrichment": 17.18,
+    "vif": 1.31,
+    "z_score": 3.57,
+    "p_value": "1.79e-04",
+    "fdr_q": "0.0171",
+    "genes": "ARAF, BRAF"
   },
   {
     "rank": 5,
@@ -113,7 +113,7 @@
     "vif": 1.06,
     "z_score": 2.46,
     "p_value": "0.0069",
-    "fdr_q": "0.2856",
+    "fdr_q": "0.2934",
     "genes": "ARAF, BRAF, FGA"
   },
   {
@@ -126,7 +126,7 @@
     "vif": 1.21,
     "z_score": 2.41,
     "p_value": "0.0081",
-    "fdr_q": "0.2856",
+    "fdr_q": "0.2991",
     "genes": "IKBKB, SQSTM1"
   },
   {
@@ -139,7 +139,7 @@
     "vif": 1.0,
     "z_score": 2.37,
     "p_value": "0.0088",
-    "fdr_q": "0.2856",
+    "fdr_q": "0.2991",
     "genes": "APOA1, RBP1, SDC3"
   },
   {
@@ -152,24 +152,11 @@
     "vif": 1.28,
     "z_score": 2.35,
     "p_value": "0.0094",
-    "fdr_q": "0.2856",
+    "fdr_q": "0.2991",
     "genes": "ARAF, BRAF, FGA"
   },
   {
     "rank": 13,
-    "pathway": "Glutathione metabolism",
-    "database": "KEGG",
-    "overlap": 4,
-    "pathway_size": 54,
-    "fold_enrichment": 4.45,
-    "vif": 1.42,
-    "z_score": 2.33,
-    "p_value": "0.0099",
-    "fdr_q": "0.2856",
-    "genes": "GPX3, GPX4, MGST3, PRDX6"
-  },
-  {
-    "rank": 14,
     "pathway": "Biosynthesis Of Specialized Proresolving Mediators (SPMs) R-HSA-9018678",
     "database": "Reactome",
     "overlap": 2,
@@ -178,11 +165,11 @@
     "vif": 1.0,
     "z_score": 2.31,
     "p_value": "0.0104",
-    "fdr_q": "0.2856",
+    "fdr_q": "0.3076",
     "genes": "GPX4, LTA4H"
   },
   {
-    "rank": 15,
+    "rank": 14,
     "pathway": "Metabolism Of Fat-Soluble Vitamins R-HSA-6806667",
     "database": "Reactome",
     "overlap": 3,
@@ -191,11 +178,11 @@
     "vif": 1.0,
     "z_score": 2.27,
     "p_value": "0.0115",
-    "fdr_q": "0.2949",
+    "fdr_q": "0.3160",
     "genes": "APOA1, RBP1, SDC3"
   },
   {
-    "rank": 16,
+    "rank": 15,
     "pathway": "Signaling By BRAF And RAF1 Fusions R-HSA-6802952",
     "database": "Reactome",
     "overlap": 4,
@@ -204,8 +191,21 @@
     "vif": 1.41,
     "z_score": 2.23,
     "p_value": "0.0128",
-    "fdr_q": "0.3073",
+    "fdr_q": "0.3278",
     "genes": "ARAF, BRAF, FGA, KIAA1549"
+  },
+  {
+    "rank": 16,
+    "pathway": "Glutathione metabolism",
+    "database": "KEGG",
+    "overlap": 4,
+    "pathway_size": 54,
+    "fold_enrichment": 4.45,
+    "vif": 1.61,
+    "z_score": 2.19,
+    "p_value": "0.0143",
+    "fdr_q": "0.3425",
+    "genes": "GPX3, GPX4, MGST3, PRDX6"
   },
   {
     "rank": 17,

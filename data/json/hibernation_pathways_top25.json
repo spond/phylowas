@@ -318,10 +318,10 @@
     "overlap": 7,
     "pathway_size": 55,
     "fold_enrichment": 7.65,
-    "vif": 1.76,
-    "z_score": 4.45,
-    "p_value": "4.38e-06",
-    "fdr_q": "5.21e-05",
+    "vif": 1.74,
+    "z_score": 4.47,
+    "p_value": "3.83e-06",
+    "fdr_q": "4.56e-05",
     "genes": "H2AB1, H2AC14, H2AC7, H2BC1, H2BC11, H2BC15, H2BC3"
   }
 ]

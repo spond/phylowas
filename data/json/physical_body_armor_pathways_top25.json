@@ -6,10 +6,10 @@
     "overlap": 3,
     "pathway_size": 27,
     "fold_enrichment": 6.68,
-    "vif": 1.06,
-    "z_score": 3.0,
-    "p_value": "0.0013",
-    "fdr_q": "0.4543",
+    "vif": 1.14,
+    "z_score": 2.9,
+    "p_value": "0.0019",
+    "fdr_q": "0.3861",
     "genes": "CSNK2A2, LPIN1, STARD7"
   },
   {
@@ -19,10 +19,10 @@
     "overlap": 3,
     "pathway_size": 24,
     "fold_enrichment": 7.52,
-    "vif": 1.57,
-    "z_score": 2.68,
-    "p_value": "0.0037",
-    "fdr_q": "0.4543",
+    "vif": 1.54,
+    "z_score": 2.71,
+    "p_value": "0.0034",
+    "fdr_q": "0.3861",
     "genes": "BRF2, POLR2E, POLR3F"
   },
   {
@@ -35,11 +35,24 @@
     "vif": 1.33,
     "z_score": 2.65,
     "p_value": "0.0040",
-    "fdr_q": "0.4543",
+    "fdr_q": "0.3861",
     "genes": "CHRNA10, ESPN, MSN, TPRN"
   },
   {
     "rank": 4,
+    "pathway": "Cytosolic DNA-sensing pathway",
+    "database": "KEGG",
+    "overlap": 4,
+    "pathway_size": 45,
+    "fold_enrichment": 5.35,
+    "vif": 1.5,
+    "z_score": 2.62,
+    "p_value": "0.0044",
+    "fdr_q": "0.3861",
+    "genes": "IL33, POLR2E, POLR3F, RIPK1"
+  },
+  {
+    "rank": 5,
     "pathway": "Ribosome biogenesis in eukaryotes",
     "database": "KEGG",
     "overlap": 7,
@@ -48,24 +61,24 @@
     "vif": 4.74,
     "z_score": 2.56,
     "p_value": "0.0053",
-    "fdr_q": "0.4543",
+    "fdr_q": "0.3861",
     "genes": "CSNK2A2, GNL3L, NOP56, RCL1, RPP38, RPP40, TBL3"
   },
   {
-    "rank": 5,
-    "pathway": "Cytosolic DNA-sensing pathway",
-    "database": "KEGG",
-    "overlap": 4,
-    "pathway_size": 45,
-    "fold_enrichment": 5.35,
-    "vif": 1.71,
-    "z_score": 2.45,
-    "p_value": "0.0071",
-    "fdr_q": "0.4543",
-    "genes": "IL33, POLR2E, POLR3F, RIPK1"
+    "rank": 6,
+    "pathway": "Myogenesis R-HSA-525793",
+    "database": "Reactome",
+    "overlap": 3,
+    "pathway_size": 29,
+    "fold_enrichment": 6.22,
+    "vif": 1.47,
+    "z_score": 2.42,
+    "p_value": "0.0078",
+    "fdr_q": "0.4117",
+    "genes": "MAPK12, NEO1, TCF7L1"
   },
   {
-    "rank": 6,
+    "rank": 7,
     "pathway": "RNA Polymerase III Chain Elongation R-HSA-73780",
     "database": "Reactome",
     "overlap": 2,
@@ -74,21 +87,8 @@
     "vif": 1.0,
     "z_score": 2.41,
     "p_value": "0.0079",
-    "fdr_q": "0.4543",
+    "fdr_q": "0.4117",
     "genes": "POLR2E, POLR3F"
-  },
-  {
-    "rank": 7,
-    "pathway": "Myogenesis R-HSA-525793",
-    "database": "Reactome",
-    "overlap": 3,
-    "pathway_size": 29,
-    "fold_enrichment": 6.22,
-    "vif": 1.52,
-    "z_score": 2.38,
-    "p_value": "0.0087",
-    "fdr_q": "0.4543",
-    "genes": "MAPK12, NEO1, TCF7L1"
   },
   {
     "rank": 8,
@@ -97,10 +97,10 @@
     "overlap": 3,
     "pathway_size": 32,
     "fold_enrichment": 5.64,
-    "vif": 1.57,
-    "z_score": 2.17,
-    "p_value": "0.0149",
-    "fdr_q": "0.6084",
+    "vif": 1.54,
+    "z_score": 2.2,
+    "p_value": "0.0140",
+    "fdr_q": "0.6228",
     "genes": "BRF2, POLR2E, POLR3F"
   },
   {
@@ -110,10 +110,10 @@
     "overlap": 2,
     "pathway_size": 15,
     "fold_enrichment": 8.02,
-    "vif": 1.36,
-    "z_score": 2.17,
-    "p_value": "0.0150",
-    "fdr_q": "0.6084",
+    "vif": 1.37,
+    "z_score": 2.16,
+    "p_value": "0.0154",
+    "fdr_q": "0.6228",
     "genes": "ASNS, CEBPG"
   },
   {
@@ -123,14 +123,27 @@
     "overlap": 3,
     "pathway_size": 36,
     "fold_enrichment": 5.01,
-    "vif": 1.45,
-    "z_score": 2.06,
-    "p_value": "0.0195",
-    "fdr_q": "0.7120",
+    "vif": 1.44,
+    "z_score": 2.07,
+    "p_value": "0.0194",
+    "fdr_q": "0.7099",
     "genes": "AICDA, JAK3, RFXAP"
   },
   {
     "rank": 11,
+    "pathway": "RNA Polymerase III Abortive And Retractive Initiation R-HSA-749476",
+    "database": "Reactome",
+    "overlap": 3,
+    "pathway_size": 37,
+    "fold_enrichment": 4.88,
+    "vif": 1.54,
+    "z_score": 1.96,
+    "p_value": "0.0251",
+    "fdr_q": "0.7246",
+    "genes": "BRF2, POLR2E, POLR3F"
+  },
+  {
+    "rank": 12,
     "pathway": "TNFs Bind Their Physiological Receptors R-HSA-5669034",
     "database": "Reactome",
     "overlap": 3,
@@ -141,19 +154,6 @@
     "p_value": "0.0263",
     "fdr_q": "0.7246",
     "genes": "TNFRSF18, TNFRSF1B, TNFSF18"
-  },
-  {
-    "rank": 12,
-    "pathway": "RNA Polymerase III Abortive And Retractive Initiation R-HSA-749476",
-    "database": "Reactome",
-    "overlap": 3,
-    "pathway_size": 37,
-    "fold_enrichment": 4.88,
-    "vif": 1.57,
-    "z_score": 1.94,
-    "p_value": "0.0264",
-    "fdr_q": "0.7246",
-    "genes": "BRF2, POLR2E, POLR3F"
   },
   {
     "rank": 13,
@@ -235,19 +235,6 @@
   },
   {
     "rank": 19,
-    "pathway": "Spermatogenesis",
-    "database": "Hallmark",
-    "overlap": 5,
-    "pathway_size": 124,
-    "fold_enrichment": 2.43,
-    "vif": 1.17,
-    "z_score": 1.59,
-    "p_value": "0.0563",
-    "fdr_q": "0.7246",
-    "genes": "ACE, CSNK2A2, IL13RA2, LPIN1, MAST2"
-  },
-  {
-    "rank": 20,
     "pathway": "Sensory Processing Of Sound R-HSA-9659379",
     "database": "Reactome",
     "overlap": 4,
@@ -260,7 +247,7 @@
     "genes": "CHRNA10, ESPN, MSN, TPRN"
   },
   {
-    "rank": 21,
+    "rank": 20,
     "pathway": "tRNA Processing R-HSA-72306",
     "database": "Reactome",
     "overlap": 5,
@@ -271,6 +258,19 @@
     "p_value": "0.0659",
     "fdr_q": "0.7246",
     "genes": "CSTF2, NSUN6, NUP214, RPP38, RPP40"
+  },
+  {
+    "rank": 21,
+    "pathway": "Spermatogenesis",
+    "database": "Hallmark",
+    "overlap": 5,
+    "pathway_size": 124,
+    "fold_enrichment": 2.43,
+    "vif": 1.4,
+    "z_score": 1.45,
+    "p_value": "0.0731",
+    "fdr_q": "0.7246",
+    "genes": "ACE, CSNK2A2, IL13RA2, LPIN1, MAST2"
   },
   {
     "rank": 22,

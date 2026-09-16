@@ -6,9 +6,9 @@
     "overlap": 2,
     "pathway_size": 11,
     "fold_enrichment": 10.93,
-    "vif": 1.02,
-    "z_score": 3.08,
-    "p_value": "0.0010",
+    "vif": 1.0,
+    "z_score": 3.11,
+    "p_value": "9.46e-04",
     "fdr_q": "0.2588",
     "genes": "PRKAB2, SLC22A5"
   },
@@ -97,9 +97,9 @@
     "overlap": 2,
     "pathway_size": 22,
     "fold_enrichment": 5.47,
-    "vif": 1.16,
-    "z_score": 1.75,
-    "p_value": "0.0397",
+    "vif": 1.2,
+    "z_score": 1.73,
+    "p_value": "0.0420",
     "fdr_q": "0.7128",
     "genes": "ARL6IP5, TSPOAP1"
   },
@@ -123,9 +123,9 @@
     "overlap": 3,
     "pathway_size": 55,
     "fold_enrichment": 3.28,
-    "vif": 1.0,
-    "z_score": 1.67,
-    "p_value": "0.0470",
+    "vif": 1.02,
+    "z_score": 1.66,
+    "p_value": "0.0488",
     "fdr_q": "0.7128",
     "genes": "CXCL8, DDX3X, MAPK8"
   },
@@ -144,19 +144,6 @@
   },
   {
     "rank": 12,
-    "pathway": "RNA Polymerase III Transcription Termination R-HSA-73980",
-    "database": "Reactome",
-    "overlap": 2,
-    "pathway_size": 21,
-    "fold_enrichment": 5.73,
-    "vif": 1.42,
-    "z_score": 1.65,
-    "p_value": "0.0497",
-    "fdr_q": "0.7128",
-    "genes": "POLR3B, SSB"
-  },
-  {
-    "rank": 13,
     "pathway": "Platelet Calcium Homeostasis R-HSA-418360",
     "database": "Reactome",
     "overlap": 2,
@@ -169,7 +156,7 @@
     "genes": "P2RX4, SLC8A2"
   },
   {
-    "rank": 14,
+    "rank": 13,
     "pathway": "Ribosome biogenesis in eukaryotes",
     "database": "KEGG",
     "overlap": 5,
@@ -180,6 +167,19 @@
     "p_value": "0.0519",
     "fdr_q": "0.7128",
     "genes": "GAR1, GNL3L, NHP2, NOP56, RPP25"
+  },
+  {
+    "rank": 14,
+    "pathway": "RNA Polymerase III Transcription Termination R-HSA-73980",
+    "database": "Reactome",
+    "overlap": 2,
+    "pathway_size": 21,
+    "fold_enrichment": 5.73,
+    "vif": 1.48,
+    "z_score": 1.62,
+    "p_value": "0.0530",
+    "fdr_q": "0.7128",
+    "genes": "POLR3B, SSB"
   },
   {
     "rank": 15,
@@ -227,9 +227,9 @@
     "overlap": 2,
     "pathway_size": 26,
     "fold_enrichment": 4.63,
-    "vif": 1.18,
-    "z_score": 1.51,
-    "p_value": "0.0661",
+    "vif": 1.17,
+    "z_score": 1.52,
+    "p_value": "0.0649",
     "fdr_q": "0.7128",
     "genes": "GPLD1, PIGB"
   },
@@ -300,19 +300,6 @@
   },
   {
     "rank": 24,
-    "pathway": "G0 And Early G1 R-HSA-1538133",
-    "database": "Reactome",
-    "overlap": 2,
-    "pathway_size": 27,
-    "fold_enrichment": 4.45,
-    "vif": 1.28,
-    "z_score": 1.4,
-    "p_value": "0.0806",
-    "fdr_q": "0.7128",
-    "genes": "CCNA2, MYC"
-  },
-  {
-    "rank": 25,
     "pathway": "Myc Targets V1",
     "database": "Hallmark",
     "overlap": 9,
@@ -323,5 +310,18 @@
     "p_value": "0.0844",
     "fdr_q": "0.7128",
     "genes": "CCNA2, CYC1, DUT, EIF1AX, MYC, NHP2, NOP56, SSB, STARD7"
+  },
+  {
+    "rank": 25,
+    "pathway": "Resolution Of AP Sites Via Multiple-Nucleotide Patch Replacement Pathway R-HSA-110373",
+    "database": "Reactome",
+    "overlap": 2,
+    "pathway_size": 25,
+    "fold_enrichment": 4.81,
+    "vif": 1.54,
+    "z_score": 1.37,
+    "p_value": "0.0855",
+    "fdr_q": "0.7128",
+    "genes": "POLE4, RFC3"
   }
 ]
