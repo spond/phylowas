@@ -1,16 +1,16 @@
 # Checkpoint Report: Maximum Lifespan (months) (Allometric Residual)
 - **Phenotype ID:** `CONT_MAXLONGEVITY_M_ALLOMETRIC_RESIDUAL`
 - **Trait Class:** `continuous` (Sample Size: 428 species)
-- **Genomic Inflation Factor ($\lambda_{\mathrm{GC}}$):** 1.0048
+- **Genomic Inflation Factor ($\lambda_{\mathrm{GC}}$):** 0.9596
 - **Total Mammalian Orthologs Screened:** 16,921
-- **Date / Timestamp:** 2026-09-15 22:14:19
+- **Date / Timestamp:** 2026-09-17 06:22:26
 
 ---
 
 ## 1. Executive Co-Author Presentation Brief
-- **Genome-Wide Significance:** Identified **94 loci at $\mathrm{FDR}\;q \le 0.05$** and **55 loci at $\mathrm{FDR}\;q \le 0.01$**.
-- **Calibration Control:** $\lambda_{\mathrm{GC}} = 1.0048$ confirms effective insulation against neutral homoplasy and GC-biased gene conversion.
-- **Top Discovery Hits:** Leading loci include TSPYL6, CTSV, CTSL, HOPX, ITLN1.
+- **Genome-Wide Significance:** Identified **1 loci at $\mathrm{FDR}\;q \le 0.05$** and **0 loci at $\mathrm{FDR}\;q \le 0.01$**.
+- **Calibration Control:** $\lambda_{\mathrm{GC}} = 0.9596$ confirms effective insulation against neutral homoplasy and GC-biased gene conversion.
+- **Top Discovery Hits:** Leading loci include F11, PGLYRP4, H4C16, SLC17A3, SH2D7.
 - **Canonical Recovery:** Spontaneously recovered 0/21 gold-standard machinery in the top 200 (Established DNA double-strand break repair, telomere maintenance, sirtuin signaling, and tumor suppressor machinery.).
 
 ---
@@ -26,23 +26,23 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-|   composite_rank | gene   |   codon_length |   taxa_count |   psi_score |   z_score |       fdr_q | tier                               |
-|-----------------:|:-------|---------------:|-------------:|------------:|----------:|------------:|:-----------------------------------|
-|                1 | TSPYL6 |            435 |          144 |   0.0671429 |   7.37463 | 1.39434e-09 | Tier 0: Core Bottleneck Transducer |
-|                2 | CTSV   |            335 |          151 |   0.0647248 |   6.95651 | 1.47551e-08 | Tier 0: Core Bottleneck Transducer |
-|                3 | CTSL   |            336 |          123 |   0.0636037 |   6.76265 | 3.82093e-08 | Tier 0: Core Bottleneck Transducer |
-|                4 | HOPX   |             89 |          150 |   0.0630385 |   6.66493 | 5.60069e-08 | Tier 0: Core Bottleneck Transducer |
-|                5 | ITLN1  |            330 |          173 |   0.0601603 |   6.16725 | 1.17579e-06 | Tier 0: Core Bottleneck Transducer |
-|                6 | OR10H3 |            317 |          109 |   0.0598871 |   6.12002 | 1.31933e-06 | Tier 0: Core Bottleneck Transducer |
-|                7 | OR4C11 |            348 |          233 |   0.0589985 |   5.96636 | 2.93214e-06 | Tier 0: Core Bottleneck Transducer |
-|                8 | OR2J2  |            328 |          108 |   0.058068  |   5.80548 | 6.7877e-06  | Tier 0: Core Bottleneck Transducer |
-|                9 | GBP2   |            607 |          154 |   0.0577414 |   5.74901 | 8.23853e-06 | Tier 0: Core Bottleneck Transducer |
-|               10 | OR10X1 |            330 |          169 |   0.0576618 |   5.73524 | 8.23853e-06 | Tier 0: Core Bottleneck Transducer |
-|               11 | OR56A4 |            314 |          160 |   0.0566161 |   5.55442 | 2.14235e-05 | Tier 0: Core Bottleneck Transducer |
-|               12 | HBA1   |            174 |          115 |   0.055113  |   5.29452 | 8.41335e-05 | Tier 0: Core Bottleneck Transducer |
-|               13 | OR2I1P |            342 |          353 |   0.0549553 |   5.26725 | 9.01268e-05 | Tier 0: Core Bottleneck Transducer |
-|               14 | NEK4   |            889 |          161 |   0.0548364 |   5.24669 | 9.35845e-05 | Tier 0: Core Bottleneck Transducer |
-|               15 | SSX5   |            224 |          114 |   0.0546858 |   5.22065 | 0.000100563 | Tier 0: Core Bottleneck Transducer |
+|   composite_rank | gene     |   codon_length |   taxa_count |   psi_score |   z_score |     fdr_q | tier                                       |
+|-----------------:|:---------|---------------:|-------------:|------------:|----------:|----------:|:-------------------------------------------|
+|                1 | F11      |            648 |          619 |   0.047646  |   4.62328 | 0.0319571 | Tier 1: Primary Regulatory Effector        |
+|                2 | PGLYRP4  |            390 |          518 |   0.0460603 |   4.29265 | 0.0557688 | Tier 2: Physiological Homeostasis Modifier |
+|                3 | H4C16    |            103 |          519 |   0.0456899 |   4.23423 | 0.0557688 | Tier 2: Physiological Homeostasis Modifier |
+|                4 | SLC17A3  |            436 |          510 |   0.0462066 |   4.20277 | 0.0557688 | Tier 2: Physiological Homeostasis Modifier |
+|                5 | SH2D7    |            510 |          637 |   0.0452521 |   4.13863 | 0.0591196 | Tier 2: Physiological Homeostasis Modifier |
+|                6 | FAM240A  |            105 |          636 |   0.0447918 |   4.04689 | 0.0731879 | Tier 2: Physiological Homeostasis Modifier |
+|                7 | CELA2A   |            285 |          475 |   0.0478368 |   4.00328 | 0.0755045 | Tier 2: Physiological Homeostasis Modifier |
+|                8 | ANKRD34C |            547 |          603 |   0.0439755 |   3.89461 | 0.104019  | Background                                 |
+|                9 | IZUMO4   |            239 |          624 |   0.0437058 |   3.83358 | 0.105727  | Background                                 |
+|               10 | TAS2R41  |            319 |          503 |   0.0447237 |   3.82432 | 0.105727  | Background                                 |
+|               11 | PRPS1L1  |            321 |          522 |   0.0432636 |   3.78343 | 0.105727  | Background                                 |
+|               12 | FAM228A  |            326 |          475 |   0.0465402 |   3.78332 | 0.105727  | Background                                 |
+|               13 | PARP10   |           1247 |          484 |   0.045722  |   3.75799 | 0.105727  | Background                                 |
+|               14 | UMOD     |            651 |          626 |   0.0433046 |   3.75268 | 0.105727  | Background                                 |
+|               15 | ACSM2A   |            590 |          499 |   0.0440946 |   3.65584 | 0.140199  | Background                                 |
 
 ---
 
@@ -54,16 +54,16 @@ python3 scripts/01_screen_phenotype.py \
 
 |   composite_rank | gene   |   codon_length |   psi_score |   z_score |    fdr_q |
 |-----------------:|:-------|---------------:|------------:|----------:|---------:|
-|             1572 | ERCC1  |            227 |   0.0290953 | 0.79575   | 0.742252 |
-|             2418 | ERCC3  |            786 |   0.0272301 | 0.473242  | 0.742252 |
-|             2883 | ERCC2  |            777 |   0.0267278 | 0.386387  | 0.742252 |
-|             3897 | PARP1  |            982 |   0.0260666 | 0.272062  | 0.742252 |
-|             4924 | CHEK2  |            542 |   0.0255723 | 0.186588  | 0.742252 |
-|             5502 | SIRT1  |            806 |   0.0253639 | 0.150551  | 0.742252 |
-|             6495 | ATM    |           3088 |   0.0250448 | 0.095375  | 0.742252 |
-|             7041 | TP53   |            490 |   0.0248943 | 0.069355  | 0.742252 |
-|             7143 | ATG5   |            275 |   0.0248626 | 0.063873  | 0.742252 |
-|             7707 | ATG7   |            719 |   0.0247086 | 0.0372446 | 0.742252 |
+|             1345 | ERCC1  |            227 |   0.0290953 | 0.90104   | 0.768484 |
+|             2351 | ERCC3  |            786 |   0.0272301 | 0.513884  | 0.768484 |
+|             2780 | ERCC2  |            777 |   0.0267278 | 0.429695  | 0.768484 |
+|             3900 | PARP1  |            982 |   0.0260666 | 0.28677   | 0.768484 |
+|             4947 | CHEK2  |            542 |   0.0255723 | 0.188191  | 0.768484 |
+|             5496 | SIRT1  |            806 |   0.0253639 | 0.149106  | 0.768484 |
+|             6293 | ATM    |           3088 |   0.0250448 | 0.0949609 | 0.768484 |
+|             7198 | TP53   |            490 |   0.0248943 | 0.0469979 | 0.768484 |
+|             7337 | ATG5   |            275 |   0.0248626 | 0.038755  | 0.768484 |
+|             7676 | ATG7   |            719 |   0.0247086 | 0.0195153 | 0.768484 |
 
 ---
 
@@ -75,10 +75,10 @@ python3 scripts/01_screen_phenotype.py \
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
 1. Trait CONT_MAXLONGEVITY_M_ALLOMETRIC_RESIDUAL (Maximum Lifespan (months) (Allometric Residual)) screened across N=16,921 mammalian orthologs in sample size N=428 species.
-2. Genomic inflation factor lambda_GC = 1.0048, demonstrating rigorous calibration across mammalian phylogeny.
-3. Genome-wide screening identified 94 significant loci at FDR q <= 0.05 and 55 loci at FDR q <= 0.01.
-4. Top discovery locus is TSPYL6 (Rank #1, Psi = 0.0671, Z = 7.37, q = 1.39e-09).
+2. Genomic inflation factor lambda_GC = 0.9596, demonstrating rigorous calibration across mammalian phylogeny.
+3. Genome-wide screening identified 1 significant loci at FDR q <= 0.05 and 0 loci at FDR q <= 0.01.
+4. Top discovery locus is F11 (Rank #1, Psi = 0.0476, Z = 4.62, q = 3.20e-02).
 5. External validation against Established DNA double-strand break repair, telomere maintenance, sirtuin signaling, and tumor suppressor machinery. recovered 0/21 gold loci in the top 50, 0/21 in the top 200, and 0/21 in the top 500.
-6. Canonical locus ERCC1 achieves Rank #1572 (Psi = 0.0291, Z = 0.80, q = 7.42e-01).
-7. Canonical locus ERCC3 achieves Rank #2418 (Psi = 0.0272, Z = 0.47, q = 7.42e-01).
-8. Canonical locus ERCC2 achieves Rank #2883 (Psi = 0.0267, Z = 0.39, q = 7.42e-01).
+6. Canonical locus ERCC1 achieves Rank #1345 (Psi = 0.0291, Z = 0.90, q = 7.68e-01).
+7. Canonical locus ERCC3 achieves Rank #2351 (Psi = 0.0272, Z = 0.51, q = 7.68e-01).
+8. Canonical locus ERCC2 achieves Rank #2780 (Psi = 0.0267, Z = 0.43, q = 7.68e-01).

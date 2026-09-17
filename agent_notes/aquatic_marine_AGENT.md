@@ -1,16 +1,16 @@
 # Checkpoint Report: Aquatic / Marine Diving Adaptation
 - **Phenotype ID:** `DISC_AQUATIC_MARINE`
 - **Trait Class:** `binary` (Sample Size: 20 species)
-- **Genomic Inflation Factor ($\lambda_{\mathrm{GC}}$):** 1.0465
-- **Total Mammalian Orthologs Screened:** 16,567
-- **Date / Timestamp:** 2026-09-15 22:14:23
+- **Genomic Inflation Factor ($\lambda_{\mathrm{GC}}$):** 1.3578
+- **Total Mammalian Orthologs Screened:** 16,011
+- **Date / Timestamp:** 2026-09-17 06:22:31
 
 ---
 
 ## 1. Executive Co-Author Presentation Brief
-- **Genome-Wide Significance:** Identified **109 loci at $\mathrm{FDR}\;q \le 0.05$** and **89 loci at $\mathrm{FDR}\;q \le 0.01$**.
-- **Calibration Control:** $\lambda_{\mathrm{GC}} = 1.0465$ confirms effective insulation against neutral homoplasy and GC-biased gene conversion.
-- **Top Discovery Hits:** Leading loci include OR8B3, DCAF12L1, NXF3, LOC124902601, NEK4.
+- **Genome-Wide Significance:** Identified **15,605 loci at $\mathrm{FDR}\;q \le 0.05$** and **15,562 loci at $\mathrm{FDR}\;q \le 0.01$**.
+- **Calibration Control:** $\lambda_{\mathrm{GC}} = 1.3578$ confirms effective insulation against neutral homoplasy and GC-biased gene conversion.
+- **Top Discovery Hits:** Leading loci include TBPL1, CDC42SE2, EIF5A2, DAD1, TMEM167B.
 - **Canonical Recovery:** Spontaneously recovered 0/20 gold-standard machinery in the top 200 (Established physiological loci for prolonged apnea, hypoxia resistance, myoglobin oxygen storage, and renal osmoregulation.).
 
 ---
@@ -26,23 +26,23 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-|   composite_rank | gene         |   codon_length |   taxa_count |   psi_score |   z_score |       fdr_q | tier                               |
-|-----------------:|:-------------|---------------:|-------------:|------------:|----------:|------------:|:-----------------------------------|
-|                1 | OR8B3        |            322 |          116 |  0.0237198  |  26.9857  | 2.07087e-47 | Tier 0: Core Bottleneck Transducer |
-|                2 | DCAF12L1     |            532 |          444 |  0.0043894  |   4.75907 | 0.000251726 | Tier 0: Core Bottleneck Transducer |
-|                3 | NXF3         |            602 |          267 |  0.00243444 |   2.5112  | 0.516423    | Tier 0: Core Bottleneck Transducer |
-|                4 | LOC124902601 |            354 |          143 |  0.0220554  |  25.0719  | 2.07087e-47 | Tier 0: Core Bottleneck Transducer |
-|                5 | NEK4         |            889 |          161 |  0.01608    |  18.2012  | 2.07087e-47 | Tier 0: Core Bottleneck Transducer |
-|                6 | CD163L1      |           1480 |          121 |  0.0208896  |  23.7315  | 2.07087e-47 | Tier 0: Core Bottleneck Transducer |
-|                7 | H3-7         |            136 |          427 |  0.00375483 |   4.02943 | 0.00564827  | Tier 0: Core Bottleneck Transducer |
-|                8 | C6orf15      |            500 |          115 |  0.0201508  |  22.882   | 2.07087e-47 | Tier 0: Core Bottleneck Transducer |
-|                9 | H3C13        |            136 |          425 |  0.00376599 |   4.04226 | 0.00541386  | Tier 0: Core Bottleneck Transducer |
-|               10 | TTLL2        |            600 |          124 |  0.016127   |  18.2552  | 2.07087e-47 | Tier 0: Core Bottleneck Transducer |
-|               11 | OR8B2        |            325 |          125 |  0.0150315  |  16.9956  | 2.07087e-47 | Tier 0: Core Bottleneck Transducer |
-|               12 | SPDYE14      |            281 |          242 |  0.0046352  |   5.0417  | 6.47818e-05 | Tier 0: Core Bottleneck Transducer |
-|               13 | H2BC10       |            126 |          194 |  0.0135792  |  15.3258  | 2.07087e-47 | Tier 0: Core Bottleneck Transducer |
-|               14 | ATP1A4       |           1060 |          622 |  0.00133265 |   1.24433 | 0.794529    | Tier 0: Core Bottleneck Transducer |
-|               15 | H2BC26       |            128 |          418 |  0.00307579 |   3.24864 | 0.0807179   | Tier 0: Core Bottleneck Transducer |
+|   composite_rank | gene     |   codon_length |   taxa_count |   psi_score |   z_score |       fdr_q | tier                               |
+|-----------------:|:---------|---------------:|-------------:|------------:|----------:|------------:|:-----------------------------------|
+|                1 | TBPL1    |            186 |          724 |   0.0354607 | -1.21338  | 2.86214e-12 | Tier 0: Core Bottleneck Transducer |
+|                2 | CDC42SE2 |             94 |          721 |   0.028842  | -1.6557   | 2.86214e-12 | Tier 0: Core Bottleneck Transducer |
+|                3 | EIF5A2   |            154 |          726 |   0.0446164 | -0.596837 | 2.86214e-12 | Tier 0: Core Bottleneck Transducer |
+|                4 | DAD1     |            113 |          727 |   0.0261221 | -1.84384  | 2.86214e-12 | Tier 0: Core Bottleneck Transducer |
+|                5 | TMEM167B |             74 |          703 |   0.0351376 | -1.23147  | 2.86214e-12 | Tier 0: Core Bottleneck Transducer |
+|                6 | RAP2A    |            183 |          692 |   0.0276348 | -1.71101  | 2.86214e-12 | Tier 0: Core Bottleneck Transducer |
+|                7 | TIMM8A   |             98 |          680 |   0.0359285 | -1.17771  | 2.86214e-12 | Tier 0: Core Bottleneck Transducer |
+|                8 | KRAS     |            189 |          720 |   0.0119847 | -2.78097  | 2.86214e-12 | Tier 0: Core Bottleneck Transducer |
+|                9 | LIN52    |            112 |          711 |   0.0341975 | -1.29483  | 2.86214e-12 | Tier 0: Core Bottleneck Transducer |
+|               10 | SUMO1    |            132 |          649 |   0.0468127 | -0.519348 | 2.86214e-12 | Tier 0: Core Bottleneck Transducer |
+|               11 | TRAPPC6B |            144 |          715 |   0.0161982 | -2.48967  | 2.86214e-12 | Tier 0: Core Bottleneck Transducer |
+|               12 | ATP6V0E2 |             86 |          697 |   0.0377251 | -1.06322  | 2.86214e-12 | Tier 0: Core Bottleneck Transducer |
+|               13 | LMO1     |            158 |          717 |   0.0439777 | -0.645887 | 2.86214e-12 | Tier 0: Core Bottleneck Transducer |
+|               14 | RPS10    |            189 |          683 |   0.0394536 | -0.954754 | 2.86214e-12 | Tier 0: Core Bottleneck Transducer |
+|               15 | SNN      |             88 |          722 |   0.0300537 | -1.5753   | 2.86214e-12 | Tier 0: Core Bottleneck Transducer |
 
 ---
 
@@ -52,18 +52,18 @@ python3 scripts/01_screen_phenotype.py \
 - **Top 200 Recovery:** 0 / 20 loci
 - **Top 500 Recovery:** 0 / 20 loci
 
-|   composite_rank | gene    |   codon_length |    psi_score |    z_score |    fdr_q |
-|-----------------:|:--------|---------------:|-------------:|-----------:|---------:|
-|             3398 | SLC14A2 |            951 |  0.000211436 | -0.0448698 | 0.794529 |
-|             3767 | FABP4   |            134 |  0.000524977 |  0.315649  | 0.794529 |
-|             4218 | HIF1A   |            850 |  0.00050301  |  0.290391  | 0.794529 |
-|             5159 | CYGB    |            194 |  0.000446865 |  0.225833  | 0.794529 |
-|             6097 | UMOD    |            651 |  0.000398485 |  0.170205  | 0.794529 |
-|             6657 | NGB     |            163 |  0.000375682 |  0.143985  | 0.794529 |
-|             6850 | HBA1    |            174 | -0.000166272 | -0.479169  | 0.814819 |
-|             7660 | MB      |            154 |  0.000342814 |  0.106192  | 0.794529 |
-|             8628 | AQP1    |            293 |  0.000315698 |  0.0750133 | 0.794529 |
-|             9904 | EGLN1   |            532 |  0.000233017 | -0.0200547 | 0.794529 |
+|   composite_rank | gene   |   codon_length |   psi_score |    z_score |       fdr_q |
+|-----------------:|:-------|---------------:|------------:|-----------:|------------:|
+|              673 | FABP4  |            134 |   0.0812502 |  1.82905   | 2.86214e-12 |
+|              933 | MB     |            154 |   0.0659423 |  0.801335  | 2.86214e-12 |
+|             1746 | AQP1   |            293 |   0.0644248 |  0.714127  | 2.86214e-12 |
+|             2271 | SLC2A1 |            500 |   0.0557991 |  0.124366  | 2.86214e-12 |
+|             2653 | AQP2   |            276 |   0.0559415 |  0.160704  | 2.86214e-12 |
+|             4107 | PDK4   |            424 |   0.0662996 |  0.824932  | 2.86214e-12 |
+|             4212 | EGLN1  |            532 |   0.0447771 | -0.674618  | 2.86214e-12 |
+|             4515 | UCP1   |            315 |   0.0466864 | -0.539199  | 2.86214e-12 |
+|             6679 | REN    |            443 |   0.055496  | -0.0362989 | 2.86214e-12 |
+|             7682 | HIF1A  |            850 |   0.0390891 | -0.973458  | 2.88389e-12 |
 
 ---
 
@@ -74,11 +74,11 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
-1. Trait DISC_AQUATIC_MARINE (Aquatic / Marine Diving Adaptation) screened across N=16,567 mammalian orthologs in sample size N=20 species.
-2. Genomic inflation factor lambda_GC = 1.0465, demonstrating rigorous calibration across mammalian phylogeny.
-3. Genome-wide screening identified 109 significant loci at FDR q <= 0.05 and 89 loci at FDR q <= 0.01.
-4. Top discovery locus is OR8B3 (Rank #1, Psi = 0.0237, Z = 26.99, q = 2.07e-47).
+1. Trait DISC_AQUATIC_MARINE (Aquatic / Marine Diving Adaptation) screened across N=16,011 mammalian orthologs in sample size N=20 species.
+2. Genomic inflation factor lambda_GC = 1.3578, demonstrating rigorous calibration across mammalian phylogeny.
+3. Genome-wide screening identified 15,605 significant loci at FDR q <= 0.05 and 15,562 loci at FDR q <= 0.01.
+4. Top discovery locus is TBPL1 (Rank #1, Psi = 0.0355, Z = -1.21, q = 2.86e-12).
 5. External validation against Established physiological loci for prolonged apnea, hypoxia resistance, myoglobin oxygen storage, and renal osmoregulation. recovered 0/20 gold loci in the top 50, 0/20 in the top 200, and 0/20 in the top 500.
-6. Canonical locus SLC14A2 achieves Rank #3398 (Psi = 0.0002, Z = -0.04, q = 7.95e-01).
-7. Canonical locus FABP4 achieves Rank #3767 (Psi = 0.0005, Z = 0.32, q = 7.95e-01).
-8. Canonical locus HIF1A achieves Rank #4218 (Psi = 0.0005, Z = 0.29, q = 7.95e-01).
+6. Canonical locus FABP4 achieves Rank #673 (Psi = 0.0813, Z = 1.83, q = 2.86e-12).
+7. Canonical locus MB achieves Rank #933 (Psi = 0.0659, Z = 0.80, q = 2.86e-12).
+8. Canonical locus AQP1 achieves Rank #1746 (Psi = 0.0644, Z = 0.71, q = 2.86e-12).

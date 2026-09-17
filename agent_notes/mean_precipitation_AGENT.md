@@ -1,16 +1,16 @@
 # Checkpoint Report: Environmental Precipitation (mm)
 - **Phenotype ID:** `CONT_MEANPRECIPITATION_MM`
 - **Trait Class:** `continuous` (Sample Size: 519 species)
-- **Genomic Inflation Factor ($\lambda_{\mathrm{GC}}$):** 1.1282
+- **Genomic Inflation Factor ($\lambda_{\mathrm{GC}}$):** 1.0694
 - **Total Mammalian Orthologs Screened:** 16,921
-- **Date / Timestamp:** 2026-09-15 22:14:20
+- **Date / Timestamp:** 2026-09-17 06:22:27
 
 ---
 
 ## 1. Executive Co-Author Presentation Brief
-- **Genome-Wide Significance:** Identified **91 loci at $\mathrm{FDR}\;q \le 0.05$** and **65 loci at $\mathrm{FDR}\;q \le 0.01$**.
-- **Calibration Control:** $\lambda_{\mathrm{GC}} = 1.1282$ confirms effective insulation against neutral homoplasy and GC-biased gene conversion.
-- **Top Discovery Hits:** Leading loci include TSPYL6, OR56A4, OR5B17, HOPX, NEK4.
+- **Genome-Wide Significance:** Identified **0 loci at $\mathrm{FDR}\;q \le 0.05$** and **0 loci at $\mathrm{FDR}\;q \le 0.01$**.
+- **Calibration Control:** $\lambda_{\mathrm{GC}} = 1.0694$ confirms effective insulation against neutral homoplasy and GC-biased gene conversion.
+- **Top Discovery Hits:** Leading loci include FGFBP1, FMO2, REG4, HHLA2, FAM240A.
 
 
 ---
@@ -26,23 +26,23 @@ python3 scripts/01_screen_phenotype.py \
 ---
 
 ## 3. Top Discovery Loci (Genome-Wide Screen)
-|   composite_rank | gene   |   codon_length |   taxa_count |   psi_score |   z_score |       fdr_q | tier                               |
-|-----------------:|:-------|---------------:|-------------:|------------:|----------:|------------:|:-----------------------------------|
-|                1 | TSPYL6 |            435 |          144 |   0.0776173 |   9.67628 | 3.21751e-18 | Tier 0: Core Bottleneck Transducer |
-|                2 | OR56A4 |            314 |          160 |   0.0724797 |   8.66738 | 1.87049e-14 | Tier 0: Core Bottleneck Transducer |
-|                3 | OR5B17 |            339 |          125 |   0.0679726 |   7.78231 | 2.00837e-11 | Tier 0: Core Bottleneck Transducer |
-|                4 | HOPX   |             89 |          150 |   0.066804  |   7.55281 | 9.00938e-11 | Tier 0: Core Bottleneck Transducer |
-|                5 | NEK4   |            889 |          161 |   0.0663103 |   7.45588 | 1.51051e-10 | Tier 0: Core Bottleneck Transducer |
-|                6 | OR10H3 |            317 |          109 |   0.0659752 |   7.39007 | 1.93975e-10 | Tier 0: Core Bottleneck Transducer |
-|                7 | IRGM   |            198 |          118 |   0.0659146 |   7.37816 | 1.93975e-10 | Tier 0: Core Bottleneck Transducer |
-|                8 | OR4C13 |            313 |          110 |   0.0657606 |   7.34792 | 2.12897e-10 | Tier 0: Core Bottleneck Transducer |
-|                9 | ITLN1  |            330 |          173 |   0.0643804 |   7.0769  | 1.38582e-09 | Tier 0: Core Bottleneck Transducer |
-|               10 | PYHIN1 |            582 |          149 |   0.0633743 |   6.87932 | 4.66236e-09 | Tier 0: Core Bottleneck Transducer |
-|               11 | AHI1   |           1233 |          181 |   0.0633516 |   6.87487 | 4.66236e-09 | Tier 0: Core Bottleneck Transducer |
-|               12 | OR5B2  |            328 |          125 |   0.0633053 |   6.86578 | 4.66236e-09 | Tier 0: Core Bottleneck Transducer |
-|               13 | H2BW2  |            164 |          106 |   0.0627157 |   6.74999 | 9.04555e-09 | Tier 0: Core Bottleneck Transducer |
-|               14 | FCN3   |            301 |          235 |   0.0627066 |   6.74821 | 9.04555e-09 | Tier 0: Core Bottleneck Transducer |
-|               15 | MS4A18 |            504 |          150 |   0.0621085 |   6.63075 | 1.88382e-08 | Tier 0: Core Bottleneck Transducer |
+|   composite_rank | gene    |   codon_length |   taxa_count |   psi_score |   z_score |    fdr_q | tier       |
+|-----------------:|:--------|---------------:|-------------:|------------:|----------:|---------:|:-----------|
+|                1 | FGFBP1  |            273 |          642 |   0.0488069 |   4.07532 | 0.388761 | Background |
+|                2 | FMO2    |            539 |          642 |   0.0455173 |   3.41742 | 0.747237 | Background |
+|                3 | REG4    |            182 |          617 |   0.0450337 |   3.33034 | 0.747237 | Background |
+|                4 | HHLA2   |            466 |          469 |   0.0451125 |   3.20923 | 0.747237 | Background |
+|                5 | FAM240A |            105 |          636 |   0.0444012 |   3.19645 | 0.747237 | Background |
+|                6 | SOD2    |            263 |          675 |   0.0437716 |   3.05635 | 0.747237 | Background |
+|                7 | CYP39A1 |            484 |          686 |   0.0437208 |   3.04241 | 0.747237 | Background |
+|                8 | MR1     |            349 |          437 |   0.0456785 |   2.96299 | 0.747237 | Background |
+|                9 | DNAJB5  |            348 |          677 |   0.0432372 |   2.94878 | 0.747237 | Background |
+|               10 | SPACA5  |            164 |          678 |   0.0428863 |   2.87826 | 0.747237 | Background |
+|               11 | SAYSD1  |            215 |          699 |   0.0428974 |   2.8734  | 0.747237 | Background |
+|               12 | RPL12   |            167 |          691 |   0.042715  |   2.83956 | 0.747237 | Background |
+|               13 | PARP10  |           1247 |          484 |   0.0420137 |   2.76992 | 0.747237 | Background |
+|               14 | FCN3    |            301 |          235 |   0.0627066 |   2.76    | 0.747237 | Background |
+|               15 | MPP1    |            471 |          670 |   0.0421767 |   2.73912 | 0.747237 | Background |
 
 ---
 
@@ -59,6 +59,6 @@ No external disease/pathway benchmark assigned for this trait.
 
 ## 6. Atomic Fact Deck (Pass 1: Unadorned Claims for Manuscript Drafting)
 1. Trait CONT_MEANPRECIPITATION_MM (Environmental Precipitation (mm)) screened across N=16,921 mammalian orthologs in sample size N=519 species.
-2. Genomic inflation factor lambda_GC = 1.1282, demonstrating rigorous calibration across mammalian phylogeny.
-3. Genome-wide screening identified 91 significant loci at FDR q <= 0.05 and 65 loci at FDR q <= 0.01.
-4. Top discovery locus is TSPYL6 (Rank #1, Psi = 0.0776, Z = 9.68, q = 3.22e-18).
+2. Genomic inflation factor lambda_GC = 1.0694, demonstrating rigorous calibration across mammalian phylogeny.
+3. Genome-wide screening identified 0 significant loci at FDR q <= 0.05 and 0 loci at FDR q <= 0.01.
+4. Top discovery locus is FGFBP1 (Rank #1, Psi = 0.0488, Z = 4.08, q = 3.89e-01).
